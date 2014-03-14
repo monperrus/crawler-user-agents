@@ -497,5 +497,10 @@
     "pattern": "rogerbot", 
     "addition_date": "2014/02/28", 
     "url": "http://moz.com/help/pro/what-is-rogerbot-"
+  }, 
+  {
+    "pattern": "360Spider", 
+    "addition_date": "2014/03/14", 
+    "url": "http://needs-be.blogspot.co.uk/2013/02/how-to-block-spider360.html"
   }
 ]
