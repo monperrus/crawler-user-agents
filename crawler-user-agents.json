@@ -502,5 +502,15 @@
     "pattern": "360Spider", 
     "addition_date": "2014/03/14", 
     "url": "http://needs-be.blogspot.co.uk/2013/02/how-to-block-spider360.html"
+  },
+  {
+    "pattern": "psbot",
+    "addition_date": "2014/03/31",
+    "url": "http://www.picsearch.com/bot.html"
+  },
+  {
+    "pattern": "InterfaxScanBot",
+    "addition_date": "2014/03/31",
+    "url": "http://scan-interfax.ru"
   }
 ]
