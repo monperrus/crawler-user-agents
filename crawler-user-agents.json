@@ -512,5 +512,10 @@
     "pattern": "InterfaxScanBot",
     "addition_date": "2014/03/31",
     "url": "http://scan-interfax.ru"
+  },
+  {
+    "pattern": "Lipperhey SEO Service",
+    "addition_date": "2014/04/01",
+    "url": "http://www.lipperhey.com/"
   }
 ]
