@@ -527,5 +527,10 @@
     "pattern": "g00g1e.net",
     "addition_date": "2014/04/01",
     "url": "http://www.g00g1e.net/"
+  },
+  {
+    "pattern": "GrapeshotCrawler",
+    "addition_date": "2014/04/01",
+    "url": "http://www.grapeshot.co.uk/crawler.php"
   }
 ]
