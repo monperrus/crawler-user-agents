@@ -532,5 +532,10 @@
     "pattern": "GrapeshotCrawler",
     "addition_date": "2014/04/01",
     "url": "http://www.grapeshot.co.uk/crawler.php"
+  },
+  {
+    "pattern": "urlappendbot",
+    "addition_date": "2014/05/10",
+    "url": "http://www.profound.net/urlappendbot.html"
   }
 ]
