@@ -537,5 +537,9 @@
     "pattern": "urlappendbot",
     "addition_date": "2014/05/10",
     "url": "http://www.profound.net/urlappendbot.html"
+  },
+  {
+    "pattern": "brainobot",
+    "addition_date": "2014/06/24"
   }
 ]
