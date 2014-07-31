@@ -541,5 +541,10 @@
   {
     "pattern": "brainobot",
     "addition_date": "2014/06/24"
+  },
+  {
+    "pattern": "fr-crawler",
+    "addition_date": "2014/07/31",
+    "instances": ["Mozilla/5.0 (compatible; fr-crawler/1.1)"]
   }
 ]
