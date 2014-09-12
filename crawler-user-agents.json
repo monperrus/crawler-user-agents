@@ -557,5 +557,15 @@
       "binlar_2.6.3 phanendra_kalapala@McAfee.com",
       "binlar_2.6.3 test@mgmt.mic"
     ]
+  },
+  {
+    "pattern": "SimpleCrawler",
+    "addition_date": "2014/09/12",
+    "instances": ["SimpleCrawler/0.1" ]
+  },
+  {
+    "pattern": "SimpleCrawler",
+    "addition_date": "2014/09/12",
+    "instances": ["SimpleCrawler/0.1" ]
   }
 ]
