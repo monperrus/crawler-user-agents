@@ -577,5 +577,11 @@
     "pattern": "Twitterbot",
     "addition_date": "2014/09/12",
     "instances": ["Twitterbot/0.1", "Twitterbot/1.0" ]
+  },
+  {
+    "pattern": "cXensebot",
+    "addition_date": "2014/10/05",
+    "instances": ["cXensebot/1.1a"],
+    "url": "http://www.cxense.com/bot.html"
   }
 ]
