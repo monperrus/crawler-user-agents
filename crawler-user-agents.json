@@ -583,5 +583,11 @@
     "addition_date": "2014/10/05",
     "instances": ["cXensebot/1.1a"],
     "url": "http://www.cxense.com/bot.html"
+  },
+  {
+    "pattern": "smtbot",
+    "addition_date": "2014/10/04",
+    "instances": ["Mozilla/5.0 (compatible; SMTBot/1.0; +http://www.similartech.com/smtbo)t", "SMTBot (similartech.com/smtbot)"],
+    "url": "http://www.similartech.com/smtbot"
   }
 ]
