@@ -255,8 +255,12 @@
     "addition_date": "2011/04/27"
   }, 
   {
-    "pattern": "mail\\\\.ru", 
-    "addition_date": "2011/04/27"
+    "pattern": "Mail.RU_Bot", 
+    "addition_date": "2011/04/27",
+    "instances" : [
+      "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/",
+      "Mozilla/5.0 (compatible; Mail.RU_Bot/2.0; +http://go.mail.ru/"
+    ]
   }, 
   {
     "pattern": "discobot", 
