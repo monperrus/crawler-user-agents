@@ -599,5 +599,17 @@
     "addition_date": "2014/11/18",
     "url": "http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html",
     "instances": ["Mozilla/5.0 (compatible; bnf.fr_bot; +http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html)"]    
+  },
+  {
+    "pattern": "A6-Indexer",
+    "addition_date": "2014/12/05",
+    "url": "http://www.a6corp.com/a6-web-scraping-policy/",
+    "instances": ["A6-Indexer"]    
+  },
+  {
+    "pattern": "ADmantX",
+    "addition_date": "2014/12/05",
+    "url": "http://www.admantx.com",
+    "instances": ["ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@admantx.com"]    
   }
 ]
