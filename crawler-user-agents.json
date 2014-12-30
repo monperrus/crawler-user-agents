@@ -611,5 +611,15 @@
     "addition_date": "2014/12/05",
     "url": "http://www.admantx.com",
     "instances": ["ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@admantx.com"]    
+  },
+  {
+    "pattern": "Facebot",
+    "url": "https://developers.facebook.com/docs/sharing/best-practices#crawl",
+    "addition_date": "2014/12/30"
+  },
+  {
+    "pattern": "Twitterbot",
+    "url": "https://dev.twitter.com/cards/getting-started",
+    "addition_date": "2014/12/30"
   }
 ]
