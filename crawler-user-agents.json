@@ -621,5 +621,10 @@
     "pattern": "Twitterbot",
     "url": "https://dev.twitter.com/cards/getting-started",
     "addition_date": "2014/12/30"
+  },
+  {
+    "pattern": "OrangeBot",
+    "instances": ["Mozilla/5.0 (compatible; OrangeBot/2.0; support.orangebot@orange.com"],
+    "addition_date": "2015/01/12"
   }
 ]
