@@ -632,5 +632,11 @@
     "url": "http://mignify.com/bot.htm",
     "instances": ["Mozilla/5.0 (compatible; memorybot/1.21.14 +http://mignify.com/bot.html)"],
     "addition_date": "2015/02/01"
+  },
+  {
+    "pattern": "AdvBot",
+    "url": "http://advbot.net/bot.html",
+    "instances": ["Mozilla/5.0 (compatible; AdvBot/2.0; +http://advbot.net/bot.html)"],
+    "addition_date": "2015/02/01"
   }
 ]
