@@ -626,5 +626,11 @@
     "pattern": "OrangeBot",
     "instances": ["Mozilla/5.0 (compatible; OrangeBot/2.0; support.orangebot@orange.com"],
     "addition_date": "2015/01/12"
+  },
+  {
+    "pattern": "memorybot",
+    "url": "http://mignify.com/bot.htm",
+    "instances": ["Mozilla/5.0 (compatible; memorybot/1.21.14 +http://mignify.com/bot.html)"],
+    "addition_date": "2015/02/01"
   }
 ]
