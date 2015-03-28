@@ -638,5 +638,17 @@
     "url": "http://advbot.net/bot.html",
     "instances": ["Mozilla/5.0 (compatible; AdvBot/2.0; +http://advbot.net/bot.html)"],
     "addition_date": "2015/02/01"
+  },
+  {
+    "pattern": "MegaIndex",
+    "url": "https://www.megaindex.ru/?tab=linkAnalyze",
+    "instances": ["Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)"],
+    "addition_date": "2015/03/28"
+  },
+  {
+    "pattern": "SemanticScholarBot",
+    "url": "http://s2.allenai.org/bot.html",
+    "instances": ["SemanticScholarBot/1.0 (+http://s2.allenai.org/bot.html)"],
+    "addition_date": "2015/03/28"
   }
 ]
