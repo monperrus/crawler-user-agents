@@ -650,5 +650,11 @@
     "url": "http://s2.allenai.org/bot.html",
     "instances": ["SemanticScholarBot/1.0 (+http://s2.allenai.org/bot.html)"],
     "addition_date": "2015/03/28"
+  },
+  {
+    "pattern": "ltx71",
+    "url": "http://ltx71.com/",
+    "instances": ["ltx71 - (http://ltx71.com/)"],
+    "addition_date": "2015/04/04"
   }
 ]
