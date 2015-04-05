@@ -662,5 +662,11 @@
     "url": "http://nerdybot.com/",
     "instances": ["nerdybot"],
     "addition_date": "2015/04/05"
+  },
+  {
+    "pattern": "xovibot",
+    "url": "http://www.xovibot.net/",
+    "instances": ["Mozilla/5.0 (compatible; XoviBot/2.0; +http://www.xovibot.net/)"],
+    "addition_date": "2015/04/05"
   }
 ]
