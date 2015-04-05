@@ -55,15 +55,34 @@
     "url": "http://search.msn.com/msnbot.htm"
   }, 
   {
-    "pattern": "Adidxbot", 
-    "url": "http://onlinehelp.microsoft.com/en-us/bing/hh204496.aspx"
+    "pattern": "jyxobot"
   }, 
   {
-    "pattern": "blekkobot", 
-    "url": "http://blekko.com/about/blekkobot"
+    "pattern": "FAST-WebCrawler"
+  }, 
+  {
+    "pattern": "FAST Enterprise Crawler"
+  }, 
+  {
+    "pattern": "biglotron"
   }, 
   {
     "pattern": "teoma"
+  }, 
+  {
+    "pattern": "convera"
+  }, 
+  {
+    "pattern": "seekbot"
+  }, 
+  {
+    "pattern": "gigabot"
+  }, 
+  {
+    "pattern": "exabot"
+  }, 
+  {
+    "pattern": "ngbot"
   }, 
   {
     "pattern": "ia_archiver"
@@ -79,18 +98,6 @@
   }, 
   {
     "pattern": "webcrawler"
-  }, 
-  {
-    "pattern": "FAST-WebCrawler"
-  }, 
-  {
-    "pattern": "FAST Enterprise Crawler"
-  }, 
-  {
-    "pattern": "convera"
-  }, 
-  {
-    "pattern": "biglotron"
   }, 
   {
     "pattern": "grub.org"
@@ -111,28 +118,13 @@
     "pattern": "fluffy"
   }, 
   {
-    "pattern": "jyxobot"
-  }, 
-  {
     "pattern": "bibnum.bnf"
   }, 
   {
     "pattern": "findlink"
   }, 
   {
-    "pattern": "exabot"
-  }, 
-  {
-    "pattern": "gigabot"
-  }, 
-  {
     "pattern": "msrbot"
-  }, 
-  {
-    "pattern": "seekbot"
-  }, 
-  {
-    "pattern": "ngbot"
   }, 
   {
     "pattern": "panscient"
@@ -244,6 +236,14 @@
     "pattern": "linkdex", 
     "addition_date": "2011/01/06", 
     "url": "http://www.linkdex.com"
+  }, 
+  {
+    "pattern": "Adidxbot", 
+    "url": "http://onlinehelp.microsoft.com/en-us/bing/hh204496.aspx"
+  }, 
+  {
+    "pattern": "blekkobot", 
+    "url": "http://blekko.com/about/blekkobot"
   }, 
   {
     "pattern": "ezooms", 
