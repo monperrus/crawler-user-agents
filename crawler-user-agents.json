@@ -656,5 +656,11 @@
     "url": "http://ltx71.com/",
     "instances": ["ltx71 - (http://ltx71.com/)"],
     "addition_date": "2015/04/04"
+  },
+  {
+    "pattern": "nerdybot",
+    "url": "http://nerdybot.com/",
+    "instances": ["nerdybot"],
+    "addition_date": "2015/04/05"
   }
 ]
