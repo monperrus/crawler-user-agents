@@ -668,5 +668,17 @@
     "url": "http://www.xovibot.net/",
     "instances": ["Mozilla/5.0 (compatible; XoviBot/2.0; +http://www.xovibot.net/)"],
     "addition_date": "2015/04/05"
+  },
+  {
+    "pattern": "BUbiNG",
+    "url": "http://law.di.unimi.it/BUbiNG.html",
+    "instances": ["BUbiNG (+http://law.di.unimi.it/BUbiNG.html)"],
+    "addition_date": "2015/04/06"
+  },
+  {
+    "pattern": "Qwantify",
+    "url": "https://www.qwant.com/",
+    "instances": ["Mozilla/5.0 (compatible; Qwantify/2.0n; +https://www.qwant.com/)/*"],
+    "addition_date": "2015/04/06"
   }
 ]
