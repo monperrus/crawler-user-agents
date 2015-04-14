@@ -680,5 +680,11 @@
     "url": "https://www.qwant.com/",
     "instances": ["Mozilla/5.0 (compatible; Qwantify/2.0n; +https://www.qwant.com/)/*"],
     "addition_date": "2015/04/06"
+  },
+  {
+    "pattern": "archive.org_bot",
+    "url": "http://www.archive.org/details/archive.org_bot",
+    "instances": ["Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)"],
+    "addition_date": "2015/04/14"
   }
 ]
