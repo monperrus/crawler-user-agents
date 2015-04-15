@@ -686,5 +686,16 @@
     "url": "http://www.archive.org/details/archive.org_bot",
     "instances": ["Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)"],
     "addition_date": "2015/04/14"
+  },
+  {
+    "pattern": "Applebot",
+    "url": "http://www.apple.com/go/applebot",
+    "addition_date": "2015/04/15"
+  },
+  {
+    "pattern": "TweetmemeBot",
+    "url": "http://datasift.com/bot.html",
+    "instances": ["Mozilla/5.0 (TweetmemeBot/4.0; +http://datasift.com/bot.html) Gecko/20100101 Firefox/31.0"],
+    "addition_date": "2015/04/15"
   }
 ]
