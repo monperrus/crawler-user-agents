@@ -568,11 +568,6 @@
     "instances": ["SimpleCrawler/0.1" ]
   },
   {
-    "pattern": "SimpleCrawler",
-    "addition_date": "2014/09/12",
-    "instances": ["SimpleCrawler/0.1" ]
-  },
-  {
     "pattern": "Livelapbot",
     "addition_date": "2014/09/12",
     "instances": ["Livelapbot/0.1" ]
