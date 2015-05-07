@@ -692,5 +692,11 @@
     "url": "http://datasift.com/bot.html",
     "instances": ["Mozilla/5.0 (TweetmemeBot/4.0; +http://datasift.com/bot.html) Gecko/20100101 Firefox/31.0"],
     "addition_date": "2015/04/15"
+  },
+  {
+    "pattern": "crawler4j",
+    "url": "https://github.com/yasserg/crawler4j",
+    "instances": ["crawler4j (http://code.google.com/p/crawler4j/)"],
+    "addition_date": "2015/05/07"
   }
 ]
