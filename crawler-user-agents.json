@@ -698,5 +698,11 @@
     "url": "https://github.com/yasserg/crawler4j",
     "instances": ["crawler4j (http://code.google.com/p/crawler4j/)"],
     "addition_date": "2015/05/07"
+  },
+  {
+    "pattern": "findxbot",
+    "url": "http://www.findxbot.com",
+    "instances": ["Mozilla/5.0 (compatible; Findxbot/1.0; +http://www.findxbot.com)"],
+    "addition_date": "2015/05/07"
   }
 ]
