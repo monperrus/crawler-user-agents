@@ -710,5 +710,11 @@
     "url": "http://www.semrush.com/bot.html",
     "instances": ["Mozilla/5.0 (compatible; SemrushBot/0.98~bl; +http://www.semrush.com/bot.html)"],
     "addition_date": "2015/05/26"
-  } 
+  },
+  {
+    "pattern": "yoozBot",
+    "url": "http://yooz.ir",
+    "instances": ["Mozilla/5.0 (compatible; yoozBot-2.2; http://yooz.ir; info@yooz.ir)"],
+    "addition_date": "2015/05/26"
+  }
 ]
