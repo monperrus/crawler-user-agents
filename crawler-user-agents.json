@@ -704,5 +704,11 @@
     "url": "http://www.findxbot.com",
     "instances": ["Mozilla/5.0 (compatible; Findxbot/1.0; +http://www.findxbot.com)"],
     "addition_date": "2015/05/07"
-  }
+  },
+  {
+    "pattern": "SemrushBot",
+    "url": "http://www.semrush.com/bot.html",
+    "instances": ["Mozilla/5.0 (compatible; SemrushBot/0.98~bl; +http://www.semrush.com/bot.html)"],
+    "addition_date": "2015/05/26"
+  } 
 ]
