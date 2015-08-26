@@ -716,5 +716,17 @@
     "url": "http://yooz.ir",
     "instances": ["Mozilla/5.0 (compatible; yoozBot-2.2; http://yooz.ir; info@yooz.ir)"],
     "addition_date": "2015/05/26"
-  }
+  },
+  {
+    "pattern": "lipperhey",
+    "url": "http://www.lipperhey.com/",
+    "instances": ["Mozilla/5.0 (compatible; Lipperhey Link Explorer; http://www.lipperhey.com/)", "Mozilla/5.0 (compatible; Lipperhey SEO Service; http://www.lipperhey.com/)", "Mozilla/5.0 (compatible; Lipperhey Site Explorer; http://www.lipperhey.com/)", "Mozilla/5.0 (compatible; Lipperhey-Kaus-Australis/5.0; +https://www.lipperhey.com/en/about/)"],
+    "addition_date": "2015/08/26"
+  },
+  {
+    "pattern": "y!j-asr",
+    "url": "http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)",
+    "instances": ["Y!J-ASR/0.1 crawler (http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)"],
+    "addition_date": "2015/05/26"
+ } 
 ]
