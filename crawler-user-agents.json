@@ -725,8 +725,14 @@
   },
   {
     "pattern": "y!j-asr",
-    "url": "http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)",
+    "url": "http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/",
     "instances": ["Y!J-ASR/0.1 crawler (http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)"],
     "addition_date": "2015/05/26"
+ },
+ {
+    "pattern": "Domain Re-Animator Bot",
+    "url": "http://domainreanimator.com",
+    "instances": ["Domain Re-Animator Bot (http://domainreanimator.com) - support@domainreanimator.com"],
+    "addition_date": "2015/04/14"
  } 
 ]
