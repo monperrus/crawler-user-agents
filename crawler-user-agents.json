@@ -163,7 +163,10 @@
     "pattern": "mlbot"
   }, 
   {
-    "pattern": "yandex"
+    "pattern": "yandexbot",
+    "url": "http://yandex.com/bots",
+    "instances": ["Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"],
+    "addition_date": "2015/04/14"
   }, 
   {
     "pattern": "purebot", 
