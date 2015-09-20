@@ -737,5 +737,11 @@
     "url": "http://domainreanimator.com",
     "instances": ["Domain Re-Animator Bot (http://domainreanimator.com) - support@domainreanimator.com"],
     "addition_date": "2015/04/14"
- } 
+ },
+ {
+    "pattern": "AddThis",
+    "url": "https://www.addthis.com",
+    "instances": ["AddThis.com robot tech.support@clearspring.com"],
+   "addition_date": "2015/06/02"
+ }
 ]
