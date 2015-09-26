@@ -76,7 +76,9 @@
     "pattern": "seekbot"
   }, 
   {
-    "pattern": "gigabot"
+    "pattern": "gigablast",
+    "instances": ["Gigabot/2.0 (http://www.gigablast.com/spider.html)", "Gigabot/2.0 (http://www.gigablast.com/spider.html)", "GigablastOpenSource/1.0"],
+    "url": "https://github.com/gigablast/open-source-search-engine"
   }, 
   {
     "pattern": "exabot"
