@@ -745,5 +745,11 @@
     "url": "https://www.addthis.com",
     "instances": ["AddThis.com robot tech.support@clearspring.com"],
    "addition_date": "2015/06/02"
+ },
+ {
+    "pattern": "dataminr",
+    "url": "http://dataminr.com/",
+    "instances": ["help@dataminr.com"],
+   "addition_date": "2016/01/02"
  }
 ]
