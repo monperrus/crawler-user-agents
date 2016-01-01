@@ -751,5 +751,11 @@
     "url": "http://dataminr.com/",
     "instances": ["help@dataminr.com"],
    "addition_date": "2016/01/02"
+ },
+ {
+    "pattern": "MetaURI",
+    "url": "http://www.useragentstring.com/MetaURI_id_17683.php",
+    "instances": ["MetaURI API/2.0 +metauri.com"],
+   "addition_date": "2016/01/02"
  }
 ]
