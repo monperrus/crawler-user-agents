@@ -775,5 +775,11 @@
     "url": "http://site.livelap.com/crawler",
     "instances": ["LivelapBot/0.2 (http://site.livelap.com/crawler)"],
    "addition_date": "2016/01/02"
+ },
+ {
+    "pattern": "OpenHoseBot",
+    "url": "http://www.openhose.org/bot.html",
+    "instances": ["Mozilla/5.0 (compatible; OpenHoseBot/2.1; +http://www.openhose.org/bot.html)"],
+   "addition_date": "2016/01/02"
  }
 ]
