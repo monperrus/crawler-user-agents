@@ -781,5 +781,11 @@
     "url": "http://www.openhose.org/bot.html",
     "instances": ["Mozilla/5.0 (compatible; OpenHoseBot/2.1; +http://www.openhose.org/bot.html)"],
    "addition_date": "2016/01/02"
+ },
+ {
+    "pattern": "Svven-Summarizer",
+    "url": "https://www.webmasterworld.com/search_engine_spiders/4775762.htm",
+    "instances": ["Svven-Summarizer"],
+   "addition_date": "2016/01/02"
  }
 ]
