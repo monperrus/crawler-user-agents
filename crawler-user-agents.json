@@ -769,5 +769,11 @@
     "url": "http://scrapy.org/",
     "instances": ["Scrapy/1.0.3 (+http://scrapy.org)"],
    "addition_date": "2016/01/02"
+ },
+ {
+    "pattern": "LivelapBot",
+    "url": "http://site.livelap.com/crawler",
+    "instances": ["LivelapBot/0.2 (http://site.livelap.com/crawler)"],
+   "addition_date": "2016/01/02"
  }
 ]
