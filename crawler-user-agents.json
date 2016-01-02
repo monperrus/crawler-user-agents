@@ -757,5 +757,11 @@
     "url": "http://www.useragentstring.com/MetaURI_id_17683.php",
     "instances": ["MetaURI API/2.0 +metauri.com"],
    "addition_date": "2016/01/02"
+ },
+ {
+    "pattern": "datagnionbot",
+    "url": "https://www.datagnion.com/bot.html",
+    "instances": ["datagnionbot (+http://www.datagnion.com/bot.html)"],
+   "addition_date": "2016/01/02"
  }
 ]
