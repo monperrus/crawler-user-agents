@@ -763,5 +763,11 @@
     "url": "https://www.datagnion.com/bot.html",
     "instances": ["datagnionbot (+http://www.datagnion.com/bot.html)"],
    "addition_date": "2016/01/02"
+ },
+ {
+    "pattern": "Scrapy",
+    "url": "http://scrapy.org/",
+    "instances": ["Scrapy/1.0.3 (+http://scrapy.org)"],
+   "addition_date": "2016/01/02"
  }
 ]
