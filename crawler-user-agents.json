@@ -793,5 +793,11 @@
     "url": "http://www.capsulink.com/about",
     "instances": ["CapsuleChecker (http://www.capsulink.com/)"],
     "addition_date": "2016/01/02"
+ },
+ {
+    "pattern": "collection@infegy.com",
+    "url": "http://infegy.com/",
+    "instances": ["Mozilla/5.0 (compatible) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36 collection@infegy.com"],
+    "addition_date": "2016/01/03"
  }
 ]
