@@ -744,6 +744,12 @@
     "pattern": "AddThis",
     "url": "https://www.addthis.com",
     "instances": ["AddThis.com robot tech.support@clearspring.com"],
-   "addition_date": "2015/06/02"
+    "addition_date": "2015/06/02"
+ },
+ {
+    "pattern": "Screaming Frog SEO Spider",
+    "url": "http://www.screamingfrog.co.uk/seo-spider",
+    "instances": ["Screaming Frog SEO Spider/5.1"],
+    "addition_date": "2016/01/08"
  }
 ]
