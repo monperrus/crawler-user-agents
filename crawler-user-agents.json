@@ -787,5 +787,11 @@
     "url": "http://infegy.com/",
     "instances": ["Mozilla/5.0 (compatible) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36 collection@infegy.com"],
     "addition_date": "2016/01/03"
+ },
+ {
+    "pattern": "IstellaBot",
+    "url": "http://www.tiscali.it/",
+    "instances": ["Mozilla/5.0 (compatible; IstellaBot/1.23.15 +http://www.tiscali.it/)"],
+    "addition_date": "2016/01/09"
  }
 ]
