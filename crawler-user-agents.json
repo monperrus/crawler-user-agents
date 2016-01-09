@@ -8,7 +8,10 @@
   }, 
   {
     "pattern": "Googlebot-Image"
-  }, 
+  },
+  {
+    "pattern": "Google favicon"
+  },
   {
     "pattern": "Mediapartners-Google", 
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
