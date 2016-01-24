@@ -793,5 +793,39 @@
     "url": "http://www.tiscali.it/",
     "instances": ["Mozilla/5.0 (compatible; IstellaBot/1.23.15 +http://www.tiscali.it/)"],
     "addition_date": "2016/01/09"
- }
+ },
+  {
+    "pattern": "DeuSu\\/",
+    "addition_date": "2016/01/23",
+    "url": "https://deusu.de/robot.html"
+  },
+  {
+    "pattern": "betaBot",
+    "addition_date": "2016/01/23"
+  },
+  {
+    "pattern": "Cliqzbot\\/",
+    "addition_date": "2016/01/23",
+    "url": "http://cliqz.com/company/cliqzbot"
+  },
+  {
+    "pattern": "MojeekBot\\/",
+    "addition_date": "2016/01/23",
+    "url": "https://www.mojeek.com/bot.html"
+  },
+  {
+    "pattern": "netEstate NE Crawler",
+    "addition_date": "2016/01/23",
+    "url": "+http://www.website-datenbank.de/"
+  },
+  {
+    "pattern": "SafeSearch microdata crawler",
+    "addition_date": "2016/01/23",
+    "url": "https://safesearch.avira.com"
+  },
+  {
+    "pattern": "Gluten Free Crawler\\/",
+    "addition_date": "2016/01/23",
+    "url": "http://glutenfreepleasure.com/"
+  }
 ]
