@@ -3,7 +3,7 @@ The Github repository `crawler-user-agents` contains a list of of HTTP user-agen
 
 The pull requests should:
 
-* contain few additions (say less than 5)
+* contain a single addition
 * specify a discriminant relevant syntactic fragment (for example "totobot" and not "Mozilla/5 totobot v20131212.alpha1") 
 * contain the pattern (generic regular expression), the discovery date (year/month/day) and the official url of the robot
 * result in a valid JSON file (don't forget the comma between items)
