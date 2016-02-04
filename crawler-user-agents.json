@@ -1,6 +1,6 @@
 [
   {
-    "pattern": "googlebot\\/", 
+    "pattern": "Googlebot\\/", 
     "url": "http://www.google.com/bot.html"
   }, 
   {
@@ -9,6 +9,12 @@
   {
     "pattern": "Googlebot-Image"
   }, 
+  {
+    "pattern": "Googlebot-News"
+  },
+  {
+    "pattern": "Googlebot-Video"
+  },
   {
     "pattern": "Mediapartners-Google", 
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
