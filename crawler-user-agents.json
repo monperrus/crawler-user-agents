@@ -843,5 +843,10 @@
     "pattern": "Sonic",
     "addition_date": "2016/02/08",
     "url": "http://www.yama.info.waseda.ac.jp/~crawler/info.html"
+  },
+  {
+    "pattern": "Sysomos",
+    "addition_date": "2016/02/08",
+    "url": "http://www.sysomos.com"
   }
 ]
