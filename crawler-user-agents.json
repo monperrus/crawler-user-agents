@@ -838,5 +838,25 @@
     "pattern": "Gluten Free Crawler\\/",
     "addition_date": "2016/01/23",
     "url": "http://glutenfreepleasure.com/"
+  },
+  {
+    "pattern": "Sonic",
+    "addition_date": "2016/02/08",
+    "url": "http://www.yama.info.waseda.ac.jp/~crawler/info.html"
+  },
+  {
+    "pattern": "Sysomos",
+    "addition_date": "2016/02/08",
+    "url": "http://www.sysomos.com"
+  },
+  {
+    "pattern": "Trove",
+    "addition_date": "2016/02/08",
+    "url": "http://www.trove.com"
+  },
+  {
+    "pattern": "deadlinkchecker",
+    "addition_date": "2016/02/08",
+    "url": "http://www.deadlinkchecker.com"
   }
 ]
