@@ -50,6 +50,12 @@
   }, 
   {
     "pattern": "nutch"
+  },
+  {
+    "pattern": "Go-http-client",
+    "addition_date": "2016/03/26",
+    "url": "https://golang.org/pkg/net/http/",
+    "instances": ["Go-http-client/1.1"]    
   }, 
   {
     "pattern": "phpcrawl", 
