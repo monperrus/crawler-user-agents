@@ -866,13 +866,13 @@
     "url": "http://www.deadlinkchecker.com"
   },
   {
-    "pattern": "Slack",
+    "pattern": "Slack-ImgProxy",
     "addition_date": "2016/04/25",
-    "url": "http://slack.com"
+    "url": "https://api.slack.com/robots"
   },
   {
     "pattern": "Embedly",
     "addition_date": "2016/04/25",
-    "url": "http://embed.ly"
+    "url": "http://support.embed.ly"
   }
 ]
