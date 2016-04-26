@@ -864,5 +864,10 @@
     "pattern": "deadlinkchecker",
     "addition_date": "2016/02/08",
     "url": "http://www.deadlinkchecker.com"
+  },
+  {
+    "pattern": "Slack",
+    "addition_date": "2016/04/25",
+    "url": "http://slack.com"
   }
 ]
