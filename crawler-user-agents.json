@@ -869,5 +869,10 @@
     "pattern": "Slack",
     "addition_date": "2016/04/25",
     "url": "http://slack.com"
+  },
+  {
+    "pattern": "Embedly",
+    "addition_date": "2016/04/25",
+    "url": "http://embed.ly"
   }
 ]
