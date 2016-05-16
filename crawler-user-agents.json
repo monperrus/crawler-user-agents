@@ -16,6 +16,10 @@
     "pattern": "Googlebot-Video"
   },
   {
+    "pattern": "AdsBot-Google",
+    "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
+  },
+  {
     "pattern": "Mediapartners-Google", 
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
   }, 
