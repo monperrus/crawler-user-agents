@@ -1,0 +1,3 @@
+language: python
+# validate the json file
+script: python -c 'import json; json.loads(open("crawler-user-agents.json").read())'
