@@ -1,14 +1,14 @@
 [
   {
-    "pattern": "Googlebot\\/", 
+    "pattern": "Googlebot\\/",
     "url": "http://www.google.com/bot.html"
-  }, 
+  },
   {
     "pattern": "Googlebot-Mobile"
-  }, 
+  },
   {
     "pattern": "Googlebot-Image"
-  }, 
+  },
   {
     "pattern": "Googlebot-News"
   },
@@ -20,38 +20,38 @@
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
   },
   {
-    "pattern": "Mediapartners-Google", 
+    "pattern": "Mediapartners-Google",
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
-  }, 
+  },
   {
-    "pattern": "bingbot", 
+    "pattern": "bingbot",
     "url": "http://www.bing.com/bingbot.htm"
-  }, 
+  },
   {
-    "pattern": "slurp", 
+    "pattern": "slurp",
     "url": "http://help.yahoo.com/help/us/ysearch/slurp"
-  }, 
+  },
   {
     "pattern": "java"
-  }, 
+  },
   {
     "pattern": "wget"
-  }, 
+  },
   {
     "pattern": "curl"
-  }, 
+  },
   {
     "pattern": "Commons-HttpClient"
-  }, 
+  },
   {
     "pattern": "Python-urllib"
-  }, 
+  },
   {
     "pattern": "libwww"
-  }, 
+  },
   {
     "pattern": "httpunit"
-  }, 
+  },
   {
     "pattern": "nutch"
   },
@@ -59,478 +59,478 @@
     "pattern": "Go-http-client",
     "addition_date": "2016/03/26",
     "url": "https://golang.org/pkg/net/http/",
-    "instances": ["Go-http-client/1.1"]    
-  }, 
+    "instances": ["Go-http-client/1.1"]
+  },
   {
-    "pattern": "phpcrawl", 
-    "addition_date": "2012-09/17", 
+    "pattern": "phpcrawl",
+    "addition_date": "2012-09/17",
     "url": "http://phpcrawl.cuab.de/"
-  }, 
+  },
   {
-    "pattern": "msnbot", 
+    "pattern": "msnbot",
     "url": "http://search.msn.com/msnbot.htm"
-  }, 
+  },
   {
     "pattern": "jyxobot"
-  }, 
+  },
   {
     "pattern": "FAST-WebCrawler"
-  }, 
+  },
   {
     "pattern": "FAST Enterprise Crawler"
-  }, 
+  },
   {
     "pattern": "biglotron"
-  }, 
+  },
   {
     "pattern": "teoma"
-  }, 
+  },
   {
     "pattern": "convera"
-  }, 
+  },
   {
     "pattern": "seekbot"
-  }, 
+  },
   {
     "pattern": "gigabot",
     "instances": ["Gigabot/1.0", "Gigabot/2.0 (http://www.gigablast.com/spider.html)", "Gigabot/2.0 (http://www.gigablast.com/spider.html)"],
     "url": "https://github.com/gigablast/open-source-search-engine"
-  }, 
+  },
   {
     "pattern": "gigablast",
     "instances": ["GigablastOpenSource/1.0"],
     "url": "https://github.com/gigablast/open-source-search-engine"
-  }, 
+  },
   {
     "pattern": "exabot"
-  }, 
+  },
   {
     "pattern": "ngbot"
-  }, 
+  },
   {
     "pattern": "ia_archiver"
-  }, 
+  },
   {
     "pattern": "GingerCrawler"
-  }, 
+  },
   {
     "pattern": "webmon "
-  }, 
+  },
   {
     "pattern": "httrack"
-  }, 
+  },
   {
     "pattern": "webcrawler"
-  }, 
+  },
   {
     "pattern": "grub.org"
-  }, 
+  },
   {
     "pattern": "UsineNouvelleCrawler"
-  }, 
+  },
   {
     "pattern": "antibot"
-  }, 
+  },
   {
     "pattern": "netresearchserver"
-  }, 
+  },
   {
     "pattern": "speedy"
-  }, 
+  },
   {
     "pattern": "fluffy"
-  }, 
+  },
   {
     "pattern": "bibnum.bnf"
-  }, 
+  },
   {
     "pattern": "findlink"
-  }, 
+  },
   {
     "pattern": "msrbot"
-  }, 
+  },
   {
     "pattern": "panscient"
-  }, 
+  },
   {
     "pattern": "yacybot"
-  }, 
+  },
   {
     "pattern": "AISearchBot"
-  }, 
+  },
   {
     "pattern": "IOI"
-  }, 
+  },
   {
     "pattern": "ips-agent"
-  }, 
+  },
   {
     "pattern": "tagoobot"
-  }, 
+  },
   {
     "pattern": "MJ12bot"
-  }, 
+  },
   {
     "pattern": "dotbot"
-  }, 
+  },
   {
     "pattern": "woriobot"
-  }, 
+  },
   {
     "pattern": "yanga"
-  }, 
+  },
   {
     "pattern": "buzzbot"
-  }, 
+  },
   {
     "pattern": "mlbot"
-  }, 
+  },
   {
     "pattern": "yandexbot",
     "url": "http://yandex.com/bots",
     "instances": ["Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"],
     "addition_date": "2015/04/14"
-  }, 
+  },
   {
-    "pattern": "purebot", 
+    "pattern": "purebot",
     "addition_date": "2010/01/19"
-  }, 
+  },
   {
-    "pattern": "Linguee Bot", 
-    "addition_date": "2010/01/26", 
+    "pattern": "Linguee Bot",
+    "addition_date": "2010/01/26",
     "url": "http://www.linguee.com/bot"
-  }, 
+  },
   {
-    "pattern": "Voyager", 
-    "addition_date": "2010/02/01", 
+    "pattern": "Voyager",
+    "addition_date": "2010/02/01",
     "url": "http://www.kosmix.com/crawler.html"
-  }, 
+  },
   {
-    "pattern": "CyberPatrol", 
-    "addition_date": "2010/02/11", 
+    "pattern": "CyberPatrol",
+    "addition_date": "2010/02/11",
     "url": "http://www.cyberpatrol.com/cyberpatrolcrawler.asp"
-  }, 
+  },
   {
-    "pattern": "voilabot", 
+    "pattern": "voilabot",
     "addition_date": "2010/05/18"
-  }, 
+  },
   {
-    "pattern": "baiduspider", 
-    "addition_date": "2010/07/15", 
+    "pattern": "baiduspider",
+    "addition_date": "2010/07/15",
     "url": "http://www.baidu.jp/spider/"
-  }, 
+  },
   {
-    "pattern": "citeseerxbot", 
+    "pattern": "citeseerxbot",
     "addition_date": "2010/07/17"
-  }, 
+  },
   {
-    "pattern": "spbot", 
-    "addition_date": "2010/07/31", 
+    "pattern": "spbot",
+    "addition_date": "2010/07/31",
     "url": "http://www.seoprofiler.com/bot"
-  }, 
+  },
   {
-    "pattern": "twengabot", 
-    "addition_date": "2010/08/03", 
+    "pattern": "twengabot",
+    "addition_date": "2010/08/03",
     "url": "http://www.twenga.com/bot.html"
-  }, 
+  },
   {
-    "pattern": "postrank", 
-    "addition_date": "2010/08/03", 
+    "pattern": "postrank",
+    "addition_date": "2010/08/03",
     "url": "http://www.postrank.com"
-  }, 
+  },
   {
-    "pattern": "turnitinbot", 
-    "addition_date": "2010/09/26", 
+    "pattern": "turnitinbot",
+    "addition_date": "2010/09/26",
     "url": "http://www.turnitin.com"
-  }, 
+  },
   {
-    "pattern": "scribdbot", 
-    "addition_date": "2010/09/28", 
+    "pattern": "scribdbot",
+    "addition_date": "2010/09/28",
     "url": "http://www.scribd.com"
-  }, 
+  },
   {
-    "pattern": "page2rss", 
-    "addition_date": "2010/10/07", 
+    "pattern": "page2rss",
+    "addition_date": "2010/10/07",
     "url": "http://www.page2rss.com"
-  }, 
+  },
   {
-    "pattern": "sitebot", 
-    "addition_date": "2010/12/15", 
+    "pattern": "sitebot",
+    "addition_date": "2010/12/15",
     "url": "http://www.sitebot.org"
-  }, 
+  },
   {
-    "pattern": "linkdex", 
-    "addition_date": "2011/01/06", 
+    "pattern": "linkdex",
+    "addition_date": "2011/01/06",
     "url": "http://www.linkdex.com"
-  }, 
+  },
   {
-    "pattern": "Adidxbot", 
+    "pattern": "Adidxbot",
     "url": "http://onlinehelp.microsoft.com/en-us/bing/hh204496.aspx"
-  }, 
+  },
   {
-    "pattern": "blekkobot", 
+    "pattern": "blekkobot",
     "url": "http://blekko.com/about/blekkobot"
-  }, 
+  },
   {
-    "pattern": "ezooms", 
-    "addition_date": "2011/04/27", 
+    "pattern": "ezooms",
+    "addition_date": "2011/04/27",
     "url": "http://www.phpbb.com/community/viewtopic.php?f=64&t=935605&start=450#p12948289"
-  }, 
+  },
   {
-    "pattern": "dotbot", 
+    "pattern": "dotbot",
     "addition_date": "2011/04/27"
-  }, 
+  },
   {
-    "pattern": "Mail.RU_Bot", 
+    "pattern": "Mail.RU_Bot",
     "addition_date": "2011/04/27",
     "instances" : [
       "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/",
       "Mozilla/5.0 (compatible; Mail.RU_Bot/2.0; +http://go.mail.ru/"
     ]
-  }, 
+  },
   {
-    "pattern": "discobot", 
-    "addition_date": "2011/05/03", 
+    "pattern": "discobot",
+    "addition_date": "2011/05/03",
     "url": "http://discoveryengine.com/discobot.html"
-  }, 
+  },
   {
-    "pattern": "heritrix", 
-    "addition_date": "2011/06/21", 
+    "pattern": "heritrix",
+    "addition_date": "2011/06/21",
     "url": "http://crawler.archive.org/"
-  }, 
+  },
   {
-    "pattern": "findthatfile", 
-    "addition_date": "2011/06/21", 
+    "pattern": "findthatfile",
+    "addition_date": "2011/06/21",
     "url": "http://www.findthatfile.com/"
-  }, 
+  },
   {
-    "pattern": "europarchive.org", 
-    "addition_date": "2011/06/21", 
+    "pattern": "europarchive.org",
+    "addition_date": "2011/06/21",
     "url": ""
-  }, 
+  },
   {
-    "pattern": "NerdByNature.Bot", 
-    "addition_date": "2011/07/12", 
+    "pattern": "NerdByNature.Bot",
+    "addition_date": "2011/07/12",
     "url": "http://www.nerdbynature.net/bot"
-  }, 
+  },
   {
-    "pattern": "sistrix crawler", 
+    "pattern": "sistrix crawler",
     "addition_date": "2011/08/02"
-  }, 
+  },
   {
-    "pattern": "ahrefsbot", 
+    "pattern": "ahrefsbot",
     "addition_date": "2011/08/28"
-  }, 
+  },
   {
-    "pattern": "Aboundex", 
-    "addition_date": "2011/09/28", 
+    "pattern": "Aboundex",
+    "addition_date": "2011/09/28",
     "url": "http://www.aboundex.com/crawler/"
-  }, 
+  },
   {
-    "pattern": "domaincrawler", 
+    "pattern": "domaincrawler",
     "addition_date": "2011/10/21"
-  }, 
+  },
   {
-    "pattern": "wbsearchbot", 
-    "addition_date": "2011/12/21", 
+    "pattern": "wbsearchbot",
+    "addition_date": "2011/12/21",
     "url": "http://www.warebay.com/bot.html"
-  }, 
+  },
   {
-    "pattern": "summify", 
-    "addition_date": "2012/01/04", 
+    "pattern": "summify",
+    "addition_date": "2012/01/04",
     "url": "http://summify.com"
-  }, 
+  },
   {
-    "pattern": "ccbot", 
-    "addition_date": "2012/02/05", 
+    "pattern": "ccbot",
+    "addition_date": "2012/02/05",
     "url": "http://www.commoncrawl.org/bot.html"
-  }, 
+  },
   {
-    "pattern": "edisterbot", 
+    "pattern": "edisterbot",
     "addition_date": "2012/02/25"
-  }, 
+  },
   {
-    "pattern": "seznambot", 
+    "pattern": "seznambot",
     "addition_date": "2012/03/14"
-  }, 
+  },
   {
-    "pattern": "ec2linkfinder", 
+    "pattern": "ec2linkfinder",
     "addition_date": "2012/03/22"
-  }, 
+  },
   {
-    "pattern": "gslfbot", 
+    "pattern": "gslfbot",
     "addition_date": "2012/04/03"
-  }, 
+  },
   {
-    "pattern": "aihitbot", 
+    "pattern": "aihitbot",
     "addition_date": "2012/04/16"
-  }, 
+  },
   {
-    "pattern": "intelium_bot", 
+    "pattern": "intelium_bot",
     "addition_date": "2012/05/07"
-  }, 
+  },
   {
-    "pattern": "facebookexternalhit", 
+    "pattern": "facebookexternalhit",
     "addition_date": "2012/05/07"
-  }, 
+  },
   {
-    "pattern": "yeti", 
+    "pattern": "yeti",
     "addition_date": "2012/05/07"
-  }, 
+  },
   {
-    "pattern": "RetrevoPageAnalyzer", 
+    "pattern": "RetrevoPageAnalyzer",
     "addition_date": "2012/05/07"
-  }, 
+  },
   {
-    "pattern": "lb-spider", 
+    "pattern": "lb-spider",
     "addition_date": "2012/05/07"
-  }, 
+  },
   {
-    "pattern": "sogou", 
-    "addition_date": "2012/05/13", 
+    "pattern": "sogou",
+    "addition_date": "2012/05/13",
     "url": "http://www.sogou.com/docs/help/webmasters.htm#07"
-  }, 
+  },
   {
-    "pattern": "lssbot", 
+    "pattern": "lssbot",
     "addition_date": "2012/05/15"
-  }, 
+  },
   {
-    "pattern": "careerbot", 
-    "addition_date": "2012/05/23", 
+    "pattern": "careerbot",
+    "addition_date": "2012/05/23",
     "url": "http://www.career-x.de/bot.html"
-  }, 
+  },
   {
-    "pattern": "wotbox", 
-    "addition_date": "2012/06/12", 
+    "pattern": "wotbox",
+    "addition_date": "2012/06/12",
     "url": "http://www.wotbox.com"
-  }, 
+  },
   {
-    "pattern": "wocbot", 
-    "addition_date": "2012/07/25", 
+    "pattern": "wocbot",
+    "addition_date": "2012/07/25",
     "url": "http://www.wocodi.com/crawler"
-  }, 
+  },
   {
-    "pattern": "ichiro", 
-    "addition_date": "2012/08/28", 
+    "pattern": "ichiro",
+    "addition_date": "2012/08/28",
     "url": "http://help.goo.ne.jp/help/article/1142"
-  }, 
+  },
   {
-    "pattern": "DuckDuckBot", 
-    "addition_date": "2012/09/19", 
+    "pattern": "DuckDuckBot",
+    "addition_date": "2012/09/19",
     "url": "http://duckduckgo.com/duckduckbot.html"
-  }, 
+  },
   {
-    "pattern": "lssrocketcrawler", 
+    "pattern": "lssrocketcrawler",
     "addition_date": "2012/09/24"
-  }, 
+  },
   {
-    "pattern": "drupact", 
-    "addition_date": "2012/09/27", 
+    "pattern": "drupact",
+    "addition_date": "2012/09/27",
     "url": "http://www.arocom.de/drupact"
-  }, 
+  },
   {
-    "pattern": "webcompanycrawler", 
+    "pattern": "webcompanycrawler",
     "addition_date": "2012/10/03"
-  }, 
+  },
   {
-    "pattern": "acoonbot", 
-    "addition_date": "2012/10/07", 
+    "pattern": "acoonbot",
+    "addition_date": "2012/10/07",
     "url": "http://www.acoon.de/robot.asp"
-  }, 
+  },
   {
-    "pattern": "openindexspider", 
-    "addition_date": "2012/10/26", 
+    "pattern": "openindexspider",
+    "addition_date": "2012/10/26",
     "url": "http://www.openindex.io/en/webmasters/spider.html"
-  }, 
+  },
   {
-    "pattern": "gnam gnam spider", 
+    "pattern": "gnam gnam spider",
     "addition_date": "2012/10/31"
-  }, 
+  },
   {
     "pattern": "web-archive-net.com.bot"
-  }, 
+  },
   {
-    "pattern": "backlinkcrawler", 
+    "pattern": "backlinkcrawler",
     "addition_date": "2013/01/04"
-  }, 
+  },
   {
-    "pattern": "coccoc", 
-    "addition_date": "2013/01/04", 
+    "pattern": "coccoc",
+    "addition_date": "2013/01/04",
     "url": "http://help.coccoc.vn/"
-  }, 
+  },
   {
-    "pattern": "integromedb", 
-    "addition_date": "2013/01/10", 
+    "pattern": "integromedb",
+    "addition_date": "2013/01/10",
     "url": "http://www.integromedb.org/Crawler"
-  }, 
+  },
   {
-    "pattern": "content crawler spider", 
+    "pattern": "content crawler spider",
     "addition_date": "2013/01/11"
-  }, 
+  },
   {
-    "pattern": "toplistbot", 
+    "pattern": "toplistbot",
     "addition_date": "2013/02/05"
-  }, 
+  },
   {
-    "pattern": "seokicks-robot", 
+    "pattern": "seokicks-robot",
     "addition_date": "2013/02/25"
-  }, 
+  },
   {
-    "pattern": "it2media-domain-crawler", 
+    "pattern": "it2media-domain-crawler",
     "addition_date": "2013/03/12"
-  }, 
+  },
   {
-    "pattern": "ip-web-crawler.com", 
+    "pattern": "ip-web-crawler.com",
     "addition_date": "2013/03/22"
-  }, 
+  },
   {
-    "pattern": "siteexplorer.info", 
+    "pattern": "siteexplorer.info",
     "addition_date": "2013/05/01"
-  }, 
+  },
   {
-    "pattern": "elisabot", 
+    "pattern": "elisabot",
     "addition_date": "2013/06/27"
-  }, 
+  },
   {
-    "pattern": "proximic", 
-    "addition_date": "2013/09/12", 
+    "pattern": "proximic",
+    "addition_date": "2013/09/12",
     "url": "http://www.proximic.com/info/spider.php"
-  }, 
+  },
   {
-    "pattern": "changedetection", 
-    "addition_date": "2013/09/13", 
+    "pattern": "changedetection",
+    "addition_date": "2013/09/13",
     "url": "http://www.changedetection.com/bot.html"
-  }, 
+  },
   {
-    "pattern": "blexbot", 
-    "addition_date": "2013/10/03", 
+    "pattern": "blexbot",
+    "addition_date": "2013/10/03",
     "url": "http://webmeup-crawler.com/"
-  }, 
+  },
   {
-    "pattern": "arabot", 
+    "pattern": "arabot",
     "addition_date": "2013/10/09"
-  }, 
+  },
   {
-    "pattern": "WeSEE:Search", 
+    "pattern": "WeSEE:Search",
     "addition_date": "2013/11/18"
-  }, 
+  },
   {
-    "pattern": "niki-bot", 
+    "pattern": "niki-bot",
     "addition_date": "2014/01/01"
-  }, 
+  },
   {
-    "pattern": "CrystalSemanticsBot", 
-    "addition_date": "2014/02/17", 
+    "pattern": "CrystalSemanticsBot",
+    "addition_date": "2014/02/17",
     "url": "http://www.crystalsemantics.com/user-agent/"
-  }, 
+  },
   {
-    "pattern": "rogerbot", 
-    "addition_date": "2014/02/28", 
+    "pattern": "rogerbot",
+    "addition_date": "2014/02/28",
     "url": "http://moz.com/help/pro/what-is-rogerbot-"
-  }, 
+  },
   {
-    "pattern": "360Spider", 
-    "addition_date": "2014/03/14", 
+    "pattern": "360Spider",
+    "addition_date": "2014/03/14",
     "url": "http://needs-be.blogspot.co.uk/2013/02/how-to-block-spider360.html"
   },
   {
@@ -619,19 +619,19 @@
     "pattern": "bnf.fr_bot",
     "addition_date": "2014/11/18",
     "url": "http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html",
-    "instances": ["Mozilla/5.0 (compatible; bnf.fr_bot; +http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html)"]    
+    "instances": ["Mozilla/5.0 (compatible; bnf.fr_bot; +http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html)"]
   },
   {
     "pattern": "A6-Indexer",
     "addition_date": "2014/12/05",
     "url": "http://www.a6corp.com/a6-web-scraping-policy/",
-    "instances": ["A6-Indexer"]    
+    "instances": ["A6-Indexer"]
   },
   {
     "pattern": "ADmantX",
     "addition_date": "2014/12/05",
     "url": "http://www.admantx.com",
-    "instances": ["ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@admantx.com"]    
+    "instances": ["ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@admantx.com"]
   },
   {
     "pattern": "Facebot",
