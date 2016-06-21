@@ -878,5 +878,10 @@
     "pattern": "Embedly",
     "addition_date": "2016/04/25",
     "url": "http://support.embed.ly"
+  },
+  {
+    "pattern": "RankActiveLinkBot",
+    "addition_date": "2016/06/20",
+    "url": "https://rankactive.com/resources/rankactive-linkbot"
   }
 ]
