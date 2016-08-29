@@ -1,3 +1,4 @@
 language: python
+install: pip install jsonschema
 # validate the json file
-script: python -c 'import json; json.loads(open("crawler-user-agents.json").read())'
+script: python validate.py
