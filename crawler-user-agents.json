@@ -883,5 +883,11 @@
     "pattern": "RankActiveLinkBot",
     "addition_date": "2016/06/20",
     "url": "https://rankactive.com/resources/rankactive-linkbot"
+  },
+  {
+    "pattern": "iskanie",
+    "addition_date": "2016/09/02",
+    "url": "http://www.iskanie.com",
+    "instances": ["iskanie (+http://www.iskanie.com)"]
   }
 ]
