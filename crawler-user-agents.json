@@ -889,5 +889,11 @@
     "addition_date": "2016/09/02",
     "url": "http://www.iskanie.com",
     "instances": ["iskanie (+http://www.iskanie.com)"]
+  },
+  {
+    "pattern": "SafeDNSBot",
+    "addition_date": "2016/09/10",
+    "url": "https://www.safedns.com/searchbot",
+    "instances": ["SafeDNSBot (https://www.safedns.com/searchbot)"]
   }
 ]
