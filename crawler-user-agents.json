@@ -895,5 +895,10 @@
     "addition_date": "2016/09/10",
     "url": "https://www.safedns.com/searchbot",
     "instances": ["SafeDNSBot (https://www.safedns.com/searchbot)"]
+  },
+  {
+    "pattern": "SkypeUriPreview",
+    "addition_date": "2016/10/10",
+    "instances": ["Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5"]
   }
 ]
