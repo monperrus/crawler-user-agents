@@ -900,5 +900,10 @@
     "pattern": "SkypeUriPreview",
     "addition_date": "2016/10/10",
     "instances": ["Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5"]
+  },
+  {
+    "pattern": "slackbot-LinkExpanding",
+    "addition_date": "2016/11/03",
+    "url": "https://api.slack.com/robots"
   }
 ]
