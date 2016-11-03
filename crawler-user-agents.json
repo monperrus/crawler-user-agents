@@ -915,5 +915,10 @@
     "pattern": "redditbot",
     "addition_date": "2016/11/03",
     "url": "http://www.reddit.com/feedback"
+  },
+  {
+    "pattern": "datagnionbot",
+    "addition_date": "2016/11/03",
+    "url": "http://www.datagnion.com/bot.html"
   }
 ]
