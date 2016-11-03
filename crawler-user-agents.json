@@ -925,5 +925,10 @@
     "pattern": "Veoozbot",
     "addition_date": "2016/11/03",
     "url": "http://www.veooz.com/veoozbot.html"
+  },
+  {
+    "pattern": "Slackbot",
+    "addition_date": "2016/11/03",
+    "url": "https://api.slack.com/robots"
   }
 ]
