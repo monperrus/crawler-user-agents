@@ -930,5 +930,10 @@
     "pattern": "Slackbot",
     "addition_date": "2016/11/03",
     "url": "https://api.slack.com/robots"
+  },
+  {
+    "pattern": "Google-Adwords-Instant",
+    "addition_date": "2016/11/03",
+    "url": "http://www.google.com/adsbot.html"
   }
 ]
