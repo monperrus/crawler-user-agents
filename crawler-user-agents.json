@@ -922,18 +922,16 @@
     "url": "http://www.datagnion.com/bot.html"
   },
   {
-    "pattern": "Veoozbot",
-    "addition_date": "2016/11/03",
-    "url": "http://www.veooz.com/veoozbot.html"
-  },
-  {
-    "pattern": "Slackbot",
-    "addition_date": "2016/11/03",
-    "url": "https://api.slack.com/robots"
-  },
-  {
     "pattern": "Google-Adwords-Instant",
     "addition_date": "2016/11/03",
     "url": "http://www.google.com/adsbot.html"
+  },
+  {
+    "pattern": "adbeat_bot",
+    "addition_date": "2016/11/04",
+  },
+  {
+    "pattern": "Scanbot",
+    "addition_date": "2016/11/04",
   }
 ]
