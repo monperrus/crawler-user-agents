@@ -17,6 +17,6 @@ Example:
     }
 
 
-The list is under a [CC-SA](http://creativecommons.org/licenses/by-sa/3.0/) license.
+The list is under a [MIT License](https://opensource.org/licenses/MIT). The versions prior to Nov 7, 2016 were under a [CC-SA](http://creativecommons.org/licenses/by-sa/3.0/) license.
 
 --Martin
