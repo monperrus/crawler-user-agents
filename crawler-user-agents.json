@@ -933,5 +933,10 @@
   {
     "pattern": "Scanbot",
     "addition_date": "2016/11/04"
+  },
+  {
+    "pattern": "WhatsApp",
+    "addition_date": "2016/11/15",
+    "url": "https://www.whatsapp.com/"
   }
 ]
