@@ -192,6 +192,12 @@
     "addition_date": "2015/04/14"
   },
   {
+    "pattern": "yandex.com/bots",
+    "url": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.xml#robot-in-logs",
+    "instances": ["Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)"],
+    "addition_date": "2016/12/01"
+  },
+  {
     "pattern": "purebot",
     "addition_date": "2010/01/19"
   },
