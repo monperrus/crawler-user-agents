@@ -944,5 +944,10 @@
     "pattern": "WhatsApp",
     "addition_date": "2016/11/15",
     "url": "https://www.whatsapp.com/"
+  },
+  {
+    "pattern": "contxbot",
+    "addition_date": "2017/02/25",
+    "instances": ["Mozilla/5.0 (compatible;contxbot/1.0)"]
   }
 ]
