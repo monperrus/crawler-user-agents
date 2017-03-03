@@ -951,7 +951,7 @@
     "instances": ["Mozilla/5.0 (compatible;contxbot/1.0)"]
   },
   {
-    "pattern": "pinterest.com/bot",
+    "pattern": "pinterest.com",
     "addition_date": "2017/03/03",
     "instances": ["Pinterest/0.2 (+http://www.pinterest.com/bot.html)"],
     "url": "http://www.pinterest.com/bot.html"
