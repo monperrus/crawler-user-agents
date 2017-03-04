@@ -955,5 +955,11 @@
     "addition_date": "2017/03/03",
     "instances": ["Pinterest/0.2 (+http://www.pinterest.com/bot.html)"],
     "url": "http://www.pinterest.com/bot.html"
+  },
+  {
+    "pattern": "electricmonk",
+    "addition_date": "2017/03/04",
+    "instances": ["Mozilla/5.0 (compatible; electricmonk/3.2.0 +https://www.duedil.com/our-crawler/)"],
+    "url": "https://www.duedil.com/our-crawler/"
   }
 ]
