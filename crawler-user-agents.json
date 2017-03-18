@@ -961,5 +961,12 @@
     "addition_date": "2017/03/04",
     "instances": ["Mozilla/5.0 (compatible; electricmonk/3.2.0 +https://www.duedil.com/our-crawler/)"],
     "url": "https://www.duedil.com/our-crawler/"
+  },
+  {
+    "pattern": "GarlikCrawler",
+    "addition_date": "2017/03/18",
+    "instances": ["GarlikCrawler/1.2 (http://garlik.com/, crawler@garlik.com)"],
+    "url": "http://garlik.com/"
   }
+
 ]
