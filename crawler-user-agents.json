@@ -967,6 +967,11 @@
     "addition_date": "2017/03/18",
     "instances": ["GarlikCrawler/1.2 (http://garlik.com/, crawler@garlik.com)"],
     "url": "http://garlik.com/"
+  },
+  {
+    "pattern": "BingPreview\\/",
+    "addition_date": "2017/04/23",
+    "url": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
   }
 
 ]
