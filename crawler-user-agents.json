@@ -207,11 +207,6 @@
     "url": "http://www.linguee.com/bot"
   },
   {
-    "pattern": "Voyager",
-    "addition_date": "2010/02/01",
-    "url": "http://www.kosmix.com/crawler.html"
-  },
-  {
     "pattern": "CyberPatrol",
     "addition_date": "2010/02/11",
     "url": "http://www.cyberpatrol.com/cyberpatrolcrawler.asp"
