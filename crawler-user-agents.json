@@ -967,6 +967,13 @@
     "pattern": "BingPreview\\/",
     "addition_date": "2017/04/23",
     "url": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
+  },
+  {
+    "pattern": "vebidoobot",
+    "addition_date": "2017/05/08",
+    "instances": ["Mozilla/5.0 (compatible; vebidoobot/1.0; +https://blog.vebidoo.de/vebidoobot/"],
+    "url": "https://blog.vebidoo.de/vebidoobot/"
   }
+
 
 ]
