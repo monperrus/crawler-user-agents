@@ -973,7 +973,11 @@
     "addition_date": "2017/05/08",
     "instances": ["Mozilla/5.0 (compatible; vebidoobot/1.0; +https://blog.vebidoo.de/vebidoobot/"],
     "url": "https://blog.vebidoo.de/vebidoobot/"
+  },
+  {
+    "pattern": "FemtosearchBot",
+    "addition_date": "2017/05/16",
+    "instances": ["Mozilla/5.0 (compatible; FemtosearchBot/1.0; http://femtosearch.com)"],
+    "url": "http://femtosearch.com"
   }
-
-
 ]
