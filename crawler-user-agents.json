@@ -171,9 +171,6 @@
     "pattern": "MJ12bot"
   },
   {
-    "pattern": "dotbot"
-  },
-  {
     "pattern": "woriobot"
   },
   {
@@ -595,13 +592,9 @@
     "instances": ["SimpleCrawler/0.1" ]
   },
   {
-    "pattern": "Livelapbot",
-    "addition_date": "2014/09/12",
-    "instances": ["Livelapbot/0.1" ]
-  },
-  {
     "pattern": "Twitterbot",
     "addition_date": "2014/09/12",
+    "url": "https://dev.twitter.com/cards/getting-started",
     "instances": ["Twitterbot/0.1", "Twitterbot/1.0" ]
   },
   {
@@ -637,11 +630,6 @@
   {
     "pattern": "Facebot",
     "url": "https://developers.facebook.com/docs/sharing/best-practices#crawl",
-    "addition_date": "2014/12/30"
-  },
-  {
-    "pattern": "Twitterbot",
-    "url": "https://dev.twitter.com/cards/getting-started",
     "addition_date": "2014/12/30"
   },
   {
@@ -789,7 +777,7 @@
  {
     "pattern": "LivelapBot",
     "url": "http://site.livelap.com/crawler",
-    "instances": ["LivelapBot/0.2 (http://site.livelap.com/crawler)"],
+    "instances": ["Livelapbot/0.1", "LivelapBot/0.2 (http://site.livelap.com/crawler)"],
     "addition_date": "2016/01/02"
  },
  {
