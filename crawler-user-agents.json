@@ -1,19 +1,7 @@
 [
   {
-    "pattern": "Googlebot\\/",
+    "pattern": "Googlebot",
     "url": "http://www.google.com/bot.html"
-  },
-  {
-    "pattern": "Googlebot-Mobile"
-  },
-  {
-    "pattern": "Googlebot-Image"
-  },
-  {
-    "pattern": "Googlebot-News"
-  },
-  {
-    "pattern": "Googlebot-Video"
   },
   {
     "pattern": "AdsBot-Google",
@@ -123,7 +111,7 @@
     "pattern": "webcrawler"
   },
   {
-    "pattern": "grub.org"
+    "pattern": "grub\\.org"
   },
   {
     "pattern": "UsineNouvelleCrawler"
@@ -141,7 +129,7 @@
     "pattern": "fluffy"
   },
   {
-    "pattern": "bibnum.bnf"
+    "pattern": "bibnum\\.bnf"
   },
   {
     "pattern": "findlink"
@@ -189,7 +177,7 @@
     "addition_date": "2015/04/14"
   },
   {
-    "pattern": "yandex.com\\/bots",
+    "pattern": "yandex\\.com\\/bots",
     "url": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.xml#robot-in-logs",
     "instances": ["Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)"],
     "addition_date": "2016/12/01"
@@ -279,7 +267,7 @@
     "addition_date": "2011/04/27"
   },
   {
-    "pattern": "Mail.RU_Bot",
+    "pattern": "Mail\\.RU_Bot",
     "addition_date": "2011/04/27",
     "instances" : [
       "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/",
@@ -302,12 +290,12 @@
     "url": "http://www.findthatfile.com/"
   },
   {
-    "pattern": "europarchive.org",
+    "pattern": "europarchive\\.org",
     "addition_date": "2011/06/21",
     "url": ""
   },
   {
-    "pattern": "NerdByNature.Bot",
+    "pattern": "NerdByNature\\.Bot",
     "addition_date": "2011/07/12",
     "url": "http://www.nerdbynature.net/bot"
   },
@@ -445,7 +433,7 @@
     "addition_date": "2012/10/31"
   },
   {
-    "pattern": "web-archive-net.com.bot"
+    "pattern": "web-archive-net\\.com\\.bot"
   },
   {
     "pattern": "backlinkcrawler",
@@ -478,11 +466,11 @@
     "addition_date": "2013/03/12"
   },
   {
-    "pattern": "ip-web-crawler.com",
+    "pattern": "ip-web-crawler\\.com",
     "addition_date": "2013/03/22"
   },
   {
-    "pattern": "siteexplorer.info",
+    "pattern": "siteexplorer\\.info",
     "addition_date": "2013/05/01"
   },
   {
@@ -547,7 +535,7 @@
     "url": "http://wiki.creativecommons.org/Metadata_Scraper"
   },
   {
-    "pattern": "g00g1e.net",
+    "pattern": "g00g1e\\.net",
     "addition_date": "2014/04/01",
     "url": "http://www.g00g1e.net/"
   },
@@ -605,7 +593,7 @@
     "url": "http://www.similartech.com/smtbot"
   },
   {
-    "pattern": "bnf.fr_bot",
+    "pattern": "bnf\\.fr_bot",
     "addition_date": "2014/11/18",
     "url": "http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html",
     "instances": ["Mozilla/5.0 (compatible; bnf.fr_bot; +http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html)"]
@@ -687,7 +675,7 @@
     "addition_date": "2015/04/06"
   },
   {
-    "pattern": "archive.org_bot",
+    "pattern": "archive\\.org_bot",
     "url": "http://www.archive.org/details/archive.org_bot",
     "instances": ["Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)"],
     "addition_date": "2015/04/14"
@@ -788,7 +776,7 @@
     "addition_date": "2016/01/02"
  },
  {
-    "pattern": "collection@infegy.com",
+    "pattern": "collection@infegy\\.com",
     "url": "http://infegy.com/",
     "instances": ["Mozilla/5.0 (compatible) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36 collection@infegy.com"],
     "addition_date": "2016/01/03"
