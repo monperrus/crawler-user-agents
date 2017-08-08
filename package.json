@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "crawler-user-agents",
+  "version": "1.0.0",
+  "author": "Martin Monperrus <martin.monperrus@univ-lille1.fr>",
+  "license": "MIT"
+}
