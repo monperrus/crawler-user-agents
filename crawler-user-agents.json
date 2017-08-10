@@ -16,11 +16,26 @@
     "pattern": "Googlebot-Video"
   },
   {
-    "pattern": "AdsBot-Google",
+    "pattern": "AdsBot-Google(?!-)",
+    "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
+  },
+  {
+    "pattern": "AdsBot-Google-Mobile-Apps",
+    "addition_date": "2017/08/08",
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
   },
   {
     "pattern": "Mediapartners-Google",
+    "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
+  },
+  {
+    "pattern": "Mediapartners \\(Googlebot\\)",
+    "addition_date": "2017/08/08",
+    "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
+  },
+  {
+    "pattern": "APIs-Google",
+    "addition_date": "2017/08/08",
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
   },
   {
