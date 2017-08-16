@@ -1007,5 +1007,11 @@
     "addition_date": "2017/08/16",
     "instances": ["Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)"],
     "url": "http://cs.daum.net/faq/15/4118.html?faqId=28966"
+  },
+  {
+    "pattern": "Jugendschutzprogramm-Crawler",
+    "addition_date": "2017/08/16",
+    "instances": ["Jugendschutzprogramm-Crawler; Info: http://www.jugendschutzprogramm.de"],
+    "url": "http://www.jugendschutzprogramm.de"
   }
 ]
