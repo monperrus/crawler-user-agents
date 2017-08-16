@@ -995,5 +995,11 @@
     "addition_date": "2017/08/16",
     "instances": ["DomainStatsBot/1.0 (http://domainstats.io/our-bot)"],
     "url": "http://domainstats.io/our-bot"
+  },
+  {
+    "pattern": "mindUpBot",
+    "addition_date": "2017/08/16",
+    "instances": ["mindUpBot (datenbutler.de)"],
+    "url": "http://www.datenbutler.de/"
   }
 ]
