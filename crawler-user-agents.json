@@ -983,5 +983,11 @@
     "addition_date": "2017/06/28",
     "instances": ["Mozilla/5.0 (compatible; Yahoo Link Preview; https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html)"],
     "url": "https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html"
+  },
+  {
+    "pattern": "MetaJobBot",
+    "addition_date": "2017/08/16",
+    "instances": ["Mozilla/5.0 (compatible; MetaJobBot; http://www.metajob.de/crawler)"],
+    "url": "http://www.metajob.de/the/crawler"
   }
 ]
