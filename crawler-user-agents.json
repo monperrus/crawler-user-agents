@@ -989,5 +989,11 @@
     "addition_date": "2017/08/16",
     "instances": ["Mozilla/5.0 (compatible; MetaJobBot; http://www.metajob.de/crawler)"],
     "url": "http://www.metajob.de/the/crawler"
+  },
+  {
+    "pattern": "DomainStatsBot",
+    "addition_date": "2017/08/16",
+    "instances": ["DomainStatsBot/1.0 (http://domainstats.io/our-bot)"],
+    "url": "http://domainstats.io/our-bot"
   }
 ]
