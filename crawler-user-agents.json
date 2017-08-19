@@ -1019,5 +1019,11 @@
     "addition_date": "2017/08/19",
     "instances": ["Xenu Link Sleuth/1.3.8"],
     "url": "http://home.snafu.de/tilman/xenulink.html"
+  },
+  {
+    "pattern": "Pcore-HTTP",
+    "addition_date": "2017/08/19",
+    "instances": ["Pcore-HTTP/v0.40.3"],
+    "url": "https://bitbucket.org/softvisio/pcore/overview"
   }
 ]
