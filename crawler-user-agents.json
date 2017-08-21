@@ -16,7 +16,7 @@
     "pattern": "Googlebot-Video"
   },
   {
-    "pattern": "AdsBot-Google(?!-)",
+    "pattern": "AdsBot-Google([^-]|$)",
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en",
     "instances": ["AdsBot-Google (+http://www.google.com/adsbot.html)"]
   },
