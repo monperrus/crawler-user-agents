@@ -1,4 +1,4 @@
 language: python
-install: pip install jsonschema
+install: pip install -r requirements.txt
 # validate the json file
 script: python validate.py
