@@ -1,6 +1,8 @@
 import json
-import re
-from  jsonschema import validate
+import re2 as re
+from jsonschema import validate
+
+re.set_fallback_notification(re.FALLBACK_EXCEPTION)
 
 data = json.load(open('crawler-user-agents.json'))
 
@@ -11,22 +13,23 @@ schema = {
         "type": "object",
         "properties" :  {
             "pattern" : {"type" : "string"},
-        },        
+        },
         "required" : [ "pattern" ]
     }
 }
 validate(data, schema)
 
-# check for duplicates
-class Entry: # we need this to be able to use i!=j with exact same content
-    pass
-data2 = []
+data = [i['pattern'].lower() for i in data]
+
 for i in data:
-    x=Entry()
-    x.pattern = i['pattern'].lower()
-    data2.append(x)
-for i in data2:
-    for j in data2:
-        if i!=j and re.match(i.pattern, j.pattern, re.IGNORECASE):
-            raise Exception('duplicate '+i.pattern+' '+j.pattern)
+    for j in data:
+        # check re2 library (https://github.com/google/re2) compatiblity
+        try:
+            match = re.match(i, j, re.IGNORECASE)
+        except re.RegexError:
+            raise Exception('regex "{}" is not compatible with re2 library'.format(i))
+
+        # check for duplicates
+        if i != j and match:
+            raise Exception('duplicate found "{}" and "{}"'.format(i, j))
 
