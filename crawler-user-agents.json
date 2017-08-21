@@ -17,12 +17,14 @@
   },
   {
     "pattern": "AdsBot-Google([^-]|$)",
-    "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
+    "url": "https://support.google.com/webmasters/answer/1061943?hl=en",
+    "instances": ["AdsBot-Google (+http://www.google.com/adsbot.html)"]
   },
   {
     "pattern": "AdsBot-Google-Mobile-Apps",
     "addition_date": "2017/08/08",
-    "url": "https://support.google.com/webmasters/answer/1061943?hl=en"
+    "url": "https://support.google.com/webmasters/answer/1061943?hl=en",
+    "instances": ["AdsBot-Google-Mobile-Apps"]
   },
   {
     "pattern": "Mediapartners-Google",
@@ -120,9 +122,6 @@
     "pattern": "exabot"
   },
   {
-    "pattern": "ngbot"
-  },
-  {
     "pattern": "ia_archiver"
   },
   {
@@ -133,9 +132,6 @@
   },
   {
     "pattern": "httrack"
-  },
-  {
-    "pattern": "webcrawler"
   },
   {
     "pattern": "grub.org"
@@ -927,10 +923,6 @@
   },
   {
     "pattern": "adbeat_bot",
-    "addition_date": "2016/11/04"
-  },
-  {
-    "pattern": "Scanbot",
     "addition_date": "2016/11/04"
   },
   {
