@@ -24,7 +24,7 @@
     "pattern": "AdsBot-Google-Mobile",
     "addition_date": "2017/08/21",
     "url": "https://support.google.com/adwords/answer/2404197",
-    "instances": ["AdsBot-Google-Mobile-Apps", "Mozilla/5.0 (Linux; Android 5.0; SM-G920A) AppleWebKit (KHTML, like Gecko) Chrome Mobile Safari (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)", "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)"]  
+    "instances": ["AdsBot-Google-Mobile-Apps", "Mozilla/5.0 (Linux; Android 5.0; SM-G920A) AppleWebKit (KHTML, like Gecko) Chrome Mobile Safari (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)", "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)"]
   },
   {
     "pattern": "Mediapartners-Google",
@@ -1017,5 +1017,12 @@
     "addition_date": "2017/08/19",
     "instances": ["Pcore-HTTP/v0.40.3"],
     "url": "https://bitbucket.org/softvisio/pcore/overview"
+  },
+  {
+    "pattern": "moatbot",
+    "addition_date": "2017/09/16",
+    "instances": ["Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4 moatbot",
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 moatbot"],
+    "url": "https://moat.com"
   }
 ]
