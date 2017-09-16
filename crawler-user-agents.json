@@ -24,7 +24,7 @@
     "pattern": "AdsBot-Google-Mobile",
     "addition_date": "2017/08/21",
     "url": "https://support.google.com/adwords/answer/2404197",
-    "instances": ["AdsBot-Google-Mobile-Apps", "Mozilla/5.0 (Linux; Android 5.0; SM-G920A) AppleWebKit (KHTML, like Gecko) Chrome Mobile Safari (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)", "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)"]  
+    "instances": ["AdsBot-Google-Mobile-Apps", "Mozilla/5.0 (Linux; Android 5.0; SM-G920A) AppleWebKit (KHTML, like Gecko) Chrome Mobile Safari (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)", "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)"]
   },
   {
     "pattern": "Mediapartners-Google",
@@ -1017,5 +1017,11 @@
     "addition_date": "2017/08/19",
     "instances": ["Pcore-HTTP/v0.40.3"],
     "url": "https://bitbucket.org/softvisio/pcore/overview"
+  },
+  {
+    "pattern": "KosmioBot",
+    "addition_date": "2017/09/16",
+    "instances": ["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36 (compatible; KosmioBot/1.0; +http://kosm.io/bot.html)"],
+    "url": "http://kosm.io/bot.html"
   }
 ]
