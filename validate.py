@@ -1,45 +1,71 @@
+"""
+Validate JSON to ensure that patterns all work
+"""
+from __future__ import print_function
+
 import json
 import re
-from  jsonschema import validate
+from collections import Counter
 
-data = json.load(open('crawler-user-agents.json'))
+from jsonschema import validate
 
-# check for format using JSON Schema
-schema = {
+
+JSON_SCHEMA = {
     "type": "array",
     "items": {
         "type": "object",
-        "properties" :  {
-            "pattern" : {"type" : "string"},
+        "properties": {
+            "pattern": {"type": "string"},
+            "instances": {"type": "array"},
+            "url": {"type": "string"},
+            "addition_date": {"type": "string"}
         },
-        "required" : [ "pattern" ]
+        "required": ["pattern"]
     }
 }
-validate(data, schema)
 
-# check for duplicates
-class Entry: # we need this to be able to use i!=j with exact same content
-    pass
-data2 = []
-for i in data:
-    x=Entry()
-    x.pattern = i['pattern']
-    x.instances = i['instances'] if "instances" in i else []
-    data2.append(x)
 
-nbinstances = 0
-for i in data2:
-    # contract #1 do we match the given instances?
-    for instance in i.instances:
-        nbinstances += 1
-        assert re.search(i.pattern, instance), i.pattern+" does not match "+instance
+def main():
+    with open('crawler-user-agents.json') as f:
+        json_data = json.load(f)
 
-        # ongoing work by @vetty
-        # assert re2.match(i.pattern, instance)
+    # check format using JSON Schema
+    validate(json_data, JSON_SCHEMA)
 
-    for j in data2:
-        if i!=j and re.search(i.pattern, j.pattern):
-            raise Exception('duplicate '+i.pattern+' '+j.pattern)
+    # check for simple duplicates
+    pattern_counts = Counter(entry['pattern'] for entry in json_data)
+    for pattern, count in pattern_counts.most_common():
+        if count > 1:
+            raise ValueError('Pattern {!r} appears {} times'.format(pattern,
+                                                                    count))
 
-assert nbinstances>10
+    # check that we match the given instances
+    num_instances = 0
+    for entry in json_data:
+        pattern = entry['pattern']
+        instances = entry.get('instances')
+        if instances:
+            for instance in instances:
+                num_instances += 1
+                if not re.search(pattern, instance):
+                    raise ValueError('Pattern {!r} misses instance {!r}'
+                                     .format(pattern, instance))
+                # TODO: Check for re2 matching here
 
+    # Make sure we have at least 10 instances in file
+    if num_instances < 10:
+        raise ValueError('Only had {} instances in JSON'.format(num_instances))
+
+    # Check for patterns that match other patterns
+    for entry1 in json_data:
+        for entry2 in json_data:
+            if entry1 != entry2 and re.search(entry1['pattern'],
+                                              entry2['pattern']):
+                raise ValueError('Pattern {!r} is a subset of {!r}'
+                                 .format(entry2['pattern'], entry1['pattern']))
+
+    print('Validation passed')
+
+
+if __name__ == '__main__':
+    main()
