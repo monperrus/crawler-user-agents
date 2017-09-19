@@ -78,7 +78,7 @@ def test_simple_duplicate_detection(restore_original_json):
                                       'cfood',
                                       '/foo/',
                                       '\\foo\\',
-                                      ':foo:',
+                                      ':foO:',
                                       'foo.',
                                       '!foo',
                                       '/foo',
@@ -109,3 +109,42 @@ def test_subset_duplicate_detection(restore_original_json):
                         {'pattern': 'afoot'}]
     update_json_file(user_agent_list)
     assert_validate_failed()
+
+def test_subset_duplicate_detection(restore_original_json):
+    # contract: if a pattern matches another pattern, it fails
+    user_agent_list = [{'pattern': 'foo',
+                        'instances': ['foo',
+                                      'afoo',
+                                      'foob',
+                                      'cfood',
+                                      '/foo/',
+                                      '\\foo\\',
+                                      ':foo:',
+                                      'foo.',
+                                      '!foo',
+                                      '/foo',
+                                      'foo\\',
+                                      'FoofooFoo',
+                                      'foot',]},
+                        {'pattern': 'afoot'}]
+    update_json_file(user_agent_list)
+    assert_validate_failed()
+
+def test_case_insensitivity(restore_original_json):
+    # contract: the patterns are not case sensitive
+    user_agent_list = [{'pattern': 'FOO',
+                        'instances': ['foo',
+                                      'afoo',
+                                      'foob',
+                                      'cfood',
+                                      '/foo/',
+                                      '\\foo\\',
+                                      ':foo:',
+                                      'fOo.',
+                                      '!FOO',
+                                      '/foo',
+                                      'foo\\',
+                                      'FoofooFoo',
+                                      'foot',]}]
+    update_json_file(user_agent_list)
+    assert_validate_passed()
