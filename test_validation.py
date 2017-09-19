@@ -16,13 +16,15 @@ def update_json_file(data):
 
 
 @pytest.fixture
-def user_agent_list():
-    # Load clean version of crawler-user-agents.json
+def restore_original_json():
+    # Load original version of crawler-user-agents.json
     with open('crawler-user-agents.json') as f:
         original_json = json.load(f)
-    # Yield copy of it for test function to break and overwrite file with
-    yield deepcopy(original_json)
-    # Overwrite broken version with clean version after test completes
+
+    # By using a yield statement instead of return, all the code after the yield statement serves as the teardown code:
+    yield None
+    
+    # tear down code: restore original version of crawler-user-agents.json
     update_json_file(original_json)
 
 
@@ -34,8 +36,9 @@ def assert_validate_passed():
     assert subprocess.call(['python', 'validate.py']) == 0
 
 
-def test_simple_pass(user_agent_list):
-    # Check that a single pattern with more than 10 instances will pass
+def test_simple_pass(restore_original_json):
+    # the json must be an array of objects containing "pattern"
+    # there must be more than 10 instances to pass
     user_agent_list = [{'pattern': 'foo',
                         'instances': ['foo',
                                       'afoo',
@@ -54,19 +57,20 @@ def test_simple_pass(user_agent_list):
     assert_validate_passed()
 
 
-def test_schema_violation_dict(user_agent_list):
-    user_agent_list = {'foo': user_agent_list}
+def test_schema_violation_dict1(restore_original_json):
+    # contract: the json must be an array
+    user_agent_list = {'foo':None}
     update_json_file(user_agent_list)
     assert_validate_failed()
 
-
-def test_schema_violation_int(user_agent_list):
-    user_agent_list[0]['pattern'] = 2
+def test_schema_violation_dict2(restore_original_json):
+    # contract: the json must be an array of objects containing "pattern"
+    user_agent_list = [{'foo':None}]
     update_json_file(user_agent_list)
     assert_validate_failed()
 
-
-def test_simple_duplicate_detection(user_agent_list):
+def test_simple_duplicate_detection(restore_original_json):
+    # contract: if we have twice the same pattern, it fails
     user_agent_list = [{'pattern': 'foo',
                         'instances': ['foo',
                                       'afoo',
@@ -86,7 +90,8 @@ def test_simple_duplicate_detection(user_agent_list):
     assert_validate_failed()
 
 
-def test_subset_duplicate_detection(user_agent_list):
+def test_subset_duplicate_detection(restore_original_json):
+    # contract: if a pattern matches another pattern, it fails
     user_agent_list = [{'pattern': 'foo',
                         'instances': ['foo',
                                       'afoo',
