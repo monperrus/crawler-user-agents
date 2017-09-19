@@ -106,7 +106,9 @@ def test_subset_duplicate_detection(restore_original_json):
                                       'foo\\',
                                       'FoofooFoo',
                                       'foot',]},
-                        {'pattern': 'afoot'}]
+                        {'pattern': 'bar'},
+                        {'pattern': 'bar'}
+                        ]
     update_json_file(user_agent_list)
     assert_validate_failed()
 
