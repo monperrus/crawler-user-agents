@@ -1,4 +1,9 @@
 language: python
-install: pip install jsonschema
-# validate the json file
-script: python validate.py
+
+install: pip install jsonschema pytest
+
+script:
+  # Check that validation script works
+  - py.test -vv
+  # Run validation script
+  - python validate.py
