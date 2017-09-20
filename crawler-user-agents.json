@@ -271,7 +271,7 @@
     "url": "http://www.seekbot.net/bot.html"
   },
   {
-    "pattern": "gigabot",
+    "pattern": "Gigabot",
     "instances": [
       "Gigabot/1.0",
       "Gigabot/2.0 (http://www.gigablast.com/spider.html)"
@@ -279,7 +279,7 @@
     "url": "http://www.gigablast.com/spider.html"
   },
   {
-    "pattern": "gigablast",
+    "pattern": "Gigablast",
     "instances": [
       "GigablastOpenSource/1.0"
     ],
@@ -313,7 +313,7 @@
     "instances": []
   },
   {
-    "pattern": "httrack",
+    "pattern": "HTTrack",
     "instances": [
       "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)"
     ]
@@ -523,7 +523,7 @@
     ]
   },
   {
-    "pattern": "yandexbot",
+    "pattern": "YandexBot",
     "url": "http://yandex.com/bots",
     "instances": [
       "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
@@ -1245,7 +1245,7 @@
     "pattern": "smtbot",
     "addition_date": "2014/10/04",
     "instances": [
-      "Mozilla/5.0 (compatible; SMTBot/1.0; +http://www.similartech.com/smtbo)t",
+      "Mozilla/5.0 (compatible; SMTBot/1.0; +http://www.similartech.com/smtbot)",
       "SMTBot (similartech.com/smtbot)"
     ],
     "url": "http://www.similartech.com/smtbot"
@@ -1433,7 +1433,7 @@
     "addition_date": "2015/08/26"
   },
   {
-    "pattern": "y!j-asr",
+    "pattern": "Y!J-ASR",
     "url": "http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/",
     "instances": [
       "Y!J-ASR/0.1 crawler (http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)"
@@ -1481,7 +1481,7 @@
     "addition_date": "2016/01/02"
   },
   {
-    "pattern": "LivelapBot",
+    "pattern": "Livelap[bB]ot",
     "url": "http://site.livelap.com/crawler",
     "instances": [
       "LivelapBot/0.2 (http://site.livelap.com/crawler)",
@@ -1893,7 +1893,9 @@
   {
     "pattern": "PhantomJS",
     "addition_date": "2017/09/18",
-    "instances": ["Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1 bl.uk_lddc_renderbot/2.0.0 (+ http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)"],
+    "instances": [
+      "Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1 bl.uk_lddc_renderbot/2.0.0 (+ http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)"
+    ],
     "url": "http://phantomjs.org/"
   }
 ]

@@ -21,9 +21,10 @@ def restore_original_json():
     with open('crawler-user-agents.json') as f:
         original_json = json.load(f)
 
-    # By using a yield statement instead of return, all the code after the yield statement serves as the teardown code:
+    # By using a yield statement instead of return, all the code after
+    # the yield statement serves as the teardown code:
     yield None
-    
+
     # tear down code: restore original version of crawler-user-agents.json
     update_json_file(original_json)
 
@@ -52,7 +53,7 @@ def test_simple_pass(restore_original_json):
                                       '/foo',
                                       'foo\\',
                                       'FoofooFoo',
-                                      'foot',]}]
+                                      'foot']}]
     update_json_file(user_agent_list)
     assert_validate_passed()
 
@@ -70,7 +71,7 @@ def test_schema_violation_dict2(restore_original_json):
     assert_validate_failed()
 
 def test_simple_duplicate_detection(restore_original_json):
-    # contract: if we have twice the same pattern, it fails
+    # contract: if we have the same pattern twice, it fails
     user_agent_list = [{'pattern': 'foo',
                         'instances': ['foo',
                                       'afoo',
@@ -84,14 +85,14 @@ def test_simple_duplicate_detection(restore_original_json):
                                       '/foo',
                                       'foo\\',
                                       'FoofooFoo',
-                                      'foot',]},
+                                      'foot']},
                         {'pattern': 'foo'}]
     update_json_file(user_agent_list)
     assert_validate_failed()
 
 
-def test_subset_duplicate_detection(restore_original_json):
-    # contract: if a pattern matches another pattern, it fails
+def test_simple_duplicate_detection2(restore_original_json):
+    # contract: if we have the same pattern twice, it fails (even w/o instances)
     user_agent_list = [{'pattern': 'foo',
                         'instances': ['foo',
                                       'afoo',
@@ -105,12 +106,12 @@ def test_subset_duplicate_detection(restore_original_json):
                                       '/foo',
                                       'foo\\',
                                       'FoofooFoo',
-                                      'foot',]},
-                        {'pattern': 'bar'},
-                        {'pattern': 'bar'}
-                        ]
+                                      'foot']},
+                       {'pattern': 'bar'},
+                       {'pattern': 'bar'}]
     update_json_file(user_agent_list)
     assert_validate_failed()
+
 
 def test_subset_duplicate_detection(restore_original_json):
     # contract: if a pattern matches another pattern, it fails
@@ -127,16 +128,17 @@ def test_subset_duplicate_detection(restore_original_json):
                                       '/foo',
                                       'foo\\',
                                       'FoofooFoo',
-                                      'foot',]},
-                        {'pattern': 'afoot'}]
+                                      'foot']},
+                       {'pattern': 'afoot'}]
     update_json_file(user_agent_list)
     assert_validate_failed()
 
-def test_case_insensitivity(restore_original_json):
-    # contract: the patterns are not case sensitive
-    user_agent_list = [{'pattern': 'FOO',
-                        'instances': ['foo',
-                                      'afoo',
+
+def test_case_sensitivity(restore_original_json):
+    # contract: the patterns are case sensitive
+    user_agent_list = [{'pattern': 'foo',
+                        'instances': ['FOO',
+                                      'aFoo',
                                       'foob',
                                       'cfood',
                                       '/foo/',
@@ -147,6 +149,6 @@ def test_case_insensitivity(restore_original_json):
                                       '/foo',
                                       'foo\\',
                                       'FoofooFoo',
-                                      'foot',]}]
+                                      'foot']}]
     update_json_file(user_agent_list)
-    assert_validate_passed()
+    assert_validate_failed()
