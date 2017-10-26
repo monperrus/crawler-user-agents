@@ -1897,5 +1897,13 @@
       "Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1 bl.uk_lddc_renderbot/2.0.0 (+ http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)"
     ],
     "url": "http://phantomjs.org/"
-  }
+  },
+  {
+    "pattern": "Gowikibot",
+    "addition_date": "2017/10/26",
+    "instances": [
+      "Mozilla/5.0 (compatible; Gowikibot/1.0; +http://www.gowikibot.com)"
+    ],
+    "url": "http://www.gowikibot.com"
+  }  
 ]
