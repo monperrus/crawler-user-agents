@@ -1900,5 +1900,13 @@
       "Mozilla/5.0 (compatible; Gowikibot/1.0; +http://www.gowikibot.com)"
     ],
     "url": "http://www.gowikibot.com"
+  },
+  {
+    "pattern": "PiplBot",
+    "addition_date": "2017/10/30",
+    "instances": [
+      "Mozilla/5.0+(compatible;+PiplBot;+http://www.pipl.com/bot/)"
+    ],
+    "url": "http://www.pipl.com/bot/"
   }  
 ]
