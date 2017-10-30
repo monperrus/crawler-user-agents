@@ -3,13 +3,8 @@
     "pattern": "Googlebot\\/",
     "url": "http://www.google.com/bot.html",
     "instances": [
-      "BuckyOHare/1.3 (Googlebot/2.1; +https://hypefactors.com/webcrawler)",
       "Googlebot/2.1 (+http://www.google.com/bot.html)",
-      "Mozilla/5.0 (compatible; Googlebot/2.1; +http://import.io)",
       "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
-      "Mozilla/5.0 (compatible; Googlebot/2.1; https://deepcrawl.com/bot)",
-      "Mozilla/5.0 (compatible; Googlebot/2.1; https://www.deepcrawl.com/bot)",
-      "Mozilla/5.0 (compatible; Googlebot/2.1; startmebot/1.0; +https://start.me/bot)",
       "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
       "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
       "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
