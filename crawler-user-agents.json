@@ -1908,5 +1908,147 @@
       "Mozilla/5.0+(compatible;+PiplBot;+http://www.pipl.com/bot/)"
     ],
     "url": "http://www.pipl.com/bot/"
-  }  
+  },
+  {
+    "pattern": "Discordbot",
+    "addition_date": "2017/09/22",
+    "url": "https://discordapp.com"
+  },
+  {
+    "pattern": "TelegramBot",
+    "addition_date": "2017/10/01"
+  },
+  {
+    "pattern": "InfoPath.2",
+    "addition_date": "2017/10/07"
+  },
+  {
+    "pattern": "Jetslide",
+    "addition_date": "2017/09/27",
+    "url": "http://jetsli.de/crawler"
+  },
+  {
+    "pattern": "newsharecounts",
+    "addition_date": "2017/09/30",
+    "url": "http://newsharecounts.com/crawler"
+  },
+  {
+    "pattern": "James BOT",
+    "addition_date": "2017/10/12",
+    "url": "http://cognitiveseo.com/bot.html"
+  },
+  {
+    "pattern": "Barkrowler",
+    "addition_date": "2017/10/09",
+    "url": "http://www.exensa.com/crawl"
+  },
+  {
+    "pattern": "TinEye-bot",
+    "addition_date": "2017/10/14",
+    "url": "http://www.tineye.com/crawler.html"
+  },
+  {
+    "pattern": "CCBot",
+    "addition_date": "2017/10/18",
+    "url": "http://commoncrawl.org/faq/"
+  },
+  {
+    "pattern": "SocialRankIOBot",
+    "addition_date": "2017/10/19",
+    "url": "http://socialrank.io/about"
+  },
+  {
+    "pattern": "Yeti",
+    "addition_date": "2017/09/26",
+    "url": "http://naver.me/bot"
+  },
+  {
+    "pattern": "trendictionbot",
+    "addition_date": "2017/10/30",
+    "url": "http://www.trendiction.de/bot"
+  },
+  {
+    "pattern": "Ocarinabot",
+    "addition_date": "2017/09/27"
+  },
+  {
+    "pattern": "epicbot",
+    "addition_date": "2017/10/31",
+    "url": "http://www.epictions.com/epicbot"
+  },
+  {
+    "pattern": "SEMrushBot",
+    "addition_date": "2017/09/27"
+  },
+  {
+    "pattern": "Primalbot",
+    "addition_date": "2017/09/27",
+    "url": "https://www.primal.com"
+  },
+  {
+    "pattern": "DuckDuckGo-Favicons-Bot",
+    "addition_date": "2017/10/06",
+    "url": "http://duckduckgo.com"
+  },
+  {
+    "pattern": "GnowitNewsbot",
+    "addition_date": "2017/10/30",
+    "url": "http://www.gnowit.com"
+  },
+  {
+    "pattern": "Leikibot",
+    "addition_date": "2017/09/24",
+    "url": "http://www.leiki.com"
+  },
+  {
+    "pattern": "LinkArchiver",
+    "addition_date": "2017/09/24"
+  },
+  {
+    "pattern": "YaK",
+    "addition_date": "2017/09/25",
+    "url": "http://linkfluence.com"
+  },
+  {
+    "pattern": "PaperLiBot",
+    "addition_date": "2017/09/25",
+    "url": "http://support.paper.li/entries/20023257-what-is-paper-li"
+  },
+  {
+    "pattern": "Digg Deeper",
+    "addition_date": "2017/09/26",
+    "url": "http://digg.com/about"
+  },
+  {
+    "pattern": "dcrawl",
+    "addition_date": "2017/09/22"
+  },
+  {
+    "pattern": "Snacktory",
+    "addition_date": "2017/09/23",
+    "url": "https://github.com/karussell/snacktory"
+  },
+  {
+    "pattern": "AndersPinkBot",
+    "addition_date": "2017/09/24",
+    "url": "http://anderspink.com/bot.html"
+  },
+  {
+    "pattern": "Fyrebot",
+    "addition_date": "2017/09/22"
+  },
+  {
+    "pattern": "EveryoneSocialBot",
+    "addition_date": "2017/09/22",
+    "url": "http://everyonesocial.com"
+  },
+  {
+    "pattern": "Mediatoolkitbot",
+    "addition_date": "2017/10/06",
+    "url": "http://mediatoolkit.com"
+  },
+  {
+    "pattern": "Luminator-robots",
+    "addition_date": "2017/09/22"
+  }
 ]
