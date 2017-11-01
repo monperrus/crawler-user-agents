@@ -40,12 +40,11 @@ def main():
                                                                     count))
 
     # check for duplicates with different capitalization
-    patterns = sorted(entry['pattern'].lower() for entry in json_data)
-    last = ""
-    for pattern in patterns:
-        if pattern == last:
-            raise ValueError('Pattern {!r} is duplicated with different capitalization'.format(pattern))
-        last = pattern
+    pattern_counts = Counter(entry['pattern'].lower() for entry in json_data)
+    for pattern, count in pattern_counts.most_common():
+        if count > 1:
+            raise ValueError('Pattern {!r} is duplicated {} times with different capitalization'
+                             .format(pattern, count))
 
     # check that we match the given instances
     num_instances = 0
