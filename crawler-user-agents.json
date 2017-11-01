@@ -125,7 +125,7 @@
     ]
   },
   {
-    "pattern": "wget",
+    "pattern": "[wW]get",
     "instances": [
       "WGETbot/1.0 (+http://wget.alanreed.org)"
     ]
@@ -565,7 +565,7 @@
     ]
   },
   {
-    "pattern": "baiduspider",
+    "pattern": "Baiduspider",
     "addition_date": "2010/07/15",
     "url": "http://www.baidu.jp/spider/",
     "instances": []
@@ -779,7 +779,7 @@
     "instances": []
   },
   {
-    "pattern": "ahrefsbot",
+    "pattern": "AhrefsBot",
     "addition_date": "2011/08/28",
     "instances": []
   },
