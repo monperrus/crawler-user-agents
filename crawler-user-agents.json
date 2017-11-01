@@ -812,7 +812,7 @@
     ]
   },
   {
-    "pattern": "ccbot",
+    "pattern": "CCBot",
     "addition_date": "2012/02/05",
     "url": "http://www.commoncrawl.org/bot.html",
     "instances": []
@@ -865,9 +865,12 @@
     ]
   },
   {
-    "pattern": "yeti",
+    "pattern": "Yeti",
     "addition_date": "2012/05/07",
-    "instances": []
+    "url": "http://naver.me/bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; Yeti/1.1; +http://naver.me/bot)"
+    ]
   },
   {
     "pattern": "RetrevoPageAnalyzer",
@@ -1400,10 +1403,11 @@
     "addition_date": "2015/05/07"
   },
   {
-    "pattern": "SemrushBot",
+    "pattern": "S[eE][mM]rushBot",
     "url": "http://www.semrush.com/bot.html",
     "instances": [
-      "Mozilla/5.0 (compatible; SemrushBot/0.98~bl; +http://www.semrush.com/bot.html)"
+      "Mozilla/5.0 (compatible; SemrushBot/0.98~bl; +http://www.semrush.com/bot.html)",
+      "SEMrushBot"
     ],
     "addition_date": "2015/05/26"
   },
@@ -1947,19 +1951,9 @@
     "url": "http://www.tineye.com/crawler.html"
   },
   {
-    "pattern": "CCBot",
-    "addition_date": "2017/10/18",
-    "url": "http://commoncrawl.org/faq/"
-  },
-  {
     "pattern": "SocialRankIOBot",
     "addition_date": "2017/10/19",
     "url": "http://socialrank.io/about"
-  },
-  {
-    "pattern": "Yeti",
-    "addition_date": "2017/09/26",
-    "url": "http://naver.me/bot"
   },
   {
     "pattern": "trendictionbot",
@@ -1974,10 +1968,6 @@
     "pattern": "epicbot",
     "addition_date": "2017/10/31",
     "url": "http://www.epictions.com/epicbot"
-  },
-  {
-    "pattern": "SEMrushBot",
-    "addition_date": "2017/09/27"
   },
   {
     "pattern": "Primalbot",

@@ -39,6 +39,14 @@ def main():
             raise ValueError('Pattern {!r} appears {} times'.format(pattern,
                                                                     count))
 
+    # check for duplicates with different capitalization
+    patterns = sorted(entry['pattern'].lower() for entry in json_data)
+    last = ""
+    for pattern in patterns:
+        if pattern == last:
+            raise ValueError('Pattern {!r} is duplicated with different capitalization'.format(pattern))
+        last = pattern
+
     # check that we match the given instances
     num_instances = 0
     for entry in json_data:
