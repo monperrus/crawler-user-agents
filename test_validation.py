@@ -39,7 +39,6 @@ def assert_validate_passed():
 def test_simple_pass(restore_original_json):
     # the json must be an array of objects containing "pattern"
     # there must be more than 10 instances to pass
-    print("FNORD")
     user_agent_list = [{'pattern': 'foo',
                         'instances': ['foo',
                                       'afoo',
