@@ -14,7 +14,6 @@ def update_json_file(data):
     with open('crawler-user-agents.json', 'w') as f:
         json.dump(data, f, indent=2)
 
-
 @pytest.fixture
 def restore_original_json():
     # Load original version of crawler-user-agents.json
@@ -40,6 +39,7 @@ def assert_validate_passed():
 def test_simple_pass(restore_original_json):
     # the json must be an array of objects containing "pattern"
     # there must be more than 10 instances to pass
+    print("FNORD")
     user_agent_list = [{'pattern': 'foo',
                         'instances': ['foo',
                                       'afoo',
@@ -150,5 +150,25 @@ def test_case_sensitivity(restore_original_json):
                                       'foo\\',
                                       'FoofooFoo',
                                       'foot']}]
+    update_json_file(user_agent_list)
+    assert_validate_failed()
+
+def test_duplicate_case_insensitive_detection(restore_original_json):
+    # contract: fail if we have patterns that differ only in capitailization
+    user_agent_list = [{'pattern': 'foo',
+                        'instances': ['foo',
+                                      'afoo',
+                                      'foob',
+                                      'cfood',
+                                      '/foo/',
+                                      '\\foo\\',
+                                      ':foo:',
+                                      'foo.',
+                                      '!foo',
+                                      '/foo',
+                                      'foo\\',
+                                      'FoofooFoo',
+                                      'foot']},
+                       {'pattern': 'fOo'}]
     update_json_file(user_agent_list)
     assert_validate_failed()
