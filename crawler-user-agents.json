@@ -566,7 +566,6 @@
     ]
   }, 
   {
-<<<<<<< HEAD
     "url": "http://www.baidu.jp/spider/", 
     "pattern": "Baiduspider", 
     "addition_date": "2010/07/15", 
@@ -574,15 +573,6 @@
       "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
     ]
   }, 
-=======
-    "pattern": "Baiduspider",
-    "addition_date": "2010/07/15",
-    "url": "http://www.baidu.jp/spider/",
-    "instances": [
-      "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
-    ]
-  },
->>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "pattern": "citeseerxbot", 
     "addition_date": "2010/07/17", 
@@ -792,21 +782,12 @@
     "instances": []
   }, 
   {
-<<<<<<< HEAD
     "pattern": "AhrefsBot", 
     "addition_date": "2011/08/28", 
     "instances": [
       "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)"
     ]
   }, 
-=======
-    "pattern": "AhrefsBot",
-    "addition_date": "2011/08/28",
-    "instances": [
-      "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)"
-    ]
-  },
->>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "url": "http://www.aboundex.com/crawler/", 
     "pattern": "Aboundex", 
@@ -817,21 +798,12 @@
     ]
   }, 
   {
-<<<<<<< HEAD
     "pattern": "domaincrawler", 
     "addition_date": "2011/10/21", 
     "instances": [
       "CipaCrawler/3.0 (info@domaincrawler.com; http://www.domaincrawler.com/www.example.com)"
     ]
   }, 
-=======
-    "pattern": "domaincrawler",
-    "addition_date": "2011/10/21",
-    "instances": [
-      "CipaCrawler/3.0 (info@domaincrawler.com; http://www.domaincrawler.com/www.example.com)"
-    ]
-  },
->>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "url": "http://www.warebay.com/bot.html", 
     "pattern": "wbsearchbot", 
@@ -847,7 +819,6 @@
     ]
   }, 
   {
-<<<<<<< HEAD
     "url": "http://www.commoncrawl.org/bot.html", 
     "pattern": "CCBot", 
     "addition_date": "2012/02/05", 
@@ -855,15 +826,6 @@
       "CCBot/2.0 (http://commoncrawl.org/faq/)"
     ]
   }, 
-=======
-    "pattern": "CCBot",
-    "addition_date": "2012/02/05",
-    "url": "http://www.commoncrawl.org/bot.html",
-    "instances": [
-      "CCBot/2.0 (http://commoncrawl.org/faq/)"
-    ]
-  },
->>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "pattern": "edisterbot", 
     "addition_date": "2012/02/25", 
@@ -912,7 +874,6 @@
     ]
   }, 
   {
-<<<<<<< HEAD
     "url": "http://naver.me/bot", 
     "pattern": "Yeti", 
     "addition_date": "2012/05/07", 
@@ -920,15 +881,6 @@
       "Mozilla/5.0 (compatible; Yeti/1.1; +http://naver.me/bot)"
     ]
   }, 
-=======
-    "pattern": "Yeti",
-    "addition_date": "2012/05/07",
-    "url": "http://naver.me/bot",
-    "instances": [
-      "Mozilla/5.0 (compatible; Yeti/1.1; +http://naver.me/bot)"
-    ]
-  },
->>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "pattern": "RetrevoPageAnalyzer", 
     "addition_date": "2012/05/07", 
@@ -1460,7 +1412,6 @@
     ]
   }, 
   {
-<<<<<<< HEAD
     "url": "http://www.semrush.com/bot.html", 
     "pattern": "S[eE][mM]rushBot", 
     "addition_date": "2015/05/26", 
@@ -1469,16 +1420,6 @@
       "SEMrushBot"
     ]
   }, 
-=======
-    "pattern": "S[eE][mM]rushBot",
-    "url": "http://www.semrush.com/bot.html",
-    "instances": [
-      "Mozilla/5.0 (compatible; SemrushBot/0.98~bl; +http://www.semrush.com/bot.html)",
-      "SEMrushBot"
-    ],
-    "addition_date": "2015/05/26"
-  },
->>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "url": "http://yooz.ir", 
     "pattern": "yoozBot", 
@@ -1756,7 +1697,6 @@
     ]
   }, 
   {
-<<<<<<< HEAD
     "url": "http://www.reddit.com/feedback", 
     "pattern": "redditbot", 
     "addition_date": "2016/11/03", 
@@ -1764,15 +1704,6 @@
       "Mozilla/5.0 (compatible; redditbot/1.0; +http://www.reddit.com/feedback)"
     ]
   }, 
-=======
-    "pattern": "redditbot",
-    "addition_date": "2016/11/03",
-    "url": "http://www.reddit.com/feedback",
-    "instances": [
-      "Mozilla/5.0 (compatible; redditbot/1.0; +http://www.reddit.com/feedback)"
-    ]
-  },
->>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "url": "http://www.datagnion.com/bot.html", 
     "pattern": "datagnionbot", 
@@ -2377,7 +2308,9 @@
     "addition_date": "2017/11/02", 
     "instances": [
       "http_get"
-=======
+    ]
+  },
+  {
     "pattern": "Discordbot",
     "addition_date": "2017/09/22",
     "url": "https://discordapp.com",
@@ -2584,7 +2517,6 @@
     "addition_date": "2017/09/22",
     "instances": [
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.13 (KHTML, like Gecko) Chrome/30.0.1599.66 Safari/537.13 Luminator-robots/2.0"
->>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
     ]
   }
 ]
