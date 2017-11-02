@@ -566,6 +566,7 @@
     ]
   }, 
   {
+<<<<<<< HEAD
     "url": "http://www.baidu.jp/spider/", 
     "pattern": "Baiduspider", 
     "addition_date": "2010/07/15", 
@@ -573,6 +574,15 @@
       "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
     ]
   }, 
+=======
+    "pattern": "Baiduspider",
+    "addition_date": "2010/07/15",
+    "url": "http://www.baidu.jp/spider/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+    ]
+  },
+>>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "pattern": "citeseerxbot", 
     "addition_date": "2010/07/17", 
@@ -782,12 +792,21 @@
     "instances": []
   }, 
   {
+<<<<<<< HEAD
     "pattern": "AhrefsBot", 
     "addition_date": "2011/08/28", 
     "instances": [
       "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)"
     ]
   }, 
+=======
+    "pattern": "AhrefsBot",
+    "addition_date": "2011/08/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)"
+    ]
+  },
+>>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "url": "http://www.aboundex.com/crawler/", 
     "pattern": "Aboundex", 
@@ -798,12 +817,21 @@
     ]
   }, 
   {
+<<<<<<< HEAD
     "pattern": "domaincrawler", 
     "addition_date": "2011/10/21", 
     "instances": [
       "CipaCrawler/3.0 (info@domaincrawler.com; http://www.domaincrawler.com/www.example.com)"
     ]
   }, 
+=======
+    "pattern": "domaincrawler",
+    "addition_date": "2011/10/21",
+    "instances": [
+      "CipaCrawler/3.0 (info@domaincrawler.com; http://www.domaincrawler.com/www.example.com)"
+    ]
+  },
+>>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "url": "http://www.warebay.com/bot.html", 
     "pattern": "wbsearchbot", 
@@ -819,6 +847,7 @@
     ]
   }, 
   {
+<<<<<<< HEAD
     "url": "http://www.commoncrawl.org/bot.html", 
     "pattern": "CCBot", 
     "addition_date": "2012/02/05", 
@@ -826,6 +855,15 @@
       "CCBot/2.0 (http://commoncrawl.org/faq/)"
     ]
   }, 
+=======
+    "pattern": "CCBot",
+    "addition_date": "2012/02/05",
+    "url": "http://www.commoncrawl.org/bot.html",
+    "instances": [
+      "CCBot/2.0 (http://commoncrawl.org/faq/)"
+    ]
+  },
+>>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "pattern": "edisterbot", 
     "addition_date": "2012/02/25", 
@@ -874,6 +912,7 @@
     ]
   }, 
   {
+<<<<<<< HEAD
     "url": "http://naver.me/bot", 
     "pattern": "Yeti", 
     "addition_date": "2012/05/07", 
@@ -881,6 +920,15 @@
       "Mozilla/5.0 (compatible; Yeti/1.1; +http://naver.me/bot)"
     ]
   }, 
+=======
+    "pattern": "Yeti",
+    "addition_date": "2012/05/07",
+    "url": "http://naver.me/bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; Yeti/1.1; +http://naver.me/bot)"
+    ]
+  },
+>>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "pattern": "RetrevoPageAnalyzer", 
     "addition_date": "2012/05/07", 
@@ -1412,6 +1460,7 @@
     ]
   }, 
   {
+<<<<<<< HEAD
     "url": "http://www.semrush.com/bot.html", 
     "pattern": "S[eE][mM]rushBot", 
     "addition_date": "2015/05/26", 
@@ -1420,6 +1469,16 @@
       "SEMrushBot"
     ]
   }, 
+=======
+    "pattern": "S[eE][mM]rushBot",
+    "url": "http://www.semrush.com/bot.html",
+    "instances": [
+      "Mozilla/5.0 (compatible; SemrushBot/0.98~bl; +http://www.semrush.com/bot.html)",
+      "SEMrushBot"
+    ],
+    "addition_date": "2015/05/26"
+  },
+>>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "url": "http://yooz.ir", 
     "pattern": "yoozBot", 
@@ -1697,6 +1756,7 @@
     ]
   }, 
   {
+<<<<<<< HEAD
     "url": "http://www.reddit.com/feedback", 
     "pattern": "redditbot", 
     "addition_date": "2016/11/03", 
@@ -1704,6 +1764,15 @@
       "Mozilla/5.0 (compatible; redditbot/1.0; +http://www.reddit.com/feedback)"
     ]
   }, 
+=======
+    "pattern": "redditbot",
+    "addition_date": "2016/11/03",
+    "url": "http://www.reddit.com/feedback",
+    "instances": [
+      "Mozilla/5.0 (compatible; redditbot/1.0; +http://www.reddit.com/feedback)"
+    ]
+  },
+>>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
   {
     "url": "http://www.datagnion.com/bot.html", 
     "pattern": "datagnionbot", 
@@ -1924,6 +1993,7 @@
     ]
   }, 
   {
+<<<<<<< HEAD
     "url": "https://discordapp.com", 
     "pattern": "Discordbot", 
     "addition_date": "2017/09/22", 
@@ -2307,6 +2377,214 @@
     "addition_date": "2017/11/02", 
     "instances": [
       "http_get"
+=======
+    "pattern": "Discordbot",
+    "addition_date": "2017/09/22",
+    "url": "https://discordapp.com",
+    "instances": [
+      "Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)"
+    ]
+  },
+  {
+    "pattern": "TelegramBot",
+    "addition_date": "2017/10/01",
+    "instances": [
+      "TelegramBot (like TwitterBot)"
+    ]
+  },
+  {
+    "pattern": "InfoPath.2",
+    "addition_date": "2017/10/07",
+    "instances": [
+      "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2)"
+    ]
+  },
+  {
+    "pattern": "Jetslide",
+    "addition_date": "2017/09/27",
+    "url": "http://jetsli.de/crawler",
+    "instances": [
+      "Mozilla/5.0 (compatible; Jetslide; +http://jetsli.de/crawler)"
+    ]
+  },
+  {
+    "pattern": "newsharecounts",
+    "addition_date": "2017/09/30",
+    "url": "http://newsharecounts.com/crawler",
+    "instances": [
+      "Mozilla/5.0 (compatible; NewShareCounts.com/1.0; +http://newsharecounts.com/crawler)"
+    ]
+  },
+  {
+    "pattern": "James BOT",
+    "addition_date": "2017/10/12",
+    "url": "http://cognitiveseo.com/bot.html",
+    "instances": [
+      "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6 - James BOT - WebCrawler http://cognitiveseo.com/bot.html"
+    ]
+  },
+  {
+    "pattern": "Barkrowler",
+    "addition_date": "2017/10/09",
+    "url": "http://www.exensa.com/crawl",
+    "instances": [
+      "Barkrowler/0.5.1 (experimenting / debugging - sorry for your logs ) http://www.exensa.com/crawl - admin@exensa.com -- based on BuBiNG"
+    ]
+  },
+  {
+    "pattern": "TinEye-bot",
+    "addition_date": "2017/10/14",
+    "url": "http://www.tineye.com/crawler.html",
+    "instances": [
+      "Mozilla/5.0 (compatible; TinEye-bot/1.31; +http://www.tineye.com/crawler.html)"
+    ]
+  },
+  {
+    "pattern": "SocialRankIOBot",
+    "addition_date": "2017/10/19",
+    "url": "http://socialrank.io/about",
+    "instances": [
+      "SocialRankIOBot; http://socialrank.io/about"
+    ]
+  },
+  {
+    "pattern": "trendictionbot",
+    "addition_date": "2017/10/30",
+    "url": "http://www.trendiction.de/bot",
+    "instances": [
+      "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.0; trendictionbot0.5.0; trendiction search; http://www.trendiction.de/bot; please let us know of any problems; web at trendiction.com) Gecko/20071127 Firefox/3.0.0.11"
+    ]
+  },
+  {
+    "pattern": "Ocarinabot",
+    "addition_date": "2017/09/27",
+    "instances": [
+      "Ocarinabot"
+    ]
+  },
+  {
+    "pattern": "epicbot",
+    "addition_date": "2017/10/31",
+    "url": "http://www.epictions.com/epicbot",
+    "instances": [
+      "Mozilla/5.0 (compatible; epicbot; +http://www.epictions.com/epicbot)"
+    ]
+  },
+  {
+    "pattern": "Primalbot",
+    "addition_date": "2017/09/27",
+    "url": "https://www.primal.com",
+    "instances": [
+      "Mozilla/5.0 (compatible; Primalbot; +https://www.primal.com;)"
+    ]
+  },
+  {
+    "pattern": "DuckDuckGo-Favicons-Bot",
+    "addition_date": "2017/10/06",
+    "url": "http://duckduckgo.com",
+    "instances": [
+      "Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)"
+    ]
+  },
+  {
+    "pattern": "GnowitNewsbot",
+    "addition_date": "2017/10/30",
+    "url": "http://www.gnowit.com",
+    "instances": [
+      "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0 / GnowitNewsbot / Contact information at http://www.gnowit.com"
+    ]
+  },
+  {
+    "pattern": "Leikibot",
+    "addition_date": "2017/09/24",
+    "url": "http://www.leiki.com",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.3;compatible; Leikibot/1.0; +http://www.leiki.com)"
+    ]
+  },
+  {
+    "pattern": "LinkArchiver",
+    "addition_date": "2017/09/24",
+    "instances": [
+      "@LinkArchiver twitter bot"
+    ]
+  },
+  {
+    "pattern": "YaK",
+    "addition_date": "2017/09/25",
+    "url": "http://linkfluence.com",
+    "instances": [
+      "Mozilla/5.0 (compatible; YaK/1.0; http://linkfluence.com/; bot@linkfluence.com)"
+    ]
+  },
+  {
+    "pattern": "PaperLiBot",
+    "addition_date": "2017/09/25",
+    "url": "http://support.paper.li/entries/20023257-what-is-paper-li",
+    "instances": [
+      "Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)"
+    ]
+  },
+  {
+    "pattern": "Digg Deeper",
+    "addition_date": "2017/09/26",
+    "url": "http://digg.com/about",
+    "instances": [
+      "Digg Deeper/v1 (http://digg.com/about)"
+    ]
+  },
+  {
+    "pattern": "dcrawl",
+    "addition_date": "2017/09/22",
+    "instances": [
+      "dcrawl/1.0"
+    ]
+  },
+  {
+    "pattern": "Snacktory",
+    "addition_date": "2017/09/23",
+    "url": "https://github.com/karussell/snacktory",
+    "instances": [
+      "Mozilla/5.0 (compatible; Snacktory; +https://github.com/karussell/snacktory)"
+    ]
+  },
+  {
+    "pattern": "AndersPinkBot",
+    "addition_date": "2017/09/24",
+    "url": "http://anderspink.com/bot.html",
+    "instances": [
+      "Mozilla/5.0 (compatible; AndersPinkBot/1.0; +http://anderspink.com/bot.html)"
+    ]
+  },
+  {
+    "pattern": "Fyrebot",
+    "addition_date": "2017/09/22",
+    "instances": [
+      "Fyrebot/1.0"
+  ]
+  },
+  {
+    "pattern": "EveryoneSocialBot",
+    "addition_date": "2017/09/22",
+    "url": "http://everyonesocial.com",
+    "instances": [
+      "Mozilla/5.0 (compatible; EveryoneSocialBot/1.0; support@everyonesocial.com http://everyonesocial.com/)"
+    ]
+  },
+  {
+    "pattern": "Mediatoolkitbot",
+    "addition_date": "2017/10/06",
+    "url": "http://mediatoolkit.com",
+    "instances": [
+      "Mediatoolkitbot (complaints@mediatoolkit.com)"
+    ]
+  },
+  {
+    "pattern": "Luminator-robots",
+    "addition_date": "2017/09/22",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.13 (KHTML, like Gecko) Chrome/30.0.1599.66 Safari/537.13 Luminator-robots/2.0"
+>>>>>>> 42ca661dba5bfc55822ef998c73d764f755f377d
     ]
   }
 ]
