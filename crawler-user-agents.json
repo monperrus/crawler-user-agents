@@ -2131,5 +2131,182 @@
     "instances": [
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.13 (KHTML, like Gecko) Chrome/30.0.1599.66 Safari/537.13 Luminator-robots/2.0"
     ]
+  },
+  {
+    "pattern": "ExtLinksBot", 
+    "addition_date": "2017/11/02", 
+    "url": "https://extlinks.com/Bot.html",
+    "instances": [
+      "Mozilla/5.0 (compatible; ExtLinksBot/1.5 +https://extlinks.com/Bot.html)"
+    ]
+  },
+  {
+    "pattern": "SurveyBot", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (DomainTools)"
+    ]
+  },
+  {
+    "pattern": "NING", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "NING/1.0"
+    ]
+  },
+  {
+    "pattern": "okhttp", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "okhttp/2.5.0"
+    ]
+  },
+  {
+    "pattern": "Nuzzel", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "Nuzzel"
+    ]
+  },
+  {
+    "pattern": "omgili", 
+    "addition_date": "2017/11/02",
+    "url": "http://omgili.com",
+    "instances": [
+      "omgili/0.5 +http://omgili.com"
+    ]
+  },
+  {
+    "pattern": "PocketParser", 
+    "addition_date": "2017/11/02",
+    "url": "https://getpocket.com/pocketparser_ua",
+    "instances": [
+      "PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)"
+    ]
+  },
+  {
+    "pattern": "YisouSpider", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "YisouSpider"
+    ]
+  },
+  {
+    "pattern": "um-LN", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "Mozilla/5.0 (compatible; um-LN/1.0; mailto: techinfo@ubermetrics-technologies.com)"
+    ]
+  },
+  {
+    "pattern": "ToutiaoSpider", 
+    "addition_date": "2017/11/02", 
+    "url": "http://web.toutiao.com/media_cooperation/",
+    "instances": [
+      "Mozilla/5.0 (compatible; ToutiaoSpider/1.0; http://web.toutiao.com/media_cooperation/;)"
+    ]
+  },
+  {
+    "pattern": "MuckRack", 
+    "addition_date": "2017/11/02", 
+    "url": "http://muckrack.com",
+    "instances": [
+      "Mozilla/5.0 (compatible; MuckRack/1.0; +http://muckrack.com)"
+    ]
+  },
+  {
+    "pattern": "Jamie's Spider", 
+    "addition_date": "2017/11/02", 
+    "url": "http://jamiembrown.com/",
+    "instances": [
+      "Jamie's Spider (http://jamiembrown.com/)"
+    ]
+  },
+  {
+    "pattern": "AHC", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "AHC/2.0"
+    ]
+  },
+  {
+    "pattern": "NetcraftSurveyAgent", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)"
+    ]
+  },
+  {
+    "pattern": "Laserlikebot", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Laserlikebot/0.1)"
+    ]
+  },
+  {
+    "pattern": "Apache-HttpClient", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "Apache-HttpClient/4.4.1 (Java/1.8.0_65)"
+    ]
+  },
+  {
+    "pattern": "AppEngine-Google", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "AppEngine-Google; (+http://code.google.com/appengine; appid: example)"
+    ]
+  },
+  {
+    "pattern": "Jetty", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "Jetty/9.3.z-SNAPSHOT"
+    ]
+  },
+  {
+    "pattern": "Upflow", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "Upflow/1.0"
+    ]
+  },
+  {
+    "pattern": "Thinklab", 
+    "addition_date": "2017/11/02",
+    "url": "thinklab.com", 
+    "instances": [
+      "Thinklab (thinklab.com)"
+    ]
+  },
+  {
+    "pattern": "Traackr.com", 
+    "addition_date": "2017/11/02", 
+    "url": "Traackr.com",
+    "instances": [
+      "Traackr.com"
+    ]
+  },
+  {
+    "pattern": "Twurly", 
+    "addition_date": "2017/11/02", 
+    "url": "http://twurly.org",
+    "instances": [
+      "Ruby, Twurly v1.1 (http://twurly.org)"
+    ]
+  },
+  {
+    "pattern": "Mastodon", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "http.rb/2.2.2 (Mastodon/1.5.1; +https://example-masto-instance.org/)"
+    ]
+  },
+  {
+    "pattern": "http_get", 
+    "addition_date": "2017/11/02", 
+    "instances": [
+      "http_get"
+    ]
   }
 ]
