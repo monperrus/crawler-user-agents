@@ -2308,5 +2308,12 @@
     "instances": [
       "http_get"
     ]
+  },
+  {
+    "pattern": "DnyzBot", 
+    "addition_date": "2017/11/20", 
+    "instances": [
+      "Mozilla/5.0 (compatible; DnyzBot/1.0)"
+    ]
   }
 ]
