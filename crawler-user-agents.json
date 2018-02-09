@@ -2322,5 +2322,12 @@
     "instances": [
       "Mozilla/5.0 (compatible; botify; http://botify.com)"
     ]
+  },
+  {
+    "pattern": "ZumBot",
+    "addition_date": "2018/02/09",
+    "instances": [
+      "Mozilla/5.0 (compatible; ZumBot/1.0; http://help.zum.com/inquiry)"
+    ]
   }
 ]
