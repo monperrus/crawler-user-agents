@@ -2322,5 +2322,12 @@
     "instances": [
       "Mozilla/5.0 (compatible; botify; http://botify.com)"
     ]
+  },
+  {
+    "pattern": "007ac9 Crawler",
+    "addition_date": "2018/02/09",
+    "instances": [
+      "Mozilla/5.0 (compatible; 007ac9 Crawler; http://crawler.007ac9.net/)"
+    ]
   }
 ]
