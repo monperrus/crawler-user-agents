@@ -2107,7 +2107,7 @@
     "addition_date": "2017/09/22",
     "instances": [
       "Fyrebot/1.0"
-  ]
+    ]
   },
   {
     "pattern": "EveryoneSocialBot",
@@ -2321,6 +2321,13 @@
     "addition_date": "2018/02/01",
     "instances": [
       "Mozilla/5.0 (compatible; botify; http://botify.com)"
+    ]
+  },
+  {
+    "pattern": "Pingdom.com_bot",
+    "addition_date": "2018/02/09",
+    "instances": [
+      "Pingdom.com_bot_version_1.4_(http://www.pingdom.com/)"
     ]
   }
 ]
