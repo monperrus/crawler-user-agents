@@ -2322,5 +2322,12 @@
     "instances": [
       "Mozilla/5.0 (compatible; botify; http://botify.com)"
     ]
+  },
+  {
+    "pattern": "BehloolBot",
+    "addition_date": "2018/02/09",
+    "instances": [
+      "Mozilla/5.0 (compatible; BehloolBot/beta; +http://www.webeaver.com/bot)"
+    ]
   }
 ]
