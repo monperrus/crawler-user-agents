@@ -50,6 +50,8 @@ def main():
     num_instances = 0
     for entry in json_data:
         pattern = entry['pattern']
+        # check that we have only the rights properties (not handled by default in module jsonschema)
+        assert set([str(x) for x in entry.keys()]).issubset(set(JSON_SCHEMA['items']['properties'].keys())), "the entry contains unknown properties"  
         instances = entry.get('instances')
         if instances:
             for instance in instances:
@@ -59,9 +61,9 @@ def main():
                                      .format(pattern, instance))
                 # TODO: Check for re2 matching here
 
-    # Make sure we have at least 10 instances in file
-    if num_instances < 10:
-        raise ValueError('Only had {} instances in JSON'.format(num_instances))
+    # Make sure we have at least one pattern
+    if len(json_data) < 1:
+        raise Exception("no pattern")
 
     # Check for patterns that match other patterns
     for entry1 in json_data:

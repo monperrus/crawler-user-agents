@@ -1,5 +1,9 @@
 """
 Break crawler-user-agents.json in ways that validate.py should detect
+
+Usage:
+$ pytest test_validation.py
+
 """
 from __future__ import print_function
 
@@ -56,6 +60,11 @@ def test_simple_pass(restore_original_json):
     update_json_file(user_agent_list)
     assert_validate_passed()
 
+def test_simplest_pass(restore_original_json):
+    # the simplest crawler file passes
+    user_agent_list = [{'pattern': 'foo'}]
+    update_json_file(user_agent_list)
+    assert_validate_passed()
 
 def test_schema_violation_dict1(restore_original_json):
     # contract: the json must be an array
@@ -66,6 +75,12 @@ def test_schema_violation_dict1(restore_original_json):
 def test_schema_violation_dict2(restore_original_json):
     # contract: the json must be an array of objects containing "pattern"
     user_agent_list = [{'foo':None}]
+    update_json_file(user_agent_list)
+    assert_validate_failed()
+
+def test_schema_violation_dict3(restore_original_json):
+    # contract: the json must be an array of objects containing "pattern" and valid properties
+    user_agent_list = [{'pattern':'foo', 'foo':3}]
     update_json_file(user_agent_list)
     assert_validate_failed()
 
