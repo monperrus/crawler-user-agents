@@ -2322,5 +2322,12 @@
     "instances": [
       "Mozilla/5.0 (compatible; botify; http://botify.com)"
     ]
+  },
+  {
+    "pattern": "EZID",
+    "additioni_date": "2018/02/09",
+    "instances": [
+      "EZID (EZID link checker; https://ezid.cdlib.org/)"
+    ]
   }
 ]
