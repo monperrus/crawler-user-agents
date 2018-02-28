@@ -2364,5 +2364,12 @@
     "instances": [
       "Mozilla/5.0 (compatible; ZumBot/1.0; http://help.zum.com/inquiry)"
     ]
+  },
+  {
+    "pattern": "EZID",
+    "addition_date": "2018/02/09",
+    "instances": [
+      "EZID (EZID link checker; https://ezid.cdlib.org/)"
+    ]
   }
 ]
