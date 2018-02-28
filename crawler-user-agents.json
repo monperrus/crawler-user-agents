@@ -2377,6 +2377,15 @@
     "addition_date": "2018/02/28",
     "instances": [
       "ICC-Crawler/2.0 (Mozilla-compatible; ; http://ucri.nict.go.jp/en/icccrawler.html)"
-    ]
+    ],
+    "url": "http://ucri.nict.go.jp/en/icccrawler.html"
+  },
+  {
+    "pattern": "ArchiveBot",
+    "addition_date": "2018/02/28",
+    "instances": [
+      "ArchiveTeam ArchiveBot/20170106.02 (wpull 2.0.2)"
+    ],
+    "url": "https://github.com/ArchiveTeam/ArchiveBot"
   }
 ]
