@@ -2371,5 +2371,12 @@
     "instances": [
       "EZID (EZID link checker; https://ezid.cdlib.org/)"
     ]
+  },
+  {
+    "pattern": "ICC-Crawler",
+    "addition_date": "2018/02/28",
+    "instances": [
+      "ICC-Crawler/2.0 (Mozilla-compatible; ; http://ucri.nict.go.jp/en/icccrawler.html)"
+    ]
   }
 ]
