@@ -2387,5 +2387,13 @@
       "ArchiveTeam ArchiveBot/20170106.02 (wpull 2.0.2)"
     ],
     "url": "https://github.com/ArchiveTeam/ArchiveBot"
+  },
+  {
+    "pattern": "LCC",
+    "addition_date": "2018/02/28",
+    "instances": [
+      "LCC (+http://corpora.informatik.uni-leipzig.de/crawler_faq.html)"
+    ],
+    "url": "http://corpora.informatik.uni-leipzig.de/crawler_faq.html"
   }
 ]
