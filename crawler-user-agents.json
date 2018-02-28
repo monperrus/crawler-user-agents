@@ -2343,5 +2343,26 @@
     "instances": [
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:41.0) Gecko/20100101 Firefox/55.0 BrandVerity/1.0 (http://www.brandverity.com/why-is-brandverity-visiting-me)"
     ]
+  },
+  {
+    "pattern": "check_http",
+    "addition_date": "2018/02/09",
+    "instances": [
+      "check_http/v2.2.1 (nagios-plugins 2.2.1)"
+    ]
+  },
+  {
+    "pattern": "BDCbot",
+    "addition_date": "2018/02/09",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.1; compatible; BDCbot/1.0; +http://bigweb.bigdatacorp.com.br/faq.aspx) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36"
+    ]
+  },
+  {
+    "pattern": "ZumBot",
+    "addition_date": "2018/02/09",
+    "instances": [
+      "Mozilla/5.0 (compatible; ZumBot/1.0; http://help.zum.com/inquiry)"
+    ]
   }
 ]
