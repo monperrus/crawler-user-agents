@@ -2107,7 +2107,7 @@
     "addition_date": "2017/09/22",
     "instances": [
       "Fyrebot/1.0"
-  ]
+    ]
   },
   {
     "pattern": "EveryoneSocialBot",
@@ -2335,6 +2335,13 @@
     "addition_date": "2018/02/09",
     "instances": [
       "Mozilla/5.0 (compatible; BehloolBot/beta; +http://www.webeaver.com/bot)"
+    ]
+  },
+  {
+    "pattern": "BrandVerity/1.0",
+    "addition_date": "2018/02/27",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:41.0) Gecko/20100101 Firefox/55.0 BrandVerity/1.0 (http://www.brandverity.com/why-is-brandverity-visiting-me)"
     ]
   }
 ]
