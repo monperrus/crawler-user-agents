@@ -45,6 +45,12 @@ def main():
         if count > 1:
             raise ValueError('Pattern {!r} is duplicated {} times with different capitalization'
                              .format(pattern, count))
+    
+    # checks that no pattern contains unescaped slash / 
+    for entry in json_data:
+        pattern = entry['pattern']
+        if re.search('[^\\\\]/', pattern):
+            raise ValueError('Pattern {!r} has an unescaped slash character'.format(pattern))
 
     # check that we match the given instances
     num_instances = 0
