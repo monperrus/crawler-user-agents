@@ -29,4 +29,10 @@ Example:
     }
 
 
---Martin
+## Using it
+
+Each `pattern` is a regular expression. It should work out-of-the-box wih your favorite regex library:
+
+* PHP: add a slash before and after the pattern: `ìf (preg_match('/'.$entry['pattern'].'/', $_SERVER['HTTP_USER_AGENT'])): ...`
+* Python: `if .search(entry['pattern'], ua): ...`
+
