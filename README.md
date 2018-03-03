@@ -5,7 +5,7 @@ If you are using Ruby, [Voight-Kampff](https://github.com/biola/Voight-Kampff) a
 
 Other systems for spotting robots, crawlers, and spiders that you may want to consider include [isBot](https://github.com/gorangajic/isbot) (Node.JS), [Crawler-Detect](https://github.com/JayBizzle/Crawler-Detect) (PHP), [BrowserDetector](https://github.com/mimmi20/BrowserDetector) (PHP), and [browscap](https://github.com/browscap/browscap) (JSON files).
 
-## Usage
+## Install
 
 Install using npm or Yarn, or download the [`crawler-user-agents.json` file](https://raw.githubusercontent.com/monperrus/crawler-user-agents/master/crawler-user-agents.json) from this repository directly.
 
@@ -14,6 +14,8 @@ npm install --save "https://github.com/monperrus/crawler-user-agents.git"
 # OR
 yarn add "https://github.com/monperrus/crawler-user-agents.git"
 ```
+
+## Usage
 
 In Node.js, you can `require` the package to get an array of crawler user agents.
 
