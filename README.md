@@ -1,9 +1,34 @@
 
-This repository contains a list of of HTTP user-agents used by robots, crawlers, and spiders. I regularly maintain this list based on my own logs. 
+This repository contains a list of of HTTP user-agents used by robots, crawlers, and spiders. I regularly maintain this list based on my own logs.
 
 If you are using Ruby, [Voight-Kampff](https://github.com/biola/Voight-Kampff) and [isbot](https://github.com/Hentioe/isbot) provide  libraries for accessing this data.
 
 Other systems for spotting robots, crawlers, and spiders that you may want to consider include [isBot](https://github.com/gorangajic/isbot) (Node.JS), [Crawler-Detect](https://github.com/JayBizzle/Crawler-Detect) (PHP), [BrowserDetector](https://github.com/mimmi20/BrowserDetector) (PHP), and [browscap](https://github.com/browscap/browscap) (JSON files).
+
+## Usage
+
+Install using npm or Yarn, or download the [`crawler-user-agents.json` file](https://raw.githubusercontent.com/monperrus/crawler-user-agents/master/crawler-user-agents.json) from this repository directly.
+
+```sh
+npm install --save "https://github.com/monperrus/crawler-user-agents.git"
+# OR
+yarn add "https://github.com/monperrus/crawler-user-agents.git"
+```
+
+In Node.js, you can `require` the package to get an array of crawler user agents.
+
+```js
+const crawlers = require('crawler-user-agents');
+console.log(crawlers);
+```
+
+In other environments, you can read the JSON file directly from `node_modules/crawler-user-agents/crawler-user-agents.json`. See the data structure in the [JSON file](https://github.com/monperrus/crawler-user-agents/blob/master/crawler-user-agents.json).
+
+Each `pattern` is a regular expression. It should work out-of-the-box wih your favorite regex library:
+
+* JavaScript: `if (RegExp(entry.pattern).test(req.headers['user-agent']) { ... }`
+* PHP: add a slash before and after the pattern: `ìf (preg_match('/'.$entry['pattern'].'/', $_SERVER['HTTP_USER_AGENT'])): ...`
+* Python: `if .search(entry['pattern'], ua): ...`
 
 ## License
 
@@ -27,12 +52,3 @@ Example:
       "addition_date": "2014/02/28",
       "url": "http://moz.com/help/pro/what-is-rogerbot-"
     }
-
-
-## Using it
-
-Each `pattern` is a regular expression. It should work out-of-the-box wih your favorite regex library:
-
-* PHP: add a slash before and after the pattern: `ìf (preg_match('/'.$entry['pattern'].'/', $_SERVER['HTTP_USER_AGENT'])): ...`
-* Python: `if .search(entry['pattern'], ua): ...`
-
