@@ -1978,11 +1978,12 @@
     ]
   },
   {
-    "pattern": "TinEye-bot",
+    "pattern": "TinEye",
     "addition_date": "2017/10/14",
     "url": "http://www.tineye.com/crawler.html",
     "instances": [
-      "Mozilla/5.0 (compatible; TinEye-bot/1.31; +http://www.tineye.com/crawler.html)"
+      "Mozilla/5.0 (compatible; TinEye-bot/1.31; +http://www.tineye.com/crawler.html)",
+      "TinEye/1.1 (http://tineye.com/crawler.html)"
     ]
   },
   {
