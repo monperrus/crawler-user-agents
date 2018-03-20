@@ -2404,5 +2404,14 @@
       "Mozilla/5.0 (compatible; oBot/2.3.1; +http://filterdb.iss.net/crawler/)"
     ],
     "url": "http://filterdb.iss.net/crawler/"
+  },
+  {
+    "pattern": "newspaper\\/",
+    "addition_date": "2018/03/20",
+    "instances": [
+      "newspaper/0.2.5",
+      "newspaper/0.2.6",
+      "newspaper/0.1.0.7"
+    ]
   }
 ]
