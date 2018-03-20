@@ -2404,5 +2404,12 @@
       "Mozilla/5.0 (compatible; oBot/2.3.1; +http://filterdb.iss.net/crawler/)"
     ],
     "url": "http://filterdb.iss.net/crawler/"
+  },
+  {
+    "pattern": "BLP_bbot",
+    "addition_date": "2018/03/20",
+    "instances": [
+      "BLP_bbot/0.1"
+    ]
   }
 ]
