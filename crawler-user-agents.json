@@ -2404,5 +2404,13 @@
       "Mozilla/5.0 (compatible; oBot/2.3.1; +http://filterdb.iss.net/crawler/)"
     ],
     "url": "http://filterdb.iss.net/crawler/"
+  },
+  {
+    "pattern": "Genieo",
+    "addition_date": "2018/03/20",
+    "instances": [
+      "Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html)"
+    ],
+    "url": "http://www.genieo.com/webfilter.html"
   }
 ]
