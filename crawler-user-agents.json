@@ -2404,5 +2404,13 @@
       "Mozilla/5.0 (compatible; oBot/2.3.1; +http://filterdb.iss.net/crawler/)"
     ],
     "url": "http://filterdb.iss.net/crawler/"
+  },
+  {
+    "pattern": "sentry\\/",
+    "addition_date": "2018/03/20",
+    "instances": [
+      "sentry/8.22.0 (https://sentry.io)"
+    ],
+    "url": "https://sentry.io"
   }
 ]
