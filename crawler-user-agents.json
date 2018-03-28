@@ -2404,5 +2404,109 @@
       "Mozilla/5.0 (compatible; oBot/2.3.1; +http://filterdb.iss.net/crawler/)"
     ],
     "url": "http://filterdb.iss.net/crawler/"
+  },
+  {
+    "pattern": "BLP_bbot",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "BLP_bbot/0.1"
+    ]
+  },
+  {
+    "pattern": "BomboraBot",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "Mozilla/5.0 (compatible; BomboraBot/1.0; +http://www.bombora.com/bot)"
+    ],
+    "url": "http://www.bombora.com/bot"
+  },
+  {
+    "pattern": "Buck\\/",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "Buck/2.2; (+https://app.hypefactors.com/media-monitoring/about.html)"
+    ],
+    "url": "https://app.hypefactors.com/media-monitoring/about.html"
+  },
+  {
+    "pattern": "Companybook-Crawler",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "Companybook-Crawler (+https://www.companybooknetworking.com/)"
+    ],
+    "url": "https://www.companybooknetworking.com/"
+  },
+  {
+    "pattern": "Genieo",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html)"
+    ],
+    "url": "http://www.genieo.com/webfilter.html"
+  },
+  {
+    "pattern": "magpie-crawler",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "magpie-crawler/1.1 (U; Linux amd64; en-GB; +http://www.brandwatch.net)"
+    ],
+    "url": "http://www.brandwatch.net"
+  },
+  {
+    "pattern": "MeltwaterNews",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "MeltwaterNews www.meltwater.com"
+    ],
+    "url": "http://www.meltwater.com"
+  },
+  {
+    "pattern": "Moreover",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "Mozilla/5.0 Moreover/5.1 (+http://www.moreover.com)"
+    ],
+    "url": "http://www.moreover.com"
+  },
+  {
+    "pattern": "newspaper\\/",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "newspaper/0.2.5",
+      "newspaper/0.2.6",
+      "newspaper/0.1.0.7"
+    ]
+  },
+  {
+    "pattern": "ScoutJet",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "Mozilla/5.0 (compatible; ScoutJet; +http://www.scoutjet.com/)"
+    ],
+    "url": "http://www.scoutjet.com/"
+  },
+  {
+    "pattern": "sentry\\/",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "sentry/8.22.0 (https://sentry.io)"
+    ],
+    "url": "https://sentry.io"
+  },
+  {
+    "pattern": "StorygizeBot",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "Mozilla/5.0 (compatible; StorygizeBot; http://www.storygize.com)"
+    ],
+    "url": "http://www.storygize.com"
+  },
+  {
+    "pattern": "UptimeRobot",
+    "addition_date": "2018/03/27",
+    "instances": [
+      "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+    ],
+    "url": "http://www.uptimerobot.com/"
   }
 ]
