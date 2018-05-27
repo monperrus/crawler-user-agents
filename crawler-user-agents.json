@@ -110,21 +110,6 @@
     ]
   },
   {
-    "pattern": "java",
-    "instances": [
-      "Apache-HttpClient/4.2.3 (java 1.5)",
-      "Apache-HttpClient/4.2.5 (java 1.5)",
-      "Apache-HttpClient/4.3.1 (java 1.5)",
-      "Apache-HttpClient/4.3.3 (java 1.5)",
-      "Apache-HttpClient/4.3.5 (java 1.5)",
-      "Apache-HttpClient/UNAVAILABLE (java 1.4)",
-      "yacybot (-global; amd64 FreeBSD 9.2-RELEASE-p10; java 1.7.0_65; Europe/en) http://yacy.net/bot.html",
-      "yacybot (-global; amd64 Linux 2.6.32-042stab111.11; java 1.7.0_79; Europe/en) http://yacy.net/bot.html",
-      "yacybot (-global; amd64 Linux 2.6.32-042stab116.1; java 1.7.0_79; Europe/en) http://yacy.net/bot.html",
-      "yacybot (-global; amd64 Linux 3.10.0-229.4.2.el7.x86_64; java 1.7.0_79; Europe/en) http://yacy.net/bot.html"
-    ]
-  },
-  {
     "pattern": "[wW]get",
     "instances": [
       "WGETbot/1.0 (+http://wget.alanreed.org)",
@@ -138,7 +123,7 @@
     ]
   },
   {
-    "pattern": "Commons-HttpClient",
+    "pattern": "LinkedInBot",
     "instances": [
       "LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/3.1 +http://www.linkedin.com)",
       "LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/4.3 +http://www.linkedin.com)"
@@ -147,10 +132,17 @@
   {
     "pattern": "Python-urllib",
     "instances": [
-      "Python-urllib/2.7 (+http://aranea.juls.savba.sk/aranea_about.html)",
-      "Python-urllib/2.7 (+http://ella.juls.savba.sk/aranea_about)",
-      "Python-urllib/2.7 (+http://sketch.juls.savba.sk/aranea_about)"
-    ]
+      "Python-urllib/2.5",
+      "Python-urllib/2.5",
+      "Python-urllib/2.6",
+      "Python-urllib/2.7",
+      "Python-urllib/3.1",
+      "Python-urllib/3.2",
+      "Python-urllib/3.3",
+      "Python-urllib/3.4",
+      "Python-urllib/3.5",
+      "Python-urllib/3.6"
+     ]
   },
   {
     "pattern": "python-requests",
@@ -452,6 +444,10 @@
       "yacybot (/global; amd64 Linux 3.16.0-4-amd64; java 1.7.0_79; Europe/de) http://yacy.net/bot.html",
       "yacybot (/global; amd64 Linux 3.16.0-4-amd64; java 1.7.0_79; Europe/en) http://yacy.net/bot.html",
       "yacybot (/global; amd64 Linux 3.16.0-4-amd64; java 1.7.0_91; Europe/de) http://yacy.net/bot.html",
+      "yacybot (-global; amd64 FreeBSD 9.2-RELEASE-p10; java 1.7.0_65; Europe/en) http://yacy.net/bot.html",
+      "yacybot (-global; amd64 Linux 2.6.32-042stab111.11; java 1.7.0_79; Europe/en) http://yacy.net/bot.html",
+      "yacybot (-global; amd64 Linux 2.6.32-042stab116.1; java 1.7.0_79; Europe/en) http://yacy.net/bot.html",
+      "yacybot (-global; amd64 Linux 3.10.0-229.4.2.el7.x86_64; java 1.7.0_79; Europe/en) http://yacy.net/bot.html",
       "yacybot (/global; amd64 Linux 3.16.0-4-amd64; java 1.7.0_95; Europe/en) http://yacy.net/bot.html"
     ]
   },
@@ -2256,7 +2252,13 @@
     "pattern": "Apache-HttpClient",
     "addition_date": "2017/11/02",
     "instances": [
-      "Apache-HttpClient/4.4.1 (Java/1.8.0_65)"
+      "Apache-HttpClient/4.2.3 (java 1.5)",
+      "Apache-HttpClient/4.2.5 (java 1.5)",
+      "Apache-HttpClient/4.3.1 (java 1.5)",
+      "Apache-HttpClient/4.3.3 (java 1.5)",
+      "Apache-HttpClient/4.3.5 (java 1.5)",
+      "Apache-HttpClient/4.4.1 (Java/1.8.0_65)",
+      "Apache-HttpClient/4.5.3 (Java/1.8.0_121)"
     ]
   },
   {
