@@ -153,6 +153,13 @@
     ]
   },
   {
+    "pattern": "python-requests",
+    "addition_date": "2018/05/27",
+    "instances": [
+      "python-requests/2.18.4"
+    ]
+  },
+  {
     "pattern": "libwww",
     "instances": [
       "2Bone_LinkChecker/1.0 libwww-perl/6.03",
