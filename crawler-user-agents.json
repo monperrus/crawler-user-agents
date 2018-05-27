@@ -2528,5 +2528,13 @@
       "OutclicksBot/2 +https://www.outclicks.net/agent/PryJzTl8POCRHfvEUlRN5FKtZoWDQOBEvFJ2wh6KH5J"
     ],
     "url": "https://www.outclicks.net"
+  },
+  {
+    "pattern": "seoscanners",
+    "addition_date": "2018/05/27",
+    "instances": [
+      "Mozilla/5.0 (compatible; seoscanners.net/1; +spider@seoscanners.net)"
+    ],
+    "url": "http://www.seoscanners.net/"
   }
 ]
