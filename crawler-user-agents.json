@@ -2163,7 +2163,10 @@
     "pattern": "okhttp",
     "addition_date": "2017/11/02",
     "instances": [
-      "okhttp/2.5.0"
+      "okhttp/2.5.0",
+      "okhttp/2.7.5",
+      "okhttp/3.2.0",
+      "okhttp/3.5.0"
     ]
   },
   {
