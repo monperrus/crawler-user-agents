@@ -102,11 +102,12 @@
     ]
   },
   {
-    "pattern": "slurp",
+    "pattern": "Slurp",
     "url": "http://help.yahoo.com/help/us/ysearch/slurp",
     "instances": [
       "Mozilla/5.0 (compatible; Yahoo! Slurp/3.0; http://help.yahoo.com/help/us/ysearch/slurp)",
-      "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
+      "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)",
+      "Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)"
     ]
   },
   {
