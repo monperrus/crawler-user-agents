@@ -1601,11 +1601,10 @@
     ]
   },
   {
-    "pattern": "Sonic",
+    "pattern": "Sonic\\/",
     "addition_date": "2016/02/08",
     "url": "http://www.yama.info.waseda.ac.jp/~crawler/info.html",
     "instances": [
-      "Mozilla/5.0 (compatible; RankSonicSiteAuditor/1.0; +https://ranksonic.com/ranksonic_sab.html)",
       "Mozilla/5.0 (compatible; Sonic/1.0; http://www.yama.info.waseda.ac.jp/~crawler/info.html)",
       "Mozzila/5.0 (compatible; Sonic/1.0; http://www.yama.info.waseda.ac.jp/~crawler/info.html)"
     ]
@@ -2550,6 +2549,14 @@
     "addition_date": "2018/05/29",
     "instances": [
       "Hatena Antenna/0.3"
+    ]
+  },
+  {
+    "pattern": "RankSonicSiteAuditor",
+    "addition_date": "2018/05/30",
+    "url": "https://ranksonic.com/ranksonic_sab.html",
+    "instances": [
+      "Mozilla/5.0 (compatible; RankSonicSiteAuditor/1.0; +https://ranksonic.com/ranksonic_sab.html)"
     ]
   }
 ]
