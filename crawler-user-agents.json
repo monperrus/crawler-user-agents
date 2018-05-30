@@ -2154,7 +2154,7 @@
     ]
   },
   {
-    "pattern": "NING",
+    "pattern": "NING\\/",
     "addition_date": "2017/11/02",
     "instances": [
       "NING/1.0"
@@ -2232,7 +2232,7 @@
     ]
   },
   {
-    "pattern": "AHC",
+    "pattern": "AHC\\/",
     "addition_date": "2017/11/02",
     "instances": [
       "AHC/2.0"
