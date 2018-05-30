@@ -894,7 +894,7 @@
     "instances": []
   },
   {
-    "pattern": "Sogou",
+    "pattern": "^Sogou",
     "addition_date": "2012/05/13",
     "url": "http://www.sogou.com/docs/help/webmasters.htm#07",
     "instances": [
