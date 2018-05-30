@@ -874,7 +874,7 @@
     ]
   },
   {
-    "pattern": "Yeti",
+    "pattern": "^Yeti|Yeti\\/",
     "addition_date": "2012/05/07",
     "url": "http://naver.me/bot",
     "instances": [
