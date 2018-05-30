@@ -1289,7 +1289,7 @@
     ]
   },
   {
-    "pattern": "OrangeBot",
+    "pattern": "OrangeBot\\/",
     "instances": [
       "Mozilla/5.0 (compatible; OrangeBot/2.0; support.orangebot@orange.com"
     ],
