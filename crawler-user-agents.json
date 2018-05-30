@@ -2408,7 +2408,7 @@
     "url": "https://github.com/ArchiveTeam/ArchiveBot"
   },
   {
-    "pattern": "LCC",
+    "pattern": "^LCC ",
     "addition_date": "2018/02/28",
     "instances": [
       "LCC (+http://corpora.informatik.uni-leipzig.de/crawler_faq.html)"
