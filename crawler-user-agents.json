@@ -456,10 +456,6 @@
     "instances": []
   },
   {
-    "pattern": "IOI",
-    "instances": []
-  },
-  {
     "pattern": "ips-agent",
     "instances": [
       "BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 ips-agent",
