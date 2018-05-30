@@ -2380,7 +2380,7 @@
     ]
   },
   {
-    "pattern": "EZID",
+    "pattern": "^EZID",
     "addition_date": "2018/02/09",
     "instances": [
       "EZID (EZID link checker; https://ezid.cdlib.org/)"
