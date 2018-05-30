@@ -2492,7 +2492,7 @@
     "url": "http://www.scoutjet.com/"
   },
   {
-    "pattern": "sentry\\/",
+    "pattern": "(^| )sentry\\/",
     "addition_date": "2018/03/27",
     "instances": [
       "sentry/8.22.0 (https://sentry.io)"
