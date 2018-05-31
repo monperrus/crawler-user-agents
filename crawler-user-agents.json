@@ -2551,5 +2551,12 @@
     "instances": [
       "Hatena Antenna/0.3"
     ]
+  },
+  {
+    "pattern": "Google Web Preview",
+    "addition_date": "2018/05/31",
+    "instances": [
+      "Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Version/4.0 Mobile Safari/537.36"
+    ]
   }
 ]
