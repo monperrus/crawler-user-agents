@@ -2559,5 +2559,12 @@
     "instances": [
       "Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Version/4.0 Mobile Safari/537.36"
     ]
+  },
+  {
+    "pattern": "MauiBot",
+    "addition_date": "2018/06/06",
+    "instances": [
+      "MauiBot (crawler.feedback+wc@gmail.com)"
+    ]
   }
 ]
