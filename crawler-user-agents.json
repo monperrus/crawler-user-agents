@@ -2581,6 +2581,17 @@
     "instances": [
       "SBL-BOT (http://sbl.net)"
     ],
-    "url": "http://sbl.net"
+    "url": "http://sbl.net",
+    "description" : "Bot of SoftByte BlackWidow"
+  },
+  {
+    "pattern": "IAS crawler",
+    "addition_date": "2018/06/06",
+    "instances": [
+      "IAS crawler (ias_crawler; http://integralads.com/site-indexing-policy/)"
+    ],
+    "url": "http://integralads.com/site-indexing-policy/",
+    "description" : "Bot of Integral Ad Science, Inc."
   }
+
 ]

@@ -18,6 +18,7 @@ JSON_SCHEMA = {
             "pattern": {"type": "string"},
             "instances": {"type": "array"},
             "url": {"type": "string"},
+            "description": {"type": "string"},
             "addition_date": {"type": "string"}
         },
         "required": ["pattern"]
