@@ -2574,5 +2574,13 @@
       "Mozilla/5.0 (compatible; AlphaBot/3.2; +http://alphaseobot.com/bot.html)"
     ],
     "url": "http://alphaseobot.com/bot.html"
+  },
+  {
+    "pattern": "SBL-BOT",
+    "addition_date": "2018/06/06",
+    "instances": [
+      "SBL-BOT (http://sbl.net)"
+    ],
+    "url": "http://sbl.net"
   }
 ]
