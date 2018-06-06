@@ -2566,5 +2566,13 @@
     "instances": [
       "MauiBot (crawler.feedback+wc@gmail.com)"
     ]
+  },
+  {
+    "pattern": "AlphaBot",
+    "addition_date": "2018/05/27",
+    "instances": [
+      "Mozilla/5.0 (compatible; AlphaBot/3.2; +http://alphaseobot.com/bot.html)"
+    ],
+    "url": "http://alphaseobot.com/bot.html"
   }
 ]
