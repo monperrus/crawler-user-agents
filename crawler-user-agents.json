@@ -858,6 +858,13 @@
     ]
   },
   {
+    "pattern": "SWIMGBot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36 SWIMGBot"
+    ]
+  },
+  {
     "pattern": "Aboundex",
     "addition_date": "2011/09/28",
     "url": "http://www.aboundex.com/crawler/",
