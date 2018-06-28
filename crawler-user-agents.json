@@ -865,6 +865,13 @@
     ]
   },
   {
+    "pattern": "Grobbot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; Grobbot/2.2; +https://grob.it)"
+    ]
+  },
+  {
     "pattern": "Aboundex",
     "addition_date": "2011/09/28",
     "url": "http://www.aboundex.com/crawler/",
