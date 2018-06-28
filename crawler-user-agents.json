@@ -823,6 +823,13 @@
     ]
   },
   {
+    "pattern": "mappydata",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; Mappy/1.0; +http://mappydata.net/bot/)"
+    ]
+  },
+  {
     "pattern": "Aboundex",
     "addition_date": "2011/09/28",
     "url": "http://www.aboundex.com/crawler/",
