@@ -800,6 +800,11 @@
     "instances": ["fuelbot"]
   },
   {
+    "pattern": "CrunchBot",
+    "addition_date": "2018/06/28",
+    "instances": ["CrunchBot/1.0 (+http://www.leadcrunch.com/crunchbot)"]
+  },
+  {
     "pattern": "Aboundex",
     "addition_date": "2011/09/28",
     "url": "http://www.aboundex.com/crawler/",
