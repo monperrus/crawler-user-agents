@@ -797,12 +797,23 @@
   {
     "pattern": "fuelbot",
     "addition_date": "2018/06/28",
-    "instances": ["fuelbot"]
+    "instances": [
+      "fuelbot"
+    ]
   },
   {
     "pattern": "CrunchBot",
     "addition_date": "2018/06/28",
-    "instances": ["CrunchBot/1.0 (+http://www.leadcrunch.com/crunchbot)"]
+    "instances": [
+      "CrunchBot/1.0 (+http://www.leadcrunch.com/crunchbot)"
+    ]
+  },
+  {
+    "pattern": "centurybot9",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; Go-http-client/1.1; +centurybot9@gmail.com)"
+    ]
   },
   {
     "pattern": "Aboundex",
