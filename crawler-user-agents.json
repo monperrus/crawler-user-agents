@@ -844,6 +844,13 @@
     ]
   },
   {
+    "pattern": "PrivacyAwareBot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; PrivacyAwareBot/1.1; +http://www.privacyaware.org)"
+    ]
+  },
+  {
     "pattern": "Aboundex",
     "addition_date": "2011/09/28",
     "url": "http://www.aboundex.com/crawler/",
