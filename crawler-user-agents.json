@@ -816,6 +816,13 @@
     ]
   },
   {
+    "pattern": "IndeedBot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0 (IndeedBot 1.1)"
+    ]
+  },
+  {
     "pattern": "Aboundex",
     "addition_date": "2011/09/28",
     "url": "http://www.aboundex.com/crawler/",
