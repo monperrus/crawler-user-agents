@@ -1905,7 +1905,8 @@
     "pattern": "Pingdom",
     "addition_date": "2017/09/16",
     "instances": [
-      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/59.0.3071.109 Chrome/59.0.3071.109 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/59.0.3071.109 Chrome/59.0.3071.109 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)",
+      "Mozilla/5.0 (compatible; pingbot/2.0; +http://www.pingdom.com/)"
     ],
     "url": "http://www.pingdom.com"
   },
