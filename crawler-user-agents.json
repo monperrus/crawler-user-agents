@@ -872,6 +872,13 @@
     ]
   },
   {
+    "pattern": "eright",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; eright/1.0; +bot@eright.com)"
+    ]
+  },
+  {
     "pattern": "Aboundex",
     "addition_date": "2011/09/28",
     "url": "http://www.aboundex.com/crawler/",
