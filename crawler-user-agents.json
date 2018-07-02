@@ -2808,5 +2808,13 @@
       "linkapediabot (+http://www.linkapedia.com)"
     ],
     "url": "http://www.linkapedia.com"
+  },
+  {
+    "pattern": "vkShare",
+    "addition_date": "2018/07/02",
+    "instances": [
+      "Mozilla/5.0 (compatible; vkShare; +http://vk.com/dev/Share)"
+    ],
+    "url": "http://vk.com/dev/Share"
   }
 ]
