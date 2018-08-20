@@ -793,11 +793,110 @@
     "instances": []
   },
   {
-    "pattern": "AhrefsBot",
+    "pattern": "Ahrefs(Bot|SiteAudit)",
     "addition_date": "2011/08/28",
     "instances": [
       "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)",
-      "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)"
+      "Mozilla/5.0 (compatible; AhrefsSiteAudit/5.2; +http://ahrefs.com/robot/)"
+    ]
+  },
+  {
+    "pattern": "fuelbot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "fuelbot"
+    ]
+  },
+  {
+    "pattern": "CrunchBot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "CrunchBot/1.0 (+http://www.leadcrunch.com/crunchbot)"
+    ]
+  },
+  {
+    "pattern": "centurybot9",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; Go-http-client/1.1; +centurybot9@gmail.com)"
+    ]
+  },
+  {
+    "pattern": "IndeedBot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0 (IndeedBot 1.1)"
+    ]
+  },
+  {
+    "pattern": "mappydata",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; Mappy/1.0; +http://mappydata.net/bot/)"
+    ]
+  },
+  {
+    "pattern": "woobot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "woobot"
+    ]
+  },
+  {
+    "pattern": "ZoominfoBot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "ZoominfoBot (zoominfobot at zoominfo dot com)"
+    ]
+  },
+  {
+    "pattern": "PrivacyAwareBot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; PrivacyAwareBot/1.1; +http://www.privacyaware.org)"
+    ]
+  },
+  {
+    "pattern": "Multiviewbot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Multiviewbot"
+    ]
+  },
+  {
+    "pattern": "SWIMGBot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36 SWIMGBot"
+    ]
+  },
+  {
+    "pattern": "Grobbot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; Grobbot/2.2; +https://grob.it)"
+    ]
+  },
+  {
+    "pattern": "eright",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; eright/1.0; +bot@eright.com)"
+    ]
+  },
+  {
+    "pattern": "Apercite",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "Mozilla/5.0 (compatible; Apercite; +http://www.apercite.fr/robot/index.html)"
+    ]
+  },
+  {
+    "pattern": "semanticbot",
+    "addition_date": "2018/06/28",
+    "instances": [
+      "semanticbot",
+      "semanticbot (info@semanticaudience.com)"
     ]
   },
   {
@@ -867,9 +966,11 @@
     "instances": []
   },
   {
-    "pattern": "aihitbot",
+    "pattern": "aiHitBot",
     "addition_date": "2012/04/16",
-    "instances": []
+    "instances": [
+      "Mozilla/5.0 (compatible; aiHitBot/2.9; +https://www.aihitdata.com/about)"
+    ]
   },
   {
     "pattern": "intelium_bot",
@@ -1909,10 +2010,11 @@
     "url": "http://kosm.io/bot.html"
   },
   {
-    "pattern": "Pingdom",
+    "pattern": "pingdom",
     "addition_date": "2017/09/16",
     "instances": [
-      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/59.0.3071.109 Chrome/59.0.3071.109 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/59.0.3071.109 Chrome/59.0.3071.109 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)",
+      "Mozilla/5.0 (compatible; pingbot/2.0; +http://www.pingdom.com/)"
     ],
     "url": "http://www.pingdom.com"
   },
@@ -2334,7 +2436,9 @@
     "pattern": "DnyzBot",
     "addition_date": "2017/11/20",
     "instances": [
-      "Mozilla/5.0 (compatible; DnyzBot/1.0)"
+      "Mozilla/5.0 (compatible; DnyzBot/1.0)",
+      "Mozilla/5.0 (compatible; DnyzBot/1.0) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36",
+      "Mozilla/5.0 (compatible; DnyzBot/1.0) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3264.0 Safari/537.36"
     ]
   },
   {
@@ -2535,7 +2639,8 @@
     "instances": [
       "OutclicksBot/2 +https://www.outclicks.net/agent/VjzDygCuk4ubNmg40ZMbFqT0sIh7UfOKk8s8ZMiupUR",
       "OutclicksBot/2 +https://www.outclicks.net/agent/gIYbZ38dfAuhZkrFVl7sJBFOUhOVct6J1SvxgmBZgCe",
-      "OutclicksBot/2 +https://www.outclicks.net/agent/PryJzTl8POCRHfvEUlRN5FKtZoWDQOBEvFJ2wh6KH5J"
+      "OutclicksBot/2 +https://www.outclicks.net/agent/PryJzTl8POCRHfvEUlRN5FKtZoWDQOBEvFJ2wh6KH5J",
+      "OutclicksBot/2 +https://www.outclicks.net/agent/p2i4sNUh7eylJF1S6SGgRs5mP40ExlYvsr9GBxVQG6h"
     ],
     "url": "https://www.outclicks.net"
   },
