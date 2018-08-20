@@ -966,7 +966,7 @@
     "instances": []
   },
   {
-    "pattern": "aihitbot",
+    "pattern": "aiHitBot",
     "addition_date": "2012/04/16",
     "instances": [
       "Mozilla/5.0 (compatible; aiHitBot/2.9; +https://www.aihitdata.com/about)"
