@@ -60,6 +60,14 @@
     ]
   },
   {
+    "pattern": "Feedfetcher-Google",
+    "addition_date": "2018/06/27",
+    "url": "https://support.google.com/webmasters/answer/178852",
+    "instances": [
+      "Feedfetcher-Google; (+http://www.google.com/feedfetcher.html; 1 subscribers; feed-id=728742641706423)"
+    ]
+  },
+  {
     "pattern": "Mediapartners-Google",
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en",
     "instances": [
@@ -457,10 +465,6 @@
     "instances": []
   },
   {
-    "pattern": "IOI",
-    "instances": []
-  },
-  {
     "pattern": "ips-agent",
     "instances": [
       "BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 ips-agent",
@@ -495,6 +499,7 @@
       "Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)",
       "Mozilla/5.0 (compatible; MJ12bot/v1.4.6; http://mj12bot.com/)",
       "Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)",
+      "Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://www.majestic12.co.uk/bot.php?+)",
       "Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)"
     ]
   },
@@ -535,7 +540,8 @@
     "pattern": "yandex.com\\/bots",
     "url": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.xml#robot-in-logs",
     "instances": [
-      "Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)"
+      "Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)",
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)"
     ],
     "addition_date": "2016/12/01"
   },
@@ -1396,7 +1402,7 @@
     ]
   },
   {
-    "pattern": "OrangeBot",
+    "pattern": "OrangeBot\\/",
     "instances": [
       "Mozilla/5.0 (compatible; OrangeBot/2.0; support.orangebot@orange.com"
     ],
@@ -1955,7 +1961,7 @@
     "url": "http://www.datenbutler.de/"
   },
   {
-    "pattern": "Daum",
+    "pattern": "Daum\\/",
     "addition_date": "2017/08/16",
     "instances": [
       "Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)"
@@ -2052,13 +2058,6 @@
     ]
   },
   {
-    "pattern": "InfoPath.2",
-    "addition_date": "2017/10/07",
-    "instances": [
-      "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2)"
-    ]
-  },
-  {
     "pattern": "Jetslide",
     "addition_date": "2017/09/27",
     "url": "http://jetsli.de/crawler",
@@ -2087,7 +2086,8 @@
     "addition_date": "2017/10/09",
     "url": "http://www.exensa.com/crawl",
     "instances": [
-      "Barkrowler/0.5.1 (experimenting / debugging - sorry for your logs ) http://www.exensa.com/crawl - admin@exensa.com -- based on BuBiNG"
+      "Barkrowler/0.5.1 (experimenting / debugging - sorry for your logs ) http://www.exensa.com/crawl - admin@exensa.com -- based on BuBiNG",
+      "Barkrowler/0.7 (+http://www.exensa.com/crawl)"
     ]
   },
   {
@@ -2170,7 +2170,7 @@
     ]
   },
   {
-    "pattern": "YaK",
+    "pattern": "YaK\\/",
     "addition_date": "2017/09/25",
     "url": "http://linkfluence.com",
     "instances": [
@@ -2262,7 +2262,7 @@
     ]
   },
   {
-    "pattern": "NING",
+    "pattern": "NING\\/",
     "addition_date": "2017/11/02",
     "instances": [
       "NING/1.0"
@@ -2340,7 +2340,7 @@
     ]
   },
   {
-    "pattern": "AHC",
+    "pattern": "AHC\\/",
     "addition_date": "2017/11/02",
     "instances": [
       "AHC/2.0"
@@ -2514,7 +2514,7 @@
     "url": "https://github.com/ArchiveTeam/ArchiveBot"
   },
   {
-    "pattern": "LCC",
+    "pattern": "^LCC ",
     "addition_date": "2018/02/28",
     "instances": [
       "LCC (+http://corpora.informatik.uni-leipzig.de/crawler_faq.html)"
@@ -2610,7 +2610,7 @@
     "url": "http://www.scoutjet.com/"
   },
   {
-    "pattern": "sentry\\/",
+    "pattern": "(^| )sentry\\/",
     "addition_date": "2018/03/27",
     "instances": [
       "sentry/8.22.0 (https://sentry.io)"
@@ -2653,10 +2653,11 @@
     "url": "http://www.seoscanners.net/"
   },
   {
-    "pattern": "Hatena Antenna",
+    "pattern": "Hatena",
     "addition_date": "2018/05/29",
     "instances": [
-      "Hatena Antenna/0.3"
+      "Hatena Antenna/0.3",
+      "Hatena::Russia::Crawler/0.01"
     ]
   },
   {
@@ -2698,6 +2699,276 @@
     ],
     "url": "http://integralads.com/site-indexing-policy/",
     "description" : "Bot of Integral Ad Science, Inc."
+  },
+  {
+    "pattern": "adscanner",
+    "addition_date": "2018/06/24",
+    "instances": [
+      "Mozilla/5.0 (compatible; adscanner/)"
+    ]
+  },
+  {
+    "pattern": "Netvibes",
+    "addition_date": "2018/06/24",
+    "instances": [
+      "Netvibes (crawler/bot; http://www.netvibes.com"
+    ],
+    "url": "http://www.netvibes.com"
+  },
+  {
+    "pattern": "acapbot",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Mozilla/5.0 (compatible;acapbot/0.1;treat like Googlebot)",
+      "Mozilla/5.0 (compatible;acapbot/0.1.;treat like Googlebot)"
+    ]
+  },
+  {
+    "pattern": "Baidu-YunGuanCe",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Baidu-YunGuanCe-Bot(ce.baidu.com)",
+      "Baidu-YunGuanCe-SLABot(ce.baidu.com)",
+      "Baidu-YunGuanCe-ScanBot(ce.baidu.com)",
+      "Baidu-YunGuanCe-PerfBot(ce.baidu.com)",
+      "Baidu-YunGuanCe-VSBot(ce.baidu.com)"
+    ],
+    "url": "https://ce.baidu.com/topic/topic20150908",
+    "description": "Baidu Cloud Watch"
+  },
+  {
+    "pattern": "bitlybot",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "bitlybot/3.0 (+http://bit.ly/)",
+      "bitlybot/2.0",
+      "bitlybot"
+    ],
+    "url": "http://bit.ly/"
+  },
+  {
+    "pattern": "blogmuraBot",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "blogmuraBot (+http://www.blogmura.com)"
+    ],
+    "url": "http://www.blogmura.com",
+    "description": "A blog ranking site which links to blogs on just about every theme possible."
+  },
+  {
+    "pattern": "Bot.AraTurka.com",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Bot.AraTurka.com/0.0.1"
+    ],
+    "url": "http://www.araturka.com"
+  },
+  {
+    "pattern": "bot-pge.chlooe.com",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "bot-pge.chlooe.com/1.0.0 (+http://www.chlooe.com/)"
+    ]
+  },
+  {
+    "pattern": "BoxcarBot",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Mozilla/5.0 (compatible; BoxcarBot/1.1; +awesome@boxcar.io)"
+    ],
+    "url": "https://boxcar.io/"
+  },
+  {
+    "pattern": "BTWebClient",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "BTWebClient/180B(9704)"
+    ],
+    "url": "http://www.utorrent.com/",
+    "description": "µTorrent BitTorrent Client"
+  },
+  {
+    "pattern": "ContextAd Bot",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0;.NET CLR 1.0.3705; ContextAd Bot 1.0)",
+      "ContextAd Bot 1.0"
+    ]
+  },
+  {
+    "pattern": "Digincore bot",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Mozilla/5.0 (compatible; Digincore bot; https://www.digincore.com/crawler.html for rules and instructions.)"
+    ],
+    "url": "http://www.digincore.com/crawler.html"
+  },
+  {
+    "pattern": "Disqus",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Disqus/1.0"
+    ],
+    "url": "https://disqus.com/",
+    "description": "validate and quality check pages."
+  },
+  {
+    "pattern": "Feedly",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)",
+      "FeedlyBot/1.0 (http://feedly.com)"
+    ],
+    "url": "https://www.feedly.com/fetcher.html",
+    "description": "Feedly Fetcher is how Feedly grabs RSS or Atom feeds when users choose to add them to their Feedly or any of the other applications built on top of the feedly cloud."
+  },
+  {
+    "pattern": "Fetch",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Fetch/2.0a (CMS Detection/Web/SEO analysis tool, see http://guess.scritch.org)"
+    ]
+  },
+  {
+    "pattern": "Fever",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Fever/1.38 (Feed Parser; http://feedafever.com; Allow like Gecko)"
+    ],
+    "url": "http://feedafever.com"
+  },
+  {
+    "pattern": "Flamingo_SearchEngine",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)"
+    ]
+  },
+  {
+    "pattern": "FlipboardProxy",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Mozilla/5.0 (compatible; FlipboardProxy/1.1; +http://flipboard.com/browserproxy)",
+      "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (FlipboardProxy/1.1; +http://flipboard.com/browserproxy)",
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:28.0) Gecko/20100101 Firefox/28.0 (FlipboardProxy/1.1; +http://flipboard.com/browserproxy)"
+    ],
+    "url": "https://about.flipboard.com/browserproxy/",
+    "description": "a proxy service to fetch, validate, and prepare certain elements of websites for presentation through the Flipboard Application"
+  },
+  {
+    "pattern": "g2reader-bot",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "g2reader-bot/1.0 (+http://www.g2reader.com/)"
+    ],
+    "url": "http://www.g2reader.com/"
+  },
+  {
+    "pattern": "imrbot",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Mozilla/5.0 (compatible; imrbot/1.10.8 +http://www.mignify.com)"
+    ],
+    "url": "http://www.mignify.com"
+  },
+  {
+    "pattern": "K7MLWCBot",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "K7MLWCBot/1.0 (+http://www.k7computing.com)"
+    ],
+    "url": "http://www.k7computing.com",
+    "description": "Virus scanner"
+  },
+  {
+    "pattern": "Kemvibot",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Kemvibot/1.0 (http://kemvi.com, marco@kemvi.com)"
+    ],
+    "url": "http://kemvi.com"
+  },
+  {
+    "pattern": "Landau-Media-Spider",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "Landau-Media-Spider/1.0(http://bots.landaumedia.de/bot.html)"
+    ],
+    "url": "http://bots.landaumedia.de/bot.html"
+  },
+  {
+    "pattern": "linkapediabot",
+    "addition_date": "2018/06/27",
+    "instances": [
+      "linkapediabot (+http://www.linkapedia.com)"
+    ],
+    "url": "http://www.linkapedia.com"
+  },
+  {
+    "pattern": "vkShare",
+    "addition_date": "2018/07/02",
+    "instances": [
+      "Mozilla/5.0 (compatible; vkShare; +http://vk.com/dev/Share)"
+    ],
+    "url": "http://vk.com/dev/Share"
+  },
+  {
+    "pattern": "Siteimprove.com",
+    "addition_date": "2018/06/22",
+    "instances": [
+      "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) LinkCheck by Siteimprove.com",
+      "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.0) Match by Siteimprove.com",
+      "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) SiteCheck-sitecrawl by Siteimprove.com",
+      "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.0) LinkCheck by Siteimprove.com"
+    ]
+  },
+  {
+     "pattern": "BLEXBot\\/",
+     "addition_date": "2018/07/07",
+     "instances": [
+       "Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)"
+     ],
+     "url": "http://webmeup-crawler.com"
+  },
+  {
+     "pattern": "DareBoost",
+     "addition_date": "2018/07/07",
+     "instances": [
+       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36 DareBoost"
+     ],
+     "url": "https://www.dareboost.com/",
+     "description": "Bot to test, Analyze and Optimize website"
+  },
+  {
+     "pattern": "ZuperlistBot\\/",
+     "addition_date": "2018/07/07",
+     "instances": [
+       "Mozilla/5.0 (compatible; ZuperlistBot/1.0)"
+     ]
+  },
+  {
+     "pattern": "Miniflux\\/",
+     "addition_date": "2018/07/07",
+     "instances": [
+       "Mozilla/5.0 (compatible; Miniflux/2.0.7; +https://miniflux.net)"
+     ],
+     "url": "https://miniflux.net",
+     "description": "Miniflux is a minimalist and opinionated feed reader."
+  },
+  {
+     "pattern": "Feedspotbot\\/",
+     "addition_date": "2018/07/07",
+     "instances": [
+       "Mozilla/5.0 (compatible; Feedspotbot/1.0; +http://www.feedspot.com/fs/bot)"
+     ],
+     "url": "http://www.feedspot.com/fs/bot"
+  },
+  {
+     "pattern": "Diffbot\\/",
+     "addition_date": "2018/07/07",
+     "instances": [
+       "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729; Diffbot/0.1; +http://www.diffbot.com)"
+     ],
+     "url": "http://www.diffbot.com"
   }
-
 ]
