@@ -1154,11 +1154,6 @@
     "instances": []
   },
   {
-    "pattern": "seokicks-robot",
-    "addition_date": "2013/02/25",
-    "instances": []
-  },
-  {
     "pattern": "it2media-domain-crawler",
     "addition_date": "2013/03/12",
     "instances": [
@@ -1200,12 +1195,6 @@
     "instances": [
       "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1;  http://www.changedetection.com/bot.html )"
     ]
-  },
-  {
-    "pattern": "blexbot",
-    "addition_date": "2013/10/03",
-    "url": "http://webmeup-crawler.com/",
-    "instances": []
   },
   {
     "pattern": "arabot",
@@ -2823,7 +2812,7 @@
     "description": "Feedly Fetcher is how Feedly grabs RSS or Atom feeds when users choose to add them to their Feedly or any of the other applications built on top of the feedly cloud."
   },
   {
-    "pattern": "Fetch",
+    "pattern": "Fetch\\/",
     "addition_date": "2018/06/27",
     "instances": [
       "Fetch/2.0a (CMS Detection/Web/SEO analysis tool, see http://guess.scritch.org)"

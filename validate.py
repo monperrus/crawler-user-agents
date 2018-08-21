@@ -76,7 +76,7 @@ def main():
     for entry1 in json_data:
         for entry2 in json_data:
             if entry1 != entry2 and re.search(entry1['pattern'],
-                                              entry2['pattern']):
+                                              entry2['pattern'],re.IGNORECASE):
                 raise ValueError('Pattern {!r} is a subset of {!r}'
                                  .format(entry2['pattern'], entry1['pattern']))
 
