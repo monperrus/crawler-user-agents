@@ -2970,5 +2970,13 @@
        "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729; Diffbot/0.1; +http://www.diffbot.com)"
      ],
      "url": "http://www.diffbot.com"
+  },
+  {
+     "pattern": "SEOkicks",
+     "addition_date": "2018/08/22",
+     "instances": [
+       "Mozilla/5.0 (compatible; SEOkicks; +https://www.seokicks.de/robot.html)"
+     ],
+     "url": "https://www.seokicks.de/robot.html"
   }
 ]
