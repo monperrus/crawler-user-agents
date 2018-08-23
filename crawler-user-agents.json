@@ -2967,5 +2967,12 @@
        "Mozilla/5.0 (compatible; SEOkicks; +https://www.seokicks.de/robot.html)"
      ],
      "url": "https://www.seokicks.de/robot.html"
+  },
+  {
+     "pattern": "tracemyfile",
+     "addition_date": "2018/08/23",
+     "instances": [
+       "Mozilla/5.0 (compatible; tracemyfile/1.0; +bot@tracemyfile.com)"
+     ]
   }
 ]
