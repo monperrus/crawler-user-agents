@@ -2974,5 +2974,12 @@
      "instances": [
        "Mozilla/5.0 (compatible; tracemyfile/1.0; +bot@tracemyfile.com)"
      ]
+  },
+  {
+     "pattern": "Nimbostratus-Bot",
+     "addition_date": "2018/08/29",
+     "instances": [
+       "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+     ]
   }
 ]
