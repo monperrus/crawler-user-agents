@@ -2991,6 +2991,14 @@
     "url": "https://zmap.io/"
   },
   {
+     "pattern": "PR-CY.RU",
+     "addition_date": "2018/08/30",
+     "instances": [
+       "Mozilla/5.0 (compatible; PR-CY.RU; + https://a.pr-cy.ru)"
+     ],
+    "url": "https://a.pr-cy.ru/"
+  },
+  {
      "pattern": "AdsTxtCrawler",
      "addition_date": "2018/08/30",
      "instances": [
