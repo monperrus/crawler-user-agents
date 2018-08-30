@@ -2989,5 +2989,12 @@
        "Mozilla/5.0 zgrab/0.x"
      ],
     "url": "https://zmap.io/"
-  }  
+  },
+  {
+     "pattern": "AdsTxtCrawler",
+     "addition_date": "2018/08/30",
+     "instances": [
+       "AdsTxtCrawler/1.0"
+     ]
+  }
 ]
