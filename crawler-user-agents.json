@@ -3004,7 +3004,8 @@
      "instances": [
        "AdsTxtCrawler/1.0"
      ]
-  },
+  }
+  ,
   {
     "pattern": "google-xrawler",
     "addition_date": "2018/09/05",
