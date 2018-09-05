@@ -3004,5 +3004,13 @@
      "instances": [
        "AdsTxtCrawler/1.0"
      ]
+  },
+  {
+    "pattern": "Zabbix",
+    "addition_date": "2018/09/05",
+    "instances": [
+      "Zabbix"
+    ],
+    "url": "https://www.zabbix.com/documentation/3.4/manual/web_monitoring"
   }
 ]
