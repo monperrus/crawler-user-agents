@@ -3004,5 +3004,13 @@
      "instances": [
        "AdsTxtCrawler/1.0"
      ]
+  },
+  {
+    "pattern": "google-xrawler",
+    "addition_date": "2018/09/05",
+    "instances": [
+      "google-xrawler"
+    ],
+    "url": "https://webmasters.stackexchange.com/questions/105560/what-is-the-google-xrawler-user-agent-used-for"
   }
 ]
