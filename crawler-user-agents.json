@@ -3004,5 +3004,13 @@
      "instances": [
        "AdsTxtCrawler/1.0"
      ]
+  },
+  {
+    "pattern": "TangibleeBot",
+    "addition_date": "2018/09/05",
+    "instances": [
+      "TangibleeBot/1.0.0.0 (http://tangiblee.com/bot)"
+    ],
+    "url": "http://tangiblee.com/bot"
   }
 ]
