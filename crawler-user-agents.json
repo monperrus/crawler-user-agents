@@ -3012,5 +3012,13 @@
       "Zabbix"
     ],
     "url": "https://www.zabbix.com/documentation/3.4/manual/web_monitoring"
+  },
+  {
+    "pattern": "TangibleeBot",
+    "addition_date": "2018/09/05",
+    "instances": [
+      "TangibleeBot/1.0.0.0 (http://tangiblee.com/bot)"
+    ],
+    "url": "http://tangiblee.com/bot"
   }
 ]
