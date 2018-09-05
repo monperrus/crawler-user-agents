@@ -3004,5 +3004,13 @@
      "instances": [
        "AdsTxtCrawler/1.0"
      ]
+  },
+  {
+    "pattern": "Datafeedwatch",
+    "addition_date": "2018/09/05",
+    "instances": [
+      "Datafeedwatch/2.1.x"
+    ],
+    "url": "https://www.datafeedwatch.com/"
   }
 ]
