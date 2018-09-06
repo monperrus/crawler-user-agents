@@ -3397,4 +3397,13 @@
     ],
     "url": "https://webmasters.stackexchange.com/questions/105560/what-is-the-google-xrawler-user-agent-used-for"
   }
+  ,
+  {
+    "pattern": "axios",
+    "addition_date": "2018/09/06",
+    "instances": [
+      "axios/0.18.0"
+    ],
+    "url": "https://github.com/axios/axios"
+  }
 ]
