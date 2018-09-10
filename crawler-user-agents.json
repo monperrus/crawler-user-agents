@@ -3406,4 +3406,13 @@
     ],
     "url": "https://github.com/axios/axios"
   }
+  ,
+  {
+    "pattern": "Amazon CloudFront",
+    "addition_date": "2018/09/07",
+    "instances": [
+      "Amazon CloudFront"
+    ],
+    "url": "https://aws.amazon.com/cloudfront/"
+  }
 ]
