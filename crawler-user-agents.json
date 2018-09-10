@@ -3405,7 +3405,8 @@
       "axios/0.18.0"
     ],
     "url": "https://github.com/axios/axios"
-  },
+  }
+  ,
   {
     "pattern": "Amazon CloudFront",
     "addition_date": "2018/09/07",
