@@ -3415,4 +3415,12 @@
     ],
     "url": "https://aws.amazon.com/cloudfront/"
   }
+  ,
+  {
+    "pattern": "Pulsepoint",
+    "addition_date": "2018/09/24",
+    "instances": [
+      "Pulsepoint XT3 web scraper"
+    ]
+  }
 ]
