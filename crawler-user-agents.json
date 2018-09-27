@@ -3423,4 +3423,14 @@
       "Pulsepoint XT3 web scraper"
     ]
   }
+  ,
+  {
+    "pattern": "CloudFlare-AlwaysOnline",
+    "addition_date": "2018/09/27",
+    "instances": [
+      "Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0; +http://www.cloudflare.com/always-online) AppleWebKit/534.34",
+      "Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0; +https://www.cloudflare.com/always-online) AppleWebKit/534.34"
+    ],
+    "url" : "https://www.cloudflare.com/always-online/"
+  }
 ]
