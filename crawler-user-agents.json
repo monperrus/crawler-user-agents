@@ -3433,4 +3433,14 @@
     ],
     "url" : "https://www.cloudflare.com/always-online/"
   }
+  ,
+  {
+   "pattern": "Google-Structured-Data-Testing-Tool",
+    "addition_date": "2018/10/02",
+    "instances": [
+      "Mozilla/5.0 (compatible; Google-Structured-Data-Testing-Tool +https://search.google.com/structured-data/testing-tool)",
+      "Mozilla/5.0 (compatible; Google-Structured-Data-Testing-Tool +http://developers.google.com/structured-data/testing-tool/)"
+    ],
+    "url": "https://search.google.com/structured-data/testing-tool"
+  }
 ]
