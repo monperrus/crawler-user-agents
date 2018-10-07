@@ -3443,4 +3443,12 @@
     ],
     "url": "https://search.google.com/structured-data/testing-tool"
   }
+  ,
+  {
+   "pattern": "WordupInfoSearch",
+    "addition_date": "2018/10/07",
+    "instances": [
+      "WordupInfoSearch/1.0"
+    ]
+  }
 ]
