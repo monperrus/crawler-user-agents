@@ -3451,4 +3451,13 @@
       "WordupInfoSearch/1.0"
     ]
   }
+  ,
+  {
+    "pattern": "WebDataStats",
+    "addition_date": "2018/10/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; WebDataStats/1.0 ; +https://webdatastats.com/policy.html)"
+    ],
+    "url": "https://webdatastats.com/"
+  }
 ]
