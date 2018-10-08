@@ -3462,10 +3462,19 @@
   }
   ,
   {
-   "pattern": "HttpUrlConnection",
+    "pattern": "HttpUrlConnection",
     "addition_date": "2018/10/08",
     "instances": [
       "Jersey/2.25.1 (HttpUrlConnection 1.8.0_141)"
     ]
+  }
+  ,
+  {
+    "pattern": "Seekport Crawler",
+    "addition_date": "2018/10/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; Seekport Crawler; http://seekport.com/)"
+    ],
+    "url": "http://seekport.com/"
   }
 ]
