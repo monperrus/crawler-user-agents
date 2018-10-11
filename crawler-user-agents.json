@@ -3486,4 +3486,144 @@
     ],
     "url": "http://suite.seozoom.it/bot.html"
   }
+  ,
+  {
+    "pattern": "VelenPublicWebCrawler",
+    "addition_date": "2018/10/09",
+    "instances": [
+      "VelenPublicWebCrawler (velen.io)"
+    ]
+  }
+  ,
+  {
+    "pattern": "MoodleBot",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "MoodleBot/1.0"
+    ]
+  }
+  ,
+  {
+    "pattern": "Tiny Tiny RSS",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "Tiny Tiny RSS/17.4 (e6d77d2) (http://tt-rss.org/)"
+    ],
+    "url": "https://tt-rss.org/"
+  }
+  ,
+  {
+    "pattern": "jpg-newsbot",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "jpg-newsbot/2.0; (+https://vipnytt.no/bots/)"
+    ],
+    "url": "https://vipnytt.no/bots/"
+  }
+  ,
+  {
+    "pattern": "NetNewsWire",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "NetNewsWire/3.3.2 (Mac OS X; http://netnewswireapp.com/mac/; gzip-happy)"
+    ],
+    "url": "http://netnewswireapp.com/mac/"
+  }
+  ,
+  {
+    "pattern": "SimplePie",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "SimplePie/1.1.3 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20081219"
+    ],
+    "url": "http://simplepie.org"
+  }
+  ,
+  {
+    "pattern": "Bloglovin",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "Bloglovin/1.0 (http://www.bloglovin.com; 1 subscribers)"
+    ],
+    "url": "http://www.bloglovin.com"
+  }
+  ,
+  {
+    "pattern": "Vienna",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "Mozilla/5.0 Vienna/3.4.2"
+    ],
+    "url": "https://github.com/ViennaRSS/vienna-rss"
+  }
+  ,
+  {
+    "pattern": "FreshRSS",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "FreshRSS/1.6.2 (Linux; http://freshrss.org) SimplePie/1.4-dev-FreshRSS"
+    ],
+    "url": "http://freshrss.org"
+  }
+  ,
+  {
+    "pattern": "aiohttp",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "Python/3.6 aiohttp/2.3.2"
+    ],
+    "url": "https://docs.aiohttp.org/en/stable/index.html"
+  }
+  ,
+  {
+    "pattern": "webcache",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "webcache/2017-05-16 (+http://tr.magnumchaos.org/docs/robot.html)"
+    ],
+    "url": "http://tr.magnumchaos.org/docs/robot.html"
+  }
+  ,
+  {
+    "pattern": "NewsFire",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "NewsFire/85 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)"
+    ],
+    "url": "http://www.newsfirerss.com/"
+  }
+  ,
+  {
+    "pattern": "UniversalFeedParser",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "UniversalFeedParser/5.1.3 +https://code.google.com/p/feedparser/"
+    ],
+    "url": "https://code.google.com/p/feedparser/"
+  }
+  ,
+  {
+    "pattern": "inoreader",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "Mozilla/5.0 (compatible; inoreader.com; 5 subscribers)"
+    ],
+    "url": "https://www.inoreader.com/"
+  }
+  ,
+  {
+    "pattern": "inoreader",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "GreatNews/1.0"
+    ]
+  }
+  ,
+  {
+    "pattern": "Hellocoton",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "Hellocoton.fr"
+    ]
+  }
 ]
