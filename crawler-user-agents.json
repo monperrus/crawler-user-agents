@@ -3486,4 +3486,38 @@
     ],
     "url": "http://suite.seozoom.it/bot.html"
   }
+  ,
+  {
+    "pattern": "VelenPublicWebCrawler",
+    "addition_date": "2018/10/09",
+    "instances": [
+      "VelenPublicWebCrawler (velen.io)"
+    ]
+  }
+  ,
+  {
+    "pattern": "MoodleBot",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "MoodleBot/1.0"
+    ]
+  }
+  ,
+  {
+    "pattern": "jpg-newsbot",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "jpg-newsbot/2.0; (+https://vipnytt.no/bots/)"
+    ],
+    "url": "https://vipnytt.no/bots/"
+  }
+  ,
+  {
+    "pattern": "webcache",
+    "addition_date": "2018/10/10",
+    "instances": [
+      "webcache/2017-05-16 (+http://tr.magnumchaos.org/docs/robot.html)"
+    ],
+    "url": "http://tr.magnumchaos.org/docs/robot.html"
+  }
 ]
