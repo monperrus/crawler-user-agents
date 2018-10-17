@@ -3513,15 +3513,6 @@
   }
   ,
   {
-    "pattern": "webcache",
-    "addition_date": "2018/10/10",
-    "instances": [
-      "webcache/2017-05-16 (+http://tr.magnumchaos.org/docs/robot.html)"
-    ],
-    "url": "http://tr.magnumchaos.org/docs/robot.html"
-  }
-  ,
-  {
     "pattern": "outbrain",
     "addition_date": "2018/10/14",
     "instances": [
