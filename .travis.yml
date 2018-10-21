@@ -1,0 +1,10 @@
+language: python
+
+install: pip install jsonschema pytest
+
+script:
+  # Check that validation script works
+  - py.test -vv
+  # Run validation scripts
+  - python validate.py
+  - php validate.php
