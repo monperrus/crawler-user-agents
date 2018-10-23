@@ -881,7 +881,8 @@
     "addition_date": "2011/08/28",
     "instances": [
       "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)",
-      "Mozilla/5.0 (compatible; AhrefsSiteAudit/5.2; +http://ahrefs.com/robot/)"
+      "Mozilla/5.0 (compatible; AhrefsSiteAudit/5.2; +http://ahrefs.com/robot/)",
+      "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)"
     ]
   }
   ,
@@ -2424,7 +2425,8 @@
     "addition_date": "2017/09/25",
     "url": "http://support.paper.li/entries/20023257-what-is-paper-li",
     "instances": [
-      "Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)"
+      "Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)",
+      "Mozilla/5.0 (compatible; PaperLiBot/2.1; https://support.paper.li/entries/20023257-what-is-paper-li)"
     ]
   }
   ,
@@ -3288,7 +3290,11 @@
      "pattern": "Miniflux\\/",
      "addition_date": "2018/07/07",
      "instances": [
-       "Mozilla/5.0 (compatible; Miniflux/2.0.7; +https://miniflux.net)"
+       "Mozilla/5.0 (compatible; Miniflux/2.0.3; +https://miniflux.net)",
+       "Mozilla/5.0 (compatible; Miniflux/2.0.7; +https://miniflux.net)",
+       "Mozilla/5.0 (compatible; Miniflux/2.0.x-dev; +https://miniflux.net)",
+       "Mozilla/5.0 (compatible; Miniflux/2.0.10; +https://miniflux.net)"
+       "Mozilla/5.0 (compatible; Miniflux/2.0.11; +https://miniflux.app)"
      ],
      "url": "https://miniflux.net",
      "description": "Miniflux is a minimalist and opinionated feed reader."
@@ -3298,7 +3304,8 @@
      "pattern": "Feedspotbot\\/",
      "addition_date": "2018/07/07",
      "instances": [
-       "Mozilla/5.0 (compatible; Feedspotbot/1.0; +http://www.feedspot.com/fs/bot)"
+       "Mozilla/5.0 (compatible; Feedspotbot/1.0; +http://www.feedspot.com/fs/bot)",
+       "Mozilla/5.0 (compatible; Feedspot/1.0 (+https://www.feedspot.com/fs/fetcher; like FeedFetcher-Google)"
      ],
      "url": "http://www.feedspot.com/fs/bot"
   }
@@ -3591,5 +3598,37 @@
       "W3C_Unicorn/1.0"
     ],
     "url": "https://validator.w3.org/services"
+  },
+  {
+    "pattern": "ICBot",
+    "addition_date": "2018/10/23",
+    "instances": [
+      "Mozilla/5.0 (compatible; ICBot/0.1; +https://ideasandcode.xyz"
+    ],
+    "url": "https://ideasandcode.xyz"
+  },
+  {
+    "pattern": "BazQux",
+    "addition_date": "2018/10/23",
+    "instances": [
+      "Mozilla/5.0 (compatible; BazQux/2.4; +https://bazqux.com/fetcher; 1 subscribers)"
+    ],
+    "url": "https://bazqux.com/fetcher"
+  },
+  {
+    "pattern": "Twingly",
+    "addition_date": "2018/10/23",
+    "instances": [
+      "Mozilla/5.0 (compatible; Twingly Recon; twingly.com)"
+    ],
+    "url": "https://twingly.com"
+  },
+  {
+    "pattern": "Rivva",
+    "addition_date": "2018/10/23",
+    "instances": [
+      "Mozilla/5.0 (compatible; Rivva; http://rivva.de)"
+    ],
+    "url": "http://rivva.de"
   }
 ]
