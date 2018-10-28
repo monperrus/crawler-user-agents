@@ -3600,4 +3600,13 @@
       "Mozilla/5.0 (Google-PhysicalWeb)"
     ]
   }
+  ,
+  {
+    "pattern": "Blackboard",
+    "addition_date": "2018/10/28",
+    "instances": [
+      "Blackboard Safeassign"
+    ],
+    "url": "https://help.blackboard.com/Learn/Administrator/Hosting/Tools_Management/SafeAssign"
+  }
 ]
