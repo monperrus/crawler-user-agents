@@ -3592,4 +3592,12 @@
     ],
     "url": "https://validator.w3.org/services"
   }
+  ,
+  {
+    "pattern": "Google-PhysicalWeb",
+    "addition_date": "2018/10/21",
+    "instances": [
+      "Mozilla/5.0 (Google-PhysicalWeb)"
+    ]
+  }
 ]
