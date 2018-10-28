@@ -3295,10 +3295,11 @@
   }
   ,
   {
-     "pattern": "Feedspotbot\\/",
+     "pattern": "Feedspot\\",
      "addition_date": "2018/07/07",
      "instances": [
-       "Mozilla/5.0 (compatible; Feedspotbot/1.0; +http://www.feedspot.com/fs/bot)"
+       "Mozilla/5.0 (compatible; Feedspotbot/1.0; +http://www.feedspot.com/fs/bot)",
+       "Mozilla/5.0 (compatible; Feedspot/1.0 (+https://www.feedspot.com/fs/fetcher; like FeedFetcher-Google)"
      ],
      "url": "http://www.feedspot.com/fs/bot"
   }
