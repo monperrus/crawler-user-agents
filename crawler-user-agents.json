@@ -3608,5 +3608,37 @@
       "Blackboard Safeassign"
     ],
     "url": "https://help.blackboard.com/Learn/Administrator/Hosting/Tools_Management/SafeAssign"
+  },
+  {
+    "pattern": "ICBot",
+    "addition_date": "2018/10/23",
+    "instances": [
+      "Mozilla/5.0 (compatible; ICBot/0.1; +https://ideasandcode.xyz"
+    ],
+    "url": "https://ideasandcode.xyz"
+  },
+  {
+    "pattern": "BazQux",
+    "addition_date": "2018/10/23",
+    "instances": [
+      "Mozilla/5.0 (compatible; BazQux/2.4; +https://bazqux.com/fetcher; 1 subscribers)"
+    ],
+    "url": "https://bazqux.com/fetcher"
+  },
+  {
+    "pattern": "Twingly",
+    "addition_date": "2018/10/23",
+    "instances": [
+      "Mozilla/5.0 (compatible; Twingly Recon; twingly.com)"
+    ],
+    "url": "https://twingly.com"
+  },
+  {
+    "pattern": "Rivva",
+    "addition_date": "2018/10/23",
+    "instances": [
+      "Mozilla/5.0 (compatible; Rivva; http://rivva.de)"
+    ],
+    "url": "http://rivva.de"
   }
 ]
