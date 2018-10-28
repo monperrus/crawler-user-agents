@@ -30,7 +30,7 @@ Each `pattern` is a regular expression. It should work out-of-the-box wih your f
 
 * JavaScript: `if (RegExp(entry.pattern).test(req.headers['user-agent']) { ... }`
 * PHP: add a slash before and after the pattern: `ìf (preg_match('/'.$entry['pattern'].'/', $_SERVER['HTTP_USER_AGENT'])): ...`
-* Python: `if .search(entry['pattern'], ua): ...`
+* Python: `if re.search(entry['pattern'], ua): ...`
 
 ## Contributing
 
