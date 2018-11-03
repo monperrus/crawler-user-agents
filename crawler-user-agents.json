@@ -3648,5 +3648,14 @@
       "Mozilla/5.0 (compatible; Rivva; http://rivva.de)"
     ],
     "url": "http://rivva.de"
+  },
+  {
+    "pattern": "Experibot",
+    "addition_date": "2018/11/03",
+    "instances": [
+      "Experibot-v2 http://goo.gl/ZAr8wX",
+      "Experibot-v3 http://goo.gl/ZAr8wX"
+    ],
+    "url": "https://amirkr.wixsite.com/experibot"
   }
 ]
