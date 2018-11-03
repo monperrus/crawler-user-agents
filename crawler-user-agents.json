@@ -3295,7 +3295,7 @@
   }
   ,
   {
-     "pattern": "Feedspot\\",
+     "pattern": "Feedspot",
      "addition_date": "2018/07/07",
      "instances": [
        "Mozilla/5.0 (compatible; Feedspotbot/1.0; +http://www.feedspot.com/fs/bot)",
