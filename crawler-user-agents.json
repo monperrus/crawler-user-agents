@@ -3610,7 +3610,7 @@
     "url": "https://help.blackboard.com/Learn/Administrator/Hosting/Tools_Management/SafeAssign"
   },
   {
-    "pattern": "ICBot",
+    "pattern": "ICBot\/",
     "addition_date": "2018/10/23",
     "instances": [
       "Mozilla/5.0 (compatible; ICBot/0.1; +https://ideasandcode.xyz"
