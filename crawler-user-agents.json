@@ -880,7 +880,8 @@
     "pattern": "Ahrefs(Bot|SiteAudit)",
     "addition_date": "2011/08/28",
     "instances": [
-      "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)",
+      "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)",      
+      "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)",
       "Mozilla/5.0 (compatible; AhrefsSiteAudit/5.2; +http://ahrefs.com/robot/)"
     ]
   }
@@ -2424,7 +2425,9 @@
     "addition_date": "2017/09/25",
     "url": "http://support.paper.li/entries/20023257-what-is-paper-li",
     "instances": [
-      "Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)"
+      "Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)",
+      "Mozilla/5.0 (compatible; PaperLiBot/2.1; https://support.paper.li/entries/20023257-what-is-paper-li)"
+      
     ]
   }
   ,
@@ -3287,8 +3290,12 @@
   {
      "pattern": "Miniflux\\/",
      "addition_date": "2018/07/07",
-     "instances": [
-       "Mozilla/5.0 (compatible; Miniflux/2.0.7; +https://miniflux.net)"
+     "instances": [  
+       "Mozilla/5.0 (compatible; Miniflux/2.0.x-dev; +https://miniflux.net)",
+       "Mozilla/5.0 (compatible; Miniflux/2.0.3; +https://miniflux.net)",
+       "Mozilla/5.0 (compatible; Miniflux/2.0.7; +https://miniflux.net)",
+       "Mozilla/5.0 (compatible; Miniflux/2.0.10; +https://miniflux.net)",
+       "Mozilla/5.0 (compatible; Miniflux/2.0.11; +https://miniflux.app)"
      ],
      "url": "https://miniflux.net",
      "description": "Miniflux is a minimalist and opinionated feed reader."
