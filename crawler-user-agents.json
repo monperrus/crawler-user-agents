@@ -3657,5 +3657,28 @@
       "Experibot-v3 http://goo.gl/ZAr8wX"
     ],
     "url": "https://amirkr.wixsite.com/experibot"
+  },
+  {
+    "pattern": "awesomecrawler",
+    "addition_date": "2018/11/24",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.5 Safari/537.22 +awesomecrawler"
+    ]
+  },
+  {
+    "pattern": "Dataprovider.com",
+    "addition_date": "2018/11/24",
+    "instances": [
+      "Mozilla/5.0 (compatible; Dataprovider.com)"
+    ],
+    "url": "https://www.dataprovider.com/"
+  },
+  {
+    "pattern": "GroupHigh\\/",
+    "addition_date": "2018/11/24",
+    "instances": [
+      "Mozilla/5.0 (compatible; GroupHigh/1.0; +http://www.grouphigh.com/"
+    ],
+    "url": "http://www.grouphigh.com/"
   }
 ]
