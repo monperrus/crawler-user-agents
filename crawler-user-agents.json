@@ -329,7 +329,8 @@
       "Mozilla/5.0 (compatible; Exabot PyExalead/3.0; +http://www.exabot.com/go/robot)",
       "Mozilla/5.0 (compatible; Exabot-Images/3.0; +http://www.exabot.com/go/robot)",
       "Mozilla/5.0 (compatible; Exabot/3.0 (BiggerBetter); +http://www.exabot.com/go/robot)",
-      "Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)"
+      "Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)",
+      "Mozilla/5.0 (compatible; Exabot/3.0;  http://www.exabot.com/go/robot)"
     ]
   }
   ,
@@ -1038,7 +1039,8 @@
     "addition_date": "2012/02/05",
     "url": "http://www.commoncrawl.org/bot.html",
     "instances": [
-      "CCBot/2.0 (http://commoncrawl.org/faq/)"
+      "CCBot/2.0 (http://commoncrawl.org/faq/)",
+      "CCBot/2.0 (https://commoncrawl.org/faq/)"
     ]
   }
   ,
@@ -1637,7 +1639,8 @@
     "pattern": "Qwantify",
     "url": "https://www.qwant.com/",
     "instances": [
-      "Mozilla/5.0 (compatible; Qwantify/2.0n; +https://www.qwant.com/)/*"
+      "Mozilla/5.0 (compatible; Qwantify/2.0n; +https://www.qwant.com/)/*",
+      "Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w"
     ],
     "addition_date": "2015/04/06"
   }
@@ -2114,6 +2117,8 @@
     "addition_date": "2017/04/23",
     "url": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0",
     "instances": [
+      "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)",
+      "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/6.0;)",
       "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b",
       "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0; BingPreview/1.0b) like Gecko",
       "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0;  WOW64;  Trident/6.0;  BingPreview/1.0b)",
@@ -3024,7 +3029,8 @@
     "pattern": "Netvibes",
     "addition_date": "2018/06/24",
     "instances": [
-      "Netvibes (crawler/bot; http://www.netvibes.com"
+      "Netvibes (crawler/bot; http://www.netvibes.com",
+      "Netvibes (crawler; http://www.netvibes.com)"
     ],
     "url": "http://www.netvibes.com"
   }
@@ -3178,6 +3184,7 @@
     "addition_date": "2018/06/27",
     "instances": [
       "Mozilla/5.0 (compatible; FlipboardProxy/1.1; +http://flipboard.com/browserproxy)",
+      "Mozilla/5.0 (compatible; FlipboardProxy/1.2; +http://flipboard.com/browserproxy)",
       "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (FlipboardProxy/1.1; +http://flipboard.com/browserproxy)",
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:28.0) Gecko/20100101 Firefox/28.0 (FlipboardProxy/1.1; +http://flipboard.com/browserproxy)"
     ],
@@ -3295,7 +3302,8 @@
        "Mozilla/5.0 (compatible; Miniflux/2.0.3; +https://miniflux.net)",
        "Mozilla/5.0 (compatible; Miniflux/2.0.7; +https://miniflux.net)",
        "Mozilla/5.0 (compatible; Miniflux/2.0.10; +https://miniflux.net)",
-       "Mozilla/5.0 (compatible; Miniflux/2.0.11; +https://miniflux.app)"
+       "Mozilla/5.0 (compatible; Miniflux/2.0.11; +https://miniflux.app)",
+       "Mozilla/5.0 (compatible; Miniflux/2.0.12; +https://miniflux.app)"
      ],
      "url": "https://miniflux.net",
      "description": "Miniflux is a minimalist and opinionated feed reader."
