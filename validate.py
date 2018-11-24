@@ -61,6 +61,9 @@ def main():
         assert set([str(x) for x in entry.keys()]).issubset(set(JSON_SCHEMA['items']['properties'].keys())), "the entry contains unknown properties"  
         instances = entry.get('instances')
         if instances:
+            # check that there is no duplicate
+            if not len(instances) == len(set(instances)):
+                raise Exception("duplicate instances in "+pattern)
             for instance in instances:
                 num_instances += 1
                 if not re.search(pattern, instance):
