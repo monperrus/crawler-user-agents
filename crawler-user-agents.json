@@ -3681,5 +3681,13 @@
       "Mozilla/5.0 (compatible; GroupHigh/1.0; +http://www.grouphigh.com/"
     ],
     "url": "http://www.grouphigh.com/"
+  },
+  {
+    "pattern": "theoldreader.com",
+    "addition_date": "2018/12/02",
+    "instances": [
+      "Mozilla/5.0 (compatible; theoldreader.com)"
+    ],
+    "url": "https://www.theoldreader.com/"
   }
 ]
