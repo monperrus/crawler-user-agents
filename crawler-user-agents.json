@@ -3682,4 +3682,13 @@
     ],
     "url": "http://www.grouphigh.com/"
   }
+  ,
+  {
+    "pattern": "AnyEvent",
+    "addition_date": "2018/12/07",
+    "instances": [
+      "Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.24; +http://software.schmorp.de/pkg/AnyEvent)"
+    ],
+    "url": "http://software.schmorp.de/pkg/AnyEvent.html"
+  }
 ]
