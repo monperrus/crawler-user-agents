@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "crawler-user-agents",
   "version": "1.0.0",
   "main": "crawler-user-agents.json",
