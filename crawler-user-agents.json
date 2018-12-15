@@ -3295,8 +3295,11 @@
        "Mozilla/5.0 (compatible; Miniflux/2.0.3; +https://miniflux.net)",
        "Mozilla/5.0 (compatible; Miniflux/2.0.7; +https://miniflux.net)",
        "Mozilla/5.0 (compatible; Miniflux/2.0.10; +https://miniflux.net)",
+       "Mozilla/5.0 (compatibl$; Miniflux/2.0.x-dev; +https://miniflux.app)",
        "Mozilla/5.0 (compatible; Miniflux/2.0.11; +https://miniflux.app)",
-       "Mozilla/5.0 (compatible; Miniflux/2.0.12; +https://miniflux.app)"
+       "Mozilla/5.0 (compatible; Miniflux/2.0.12; +https://miniflux.app)",
+       "Mozilla/5.0 (compatible; Miniflux/ae1dc1a; +https://miniflux.app)",
+       "Mozilla/5.0 (compatible; Miniflux/3b6e44c; +https://miniflux.app)"
      ],
      "url": "https://miniflux.net",
      "description": "Miniflux is a minimalist and opinionated feed reader."
