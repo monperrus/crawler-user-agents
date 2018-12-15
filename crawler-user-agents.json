@@ -2081,7 +2081,7 @@
   }
   ,
   {
-    "pattern": "pinterest",
+    "pattern": "pinterest.com.bot",
     "addition_date": "2017/03/03",
     "instances": [
       "Pinterest/0.2 (+http://www.pinterest.com/bot.html)"
