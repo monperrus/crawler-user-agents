@@ -3702,4 +3702,13 @@
     ],
     "url": "http://software.schmorp.de/pkg/AnyEvent.html"
   }
+  ,
+  {
+    "pattern": "Uptimebot",
+    "addition_date": "2019/01/17",
+    "instances": [
+      "Uptimebot.org - Free website monitoring"
+    ],
+    "url": "http://uptimebot.org/"
+  }
 ]
