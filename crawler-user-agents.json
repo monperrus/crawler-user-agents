@@ -3711,4 +3711,13 @@
     ],
     "url": "http://uptimebot.org/"
   }
+  ,
+  {
+    "pattern": "Nmap Scripting Engine",
+    "addition_date": "2019/02/04",
+    "instances": [
+      "Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)"
+    ],
+    "url": "https://nmap.org/book/nse.html"
+  }
 ]
