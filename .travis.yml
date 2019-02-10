@@ -4,9 +4,14 @@ script:
 - py.test -vv
 - python validate.py
 - php validate.php
+- git checkout .
+- npm version `curl "https://api.npms.io/v2/package/crawler-user-agents" | jq -r .collected.metadata.version`
+- npm version patch
+
 deploy:
   provider: npm
   email: martin.monperrus@gnieh.org
+  skip_cleanup: true
   api_key:
     secure: YgdBbKjxy+DRdQcItgiwq3gMjxzFbZsplv13Lb5Ewzb+n6CO7U/RHEdLMHRfE/3xlQIaMMvbjjBSBUR9rDpMqClrfnkwf2RtXKQGImQ9Z8vvRKIWEn1UDoFLPtRtVrPU/7K96LbJsSyncM8HDEsF3s22WdiDcFhuH3/PjWxxr5g=
   on:
