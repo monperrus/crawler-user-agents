@@ -3720,4 +3720,13 @@
     ],
     "url": "https://nmap.org/book/nse.html"
   }
+  ,
+  {
+    "pattern": "2ip.ru",
+    "addition_date": "2019/02/12",
+    "instances": [
+      "2ip.ru CMS Detector (https://2ip.ru/cms/)"
+    ],
+    "url": "https://2ip.ru/cms/"
+  }
 ]
