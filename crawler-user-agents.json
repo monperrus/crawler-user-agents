@@ -3728,5 +3728,13 @@
       "2ip.ru CMS Detector (https://2ip.ru/cms/)"
     ],
     "url": "https://2ip.ru/cms/"
+  },
+  {
+    "pattern": "Clickagy",
+    "addition_date": "2019/02/19",
+    "instances": [
+      "Clickagy Intelligence Bot v2"
+    ],
+    "url": "https://www.clickagy.com"
   }
 ]
