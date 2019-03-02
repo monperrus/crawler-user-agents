@@ -592,6 +592,15 @@
   }
   ,
   {
+    "pattern": "YandexAccessibilityBot",
+    "url": "http://yandex.com/bots",
+    "instances": [
+      "Mozilla/5.0 (compatible; YandexAccessibilityBot/3.0; +http://yandex.com/bots"
+    ],
+    "addition_date": "2019/03/01"
+  }
+  ,
+  {
     "pattern": "yandex.com\\/bots",
     "url": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.xml#robot-in-logs",
     "instances": [
