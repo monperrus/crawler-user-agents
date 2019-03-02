@@ -3196,6 +3196,15 @@
   }
   ,
   {
+    "pattern": "G2 Web Services",
+    "addition_date": "2019/03/01",
+    "instances": [
+      "G2 Web Services/1.0 (built with StormCrawler Archetype 1.8; https://www.g2webservices.com/; developers@g2llc.com)"
+    ],
+    "url": "https://www.g2webservices.com/"
+  }
+  ,
+  {
     "pattern": "imrbot",
     "addition_date": "2018/06/27",
     "instances": [
