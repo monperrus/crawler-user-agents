@@ -803,6 +803,7 @@
     "pattern": "Mail.RU_Bot",
     "addition_date": "2011/04/27",
     "instances": [
+      "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)",
       "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/",
       "Mozilla/5.0 (compatible; Mail.RU_Bot/2.0; +http://go.mail.ru/"
     ]
@@ -1705,6 +1706,8 @@
     "pattern": "S[eE][mM]rushBot",
     "url": "http://www.semrush.com/bot.html",
     "instances": [
+      "Mozilla/5.0 (compatible; SemrushBot-SI/0.97; +http://www.semrush.com/bot.html)",
+      "Mozilla/5.0 (compatible; SemrushBot/3~bl; +http://www.semrush.com/bot.html)",
       "Mozilla/5.0 (compatible; SemrushBot/0.98~bl; +http://www.semrush.com/bot.html)",
       "SEMrushBot"
     ],
@@ -2273,6 +2276,7 @@
     "pattern": "PiplBot",
     "addition_date": "2017/10/30",
     "instances": [
+      "PiplBot (+http://www.pipl.com/bot/)",
       "Mozilla/5.0+(compatible;+PiplBot;+http://www.pipl.com/bot/)"
     ],
     "url": "http://www.pipl.com/bot/"
@@ -3765,5 +3769,13 @@
       "Caliperbot/1.0 (+http://www.conductor.com/caliperbot)"
     ],
     "url": "http://www.conductor.com/caliperbot"
+  },
+  {
+    "pattern": "TurnitinBot",
+    "addition_date": "2019/03/02",
+    "instances": [
+      "TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)"
+    ],
+    "url": "https://turnitin.com/robot/crawlerinfo.html"
   }
 ]
