@@ -899,6 +899,7 @@
     "pattern": "Ahrefs(Bot|SiteAudit)",
     "addition_date": "2011/08/28",
     "instances": [
+      "Mozilla/5.0 (compatible; AhrefsBot/6.1; News; +http://ahrefs.com/robot/)",
       "Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)",
       "Mozilla/5.0 (compatible; AhrefsSiteAudit/6.1; +http://ahrefs.com/robot/)",
       "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)",      
@@ -1718,6 +1719,7 @@
     "pattern": "S[eE][mM]rushBot",
     "url": "http://www.semrush.com/bot.html",
     "instances": [      
+      "Mozilla/5.0 (compatible; SemrushBot-BA; +http://www.semrush.com/bot.html)",
       "Mozilla/5.0 (compatible; SemrushBot-SA/0.97; +http://www.semrush.com/bot.html)",
       "Mozilla/5.0 (compatible; SemrushBot-SI/0.97; +http://www.semrush.com/bot.html)",
       "Mozilla/5.0 (compatible; SemrushBot/3~bl; +http://www.semrush.com/bot.html)",
@@ -2036,6 +2038,7 @@
     "addition_date": "2016/11/03",
     "url": "https://api.slack.com/robots",
     "instances": [
+      "Slackbot 1.0 (+https://api.slack.com/robots)",
       "Slackbot-LinkExpanding (+https://api.slack.com/robots)",
       "Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)"
     ]
@@ -3815,5 +3818,21 @@
       "Mozilla/5.0 (compatible; AddSearchBot/0.9; +http://www.addsearch.com/bot; info@addsearch.com)"
     ],
     "url": "http://www.addsearch.com/bot"
-  }
+  },
+  {
+    "pattern": "Owlin",
+    "addition_date": "2019/03/02",
+    "instances": [
+      "Owlin - https://www.owlin.com (Contains Googlebot for cookiewall)"
+    ],
+    "url": "https://www.owlin.com"
+  },
+  {
+    "pattern": "WhiteHat",
+    "addition_date": "2019/03/03",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.19) Gecko/20110707 Firefox/3.6.3 WhiteHat"
+    ],
+    "url": "https://www.whitehatsec.com/"
+  } 
 ]
