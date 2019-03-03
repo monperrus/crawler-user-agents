@@ -62,7 +62,7 @@ def test_simple_pass(restore_original_json):
 
 def test_simplest_pass(restore_original_json):
     # the simplest crawler file passes
-    user_agent_list = [{'pattern': 'foo'}]
+    user_agent_list = [{'pattern': 'foo', 'instances': []}]
     update_json_file(user_agent_list)
     assert_validate_passed()
 

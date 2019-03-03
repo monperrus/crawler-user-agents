@@ -10,8 +10,7 @@
       "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
       "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
       "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
-      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36",
-      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview Analytics) Chrome/27.0.1453 Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36"
     ]
   }
   ,
@@ -179,19 +178,10 @@
   }
   ,
   {
-    "pattern": "libwww",
+    "pattern": "libwww-perl",
     "instances": [
       "2Bone_LinkChecker/1.0 libwww-perl/6.03",
       "2Bone_LinkChkr/1.0 libwww-perl/6.03",
-      "W3C-checklink/2.90 libwww-perl/5.64",
-      "W3C-checklink/3.6.2.3 libwww-perl/5.64",
-      "W3C-checklink/4.2 [4.20] libwww-perl/5.803",
-      "W3C-checklink/4.2.1 [4.21] libwww-perl/5.803",
-      "W3C-checklink/4.3 [4.42] libwww-perl/5.805",
-      "W3C-checklink/4.3 [4.42] libwww-perl/5.808",
-      "W3C-checklink/4.3 [4.42] libwww-perl/5.820",
-      "W3C-checklink/4.5 [4.154] libwww-perl/5.823",
-      "W3C-checklink/4.5 [4.160] libwww-perl/5.823",
       "amibot - http://www.amidalla.de - tech@amidalla.com libwww-perl/5.831"
     ]
   }
@@ -410,13 +400,6 @@
   }
   ,
   {
-    "pattern": "bibnum.bnf",
-    "instances": [
-      "Mozilla/5.0 (compatible; bnf.fr_bot; +http://bibnum.bnf.fr/robot/bnf.html)"
-    ]
-  }
-  ,
-  {
     "pattern": "findlink",
     "instances": [
       "findlinks/1.0 (+http://wortschatz.uni-leipzig.de/findlinks/)",
@@ -611,10 +594,9 @@
   }
   ,
   {
-    "pattern": "yandex.com\\/bots",
+    "pattern": "YandexMobileBot",
     "url": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.xml#robot-in-logs",
     "instances": [
-      "Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)",
       "Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)"
     ],
     "addition_date": "2016/12/01"
@@ -650,8 +632,7 @@
     "addition_date": "2010/05/18",
     "instances": [
       "Mozilla/5.0 (Windows NT 5.1; U; Win64; fr; rv:1.8.1) VoilaBot BETA 1.2 (support.voilabot@orange-ftgroup.com)",
-      "Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.8.1) VoilaBot BETA 1.2 (support.voilabot@orange-ftgroup.com)",
-      "Mozilla/5.0 (compatible; OrangeBot/2.0; support.voilabot@orange.com)"
+      "Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.8.1) VoilaBot BETA 1.2 (support.voilabot@orange-ftgroup.com)"
     ]
   }
   ,
@@ -785,14 +766,6 @@
   }
   ,
   {
-    "pattern": "blekkobot",
-    "url": "http://blekko.com/about/blekkobot",
-    "instances": [
-      "Mozilla/5.0 (compatible; Blekkobot; ScoutJet; +http://blekko.com/about/blekkobot)"
-    ]
-  }
-  ,
-  {
     "pattern": "ezooms",
     "addition_date": "2011/04/27",
     "url": "http://www.phpbb.com/community/viewtopic.php?f=64&t=935605&start=450#p12948289",
@@ -834,9 +807,8 @@
   {
     "pattern": "heritrix",
     "addition_date": "2011/06/21",
-    "url": "http://crawler.archive.org/",
+    "url": "https://github.com/internetarchive/heritrix3/wiki",
     "instances": [
-      "Mozilla/5.0 (compatible; archive.org_bot/heritrix-1.15.4 +http://www.archive.org)",
       "Mozilla/5.0 (compatible; heritrix/1.12.1 +http://www.webarchiv.cz)",
       "Mozilla/5.0 (compatible; heritrix/1.12.1b +http://netarkivet.dk/website/info.html)",
       "Mozilla/5.0 (compatible; heritrix/1.14.2 +http://rjpower.org)",
@@ -853,12 +825,10 @@
       "Mozilla/5.0 (compatible; heritrix/3.1.0-RC1 +http://boston.lti.cs.cmu.edu/crawler_12/)",
       "Mozilla/5.0 (compatible; heritrix/3.1.1 +http://places.tomtom.com/crawlerinfo)",
       "Mozilla/5.0 (compatible; heritrix/3.1.1 +http://www.mixdata.com)",
-      "Mozilla/5.0 (compatible; heritrix/3.1.1-SNAPSHOT-20120116.200628 +http://www.archive.org/details/archive.org_bot)",
       "Mozilla/5.0 (compatible; heritrix/3.1.1; UniLeipzigASV +http://corpora.informatik.uni-leipzig.de/crawler_faq.html)",
       "Mozilla/5.0 (compatible; heritrix/3.2.0 +http://www.crim.ca)",
       "Mozilla/5.0 (compatible; heritrix/3.2.0 +http://www.exif-search.com)",
       "Mozilla/5.0 (compatible; heritrix/3.2.0 +http://www.mixdata.com)",
-      "Mozilla/5.0 (compatible; heritrix/3.3.0-SNAPSHOT-20140702-2247 +http://archive.org/details/archive.org_bot)",
       "Mozilla/5.0 (compatible; heritrix/3.3.0-SNAPSHOT-20160309-0050; UniLeipzigASV +http://corpora.informatik.uni-leipzig.de/crawler_faq.html)",
       "Mozilla/5.0 (compatible; sukibot_heritrix/3.1.1 +http://suki.ling.helsinki.fi/eng/webmasters.html)"
     ]
@@ -921,14 +891,6 @@
     "addition_date": "2018/06/28",
     "instances": [
       "CrunchBot/1.0 (+http://www.leadcrunch.com/crunchbot)"
-    ]
-  }
-  ,
-  {
-    "pattern": "centurybot9",
-    "addition_date": "2018/06/28",
-    "instances": [
-      "Mozilla/5.0 (compatible; Go-http-client/1.1; +centurybot9@gmail.com)"
     ]
   }
   ,
@@ -1545,6 +1507,7 @@
     "addition_date": "2014/11/18",
     "url": "http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html",
     "instances": [
+      "Mozilla/5.0 (compatible; bnf.fr_bot; +http://bibnum.bnf.fr/robot/bnf.html)",
       "Mozilla/5.0 (compatible; bnf.fr_bot; +http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html)"
     ]
   }
@@ -1669,7 +1632,11 @@
   {
     "pattern": "archive.org_bot",
     "url": "http://www.archive.org/details/archive.org_bot",
+    "depends_on": ["heritrix"],
     "instances": [
+      "Mozilla/5.0 (compatible; heritrix/3.1.1-SNAPSHOT-20120116.200628 +http://www.archive.org/details/archive.org_bot)",
+      "Mozilla/5.0 (compatible; archive.org_bot/heritrix-1.15.4 +http://www.archive.org)",
+      "Mozilla/5.0 (compatible; heritrix/3.3.0-SNAPSHOT-20140702-2247 +http://archive.org/details/archive.org_bot)",
       "Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)"
     ],
     "addition_date": "2015/04/14"
@@ -3597,8 +3564,17 @@
   {
     "pattern": "W3C-checklink",
     "addition_date": "2018/10/14",
+    "depends_on": ["libwww-perl"],
     "instances": [
-      "W3C-checklink"
+      "W3C-checklink/2.90 libwww-perl/5.64",
+      "W3C-checklink/3.6.2.3 libwww-perl/5.64",
+      "W3C-checklink/4.2 [4.20] libwww-perl/5.803",
+      "W3C-checklink/4.2.1 [4.21] libwww-perl/5.803",
+      "W3C-checklink/4.3 [4.42] libwww-perl/5.805",
+      "W3C-checklink/4.3 [4.42] libwww-perl/5.808",
+      "W3C-checklink/4.3 [4.42] libwww-perl/5.820",
+      "W3C-checklink/4.5 [4.154] libwww-perl/5.823",
+      "W3C-checklink/4.5 [4.160] libwww-perl/5.823"
     ],
     "url": "https://validator.w3.org/services"
   }

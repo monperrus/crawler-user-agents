@@ -15,13 +15,14 @@ JSON_SCHEMA = {
     "items": {
         "type": "object",
         "properties": {
-            "pattern": {"type": "string"},
-            "instances": {"type": "array"},
-            "url": {"type": "string"},
-            "description": {"type": "string"},
-            "addition_date": {"type": "string"}
+            "pattern": {"type": "string"}, # required
+            "instances": {"type": "array"}, # required
+            "url": {"type": "string"}, # optional
+            "description": {"type": "string"}, # optional
+            "addition_date": {"type": "string"}, # optional
+            "depends_on": {"type": "array"} # allows an instance to match twice
         },
-        "required": ["pattern"]
+        "required": ["pattern", "instances"]
     }
 }
 
@@ -57,6 +58,10 @@ def main():
     num_instances = 0
     for entry in json_data:
         pattern = entry['pattern']
+        
+        # canonicalize entry
+        if 'depends_on' not in entry: entry['depends_on'] = []
+            
         # check that we have only the rights properties (not handled by default in module jsonschema)
         assert set([str(x) for x in entry.keys()]).issubset(set(JSON_SCHEMA['items']['properties'].keys())), "the entry contains unknown properties"  
         instances = entry.get('instances')
@@ -69,7 +74,15 @@ def main():
                 if not re.search(pattern, instance):
                     raise ValueError('Pattern {!r} misses instance {!r}'
                                      .format(pattern, instance))
-                # TODO: Check for re2 matching here
+                
+                # contract: we want to avoid that instances are matched twice
+                # exceptions are handled with the special metadata "depends_on"
+                for entry2 in json_data:
+                    pattern2 = entry2['pattern']
+                    if pattern2 == pattern: continue
+                    if re.search(pattern2, instance) and pattern2 not in entry['depends_on']: 
+                        raise ValueError(instance + 'is matched by both ' + pattern + ' and ' + pattern2)
+
 
     # Make sure we have at least one pattern
     if len(json_data) < 1:
