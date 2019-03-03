@@ -3756,5 +3756,13 @@
       "Clickagy Intelligence Bot v2"
     ],
     "url": "https://www.clickagy.com"
+  },
+  {
+    "pattern": "Caliperbot",
+    "addition_date": "2019/03/02",
+    "instances": [
+      "Caliperbot/1.0 (+http://www.conductor.com/caliperbot)"
+    ],
+    "url": "http://www.conductor.com/caliperbot"
   }
 ]
