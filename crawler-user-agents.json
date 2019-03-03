@@ -149,6 +149,7 @@
   {
     "pattern": "LinkedInBot",
     "instances": [
+      "LinkedInBot/1.0 (compatible; Mozilla/5.0; Apache-HttpClient +http://www.linkedin.com)",
       "LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/3.1 +http://www.linkedin.com)",
       "LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/4.3 +http://www.linkedin.com)"
     ]
@@ -592,6 +593,15 @@
   }
   ,
   {
+    "pattern": "YandexImages",
+    "url": "http://yandex.com/bots",
+    "instances": [
+      "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+    ],
+    "addition_date": "2015/04/14"
+  }  
+  ,
+  {
     "pattern": "YandexAccessibilityBot",
     "url": "http://yandex.com/bots",
     "instances": [
@@ -720,10 +730,12 @@
   }
   ,
   {
-    "pattern": "turnitinbot",
+    "pattern": "TurnitinBot",
     "addition_date": "2010/09/26",
     "url": "http://www.turnitin.com",
-    "instances": []
+    "instances": [
+      "TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)"
+    ]
   }
   ,
   {
@@ -802,6 +814,7 @@
     "pattern": "Mail.RU_Bot",
     "addition_date": "2011/04/27",
     "instances": [
+      "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)",
       "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/",
       "Mozilla/5.0 (compatible; Mail.RU_Bot/2.0; +http://go.mail.ru/"
     ]
@@ -886,6 +899,8 @@
     "pattern": "Ahrefs(Bot|SiteAudit)",
     "addition_date": "2011/08/28",
     "instances": [
+      "Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)",
+      "Mozilla/5.0 (compatible; AhrefsSiteAudit/6.1; +http://ahrefs.com/robot/)",
       "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)",      
       "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)",
       "Mozilla/5.0 (compatible; AhrefsSiteAudit/5.2; +http://ahrefs.com/robot/)"
@@ -1702,7 +1717,10 @@
   {
     "pattern": "S[eE][mM]rushBot",
     "url": "http://www.semrush.com/bot.html",
-    "instances": [
+    "instances": [      
+      "Mozilla/5.0 (compatible; SemrushBot-SA/0.97; +http://www.semrush.com/bot.html)",
+      "Mozilla/5.0 (compatible; SemrushBot-SI/0.97; +http://www.semrush.com/bot.html)",
+      "Mozilla/5.0 (compatible; SemrushBot/3~bl; +http://www.semrush.com/bot.html)",
       "Mozilla/5.0 (compatible; SemrushBot/0.98~bl; +http://www.semrush.com/bot.html)",
       "SEMrushBot"
     ],
@@ -1856,6 +1874,7 @@
     "addition_date": "2016/01/23",
     "url": "http://cliqz.com/company/cliqzbot",
     "instances": [
+      "Mozilla/5.0 (compatible; Cliqzbot/2.0; +http://cliqz.com/company/cliqzbot)",
       "Cliqzbot/0.1 (+http://cliqz.com +cliqzbot@cliqz.com)",
       "Cliqzbot/0.1 (+http://cliqz.com/company/cliqzbot)",
       "Mozilla/5.0 (compatible; Cliqzbot/0.1 +http://cliqz.com/company/cliqzbot)",
@@ -2094,6 +2113,7 @@
     "pattern": "pinterest.com.bot",
     "addition_date": "2017/03/03",
     "instances": [
+      "Mozilla/5.0 (compatible; Pinterestbot/1.0; +http://www.pinterest.com/bot.html)",
       "Pinterest/0.2 (+http://www.pinterest.com/bot.html)"
     ],
     "url": "http://www.pinterest.com/bot.html"
@@ -2271,6 +2291,7 @@
     "pattern": "PiplBot",
     "addition_date": "2017/10/30",
     "instances": [
+      "PiplBot (+http://www.pipl.com/bot/)",
       "Mozilla/5.0+(compatible;+PiplBot;+http://www.pipl.com/bot/)"
     ],
     "url": "http://www.pipl.com/bot/"
@@ -3755,5 +3776,44 @@
       "Clickagy Intelligence Bot v2"
     ],
     "url": "https://www.clickagy.com"
+  },
+  {
+    "pattern": "Caliperbot",
+    "addition_date": "2019/03/02",
+    "instances": [
+      "Caliperbot/1.0 (+http://www.conductor.com/caliperbot)"
+    ],
+    "url": "http://www.conductor.com/caliperbot"
+  },
+  {
+    "pattern": "MBCrawler",
+    "addition_date": "2019/03/02",
+    "instances": [
+      "MBCrawler/1.0 (https://monitorbacklinks.com)"
+    ],
+    "url": "https://monitorbacklinks.com"
+  },
+  {
+    "pattern": "online-webceo-bot",
+    "addition_date": "2019/03/02",
+    "instances": [
+      "Mozilla/5.0 (compatible; online-webceo-bot/1.0; +http://online.webceo.com)"
+    ],
+    "url": "http://online.webceo.com"
+  },
+  {
+    "pattern": "B2B Bot",
+    "addition_date": "2019/03/02",
+    "instances": [
+      "B2B Bot"
+    ]
+  },
+  {
+    "pattern": "AddSearchBot",
+    "addition_date": "2019/03/02",
+    "instances": [
+      "Mozilla/5.0 (compatible; AddSearchBot/0.9; +http://www.addsearch.com/bot; info@addsearch.com)"
+    ],
+    "url": "http://www.addsearch.com/bot"
   }
 ]
