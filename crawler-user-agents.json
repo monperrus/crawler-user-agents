@@ -3777,5 +3777,13 @@
       "TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)"
     ],
     "url": "https://turnitin.com/robot/crawlerinfo.html"
+  },
+  {
+    "pattern": "MBCrawler",
+    "addition_date": "2019/03/02",
+    "instances": [
+      "MBCrawler/1.0 (https://monitorbacklinks.com)"
+    ],
+    "url": "https://monitorbacklinks.com"
   }
 ]
