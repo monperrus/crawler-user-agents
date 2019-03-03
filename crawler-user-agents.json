@@ -733,7 +733,9 @@
     "pattern": "turnitinbot",
     "addition_date": "2010/09/26",
     "url": "http://www.turnitin.com",
-    "instances": []
+    "instances": [
+      "TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)"
+    ]
   }
   ,
   {
@@ -3782,14 +3784,6 @@
       "Caliperbot/1.0 (+http://www.conductor.com/caliperbot)"
     ],
     "url": "http://www.conductor.com/caliperbot"
-  },
-  {
-    "pattern": "TurnitinBot",
-    "addition_date": "2019/03/02",
-    "instances": [
-      "TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)"
-    ],
-    "url": "https://turnitin.com/robot/crawlerinfo.html"
   },
   {
     "pattern": "MBCrawler",
