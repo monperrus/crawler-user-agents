@@ -2236,6 +2236,15 @@
   }
   ,
   {
+    "pattern": "AppInsights",
+    "addition_date": "2019/03/09",
+    "instances": [
+      "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; AppInsights)"
+    ],
+    "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview"
+  }
+  ,
+  {
     "pattern": "PhantomJS",
     "addition_date": "2017/09/18",
     "instances": [
