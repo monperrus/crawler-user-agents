@@ -3801,5 +3801,12 @@
       "Mozilla/5.0 (compatible; AddSearchBot/0.9; +http://www.addsearch.com/bot; info@addsearch.com)"
     ],
     "url": "http://www.addsearch.com/bot"
+  },
+  {
+    "pattern": "Google Favicon",
+    "addition_date": "2019/03/14",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon"
+    ]
   }
 ]
