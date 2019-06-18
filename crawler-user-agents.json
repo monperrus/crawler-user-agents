@@ -2719,9 +2719,7 @@
     "pattern": "DnyzBot",
     "addition_date": "2017/11/20",
     "instances": [
-      "Mozilla/5.0 (compatible; DnyzBot/1.0)",
-      "Mozilla/5.0 (compatible; DnyzBot/1.0) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36",
-      "Mozilla/5.0 (compatible; DnyzBot/1.0) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3264.0 Safari/537.36"
+      "Mozilla/5.0 (compatible; DnyzBot/1.0)"
     ]
   }
   ,
@@ -3826,5 +3824,14 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36 Chrome-Lighthouse"
     ],
     "url": "https://developers.google.com/speed/pagespeed/insights"
+  },
+  {
+    "pattern": "HeadlessChrome",
+    "url": "https://developers.google.com/web/updates/2017/04/headless-chrome",
+    "addition_date": "2019/06/17",
+    "instances": [
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/74.0.3729.169 Safari/537.36"
+    ]
   }
 ]
+
