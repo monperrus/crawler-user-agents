@@ -3832,6 +3832,14 @@
     "instances": [
         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/74.0.3729.169 Safari/537.36"
     ]
+  },
+  {
+    "pattern": "CheckMarkNetwork\\/",
+    "addition_date": "2019/06/30",
+    "instances": [
+      "CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html)"
+    ],
+    "url": "https://www.checkmarknetwork.com/"
   }
 ]
 
