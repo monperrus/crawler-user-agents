@@ -63,6 +63,7 @@ There are a few wrapper libraries that use this data to detect bots:
  * [Voight-Kampff](https://github.com/biola/Voight-Kampff) (Ruby)
  * [isbot](https://github.com/Hentioe/isbot) (Ruby)
  * [crawlers](https://github.com/Olical/crawlers) (Clojure)
+ * [crawlerflagger](https://godoc.org/go.kelfa.io/kelfa/pkg/crawlerflagger) (Go)
 
 Other systems for spotting robots, crawlers, and spiders that you may want to consider are:
 
