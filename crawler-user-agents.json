@@ -3853,6 +3853,15 @@
       "Mozilla/5.0 (compatible; Uptimebot/1.0; +http://www.uptime.com/uptimebot)"
     ],
     "url": "http://www.uptime.com/uptimebot"
+  },
+  {
+      "pattern": "Streamline3Bot\\/",
+      "addition_date": "2019/07/21",
+      "isntances": [
+          "Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1) Streamline3Bot/1.0",
+          "Mozilla/5.0 (Windows NT 6.1; Win64; x64; +https://www.ubtsupport.com/legal/Streamline3Bot.php) Streamline3Bot/1.0"
+      ],
+      "url": "https://www.ubtsupport.com/legal/Streamline3Bot.php"
   }
 ]
 
