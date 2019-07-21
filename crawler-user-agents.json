@@ -3728,7 +3728,7 @@
   }
   ,
   {
-    "pattern": "Uptimebot",
+    "pattern": "Uptimebot\\.org",
     "addition_date": "2019/01/17",
     "instances": [
       "Uptimebot.org - Free website monitoring"
