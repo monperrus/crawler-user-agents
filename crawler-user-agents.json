@@ -640,7 +640,8 @@
     "addition_date": "2010/07/15",
     "url": "http://www.baidu.jp/spider/",
     "instances": [
-      "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+      "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",
+      "Mozilla/5.0 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)"
     ]
   }
   ,
