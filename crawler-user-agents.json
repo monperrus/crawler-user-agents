@@ -3842,7 +3842,7 @@
     "url": "https://www.checkmarknetwork.com/"
   },
   {
-    "pattern": "www\.uptime\.com",
+    "pattern": "www\\.uptime\\.com",
     "addition_date": "2019/07/21",
     "instances": [
       "Mozilla/5.0 (compatible; Uptimebot/1.0; +http://www.uptime.com/uptimebot)"
