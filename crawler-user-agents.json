@@ -788,7 +788,8 @@
     "instances": [
       "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)",
       "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/",
-      "Mozilla/5.0 (compatible; Mail.RU_Bot/2.0; +http://go.mail.ru/"
+      "Mozilla/5.0 (compatible; Mail.RU_Bot/2.0; +http://go.mail.ru/",
+      "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Robots/2.0; +http://go.mail.ru/help/robots)"
     ]
   }
   ,
