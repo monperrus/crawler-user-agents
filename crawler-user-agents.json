@@ -1577,9 +1577,10 @@
   ,
   {
     "pattern": "SemanticScholarBot",
-    "url": "http://s2.allenai.org/bot.html",
+    "url": "https://www.semanticscholar.org/crawler",
     "instances": [
-      "SemanticScholarBot/1.0 (+http://s2.allenai.org/bot.html)"
+      "SemanticScholarBot/1.0 (+http://s2.allenai.org/bot.html)",
+      "Mozilla/5.0 (compatible) SemanticScholarBot (+https://www.semanticscholar.org/crawler)"
     ],
     "addition_date": "2015/03/28"
   }
