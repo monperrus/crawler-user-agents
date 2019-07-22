@@ -2324,12 +2324,14 @@
   }
   ,
   {
-    "pattern": "Barkrowler",
+    "pattern": "Bark[rR]owler",
     "addition_date": "2017/10/09",
     "url": "http://www.exensa.com/crawl",
     "instances": [
       "Barkrowler/0.5.1 (experimenting / debugging - sorry for your logs ) http://www.exensa.com/crawl - admin@exensa.com -- based on BuBiNG",
-      "Barkrowler/0.7 (+http://www.exensa.com/crawl)"
+      "Barkrowler/0.7 (+http://www.exensa.com/crawl)",
+      "BarkRowler/0.7 (+http://www.exensa.com/crawling)",
+      "Barkrowler/0.9 (+http://www.exensa.com/crawl)"
     ]
   }
   ,
