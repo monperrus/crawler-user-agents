@@ -1177,7 +1177,8 @@
     "url": "http://duckduckgo.com/duckduckbot.html",
     "instances": [
       "DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html)",
-      "DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html)"
+      "DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html)",
+      "Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)"
     ]
   }
   ,
