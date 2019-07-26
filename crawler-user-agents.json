@@ -3876,6 +3876,14 @@
       "Mozilla/5.0 (Windows NT 6.1; Win64; x64; +https://www.ubtsupport.com/legal/Streamline3Bot.php) Streamline3Bot/1.0"
     ],
     "url": "https://www.ubtsupport.com/legal/Streamline3Bot.php"
+  },
+  {
+    "pattern": "serpstatbot\\/",
+    "addition_date": "2019/07/25",
+    "instances": [
+      "serpstatbot/1.0 (advanced backlink tracking bot; http://serpstatbot.com/; abuse@serpstatbot.com)"
+    ],
+    "url": "http://serpstatbot.com"
   }
 ]
 
