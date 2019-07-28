@@ -1,11 +1,15 @@
 language: python
-install: pip install jsonschema pytest
+python: 3.6
+
+install: 
+- pip3 install jsonschema pytest
+- npm install pacote
 script:
 - py.test -vv
-- python validate.py
+- python3 validate.py  
 - php validate.php
 - git checkout .
-- npm version `curl "https://api.npms.io/v2/package/crawler-user-agents" | jq -r .collected.metadata.version`
+- npm version `node -e 'pacote=require("pacote");pacote.manifest("crawler-user-agents").then(pkgJson => { console.log(pkgJson.version); });'`
 - npm version patch
 
 deploy:
