@@ -2916,9 +2916,10 @@
     "pattern": "newspaper\\/",
     "addition_date": "2018/03/27",
     "instances": [
+      "newspaper/0.1.0.7",
       "newspaper/0.2.5",
       "newspaper/0.2.6",
-      "newspaper/0.1.0.7"
+      "newspaper/0.2.8"
     ]
   }
   ,
