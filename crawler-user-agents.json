@@ -10,7 +10,8 @@
       "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
       "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
       "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
-      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36"
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36",
+      "Mozilla/4.0 (compatible; MSIE 6.0;Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
     ]
   }
   ,
@@ -172,7 +173,9 @@
     "pattern": "python-requests",
     "addition_date": "2018/05/27",
     "instances": [
-      "python-requests/2.18.4"
+      "python-requests/2.18.4",
+      "python-requests/2.21.0",
+      "python-requests/2.22.0"
     ]
   }
   ,
@@ -640,7 +643,8 @@
     "addition_date": "2010/07/15",
     "url": "http://www.baidu.jp/spider/",
     "instances": [
-      "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+      "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",
+      "Mozilla/5.0 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)"
     ]
   }
   ,
@@ -788,7 +792,8 @@
     "instances": [
       "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)",
       "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/",
-      "Mozilla/5.0 (compatible; Mail.RU_Bot/2.0; +http://go.mail.ru/"
+      "Mozilla/5.0 (compatible; Mail.RU_Bot/2.0; +http://go.mail.ru/",
+      "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Robots/2.0; +http://go.mail.ru/help/robots)"
     ]
   }
   ,
@@ -872,7 +877,8 @@
       "Mozilla/5.0 (compatible; AhrefsSiteAudit/6.1; +http://ahrefs.com/robot/)",
       "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)",      
       "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)",
-      "Mozilla/5.0 (compatible; AhrefsSiteAudit/5.2; +http://ahrefs.com/robot/)"
+      "Mozilla/5.0 (compatible; AhrefsSiteAudit/5.2; +http://ahrefs.com/robot/)",
+      "Mozilla/5.0 (compatible; AhrefsBot/6.1; News; +http://ahrefs.com/robot/)"
     ]
   }
   ,
@@ -1174,7 +1180,8 @@
     "url": "http://duckduckgo.com/duckduckbot.html",
     "instances": [
       "DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html)",
-      "DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html)"
+      "DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html)",
+      "Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)"
     ]
   }
   ,
@@ -1381,7 +1388,8 @@
       "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.8.0.11) Firefox/1.5.0.11 360Spider;",
       "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.8.0.11) Gecko/20070312 Firefox/1.5.0.11; 360Spider",
       "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0); 360Spider",
-      "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0); 360Spider(compatible; HaosouSpider; http://www.haosou.com/help/help_3_2.html)"
+      "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0); 360Spider(compatible; HaosouSpider; http://www.haosou.com/help/help_3_2.html)",
+      "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36; 360Spider"
     ]
   }
   ,
@@ -1495,7 +1503,9 @@
     "addition_date": "2014/10/04",
     "instances": [
       "Mozilla/5.0 (compatible; SMTBot/1.0; +http://www.similartech.com/smtbot)",
-      "SMTBot (similartech.com/smtbot)"
+      "SMTBot (similartech.com/smtbot)",
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko)                 Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; SMTBot/1.0; +http://www.similartech.com/smtbot)",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36 (compatible; SMTBot/1.0; +http://www.similartech.com/smtbot)"
     ],
     "url": "http://www.similartech.com/smtbot"
   }
@@ -1574,9 +1584,10 @@
   ,
   {
     "pattern": "SemanticScholarBot",
-    "url": "http://s2.allenai.org/bot.html",
+    "url": "https://www.semanticscholar.org/crawler",
     "instances": [
-      "SemanticScholarBot/1.0 (+http://s2.allenai.org/bot.html)"
+      "SemanticScholarBot/1.0 (+http://s2.allenai.org/bot.html)",
+      "Mozilla/5.0 (compatible) SemanticScholarBot (+https://www.semanticscholar.org/crawler)"
     ],
     "addition_date": "2015/03/28"
   }
@@ -1635,7 +1646,8 @@
       "Mozilla/5.0 (compatible; heritrix/3.1.1-SNAPSHOT-20120116.200628 +http://www.archive.org/details/archive.org_bot)",
       "Mozilla/5.0 (compatible; archive.org_bot/heritrix-1.15.4 +http://www.archive.org)",
       "Mozilla/5.0 (compatible; heritrix/3.3.0-SNAPSHOT-20140702-2247 +http://archive.org/details/archive.org_bot)",
-      "Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)"
+      "Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)",
+      "Mozilla/5.0 (compatible; archive.org_bot +http://archive.org/details/archive.org_bot)"
     ],
     "addition_date": "2015/04/14"
   }
@@ -1688,6 +1700,8 @@
       "Mozilla/5.0 (compatible; SemrushBot-SI/0.97; +http://www.semrush.com/bot.html)",
       "Mozilla/5.0 (compatible; SemrushBot/3~bl; +http://www.semrush.com/bot.html)",
       "Mozilla/5.0 (compatible; SemrushBot/0.98~bl; +http://www.semrush.com/bot.html)",
+      "Mozilla/5.0 (compatible; SemrushBot-BA; +http://www.semrush.com/bot.html)",
+      "Mozilla/5.0 (compatible; SemrushBot/6~bl; +http://www.semrush.com/bot.html)",
       "SEMrushBot"
     ],
     "addition_date": "2015/05/26"
@@ -2236,6 +2250,15 @@
   }
   ,
   {
+    "pattern": "AppInsights",
+    "addition_date": "2019/03/09",
+    "instances": [
+      "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; AppInsights)"
+    ],
+    "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview"
+  }
+  ,
+  {
     "pattern": "PhantomJS",
     "addition_date": "2017/09/18",
     "instances": [
@@ -2308,12 +2331,14 @@
   }
   ,
   {
-    "pattern": "Barkrowler",
+    "pattern": "Bark[rR]owler",
     "addition_date": "2017/10/09",
     "url": "http://www.exensa.com/crawl",
     "instances": [
       "Barkrowler/0.5.1 (experimenting / debugging - sorry for your logs ) http://www.exensa.com/crawl - admin@exensa.com -- based on BuBiNG",
-      "Barkrowler/0.7 (+http://www.exensa.com/crawl)"
+      "Barkrowler/0.7 (+http://www.exensa.com/crawl)",
+      "BarkRowler/0.7 (+http://www.exensa.com/crawling)",
+      "Barkrowler/0.9 (+http://www.exensa.com/crawl)"
     ]
   }
   ,
@@ -2561,7 +2586,8 @@
     "pattern": "YisouSpider",
     "addition_date": "2017/11/02",
     "instances": [
-      "YisouSpider"
+      "YisouSpider",
+      "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 YisouSpider/5.0 Safari/537.36"
     ]
   }
   ,
@@ -2634,7 +2660,10 @@
       "Apache-HttpClient/4.3.3 (java 1.5)",
       "Apache-HttpClient/4.3.5 (java 1.5)",
       "Apache-HttpClient/4.4.1 (Java/1.8.0_65)",
-      "Apache-HttpClient/4.5.3 (Java/1.8.0_121)"
+      "Apache-HttpClient/4.5.3 (Java/1.8.0_121)",
+      "Apache-HttpClient/4.5.2 (Java/1.8.0_161)",
+      "Apache-HttpClient/4.5.2 (Java/1.8.0_151)",
+      "Apache-HttpClient/4.5.7 (Java/11.0.3)"
     ]
   }
   ,
@@ -2709,9 +2738,7 @@
     "pattern": "DnyzBot",
     "addition_date": "2017/11/20",
     "instances": [
-      "Mozilla/5.0 (compatible; DnyzBot/1.0)",
-      "Mozilla/5.0 (compatible; DnyzBot/1.0) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36",
-      "Mozilla/5.0 (compatible; DnyzBot/1.0) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3264.0 Safari/537.36"
+      "Mozilla/5.0 (compatible; DnyzBot/1.0)"
     ]
   }
   ,
@@ -2759,7 +2786,8 @@
     "pattern": "BDCbot",
     "addition_date": "2018/02/09",
     "instances": [
-      "Mozilla/5.0 (Windows NT 6.1; compatible; BDCbot/1.0; +http://bigweb.bigdatacorp.com.br/faq.aspx) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36"
+      "Mozilla/5.0 (Windows NT 6.1; compatible; BDCbot/1.0; +http://bigweb.bigdatacorp.com.br/faq.aspx) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64; BDCbot/1.0; +http://bigweb.bigdatacorp.com.br/faq.aspx) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
     ]
   }
   ,
@@ -2890,9 +2918,10 @@
     "pattern": "newspaper\\/",
     "addition_date": "2018/03/27",
     "instances": [
+      "newspaper/0.1.0.7",
       "newspaper/0.2.5",
       "newspaper/0.2.6",
-      "newspaper/0.1.0.7"
+      "newspaper/0.2.8"
     ]
   }
   ,
@@ -3719,7 +3748,7 @@
   }
   ,
   {
-    "pattern": "Uptimebot",
+    "pattern": "Uptimebot\\.org",
     "addition_date": "2019/01/17",
     "instances": [
       "Uptimebot.org - Free website monitoring"
@@ -3790,5 +3819,76 @@
       "Mozilla/5.0 (compatible; AddSearchBot/0.9; +http://www.addsearch.com/bot; info@addsearch.com)"
     ],
     "url": "http://www.addsearch.com/bot"
+  },
+  {
+    "pattern": "Google Favicon",
+    "addition_date": "2019/03/14",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon"
+    ]
+  },
+  {
+    "pattern": "HubSpot",
+    "addition_date": "2019/04/15",
+    "instances": [
+      "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36 HubSpot Webcrawler - web-crawlers@hubspot.com",
+      "Mozilla/5.0 (X11; Linux x86_64; HubSpot Single Page link check; web-crawlers+links@hubspot.com) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
+      "Mozilla/5.0 (compatible; HubSpot Crawler; web-crawlers@hubspot.com)"
+    ]
+  },
+  {
+    "pattern": "Chrome-Lighthouse",
+    "addition_date": "2019/03/15",
+    "instances": [
+      "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36(KHTML, like Gecko) Chrome/69.0.3464.0 Mobile Safari/537.36 Chrome-Lighthouse",
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36 Chrome-Lighthouse",
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Safari/537.36 Chrome-Lighthouse",
+      "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+    ],
+    "url": "https://developers.google.com/speed/pagespeed/insights"
+  },
+  {
+    "pattern": "HeadlessChrome",
+    "url": "https://developers.google.com/web/updates/2017/04/headless-chrome",
+    "addition_date": "2019/06/17",
+    "instances": [
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/74.0.3729.169 Safari/537.36",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/69.0.3494.0 Safari/537.36",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/76.0.3803.0 Safari/537.36"
+    ]
+  },
+  {
+    "pattern": "CheckMarkNetwork\\/",
+    "addition_date": "2019/06/30",
+    "instances": [
+      "CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html)"
+    ],
+    "url": "https://www.checkmarknetwork.com/"
+  },
+  {
+    "pattern": "www\\.uptime\\.com",
+    "addition_date": "2019/07/21",
+    "instances": [
+      "Mozilla/5.0 (compatible; Uptimebot/1.0; +http://www.uptime.com/uptimebot)"
+    ],
+    "url": "http://www.uptime.com/uptimebot"
+  },
+  {
+    "pattern": "Streamline3Bot\\/",
+    "addition_date": "2019/07/21",
+    "instances": [
+      "Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1) Streamline3Bot/1.0",
+      "Mozilla/5.0 (Windows NT 6.1; Win64; x64; +https://www.ubtsupport.com/legal/Streamline3Bot.php) Streamline3Bot/1.0"
+    ],
+    "url": "https://www.ubtsupport.com/legal/Streamline3Bot.php"
+  },
+  {
+    "pattern": "serpstatbot\\/",
+    "addition_date": "2019/07/25",
+    "instances": [
+      "serpstatbot/1.0 (advanced backlink tracking bot; http://serpstatbot.com/; abuse@serpstatbot.com)"
+    ],
+    "url": "http://serpstatbot.com"
   }
 ]
+

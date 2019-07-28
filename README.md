@@ -4,7 +4,7 @@ This repository contains a list of of HTTP user-agents used by robots, crawlers,
 
 ## Install
 
-### Direct download 
+### Direct download
 
 Download the [`crawler-user-agents.json` file](https://raw.githubusercontent.com/monperrus/crawler-user-agents/master/crawler-user-agents.json) from this repository directly.
 
@@ -12,9 +12,9 @@ Download the [`crawler-user-agents.json` file](https://raw.githubusercontent.com
 Install using npm or Yarn, or d
 
 ```sh
-npm install --save "https://github.com/monperrus/crawler-user-agents.git"
+npm install --save crawler-user-agents
 # OR
-yarn add "https://github.com/monperrus/crawler-user-agents.git"
+yarn add crawler-user-agents
 ```
 
 In Node.js, you can `require` the package to get an array of crawler user agents.
@@ -63,6 +63,7 @@ There are a few wrapper libraries that use this data to detect bots:
  * [Voight-Kampff](https://github.com/biola/Voight-Kampff) (Ruby)
  * [isbot](https://github.com/Hentioe/isbot) (Ruby)
  * [crawlers](https://github.com/Olical/crawlers) (Clojure)
+ * [crawlerflagger](https://godoc.org/go.kelfa.io/kelfa/pkg/crawlerflagger) (Go)
 
 Other systems for spotting robots, crawlers, and spiders that you may want to consider are:
 
