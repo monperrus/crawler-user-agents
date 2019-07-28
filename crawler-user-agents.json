@@ -2980,12 +2980,12 @@
   }
   ,
   {
-    "pattern": "Hatena",
+    "pattern": "Hatena Antenna",
     "addition_date": "2018/05/29",
     "instances": [
-      "Hatena Antenna/0.3",
-      "Hatena::Russia::Crawler/0.01"
-    ]
+      "Hatena Antenna/0.3"
+    ],
+    "url": "http://a.hatena.ne.jp/help"
   }
   ,
   {
@@ -3890,6 +3890,14 @@
     "addition_date": "2019/07/28",
     "instances": [
       "Hatena::Scissors/0.01"
+    ],
+    "url": "http://hatena.ne.jp"
+  },
+  {
+    "pattern": "Hatena::Russia\\/",
+    "addition_date": "2019/07/28",
+    "instances": [
+      "Hatena::Russia::Crawler/0.01"
     ],
     "url": "http://hatena.ne.jp"
   }
