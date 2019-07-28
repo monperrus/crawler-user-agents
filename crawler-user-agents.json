@@ -3894,7 +3894,7 @@
     "url": "http://hatena.ne.jp"
   },
   {
-    "pattern": "Hatena::Russia\\/",
+    "pattern": "Hatena::Russia::Crawler\\/",
     "addition_date": "2019/07/28",
     "instances": [
       "Hatena::Russia::Crawler/0.01"
