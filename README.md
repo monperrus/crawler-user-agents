@@ -9,7 +9,10 @@ This repository contains a list of of HTTP user-agents used by robots, crawlers,
 Download the [`crawler-user-agents.json` file](https://raw.githubusercontent.com/monperrus/crawler-user-agents/master/crawler-user-agents.json) from this repository directly.
 
 ### Npm / Yarn
-Install using npm or Yarn, or d
+
+crawler-user-agents is deployed on npmjs.com: <https://www.npmjs.com/package/crawler-user-agents>
+
+To use it using npm or yarn:
 
 ```sh
 npm install --save crawler-user-agents
