@@ -3889,6 +3889,14 @@
       "serpstatbot/1.0 (advanced backlink tracking bot; http://serpstatbot.com/; abuse@serpstatbot.com)"
     ],
     "url": "http://serpstatbot.com"
+  },
+  {
+    "pattern": "MixnodeCache\\/",
+    "addition_date": "2019/08/04",
+    "instances": [
+      "MixnodeCache/1.8(+https://cache.mixnode.com/)"
+    ],
+    "url": "https://cache.mixnode.com/"
   }
 ]
 
