@@ -2987,7 +2987,9 @@
     "addition_date": "2018/05/29",
     "instances": [
       "Hatena Antenna/0.3",
-      "Hatena::Russia::Crawler/0.01"
+      "Hatena::Russia::Crawler/0.01",
+      "Hatena-Favicon/2 (http://www.hatena.ne.jp/faq/)",
+      "Hatena::Scissors/0.01"
     ]
   }
   ,
