@@ -139,13 +139,6 @@
   }
   ,
   {
-    "pattern": "curl",
-    "instances": [
-      "eCairn-Grabber/1.0 (+http://ecairn.com/grabber) curl/7.15"
-    ]
-  }
-  ,
-  {
     "pattern": "LinkedInBot",
     "instances": [
       "LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/3.1 +http://www.linkedin.com)",
@@ -3899,6 +3892,17 @@
       "MixnodeCache/1.8(+https://cache.mixnode.com/)"
     ],
     "url": "https://cache.mixnode.com/"
+  },
+  {
+    "pattern": "curl",
+    "addition_date": "2019/08/15",
+    "instances": [
+      "curl",
+      "curl/7.29.0",
+      "curl/7.64.0",
+      "curl/7.64.1"
+    ],
+    "url": "https://curl.haxx.se/"
   }
 ]
 
