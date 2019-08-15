@@ -139,13 +139,6 @@
   }
   ,
   {
-    "pattern": "eCairn-Grabber",
-    "instances": [
-      "eCairn-Grabber/1.0 (+http://ecairn.com/grabber) curl/7.15"
-    ]
-  }
-  ,
-  {
     "pattern": "LinkedInBot",
     "instances": [
       "LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/3.1 +http://www.linkedin.com)",
@@ -3901,7 +3894,7 @@
     "url": "https://cache.mixnode.com/"
   },
   {
-    "pattern": "^curl",
+    "pattern": "curl",
     "addition_date": "2019/08/15",
     "instances": [
       "curl",
