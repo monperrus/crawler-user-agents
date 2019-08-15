@@ -172,6 +172,7 @@
     "pattern": "python-requests",
     "addition_date": "2018/05/27",
     "instances": [
+      "python-requests/2.11.1",
       "python-requests/2.18.4",
       "python-requests/2.21.0",
       "python-requests/2.22.0"
