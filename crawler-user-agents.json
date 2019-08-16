@@ -3906,6 +3906,13 @@
       "curl/7.64.1"
     ],
     "url": "https://curl.haxx.se/"
+  },
+  {
+    "pattern": "Mozilla\\/5\\.0 \\(X11; Ubuntu; Linux i686; rv:24\\.0\\) Gecko\\/20100101 Firefox\\/24\\.0",
+    "addition_date": "2019/08/16",
+    "instances": [
+      "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:24.0) Gecko/20100101 Firefox/24.0"
+    ]
   }
 ]
 
