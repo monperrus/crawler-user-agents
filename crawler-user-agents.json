@@ -3913,6 +3913,13 @@
     "instances": [
       "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:24.0) Gecko/20100101 Firefox/24.0"
     ]
+  },
+  {
+    "pattern": "SimpleScraper",
+    "addition_date": "2019/08/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; SimpleScraper)"
+    ]
   }
 ]
 
