@@ -3870,7 +3870,8 @@
       "Mozilla/5.0 (compatible; Uptimebot/1.0; +http://www.uptime.com/uptimebot)"
     ],
     "url": "http://www.uptime.com/uptimebot"
-  },
+  }
+  ,
   {
     "pattern": "Streamline3Bot\\/",
     "addition_date": "2019/07/21",
@@ -3879,7 +3880,8 @@
       "Mozilla/5.0 (Windows NT 6.1; Win64; x64; +https://www.ubtsupport.com/legal/Streamline3Bot.php) Streamline3Bot/1.0"
     ],
     "url": "https://www.ubtsupport.com/legal/Streamline3Bot.php"
-  },
+  }
+  ,
   {
     "pattern": "serpstatbot\\/",
     "addition_date": "2019/07/25",
@@ -3887,7 +3889,8 @@
       "serpstatbot/1.0 (advanced backlink tracking bot; http://serpstatbot.com/; abuse@serpstatbot.com)"
     ],
     "url": "http://serpstatbot.com"
-  },
+  }
+  ,
   {
     "pattern": "MixnodeCache\\/",
     "addition_date": "2019/08/04",
@@ -3895,7 +3898,8 @@
       "MixnodeCache/1.8(+https://cache.mixnode.com/)"
     ],
     "url": "https://cache.mixnode.com/"
-  },
+  }
+  ,
   {
     "pattern": "curl",
     "addition_date": "2019/08/15",
@@ -3906,20 +3910,15 @@
       "curl/7.64.1"
     ],
     "url": "https://curl.haxx.se/"
-  },
-  {
-    "pattern": "Mozilla\\/5\\.0 \\(X11; Ubuntu; Linux i686; rv:24\\.0\\) Gecko\\/20100101 Firefox\\/24\\.0",
-    "addition_date": "2019/08/16",
-    "instances": [
-      "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:24.0) Gecko/20100101 Firefox/24.0"
-    ]
-  },
+  }
+  ,
   {
     "pattern": "SimpleScraper",
     "addition_date": "2019/08/16",
     "instances": [
       "Mozilla/5.0 (compatible; SimpleScraper)"
-    ]
+    ],
+    "url": "https://github.com/ramonkcom/simple-scraper/"
   }
 ]
 
