@@ -3886,7 +3886,8 @@
     "pattern": "serpstatbot\\/",
     "addition_date": "2019/07/25",
     "instances": [
-      "serpstatbot/1.0 (advanced backlink tracking bot; http://serpstatbot.com/; abuse@serpstatbot.com)"
+      "serpstatbot/1.0 (advanced backlink tracking bot; http://serpstatbot.com/; abuse@serpstatbot.com)",
+      "serpstatbot/1.0 (advanced backlink tracking bot; curl/7.58.0; http://serpstatbot.com/; abuse@serpstatbot.com)"
     ],
     "url": "http://serpstatbot.com"
   }
@@ -3901,7 +3902,7 @@
   }
   ,
   {
-    "pattern": "curl",
+    "pattern": "^curl",
     "addition_date": "2019/08/15",
     "instances": [
       "curl",
