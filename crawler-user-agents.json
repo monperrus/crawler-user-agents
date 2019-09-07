@@ -2213,7 +2213,8 @@
     "pattern": "Pcore-HTTP",
     "addition_date": "2017/08/19",
     "instances": [
-      "Pcore-HTTP/v0.40.3"
+      "Pcore-HTTP/v0.40.3",
+      "Pcore-HTTP/v0.44.0"
     ],
     "url": "https://bitbucket.org/softvisio/pcore/overview"
   }
