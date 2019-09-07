@@ -3902,7 +3902,7 @@
   }
   ,
   {
-    "pattern": "curl",
+    "pattern": "^curl",
     "addition_date": "2019/08/15",
     "instances": [
       "curl",
