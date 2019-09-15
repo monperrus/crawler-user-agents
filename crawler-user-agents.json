@@ -3920,5 +3920,14 @@
     ],
     "url": "https://github.com/ramonkcom/simple-scraper/"
   }
+  ,
+  {
+    "pattern": "RSSingBot",
+    "addition_date": "2019/09/15",
+    "instances": [
+      "RSSingBot (http://www.rssing.com)"
+    ],
+    "url": "http://www.rssing.com"
+  }
 ]
 
