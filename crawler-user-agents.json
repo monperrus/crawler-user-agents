@@ -1673,7 +1673,8 @@
     "pattern": "crawler4j",
     "url": "https://github.com/yasserg/crawler4j",
     "instances": [
-      "crawler4j (http://code.google.com/p/crawler4j/)"
+      "crawler4j (http://code.google.com/p/crawler4j/)",
+      "crawler4j (https://github.com/yasserg/crawler4j/)"
     ],
     "addition_date": "2015/05/07"
   }
