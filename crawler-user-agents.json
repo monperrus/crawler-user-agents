@@ -1628,7 +1628,8 @@
     "url": "https://www.qwant.com/",
     "instances": [
       "Mozilla/5.0 (compatible; Qwantify/2.0n; +https://www.qwant.com/)/*",
-      "Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w"
+      "Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w",
+      "Mozilla/5.0 (compatible; Qwantify/Bleriot/1.1; +https://help.qwant.com/bot)"
     ],
     "addition_date": "2015/04/06"
   }
