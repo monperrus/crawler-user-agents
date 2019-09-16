@@ -149,6 +149,7 @@
   {
     "pattern": "Python-urllib",
     "instances": [
+      "Python-urllib/1.17",
       "Python-urllib/2.5",
       "Python-urllib/2.6",
       "Python-urllib/2.7",
@@ -157,7 +158,8 @@
       "Python-urllib/3.3",
       "Python-urllib/3.4",
       "Python-urllib/3.5",
-      "Python-urllib/3.6"
+      "Python-urllib/3.6",
+      "Python-urllib/3.7"
      ]
   }
   ,
