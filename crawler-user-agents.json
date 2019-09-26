@@ -3943,5 +3943,14 @@
     ],
     "url": "http://www.rssing.com"
   }
+  ,
+  {
+    "pattern": "Jooblebot",
+    "addition_date": "2019/09/25",
+    "instances": [
+      "Mozilla/5.0 (compatible; Jooblebot/2.0; Windows NT 6.1; WOW64; +http://jooble.org/jooble-bot) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36"
+    ],
+    "url": "http://jooble.org/jooble-bot"
+  }
 ]
 
