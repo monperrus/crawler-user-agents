@@ -1649,7 +1649,8 @@
       "Mozilla/5.0 (compatible; archive.org_bot/heritrix-1.15.4 +http://www.archive.org)",
       "Mozilla/5.0 (compatible; heritrix/3.3.0-SNAPSHOT-20140702-2247 +http://archive.org/details/archive.org_bot)",
       "Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)",
-      "Mozilla/5.0 (compatible; archive.org_bot +http://archive.org/details/archive.org_bot)"
+      "Mozilla/5.0 (compatible; archive.org_bot +http://archive.org/details/archive.org_bot)",
+      "Mozilla/5.0 (compatible; special_archiver/3.1.1 +http://www.archive.org/details/archive.org_bot)"
     ],
     "addition_date": "2015/04/14"
   }
