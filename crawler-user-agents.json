@@ -3952,5 +3952,14 @@
     ],
     "url": "http://jooble.org/jooble-bot"
   }
+  ,
+  {
+    "pattern": "fedoraplanet",
+    "addition_date": "2019/09/28",
+    "instances": [
+      "venus/fedoraplanet"
+    ],
+    "url": "http://fedoraplanet.org/"
+  }
 ]
 
