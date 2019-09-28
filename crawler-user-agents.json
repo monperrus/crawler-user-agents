@@ -3921,7 +3921,8 @@
       "curl/7.29.0",
       "curl/7.55.1",
       "curl/7.64.0",
-      "curl/7.64.1"
+      "curl/7.64.1",
+      "curl/7.65.3"
     ],
     "url": "https://curl.haxx.se/"
   }
