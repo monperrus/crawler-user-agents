@@ -3961,5 +3961,14 @@
     ],
     "url": "http://fedoraplanet.org/"
   }
+  ,
+  {
+    "pattern": "Friendica",
+    "addition_date": "2019/09/28",
+    "instances": [
+      "Friendica 'The Tazmans Flax-lily' 2019.01-1293; https://hoyer.xyz"
+    ],
+    "url": "https://hoyer.xyz"
+  }
 ]
 
