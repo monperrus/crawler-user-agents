@@ -3977,5 +3977,14 @@
     ],
     "url": "https://hoyer.xyz"
   }
+  ,
+  {
+    "pattern": "NextCloud",
+    "addition_date": "2019/09/30",
+    "instances": [
+      "NextCloud-News/1.0"
+    ],
+    "url": "https://nextcloud.com/"
+  }
 ]
 
