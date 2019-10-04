@@ -2663,7 +2663,7 @@
   }
   ,
   {
-    "pattern": "Apache-HttpClient",
+    "pattern": "^Apache-HttpClient",
     "addition_date": "2017/11/02",
     "instances": [
       "Apache-HttpClient/4.2.3 (java 1.5)",
