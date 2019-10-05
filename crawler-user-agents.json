@@ -142,7 +142,8 @@
     "pattern": "LinkedInBot",
     "instances": [
       "LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/3.1 +http://www.linkedin.com)",
-      "LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/4.3 +http://www.linkedin.com)"
+      "LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/4.3 +http://www.linkedin.com)",
+      "LinkedInBot/1.0 (compatible; Mozilla/5.0; Apache-HttpClient +http://www.linkedin.com)"
     ]
   }
   ,
@@ -2662,7 +2663,7 @@
   }
   ,
   {
-    "pattern": "Apache-HttpClient",
+    "pattern": "^Apache-HttpClient",
     "addition_date": "2017/11/02",
     "instances": [
       "Apache-HttpClient/4.2.3 (java 1.5)",
