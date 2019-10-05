@@ -134,7 +134,8 @@
     "pattern": "[wW]get",
     "instances": [
       "WGETbot/1.0 (+http://wget.alanreed.org)",
-      "Wget/1.14 (linux-gnu)"
+      "Wget/1.14 (linux-gnu)",
+      "Wget/1.20.3 (linux-gnu)"
     ]
   }
   ,
