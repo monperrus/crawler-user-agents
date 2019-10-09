@@ -3994,7 +3994,9 @@
     "pattern": "Tiny Tiny RSS",
     "addition_date": "2019/10/04",
     "instances": [
-      "Tiny Tiny RSS/17.12 (a2d1fa5) (http://tt-rss.org/)"
+      "Tiny Tiny RSS/1.15.3 (http://tt-rss.org/)",
+      "Tiny Tiny RSS/17.12 (a2d1fa5) (http://tt-rss.org/)",
+      "Tiny Tiny RSS/19.2 (b68db2d) (http://tt-rss.org/)"
     ],
     "url": "http://tt-rss.org/"
   }
