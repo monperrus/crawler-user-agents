@@ -1584,7 +1584,8 @@
     "pattern": "MegaIndex",
     "url": "https://www.megaindex.ru/?tab=linkAnalyze",
     "instances": [
-      "Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)"
+      "Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)",
+      "Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +http://megaindex.com/crawler)"
     ],
     "addition_date": "2015/03/28"
   }
