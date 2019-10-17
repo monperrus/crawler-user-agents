@@ -4004,5 +4004,14 @@
     ],
     "url": "http://tt-rss.org/"
   }
+  ,
+  {
+    "pattern": "RegionStuttgartBot",
+    "addition_date": "2019/10/17",
+    "instances": [
+      "Mozilla/5.0 (compatible; RegionStuttgartBot/1.0; +http://it.region-stuttgart.de/competenzatlas/unternehmen-suchen/)"
+    ],
+    "url": "http://it.region-stuttgart.de/competenzatlas/unternehmen-suchen/"
+  }
 ]
 
