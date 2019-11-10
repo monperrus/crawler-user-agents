@@ -3008,7 +3008,9 @@
       "Hatena Antenna/0.3",
       "Hatena::Russia::Crawler/0.01",
       "Hatena-Favicon/2 (http://www.hatena.ne.jp/faq/)",
-      "Hatena::Scissors/0.01"
+      "Hatena::Scissors/0.01",
+      "HatenaBookmark/4.0 (Hatena::Bookmark; Analyzer)",
+      "Hatena::Fetcher/0.01 (master) Furl/3.13"
     ]
   }
   ,
