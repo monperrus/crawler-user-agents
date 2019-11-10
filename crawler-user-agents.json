@@ -2678,10 +2678,14 @@
       "Apache-HttpClient/4.3.3 (java 1.5)",
       "Apache-HttpClient/4.3.5 (java 1.5)",
       "Apache-HttpClient/4.4.1 (Java/1.8.0_65)",
-      "Apache-HttpClient/4.5.3 (Java/1.8.0_121)",
-      "Apache-HttpClient/4.5.2 (Java/1.8.0_161)",
+      "Apache-HttpClient/4.5.2 (Java/1.8.0_65)",
       "Apache-HttpClient/4.5.2 (Java/1.8.0_151)",
-      "Apache-HttpClient/4.5.7 (Java/11.0.3)"
+      "Apache-HttpClient/4.5.2 (Java/1.8.0_161)",
+      "Apache-HttpClient/4.5.2 (Java/1.8.0_181)",
+      "Apache-HttpClient/4.5.3 (Java/1.8.0_121)",
+      "Apache-HttpClient/4.5.3-SNAPSHOT (Java/1.8.0_152)",
+      "Apache-HttpClient/4.5.7 (Java/11.0.3)",
+      "Apache-HttpClient/4.5.10 (Java/1.8.0_201)"
     ]
   }
   ,
