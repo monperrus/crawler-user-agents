@@ -3859,7 +3859,8 @@
     "instances": [
       "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36 HubSpot Webcrawler - web-crawlers@hubspot.com",
       "Mozilla/5.0 (X11; Linux x86_64; HubSpot Single Page link check; web-crawlers+links@hubspot.com) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
-      "Mozilla/5.0 (compatible; HubSpot Crawler; web-crawlers@hubspot.com)"
+      "Mozilla/5.0 (compatible; HubSpot Crawler; web-crawlers@hubspot.com)",
+      "HubSpot Connect 2.0 (http://dev.hubspot.com/) - BizOpsCompanies-Tq2-BizCoDomainValidationAudit"
     ]
   },
   {
