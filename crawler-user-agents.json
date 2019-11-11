@@ -4020,7 +4020,8 @@
   {
     "pattern": "Bytespider",
     "addition_date": "2019/11/11",
-    "instances": []
+    "instances": [],
+    "url": "https://stackoverflow.com/questions/57908900/what-is-the-bytespider-user-agent"
   }
 ]
 
