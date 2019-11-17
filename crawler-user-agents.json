@@ -2076,6 +2076,9 @@
     "url": "https://www.whatsapp.com/",
     "instances": [
       "WhatsApp",
+      "WhatsApp/0.3.4479 N",
+      "WhatsApp/0.3.4679 N",
+      "WhatsApp/0.3.4941 N",
       "WhatsApp/2.12.15/i",
       "WhatsApp/2.12.16/i",
       "WhatsApp/2.12.17/i",
@@ -2095,9 +2098,7 @@
       "WhatsApp/2.19.175 A",
       "WhatsApp/2.19.244 A",
       "WhatsApp/2.19.258 A",
-      "WhatsApp/0.3.4479 N",
-      "WhatsApp/0.3.4679 N",
-      "WhatsApp/0.3.4941 N"
+      "WhatsApp/2.19.308 A"
     ]
   }
   ,
