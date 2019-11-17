@@ -4036,5 +4036,13 @@
     "instances": [],
     "url": "https://stackoverflow.com/questions/57908900/what-is-the-bytespider-user-agent"
   }
+  ,
+  {
+    "pattern": "Datanyze",
+    "addition_date": "2019/11/17",
+    "instances": [
+      "Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+    ],
+    "url": "https://www.datanyze.com/dnyzbot/"
+  }
 ]
-
