@@ -4088,4 +4088,13 @@
     ],
     "url": "https://www.trendsmap.com/"
   }
+  ,
+  {
+    "pattern": "tweetedtimes",
+    "addition_date": "2020/02/24",
+    "instances": [
+      "Mozilla/5.0 (compatible; +http://tweetedtimes.com)"
+    ],
+    "url": "http://tweetedtimes.com"
+  }
 ]
