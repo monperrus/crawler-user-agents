@@ -589,7 +589,7 @@
       "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
     ],
     "addition_date": "2015/04/14"
-  }  
+  }
   ,
   {
     "pattern": "YandexAccessibilityBot",
@@ -880,7 +880,7 @@
     "instances": [
       "Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)",
       "Mozilla/5.0 (compatible; AhrefsSiteAudit/6.1; +http://ahrefs.com/robot/)",
-      "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)",      
+      "Mozilla/5.0 (compatible; AhrefsBot/5.2; News; +http://ahrefs.com/robot/)",
       "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)",
       "Mozilla/5.0 (compatible; AhrefsSiteAudit/5.2; +http://ahrefs.com/robot/)",
       "Mozilla/5.0 (compatible; AhrefsBot/6.1; News; +http://ahrefs.com/robot/)"
@@ -1708,7 +1708,7 @@
   {
     "pattern": "S[eE][mM]rushBot",
     "url": "http://www.semrush.com/bot.html",
-    "instances": [      
+    "instances": [
       "Mozilla/5.0 (compatible; SemrushBot-SA/0.97; +http://www.semrush.com/bot.html)",
       "Mozilla/5.0 (compatible; SemrushBot-SI/0.97; +http://www.semrush.com/bot.html)",
       "Mozilla/5.0 (compatible; SemrushBot/3~bl; +http://www.semrush.com/bot.html)",
@@ -2472,7 +2472,7 @@
     "instances": [
       "Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)",
       "Mozilla/5.0 (compatible; PaperLiBot/2.1; https://support.paper.li/entries/20023257-what-is-paper-li)"
-      
+
     ]
   }
   ,
@@ -3364,7 +3364,7 @@
   {
      "pattern": "Miniflux\\/",
      "addition_date": "2018/07/07",
-     "instances": [  
+     "instances": [
        "Mozilla/5.0 (compatible; Miniflux/2.0.x-dev; +https://miniflux.net)",
        "Mozilla/5.0 (compatible; Miniflux/2.0.3; +https://miniflux.net)",
        "Mozilla/5.0 (compatible; Miniflux/2.0.7; +https://miniflux.net)",
@@ -4078,5 +4078,14 @@
       "Mozilla/5.0 (compatible; Google-Site-Verification/1.0)"
     ],
     "url": "https://support.google.com/webmasters/answer/9008080"
+  }
+  ,
+  {
+    "pattern": "TrendsmapResolver",
+    "addition_date": "2020/02/24",
+    "instances": [
+      "Mozilla/5.0 (compatible; TrendsmapResolver/0.1)"
+    ],
+    "url": "https://www.trendsmap.com/"
   }
 ]
