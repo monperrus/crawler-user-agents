@@ -4096,5 +4096,464 @@
       "Mozilla/5.0 (compatible; +http://tweetedtimes.com)"
     ],
     "url": "https://tweetedtimes.com/"
+  },
+  {
+    "pattern": "NTENTbot",
+    "addition_date": "2020/02/24",
+    "instances": [
+      "Mozilla/5.0 (compatible; NTENTbot; +http://www.ntent.com/ntentbot)"
+    ],
+    "url": "https://ntent.com/ntentbot/"
+  },
+  {
+    "pattern": "Gwene",
+    "addition_date": "2020/02/24",
+    "instances": [
+      "Gwene/1.0 (The gwene.org rss-to-news gateway) Googlebot"
+    ],
+    "url": "https://gwene.org"
+  },
+  {
+    "pattern": "SimplePie",
+    "addition_date": "2020/02/24",
+    "instances": [
+      "SimplePie/1.3-dev (Feed Parser; http://simplepie.org; Allow like Gecko)"
+    ],
+    "url": "http://simplepie.org"
+  },
+  {
+    "pattern": "SearchAtlas",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "SearchAtlas.com SEO Crawler"
+    ],
+    "url": "http://SearchAtlas.com"
+  },
+  {
+    "pattern": "Superfeedr",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "Superfeedr bot/2.0 http://superfeedr.com - Make your feeds realtime: get in touch - feed-id:1162088860"
+    ],
+    "url": "http://superfeedr.com"
+  },
+  {
+    "pattern": "feedbot",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "wp.com feedbot/1.0 (+https://wp.com)"
+    ],
+    "url": "http://wp.com"
+  },
+  {
+    "pattern": "UT-Dorkbot",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "UT-Dorkbot/1.0"
+    ],
+    "url": "https://security.utexas.edu/dorkbot"
+  },
+  {
+    "pattern": "Amazonbot",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5 (Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot)"
+    ],
+    "url": "https://developer.amazon.com/support/amazonbot"
+  },
+  {
+    "pattern": "Googlebot-Compatible",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.9.2.8) Googlebot-Compatible Gecko/20100723 Ubuntu/10.04 (lucid) Firefox/3.6.8"
+    ]
+  },
+  {
+    "pattern": "SerendeputyBot",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "SerendeputyBot/0.8.6 (http://serendeputy.com/about/serendeputy-bot)"
+    ],
+    "url": "http://serendeputy.com/about/serendeputy-bot"
+  },
+  {
+    "pattern": "Eyeotabot",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "Mozilla/5.0 (compatible; Eyeotabot/1.0; +http://www.eyeota.com)"
+    ],
+    "url": "http://www.eyeota.com"
+  },
+  {
+    "pattern": "officestorebot",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "Mozilla/5.0 (compatible; officestorebot/1.0; +https://aka.ms/officestorebot)"
+    ],
+    "url": "https://aka.ms/officestorebot"
+  },
+  {
+    "pattern": "Neticle Crawler",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "Neticle Crawler v1.0 ( https://neticle.com/bot/en/ )"
+    ],
+    "url": "https://neticle.com/bot/en/"
+  },
+  {
+    "pattern": "SurdotlyBot",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "Mozilla/5.0 (compatible; SurdotlyBot/1.0; +http://sur.ly/bot.html; Linux; Android 4; iPhone; CPU iPhone OS 6_0_1 like Mac OS X)"
+    ],
+    "url": "http://sur.ly/bot.html"
+  },
+  {
+    "pattern": "LinkisBot",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "Mozilla/5.0 (compatible; LinkisBot/1.0; bot@linkis.com) (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) Mobile/12H321"
+    ]
+  },
+  {
+    "pattern": "AwarioSmartBot",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "AwarioSmartBot/1.0 (+https://awario.com/bots.html; bots@awario.com)"
+    ],
+    "url": "https://awario.com/bots.html"
+  },
+  {
+    "pattern": "AwarioRssBot",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "AwarioRssBot/1.0 (+https://awario.com/bots.html; bots@awario.com)"
+    ],
+    "url": "https://awario.com/bots.html"
+  },
+  {
+    "pattern": "RyteBot",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "RyteBot/1.0.0 (+https://bot.ryte.com/)"
+    ],
+    "url": "https://bot.ryte.com/"
+  },
+  {
+    "pattern": "FreeWebMonitoring SiteChecker",
+    "addition_date": "2020/03/02",
+    "instances": [
+      "FreeWebMonitoring SiteChecker/0.2 (+https://www.freewebmonitoring.com/bot.html)"
+    ],
+    "url": "https://www.freewebmonitoring.com/bot.html"
+  },
+  {
+    "pattern": "AspiegelBot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; AspiegelBot)"
+    ],
+    "url": "https://aspiegel.com"
+  },
+  {
+    "pattern": "NAVER Blog Rssbot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "NAVER Blog Rssbot"
+    ],
+    "url": "http://www.naver.com"
+  },
+  {
+    "pattern": "zenback bot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; zenback bot; powered by logly +http://corp.logly.co.jp/)"
+    ],
+    "url": "http://corp.logly.co.jp/"
+  },
+  {
+    "pattern": "SentiBot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "SentiBot www.sentibot.eu (compatible with Googlebot)"
+    ],
+    "url": "https://www.sentibot.eu"
+  },
+  {
+    "pattern": "Domains Project\\/",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; Domains Project/1.0.3; +https://github.com/tb0hdan/domains)"
+    ],
+    "url": "https://github.com/tb0hdan/domains"
+  },
+  {
+    "pattern": "Pandalytics",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Pandalytics/1.0 (https://domainsbot.com/pandalytics/)"
+    ],
+    "url": "https://domainsbot.com/pandalytics/"
+  },
+  {
+    "pattern": "VKRobot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; VKRobot/1.0)"
+    ]
+  },
+  {
+    "pattern": "bidswitchbot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "bidswitchbot/1.0"
+    ],
+    "url": "https://www.bidswitch.com/about-us/"
+  },
+  {
+    "pattern": "tigerbot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "tigerbot"
+    ]
+  },
+  {
+    "pattern": "NIXStatsbot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; NIXStatsbot/1.1; +http://www.nixstats.com/bot.html)"
+    ],
+    "url": "http://www.nixstats.com/bot.html"
+  },
+  {
+    "pattern": "Atom Feed Robot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "RSSMicro.com RSS/Atom Feed Robot"
+    ],
+    "url": "https://rssmicro.com"
+  },
+  {
+    "pattern": "Curebot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Curebot/1.0"
+    ]
+  },
+  {
+    "pattern": "PagePeeker\\/",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36 (compatible; PagePeeker/3.0; +https://pagepeeker.com/robots/)"
+    ],
+    "url": "https://pagepeeker.com/robots/"
+  },
+  {
+    "pattern": "Vigil\\/",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; Vigil/1.0; +http://vigil-app.com/bot.html)"
+    ],
+    "url": "http://vigil-app.com/bot.html"
+  },
+  {
+    "pattern": "rssbot\\/",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "rssbot/1.4.3 (+https://t.me/RustRssBot)"
+    ],
+    "url": "https://t.me/RustRssBot"
+  },
+  {
+    "pattern": "startmebot\\/",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; startmebot/1.0; +https://start.me/bot)"
+    ],
+    "url": "https://start.me/bot"
+  },
+  {
+    "pattern": "JobboerseBot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (X11; U; Linux Core i7-4980HQ; de; rv:32.0; compatible; JobboerseBot; http://www.jobboerse.com/bot.htm) Gecko/20100101 Firefox/38.0"
+    ],
+    "url": "http://www.jobboerse.com/bot.htm"
+  },
+  {
+    "pattern": "seewithkids",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "http://seewithkids.com/bot"
+    ],
+    "url": "http://seewithkids.com/bot"
+  },
+  {
+    "pattern": "NINJA bot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "NINJA bot"
+    ]
+  },
+  {
+    "pattern": "Cutbot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Cutbot; 1.5; http://cutbot.net/"
+    ],
+    "url": "http://cutbot.net/"
+  },
+  {
+    "pattern": "BublupBot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "BublupBot (+https://www.bublup.com/bublup-bot.html)"
+    ],
+    "url": "https://www.bublup.com/bublup-bot.html"
+  },
+  {
+    "pattern": "BrandONbot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "BrandONbot (http://brandonmedia.net)"
+    ],
+    "url": "http://brandonmedia.net"
+  },
+  {
+    "pattern": "RidderBot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; RidderBot/1.0; bot@ridder.co)",
+      "Mozilla/5.0 (compatible; RidderBot/1.0; bot@ridder.co) (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) Mobile/12H321"
+    ],
+    "url": "http://brandonmedia.net"
+  },
+  {
+    "pattern": "YandexMetrika",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)"
+    ],
+    "url": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.xml#robot-in-logs"
+  },
+  {
+    "pattern": "YandexTurbo",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; YandexTurbo/1.0; +http://yandex.com/bots)"
+    ],
+    "url": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.xml#robot-in-logs"
+  },
+  {
+    "pattern": "YandexImageResizer",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; YandexImageResizer/2.0; +http://yandex.com/bots)"
+    ],
+    "url": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.xml#robot-in-logs"
+  },
+  {
+    "pattern": "YandexVideoParser",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; YandexVideoParser/1.0; +http://yandex.com/bots)"
+    ],
+    "url": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.xml#robot-in-logs"
+  },
+  {
+    "pattern": "Taboolabot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; Taboolabot/3.7; +http://www.taboola.com)"
+    ],
+    "url": "http://www.taboola.com"
+  },
+  {
+    "pattern": "Dubbotbot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; Dubbotbot/0.2; +http://dubbot.com)"
+    ],
+    "url": "http://dubbot.com"
+  },
+  {
+    "pattern": "FindITAnswersbot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible;FindITAnswersbot/1.0;+http://search.it-influentials.com/bot.htm)"
+    ],
+    "url": "http://search.it-influentials.com/bot.htm"
+  },
+  {
+    "pattern": "infoobot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "infoobot/0.1 (https://www.infoo.nl/bot.html)"
+    ],
+    "url": "https://www.infoo.nl/bot.html"
+  },
+  {
+    "pattern": "Refindbot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 (Refindbot/1.0)"
+    ],
+    "url": "https://refind.com/about"
+  },
+  {
+    "pattern": "BlogTraffic\\/\\d\\.\\d+ Feed-Fetcher",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; BlogTraffic/1.4 Feed-Fetcher; +http://www.blogtraffic.de/rss-bot.html)"
+    ],
+    "url": "http://www.blogtraffic.de/rss-bot.html"
+  },
+  {
+    "pattern": "SeobilityBot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "SeobilityBot (SEO Tool; https://www.seobility.net/sites/bot.html)"
+    ],
+    "url": "https://www.seobility.net/sites/bot.html"
+  },
+  {
+    "pattern": "Cincraw",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; Cincraw/1.0; +http://cincrawdata.net/bot/)"
+    ],
+    "url": "http://cincrawdata.net/bot/"
+  },
+  {
+    "pattern": "Dragonbot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0; Dragonbot; http://www.dragonmetrics.com"
+    ],
+    "url": "http://www.dragonmetrics.com"
+  },
+  {
+    "pattern": "VoluumDSP-content-bot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; VoluumDSP-content-bot/2.0; +dsp-dev@codewise.com)"
+    ],
+    "url": "https://codewise.com"
+  },
+  {
+    "pattern": "FreshRSS",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "FreshRSS/1.11.2 (Linux; https://freshrss.org) like Googlebot"
+    ],
+    "url": "https://freshrss.org"
+  },
+  {
+    "pattern": "BitBot",
+    "addition_date": "2020/03/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; BitBot/v1.19.0; +https://bitbot.dev)"
+    ],
+    "url": "https://bitbot.dev"
   }
 ]
