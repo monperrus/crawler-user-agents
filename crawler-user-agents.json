@@ -4162,13 +4162,6 @@
     "url": "https://developer.amazon.com/support/amazonbot"
   },
   {
-    "pattern": "Googlebot-Compatible",
-    "addition_date": "2020/03/02",
-    "instances": [
-      "Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.9.2.8) Googlebot-Compatible Gecko/20100723 Ubuntu/10.04 (lucid) Firefox/3.6.8"
-    ]
-  },
-  {
     "pattern": "SerendeputyBot",
     "addition_date": "2020/03/02",
     "instances": [
