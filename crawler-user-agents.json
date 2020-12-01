@@ -607,7 +607,6 @@
     "url": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.xml#robot-in-logs",
     "instances": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)",
-      "Mozilla/5.0 (compatible; YandexForDomain/1.0; +http://yandex.com/bots)"
     ],
     "addition_date": "2016/12/01"
   }
@@ -702,15 +701,6 @@
     "url": "https://yandex.ru/support/webmaster/robot-workings/check-yandex-robots.html#robot-in-logs",
     "instances": [
       "Mozilla/5.0 (compatible; YaDirectFetcher/1.0; Dyatel; +http://yandex.com/bots)"
-    ],
-    "addition_date": "2020/11/30"
-  }
-  ,
-  {
-    "pattern": "YandexForDomain",
-    "url": "https://yandex.ru/support/webmaster/robot-workings/check-yandex-robots.html#robot-in-logs",
-    "instances": [
-      "Mozilla/5.0 (compatible; YandexForDomain/1.0; +http://yandex.com/bots)"
     ],
     "addition_date": "2020/11/30"
   }
