@@ -642,10 +642,11 @@
   }
   ,
   {
-    "pattern": "YandexVideoParser",
+    "pattern": "YandexVideo",
     "addition_date": "2020/03/16",
     "instances": [
-      "Mozilla/5.0 (compatible; YandexVideoParser/1.0; +http://yandex.com/bots)"
+      "Mozilla/5.0 (compatible; YandexVideoParser/1.0; +http://yandex.com/bots)",
+      "Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)"
     ],
     "url": "https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.xml#robot-in-logs"
   }
@@ -838,15 +839,6 @@
     "url": "https://yandex.ru/support/webmaster/robot-workings/check-yandex-robots.html#robot-in-logs",
     "instances": [
       "Mozilla/5.0 (compatible; YandexVerticals/1.0; +http://yandex.com/bots)"
-    ],
-    "addition_date": "2020/11/30"
-  }
-  ,
-  {
-    "pattern": "YandexVideo",
-    "url": "https://yandex.ru/support/webmaster/robot-workings/check-yandex-robots.html#robot-in-logs",
-    "instances": [
-      "Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)"
     ],
     "addition_date": "2020/11/30"
   }
