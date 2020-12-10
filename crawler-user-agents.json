@@ -4768,5 +4768,19 @@
       "Mozilla/5.0 (compatible; BitBot/v1.19.0; +https://bitbot.dev)"
     ],
     "url": "https://bitbot.dev"
+  },
+  {
+    "pattern": "^PHP-Curl-Class",
+    "addition_date": "2020/12/10",
+    "instances": [
+      "PHP-Curl-Class/4.13.0 (+https://github.com/php-curl-class/php-curl-class) PHP/7.2.24 curl/7.61.1",
+      "PHP-Curl-Class/4.13.0 (+https://github.com/php-curl-class/php-curl-class) PHP/7.3.19 curl/7.66.0",
+      "PHP-Curl-Class/4.13.0 (+https://github.com/php-curl-class/php-curl-class) PHP/7.3.23 curl/7.66.0",
+      "PHP-Curl-Class/4.13.0 (+https://github.com/php-curl-class/php-curl-class) PHP/7.4.7 curl/7.69.1",
+      "PHP-Curl-Class/4.13.0 (+https://github.com/php-curl-class/php-curl-class) PHP/7.4.9 curl/7.69.1",
+      "PHP-Curl-Class/4.13.0 (+https://github.com/php-curl-class/php-curl-class) PHP/7.4.10 curl/7.69.1",
+      "PHP-Curl-Class/4.13.0 (+https://github.com/php-curl-class/php-curl-class) PHP/7.4.11 curl/7.69.1"
+    ],
+    "url": "https://github.com/php-curl-class/php-curl-class"
   }
 ]
