@@ -181,6 +181,17 @@
   }
   ,
   {
+    "pattern": "aiohttp",
+    "addition_date": "2019/12/23",
+    "instances": [
+      "Python/3.9 aiohttp/3.7.3",
+      "Python/3.8 aiohttp/3.7.2",
+      "Python/3.7 aiohttp/3.6.2a2"
+    ],
+    "url": "https://docs.aiohttp.org/en/stable/"
+  }
+  ,
+  {
     "pattern": "libwww-perl",
     "instances": [
       "2Bone_LinkChecker/1.0 libwww-perl/6.03",
