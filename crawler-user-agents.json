@@ -4804,5 +4804,12 @@
       "PHP-Curl-Class/4.13.0 (+https://github.com/php-curl-class/php-curl-class) PHP/7.4.11 curl/7.69.1"
     ],
     "url": "https://github.com/php-curl-class/php-curl-class"
+  },
+  {
+    "pattern": "Google-Certificates-Bridge",
+    "addition_date": "2020/12/23",
+    "instances": [
+      "Google-Certificates-Bridge"
+    ]
   }
 ]
