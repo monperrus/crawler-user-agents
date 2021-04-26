@@ -4811,5 +4811,13 @@
     "instances": [
       "Google-Certificates-Bridge"
     ]
+  },
+  {
+    "pattern": "centurybot9",
+    "addition_date": "2022/04/26",
+    "instances": [
+      "Mozilla/5.0 (compatible; +centuryb.o.t9[at]gmail.com)",
+      "Mozilla/5.0 (compatible; Go-http-client/1.1; +centurybot9@gmail.com)"
+    ]
   }
 ]
