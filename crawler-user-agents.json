@@ -4811,5 +4811,13 @@
     "instances": [
       "Google-Certificates-Bridge"
     ]
+  },
+  {
+    "pattern": "Viber",
+    "addition_date": "2021/04/27",
+    "instances": [
+      "Viber"
+    ],
+    "url": "https://www.viber.com/"
   }
 ]
