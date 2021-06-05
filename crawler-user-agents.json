@@ -4819,5 +4819,12 @@
       "Viber"
     ],
     "url": "https://www.viber.com/"
+  },
+  {
+    "pattern": "e\\.ventures Investment Crawler",
+    "addition_date": "2021/06/05",
+    "instances": [
+      "e.ventures Investment Crawler (eventures.vc)
+    ]
   }
 ]
