@@ -4826,5 +4826,21 @@
     "instances": [
       "e.ventures Investment Crawler (eventures.vc)"
     ]
+  },
+  {
+    "pattern": "evc-batch",
+    "addition_date": "2021/06/07",
+    "instances": [
+      "Mozilla/5.0 (compatible; evc-batch/2.0)"
+    ]
+  },
+  {
+    "pattern": "PetalBot",
+    "addition_date": "2021/06/07",
+    "instances": [
+      "Mozilla/5.0 (compatible;PetalBot;+https://webmaster.petalsearch.com/site/petalbot)",
+      "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)"
+    ],
+    "url": "https://webmaster.petalsearch.com/site/petalbot"
   }
 ]
