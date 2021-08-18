@@ -4813,11 +4813,56 @@
     ]
   },
   {
-    "pattern": "centurybot9",
+    "pattern": "centurybot",
     "addition_date": "2022/04/26",
     "instances": [
-      "Mozilla/5.0 (compatible; +centuryb.o.t9[at]gmail.com)",
       "Mozilla/5.0 (compatible; Go-http-client/1.1; +centurybot9@gmail.com)"
     ]
+  },
+  {
+    "pattern": "Viber",
+    "addition_date": "2021/04/27",
+    "instances": [
+      "Viber"
+    ],
+    "url": "https://www.viber.com/"
+  },
+  {
+    "pattern": "e\\.ventures Investment Crawler",
+    "addition_date": "2021/06/05",
+    "instances": [
+      "e.ventures Investment Crawler (eventures.vc)"
+    ]
+  },
+  {
+    "pattern": "evc-batch",
+    "addition_date": "2021/06/07",
+    "instances": [
+      "Mozilla/5.0 (compatible; evc-batch/2.0)"
+    ]
+  },
+  {
+    "pattern": "PetalBot",
+    "addition_date": "2021/06/07",
+    "instances": [
+      "Mozilla/5.0 (compatible;PetalBot;+https://webmaster.petalsearch.com/site/petalbot)",
+      "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)"
+    ],
+    "url": "https://webmaster.petalsearch.com/site/petalbot"
+  },
+  {
+    "pattern": "Pingdom",
+	"addition_date": "2021/07/07",    
+    "instances": [
+      "Pingdom.com_bot_version_1.4_(http://www.pingdom.com/)",
+	  "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)",
+	  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) browser/2020.2.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36 PingdomTMS/2020.2",
+	  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) browser/2020.2.5 Chrome/78.0.3904.130 Electron/7.3.15 Safari/537.36 PingdomTMS/2020.2",
+	  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) browser/2020.2.0 Chrome/78.0.3904.130 Electron/7.1.7 Safari/537.36 PingdomTMS/2020.2",
+	  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) renderer/2020.2.0 Chrome/78.0.3904.130 Electron/7.1.7 Safari/537.36 PingdomTMS/2020.2",
+	  "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; http://www.pingdom.com/)"
+    ],
+	"url": "http://www.pingdom.com/"
+	
   }
 ]
