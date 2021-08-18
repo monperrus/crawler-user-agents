@@ -71,7 +71,7 @@ def main():
                 raise Exception("duplicate instances in "+pattern)
             for instance in instances:
                 num_instances += 1
-                if not re.search(pattern, instance):
+                if not re.search(pattern, instance, flags=re.IGNORECASE):
                     raise ValueError('Pattern {!r} misses instance {!r}'
                                      .format(pattern, instance))
                 
