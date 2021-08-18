@@ -71,18 +71,10 @@ def main():
                 raise Exception("duplicate instances in "+pattern)
             for instance in instances:
                 num_instances += 1
-                if not re.search(pattern, instance, flags=re.IGNORECASE):
+                if not re.search(pattern, instance):
                     raise ValueError('Pattern {!r} misses instance {!r}'
                                      .format(pattern, instance))
                 
-                # contract: we want to avoid that instances are matched twice
-                # exceptions are handled with the special metadata "depends_on"
-                for entry2 in json_data:
-                    pattern2 = entry2['pattern']
-                    if pattern2 == pattern: continue
-                    if re.search(pattern2, instance) and pattern2 not in entry['depends_on']: 
-                        raise ValueError(instance + 'is matched by both ' + pattern + ' and ' + pattern2)
-
 
     # Make sure we have at least one pattern
     if len(json_data) < 1:
