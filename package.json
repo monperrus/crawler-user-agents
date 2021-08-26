@@ -2,6 +2,7 @@
   "name": "crawler-user-agents",
   "version": "1.0.0",
   "main": "crawler-user-agents.json",
+  "typings": "./index.d.ts",
   "author": "Martin Monperrus <martin.monperrus@gnieh.org>",
   "license": "MIT",
   "description": "This repository contains a list of of HTTP user-agents used by robots, crawlers, and spiders as in single JSON file.",
