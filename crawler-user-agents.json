@@ -4868,7 +4868,7 @@
     "url": "https://www.virustotal.com/gui/home/url"
   },
   {
-    "pattern": "(^| )PTST/",
+    "pattern": "(^| )PTST\\/",
     "addition_date": "2021/12/05",
     "instances": [
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 PTST/211202.211915",
