@@ -4876,5 +4876,13 @@
       "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0 PTST/211202.211915"
     ],
     "url": "https://www.webpagetest.org"
+  },
+  {
+    "pattern": "minicrawler",
+    "addition_date": "2022/01/12",
+    "instances": [
+      "Testomatobot/1.0 (Linux x86_64; +https://www.testomato.com/testomatobot) minicrawler/5.2.2"
+    ],
+    "url": "https://www.testomato.com/bot"
   }
 ]
