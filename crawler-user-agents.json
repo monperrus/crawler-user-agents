@@ -4884,5 +4884,13 @@
       "Testomatobot/1.0 (Linux x86_64; +https://www.testomato.com/testomatobot) minicrawler/5.2.2"
     ],
     "url": "https://www.testomato.com/bot"
+  },
+  {
+    "pattern": "Cookiebot",
+    "addition_date": "2022/01/23",
+    "url": "https://www.cookiebot.com/",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; Cookiebot/1.0; +http://cookiebot.com/) Chrome/97.0.4692.71 Safari/537.36"
+    ]
   }
 ]
