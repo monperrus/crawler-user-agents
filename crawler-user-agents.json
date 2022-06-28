@@ -4907,5 +4907,12 @@
 		"instances": [
 			"MaxPointCrawler/Nutch-1.10 (maxpoint.crawler at maxpointinteractive dot com)"
 		]
+	},
+	{
+		"pattern": "SeopultContentAnalyzer",
+		"addition_date": "2022/06/08",
+		"instances": [
+			"SeopultContentAnalyzer/1.0"
+		]
 	}
 ]
