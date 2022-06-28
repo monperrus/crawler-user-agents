@@ -4900,5 +4900,12 @@
 		"instances": [
             "Mozilla/5.0 (compatible; trovitBot 1.0; +http://www.trovit.com/bot.html)"
         ]
+	},
+	{
+		"pattern": "MaxPointCrawler",
+		"addition_date": "2022/06/08",
+		"instances": [
+			"MaxPointCrawler/Nutch-1.10 (maxpoint.crawler at maxpointinteractive dot com)"
+		]
 	}
 ]
