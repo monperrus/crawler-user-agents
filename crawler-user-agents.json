@@ -4892,5 +4892,13 @@
     "instances": [
       "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; Cookiebot/1.0; +http://cookiebot.com/) Chrome/97.0.4692.71 Safari/537.36"
     ]
-  }
+  },
+	{
+		"pattern": "trovitBot",
+		"addition_date": "2022/06/08",
+		"url": "http://www.trovit.com/bot.html",
+		"instances": [
+            "Mozilla/5.0 (compatible; trovitBot 1.0; +http://www.trovit.com/bot.html)"
+        ]
+	}
 ]
