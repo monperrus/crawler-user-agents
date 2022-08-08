@@ -4899,6 +4899,7 @@
     "url": "https://seostar.co/robot/",
     "instances": [
       "Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)"
+    ]
   },
   {
     "pattern": "IonCrawl",
