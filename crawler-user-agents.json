@@ -4894,6 +4894,14 @@
     ]
   },
   {
+    "pattern": "seostar\\.co",
+    "addition_date": "2022/08/04",
+    "url": "https://seostar.co/robot/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)"
+    ]
+  },
+  {
     "pattern": "IonCrawl",
     "addition_date": "2022/08/04",
     "url": "https://www.ionos.de/terms-gtc/faq-crawler-en",
