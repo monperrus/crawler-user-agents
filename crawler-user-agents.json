@@ -4916,5 +4916,13 @@
     "instances": [
       "IonCrawl (https://www.ionos.de/terms-gtc/faq-crawler-en/)"
     ]
+  },
+  {
+    "pattern": "Uptime-Kuma",
+    "addition_date": "2022/10/17",
+    "url": "https://uptime.kuma.pet/",
+    "instances": [
+      "Uptime-Kuma/1.18.0"
+    ]
   }
 ]
