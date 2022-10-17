@@ -4916,5 +4916,13 @@
     "instances": [
       "IonCrawl (https://www.ionos.de/terms-gtc/faq-crawler-en/)"
     ]
+  },
+  {
+    "pattern": "FreshpingBot",
+    "addition_date": "2022/10/17",
+    "url": "https://www.freshworks.com/website-monitoring/",
+    "instances": [
+      "FreshpingBot/1.0 (+https://freshping.io/)"
+    ]
   }
 ]
