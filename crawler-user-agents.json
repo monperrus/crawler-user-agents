@@ -4918,6 +4918,14 @@
     ]
   },
   {
+    "pattern": "Uptime-Kuma",
+    "addition_date": "2022/10/17",
+    "url": "https://uptime.kuma.pet/",
+    "instances": [
+      "Uptime-Kuma/1.18.0"
+    ]
+  },
+  {
     "pattern": "SeekportBot",
     "addition_date": "2022/10/17",
     "url": "https://bot.seekport.com",
