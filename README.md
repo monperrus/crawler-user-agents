@@ -32,7 +32,7 @@ console.log(crawlers);
 Each `pattern` is a regular expression. It should work out-of-the-box wih your favorite regex library:
 
 * JavaScript: `if (RegExp(entry.pattern).test(req.headers['user-agent']) { ... }`
-* PHP: add a slash before and after the pattern: `ìf (preg_match('/'.$entry['pattern'].'/', $_SERVER['HTTP_USER_AGENT'])): ...`
+* PHP: add a slash before and after the pattern: `if (preg_match('/'.$entry['pattern'].'/', $_SERVER['HTTP_USER_AGENT'])): ...`
 * Python: `if re.search(entry['pattern'], ua): ...`
 
 ## Contributing
