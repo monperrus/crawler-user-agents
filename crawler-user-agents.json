@@ -4940,5 +4940,13 @@
     "instances": [
       "FreshpingBot/1.0 (+https://freshping.io/)"
     ]
+  },
+  {
+    "pattern": "Feedbin",
+    "addition_date": "2022/11/05",
+    "url": "https://feedbin.com/",
+    "instances": [
+      "Feedbin feed-id:2005098 - 2 subscribers"
+    ]
   }
 ]
