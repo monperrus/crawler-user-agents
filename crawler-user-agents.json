@@ -4940,5 +4940,13 @@
     "instances": [
       "FreshpingBot/1.0 (+https://freshping.io/)"
     ]
+  },
+  {
+    "pattern": "curebot",
+    "addition_date": "2022/11/05",
+    "url": "https://curebot.xyz/",
+    "instances": [
+      "curebot-feed-fetcher"
+    ]
   }
 ]
