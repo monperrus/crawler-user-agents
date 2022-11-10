@@ -4609,10 +4609,11 @@
     "url": "https://rssmicro.com"
   },
   {
-    "pattern": "Curebot",
+    "pattern": "[Cc]urebot",
     "addition_date": "2020/03/16",
     "instances": [
-      "Curebot/1.0"
+      "Curebot/1.0",
+      "curebot-feed-fetcher"
     ]
   },
   {
