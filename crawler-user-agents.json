@@ -1359,6 +1359,15 @@
   }
   ,
   {
+    "pattern": "line-poker",
+    "addition_date": "2022/11/30",
+    "instances": [
+      "facebookexternalhit/1.1;line-poker/1.0"
+    ],
+    "url": "https://developers.line.biz/en/faq/tags/media/#how-are-the-url-previews-generated"
+  }
+  ,
+  {
     "pattern": "facebookexternalhit",
     "addition_date": "2012/05/07",
     "instances": [
