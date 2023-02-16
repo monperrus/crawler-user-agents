@@ -4975,5 +4975,11 @@
     "instances": [
       "Better Uptime Bot Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
     ]
+  },
+  {
+    "pattern": "RuxitSynthetic",
+    "addition_date": "2023/02/16",
+    "url": "https://www.dynatrace.com/support/help/platform-modules/digital-experience/synthetic-monitoring/browser-monitors/configure-browser-monitors#expand--default-user-agent",
+    "instances" : ["RuxitSynthetic/1.0"]
   }
 ]
