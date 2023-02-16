@@ -4959,5 +4959,13 @@
     "instances": [
       "CriteoBot/0.1 (+https://www.criteo.com/criteo-crawler/)"
     ]
+  },
+  {
+    "pattern": "Snap URL Preview Service",
+    "addition_date": "2022/11/13",
+    "url": "https://snap.com/",
+    "instances": [
+      "Snap URL Preview Service; bot; snapchat; https://developers.snap.com/robots"
+    ]
   }
 ]
