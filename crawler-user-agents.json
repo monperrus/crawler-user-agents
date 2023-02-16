@@ -4953,6 +4953,14 @@
     ]
   },
   {
+    "pattern": "CriteoBot",
+    "addition_date": "2022/11/13",
+    "url": "https://www.criteo.com/",
+    "instances": [
+      "CriteoBot/0.1 (+https://www.criteo.com/criteo-crawler/)"
+    ]
+  },
+  {
     "pattern": "Snap URL Preview Service",
     "addition_date": "2022/11/13",
     "url": "https://snap.com/",
