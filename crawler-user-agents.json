@@ -4981,5 +4981,14 @@
     "addition_date": "2023/02/16",
     "url": "https://www.dynatrace.com/support/help/platform-modules/digital-experience/synthetic-monitoring/browser-monitors/configure-browser-monitors#expand--default-user-agent",
     "instances" : ["RuxitSynthetic/1.0"]
+  },
+  {
+    "pattern": "Google-Read-Aloud",
+    "addition_date": "2023/02/16",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Read-Aloud; +https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
+      "Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)"
+    ]
   }
 ]
