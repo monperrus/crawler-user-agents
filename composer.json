@@ -1,0 +1,24 @@
+{
+    "name": "monperrus/crawler-user-agents",
+    "description": "This repository contains a list of of HTTP user-agents used by robots, crawlers, and spiders as in single JSON file.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["crawlers", "user-agents", "listing", "json"],
+    "authors": [
+        {
+            "name": "Martin Monperrus",
+            "email": "martin.monperrus@gnieh.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "main.php"
+        ]
+    },
+    "support": {
+        "email": "martin.monperrus@gnieh.org",
+        "issues": "https://github.com/monperrus/crawler-user-agents/issues"
+    },
+    "require": {}
+}
