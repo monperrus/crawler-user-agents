@@ -2169,7 +2169,7 @@
   {
     "pattern": "netEstate NE Crawler",
     "addition_date": "2016/01/23",
-    "url": "+http://www.website-datenbank.de/",
+    "url": "http://www.website-datenbank.de/",
     "instances": [
       "netEstate NE Crawler (+http://www.sengine.info/)",
       "netEstate NE Crawler (+http://www.website-datenbank.de/)"
