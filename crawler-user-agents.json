@@ -4990,5 +4990,12 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Read-Aloud; +https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
       "Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)"
     ]
+  },
+  {
+    "pattern": "Valve\\/Steam",
+    "addition_date": "2023/05/24",
+    "instances": [
+      "Valve/Steam HTTP Client 1.0 (SteamChatURLLookup)"
+    ]
   }
 ]
