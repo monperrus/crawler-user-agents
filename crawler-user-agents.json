@@ -4998,4 +4998,14 @@
       "Valve/Steam HTTP Client 1.0 (SteamChatURLLookup)"
     ]
   }
+,
+  {
+    "pattern": "OdklBot\\/",
+    "addition_date": "2023/05/24",
+    "instances": [
+      "OdklBot/1.0 (share@odnoklassniki.ru)",
+        "Mozilla/5.0 (compatible; OdklBot/1.0 like Linux; klass@odnoklassniki.ru)"
+    ],
+    "url": "https://odnoklassniki.ru/"
+  }
 ]
