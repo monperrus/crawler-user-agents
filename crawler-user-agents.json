@@ -102,6 +102,32 @@
   }
   ,
   {
+    "pattern": "Google-InspectionTool",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
+    "instances": [
+      "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/W.X.Y.Z Mobile Safari/537.36 (compatible; Google-InspectionTool/1.0)",
+      "Mozilla/5.0 (compatible; Google-InspectionTool/1.0)"
+    ]
+  }
+  ,
+  {
+    "pattern": "Storebot-Google",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64; Storebot-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36",
+      "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012; Storebot-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36"
+    ]
+  }
+  ,
+  {
+    "pattern": "GoogleOther",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
+    "instances": [
+      "GoogleOther"
+    ]
+  }
+  ,
+  {
     "pattern": "bingbot",
     "url": "http://www.bing.com/bingbot.htm",
     "instances": [
@@ -198,7 +224,7 @@
     "instances": [
       "python-httpx/0.16.1",
       "python-httpx/0.13.0.dev1"
-      
+
     ],
     "url": "https://www.python-httpx.org"
   }
@@ -4829,7 +4855,7 @@
     "instances": [
       "Mozilla/5.0 (compatible; Go-http-client/1.1; +centurybot9@gmail.com)"
     ],
-    "url": "unknown" 
+    "url": "unknown"
   },
   {
     "pattern": "Viber",
