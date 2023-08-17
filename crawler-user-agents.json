@@ -5080,5 +5080,15 @@
       "Mozilla/5.0 (compatible; woorankreview/2.0; +https://www.woorank.com/)"
     ],
     "url": "https://www.woorank.com/"
+  },
+  {
+    "pattern": "Google-Safety",
+    "addition_date": "2023/08/17",
+    "instances": [
+      "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.179 Mobile Safari/537.36 (compatible; Google-Safety; +http://www.google.com/bot.html)",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.179 Safari/537.36 (compatible; Google-Safety; +http://www.google.com/bot.html)",
+      "Google-Safety"
+    ],
+    "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
   }
 ]
