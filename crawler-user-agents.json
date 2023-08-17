@@ -5040,5 +5040,55 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)"
     ],
     "url": "https://platform.openai.com/docs/gptbot"
+  },
+  {
+    "pattern": "YandexRenderResourcesBot\\/",
+    "addition_date": "2023/08/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; YandexRenderResourcesBot/1.0; +http://yandex.com/bots) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0"
+    ],
+    "url": "http://yandex.com/bots"
+  },
+  {
+    "pattern": "LightspeedSystemsCrawler",
+    "addition_date": "2023/08/16",
+    "instances": [
+      "LightspeedSystemsCrawler Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US"
+    ]
+  },
+  {
+    "pattern": "ev-crawler\\/",
+    "addition_date": "2023/08/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; ev-crawler/1.0; +https://headline.com/legal/crawler)"
+    ],
+    "url": "https://headline.com/legal/crawler"
+  },
+  {
+    "pattern": "BitSightBot\\/",
+    "addition_date": "2023/08/16",
+    "instances": [
+      "Mozilla/5.0 (compatible; BitSightBot/1.0)"
+    ],
+    "url": "https://www.bitsight.com"
+  },
+  {
+    "pattern": "woorankreview\\/",
+    "addition_date": "2023/08/16",
+    "instances": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 (compatible; woorankreview/2.0; +https://www.woorank.com/)",
+      "Mozilla/5.0 (compatible; woorankreview/2.0; +https://www.woorank.com/)"
+    ],
+    "url": "https://www.woorank.com/"
+  },
+  {
+    "pattern": "Google-Safety",
+    "addition_date": "2023/08/17",
+    "instances": [
+      "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.179 Mobile Safari/537.36 (compatible; Google-Safety; +http://www.google.com/bot.html)",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.179 Safari/537.36 (compatible; Google-Safety; +http://www.google.com/bot.html)",
+      "Google-Safety"
+    ],
+    "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
   }
 ]
