@@ -1020,11 +1020,12 @@
   }
   ,
   {
-    "pattern": "TurnitinBot",
+    "pattern": "Turnitin",
     "addition_date": "2010/09/26",
     "url": "http://www.turnitin.com",
     "instances": [
-      "TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)"
+      "TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)",
+      "Turnitin (https://bit.ly/2UvnfoQ)"
     ]
   }
   ,
