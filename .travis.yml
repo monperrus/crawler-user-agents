@@ -1,5 +1,6 @@
+dist: jammy
 language: python
-python: 3.6
+python: 3.11.0
 
 install: 
 - pip3 install jsonschema pytest
