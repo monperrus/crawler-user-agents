@@ -5107,7 +5107,7 @@
       "Mozilla/5.0 (compatible; DataForSeoBot/1.0; +https://dataforseo.com/dataforseo-bot)"
     ],
     "url": "https://dataforseo.com/dataforseo-bot"
-  ,
+  },
   {
     "pattern": "Linespider",
     "addition_date": "2023/08/24",
