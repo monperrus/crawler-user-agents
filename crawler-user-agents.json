@@ -5116,5 +5116,13 @@
 	    "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Linespider/1.1; +https://lin.ee/4dwXkTH) Chrome/W.X.Y.Z Safari/537.36"
     ],
     "url": "https://help2.line.me/linesearchbot/web/?contentId=50006055&lang=en"
+  },
+  {
+    "pattern": "WellKnownBot",
+    "addition_date": "2023/08/29",
+    "instances": [
+      "Mozilla/5.0 (compatible; WellKnownBot/0.1; +https://well-known.dev/about/#bot)"
+    ],
+    "url": "https://well-known.dev/about/#bot)"
   }
 ]
