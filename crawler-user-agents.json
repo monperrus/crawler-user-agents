@@ -5124,5 +5124,13 @@
       "Mozilla/5.0 (compatible; WellKnownBot/0.1; +https://well-known.dev/about/#bot)"
     ],
     "url": "https://well-known.dev/about/#bot)"
+  },
+  {
+    "pattern": "A Patent Crawler",
+    "addition_date": "2023/08/29",
+    "instances": [
+      "E. Orliac, G. Fourestey/2.3 (A Patent Crawler; http://scitas.epfl.ch/; etienne.orliac@epfl.ch, gilles.fourestey@epfl.ch)"
+    ],
+    "url": "http://scitas.epfl.ch/"
   }
 ]
