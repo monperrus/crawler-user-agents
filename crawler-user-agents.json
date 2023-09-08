@@ -5140,5 +5140,21 @@
       "Mozilla/5.0 (compatible; StractBot/0.1; open source search engine; +https://trystract.com/webmasters)"
     ],
     "url": "https://trystract.com/webmasters"
+  },
+  {
+    "pattern": "search\\.marginalia\\.nu",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "search.marginalia.nu"
+    ],
+    "url": "https://search.marginalia.nu"
+  },
+  {
+    "pattern": "YouBot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "YouBot (+http://www.you.com)"
+    ],
+    "url": "https://you.com/"
   }
 ]
