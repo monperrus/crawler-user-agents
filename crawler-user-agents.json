@@ -5156,5 +5156,13 @@
       "YouBot (+http://www.you.com)"
     ],
     "url": "https://you.com/"
+  },
+  {
+    "pattern": "Nicecrawler",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Nicecrawler/1.1; +http://www.nicecrawler.com/) Chrome/90.0.4430.97 Safari/537.36"
+    ],
+    "url": "http://www.nicecrawler.com/"
   }
 ]
