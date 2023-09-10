@@ -4925,5 +4925,294 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Nicecrawler/1.1; +http://www.nicecrawler.com/) Chrome/90.0.4430.97 Safari/537.36"
     ],
     "url": "http://www.nicecrawler.com/"
+  },
+  {
+    "pattern": "Neevabot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; Neevabot/1.0; +https://neeva.com/neevabot)"
+    ],
+    "url": "https://neeva.com/neevabot"
+  },
+  {
+    "pattern": "BrightEdge Crawler",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "BrightEdge Crawler/1.0 (crawler@brightedge.com)"
+    ],
+    "url": "https://www.brightedge.com/"
+  },
+  {
+    "pattern": "SiteCheckerBotCrawler",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "SiteCheckerBotCrawler/1.0 (+http://sitechecker.pro)"
+    ],
+    "url": "http://sitechecker.pro"
+  },
+  {
+    "pattern": "TombaPublicWebCrawler",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; TombaPublicWebCrawler/1.0; +https://tombascraper.com)"
+    ],
+    "url": "https://tombascraper.com"
+  },
+  {
+    "pattern": "CrawlyProjectCrawler",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 (compatible; CrawlyProjectCrawler/0.1.3; crawlyproject@digitaldragon.dev +https://crawlyproject.digitaldragon.dev/)"
+    ],
+    "url": "https://crawlyproject.digitaldragon.dev/"
+  },
+  {
+    "pattern": "KomodiaBot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.1; Win64; x64; +http://www.komodia.com/newwiki/index.php/URL_server_crawler) KomodiaBot/1.0"
+    ],
+    "url": "http://www.komodia.com/newwiki/index.php/URL_server_crawler"
+  },
+  {
+    "pattern": "KStandBot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.1; Win64; x64; +http://url-classification.io/wiki/index.php?title=URL_server_crawler) KStandBot/1.0"
+    ],
+    "url": "http://url-classification.io"
+  },
+  {
+    "pattern": "CISPA Webcrawler",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "CISPA Webcrawler (https://vuln-notify-checker.cispa.saarland)"
+    ],
+    "url": "https://vuln-notify-checker.cispa.saarland"
+  },
+  {
+    "pattern": "MTRobot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "MTRobot/0.2 (Metrics Tools Analytics Crawler; https://metrics-tools.de/robot.html; crawler@metrics-tools.de)"
+    ],
+    "url": "https://metrics-tools.de/robot.html"
+  },
+  {
+    "pattern": "hyscore.io",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1. 4 (compatible; HyScore/1.0; +https://hyscore.io/crawler/)"
+    ],
+    "url": "https://hyscore.io/crawler/"
+  },
+  {
+    "pattern": "AlexandriaOrgBot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (Linux) (compatible; AlexandriaOrgBot/1.0; +https://www.alexandria.org/bot.html)"
+    ],
+    "url": "https://www.alexandria.org/bot.html"
+  },
+  {
+    "pattern": "2ip bot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "2ip bot/1.1 (+http://2ip.io)"
+    ],
+    "url": "http://2ip.io"
+  },
+  {
+    "pattern": "Yellowbrandprotectionbot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; Yellowbrandprotectionbot/1.0; +https://www.yellowbp.com/bot.html)"
+    ],
+    "url": "https://www.yellowbp.com/bot.html"
+  },
+  {
+    "pattern": "SEOlizer",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "SEOlizer/1.1 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13 (+https://www.seolizer.de/bot.html)"
+    ],
+    "url": "https://www.seolizer.de/bot.html"
+  },
+  {
+    "pattern": "vuhuvBot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; vuhuvBot/1.0; +http://vuhuv.com/bot.html)"
+    ],
+    "url": "http://vuhuv.com/bot.html"
+  },
+  {
+    "pattern": "INETDEX-BOT",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "INETDEX-BOT/1.5 (Mozilla/5.0; https://inetdex.com/bot.html)"
+    ],
+    "url": "https://inetdex.com/bot.html"
+  },
+  {
+    "pattern": "Synapse",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Synapse (bot; +https://github.com/matrix-org/synapse)"
+    ],
+    "url": "https://github.com/matrix-org/synapse"
+  },
+  {
+    "pattern": "t3versionsBot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; t3versionsBot/1.0; +https://www.t3versions.com/bot)"
+    ],
+    "url": "https://www.t3versions.com/bot"
+  },
+  {
+    "pattern": "deepnoc",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "deepnoc - https://deepnoc.com/bot"
+    ],
+    "url": "https://deepnoc.com/bot"
+  },
+  {
+    "pattern": "Cocolyzebot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; Cocolyzebot/1.0; https://cocolyze.com/bot)"
+    ],
+    "url": "https://cocolyze.com/bot"
+  },
+  {
+    "pattern": "hypestat",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; hypestat/1.0; +https://hypestat.com/bot)"
+    ],
+    "url": "https://hypestat.com/bot"
+  },
+  {
+    "pattern": "ReverseEngineeringBot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; ReverseEngineeringBot/0.1; +https://torus.company/bot.html)"
+    ],
+    "url": "https://torus.company/bot.html"
+  },
+  {
+    "pattern": "sempi.tech",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; Semanticbot/1.0; +http://sempi.tech/bot.html)"
+    ],
+    "url": "http://sempi.tech/bot.html"
+  },
+  {
+    "pattern": "Iframely",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Iframely/1.3.1 (+https://iframely.com/docs/about) Atlassian"
+    ],
+    "url": "https://iframely.com/docs/about"
+  },
+  {
+    "pattern": "MetaInspector",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "MetaInspector/5.6.0 (+https://github.com/jaimeiniesta/metainspector)"
+    ],
+    "url": "https://github.com/jaimeiniesta/metainspector"
+  },
+  {
+    "pattern": "node-fetch",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+    ],
+    "url": "https://github.com/bitinn/node-fetch"
+  },
+  {
+    "pattern": "lkxscan",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "lkxscan/v0.1.0 (+https://leakix.net) l9explore/v1.0.0 (+https://github.com/LeakIX/l9explore)"
+    ],
+    "url": "https://github.com/LeakIX/l9explore"
+  },
+  {
+    "pattern": "python-opengraph",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "python-opengraph-jaywink/0.2.0 (+https://github.com/jaywink/python-opengraph)"
+    ],
+    "url": "https://github.com/jaywink/python-opengraph"
+  },
+  {
+    "pattern": "OpenGraphCheck",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "OpenGraphCheck/2.1 (+https://opengraphcheck.com)"
+    ],
+    "url": "https://opengraphcheck.com"
+  },
+  {
+    "pattern": "developers.google.com\\/\\+\\/web\\/snippet",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google-PageRenderer Google (+https://developers.google.com/+/web/snippet/)",
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google (+https://developers.google.com/+/web/snippet/"
+    ],
+    "url": "https://developers.google.com/+/web/snippet"
+  },
+  {
+    "pattern": "SenutoBot",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "SenutoBot/1.0 (compatible; SenutoBot/1.0; +https://www.senuto.com/)"
+    ],
+    "url": "https://www.senuto.com"
+  },
+  {
+    "pattern": "MaCoCu",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; MaCoCu; +https://www.clarin.si/info/macocu-massive-collection-and-curation-of-monolingual-and-bilingual-data/)"
+    ],
+    "url": "https://www.clarin.si/info/macocu-massive-collection-and-curation-of-monolingual-and-bilingual-data"
+  },
+  {
+    "pattern": "NewsBlur",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "NewsBlur Feed Fetcher - 1 subscriber - http://www.newsblur.com/site/0000000/webpage (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15)"
+    ],
+    "url": "http://www.newsblur.com"
+  },
+  {
+    "pattern": "inoreader",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "Mozilla/5.0 (compatible; inoreader.com; 1 subscribers)"
+    ],
+    "url": "http://inoreader.com"
+  },
+  {
+    "pattern": "NetSystemsResearch",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com"
+    ],
+    "url": "http://netsystemsresearch.com"
+  },
+  {
+    "pattern": "PageThing",
+    "addition_date": "2023/09/08",
+    "instances": [
+      "PageThing http://pagething.com curl www"
+    ],
+    "url": "http://pagething.com"
   }
 ]
