@@ -5214,13 +5214,5 @@
       "PageThing http://pagething.com curl www"
     ],
     "url": "http://pagething.com"
-  },
-  {
-    "pattern": "DataForSeoBot",
-    "addition_date": "2023/10/30",
-    "url": "https://dataforseo.com/dataforseo-bot",
-    "instances": [
-      "Mozilla/5.0 (compatible; DataForSeoBot; +https://dataforseo.com/dataforseo-bot)"
-    ]
   }
 ]
