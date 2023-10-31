@@ -1,5 +1,6 @@
+dist: jammy
 language: python
-python: 3.6
+python: 3.11.0
 
 install: 
 - pip3 install jsonschema pytest
@@ -19,7 +20,7 @@ deploy:
   email: martin.monperrus@gnieh.org
   skip_cleanup: true
   api_key:
-    secure: YgdBbKjxy+DRdQcItgiwq3gMjxzFbZsplv13Lb5Ewzb+n6CO7U/RHEdLMHRfE/3xlQIaMMvbjjBSBUR9rDpMqClrfnkwf2RtXKQGImQ9Z8vvRKIWEn1UDoFLPtRtVrPU/7K96LbJsSyncM8HDEsF3s22WdiDcFhuH3/PjWxxr5g=
+    secure: DAS1IgbrU085kpY4acrByrU2oWQq2HbP8aNye/Wb7nJIjT2Hv+DrbGoZ38Qiz8szHGmOy0DwtwJGPL6dhM7cC+2PBn5Pu6GzeORCSh+KlrRFIVI09A9BRc6TGNkJIr7ddP0H69U+OcdL53noBeMK4q2nxM6neCZM4Aa45r1jptI=
   on:
     repo: monperrus/crawler-user-agents
     branch: master
