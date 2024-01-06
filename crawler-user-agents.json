@@ -5223,5 +5223,20 @@
       "WordPress/X.X.X; https://example.com"
     ],
     "url": "https://wordpress.org"
+  },
+  {
+    "pattern": "PhxBot",
+    "addition_date": "2024/01/06",
+    "instances": [
+      "PhxBot/0.1 (phxbot@protonmail.com)"
+    ]
+  },
+  {
+    "pattern": "ImagesiftBot",
+    "addition_date": "2024/01/06",
+    "instances": [
+      "Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)"
+    ],
+    "url": "https://imagesift.com"
   }
 ]
