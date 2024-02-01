@@ -5238,5 +5238,13 @@
       "Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)"
     ],
     "url": "https://imagesift.com"
+  },
+  {
+    "pattern": "Expanse",
+    "addition_date": "2024/02/01",
+    "instances": [
+      "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+    ],
+    "url": "https://www.paloaltonetworks.com/cortex/cortex-xpanse"
   }
 ]
