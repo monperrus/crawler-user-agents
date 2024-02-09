@@ -5254,5 +5254,13 @@
       "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
     ],
     "url": "https://internet-measurement.com"
+  },
+  {
+    "pattern": "BuiltWith",
+    "addition_date": "2024/02/08",
+    "instances": [
+      "BW/1.1; bit.ly/3eZNDnO"
+    ],
+    "url": "https://builtwith.com/biup"
   }
 ]
