@@ -1107,14 +1107,15 @@
   }
   ,
   {
-    "pattern": "seznambot",
+    "pattern": "SeznamBot",
     "addition_date": "2012/03/14",
-    "instances": [
+    "instances": [	
       "Mozilla/5.0 (compatible; SeznamBot/3.2-test1-1; +http://napoveda.seznam.cz/en/seznambot-intro/)",
       "Mozilla/5.0 (compatible; SeznamBot/3.2-test1; +http://napoveda.seznam.cz/en/seznambot-intro/)",
       "Mozilla/5.0 (compatible; SeznamBot/3.2-test2; +http://napoveda.seznam.cz/en/seznambot-intro/)",
       "Mozilla/5.0 (compatible; SeznamBot/3.2-test4; +http://napoveda.seznam.cz/en/seznambot-intro/)",
-      "Mozilla/5.0 (compatible; SeznamBot/3.2; +http://napoveda.seznam.cz/en/seznambot-intro/)"
+      "Mozilla/5.0 (compatible; SeznamBot/3.2; +http://napoveda.seznam.cz/en/seznambot-intro/)",
+      "Mozilla/5.0 (compatible; SeznamBot/4.0; +http://napoveda.seznam.cz/seznambot-intro/)"
     ]
   }
   ,
@@ -5214,5 +5215,52 @@
       "PageThing http://pagething.com curl www"
     ],
     "url": "http://pagething.com"
+  },
+  {
+    "pattern": "WordPress\\/",
+    "addition_date": "2023/10/24",
+    "instances": [
+      "WordPress/X.X.X; https://example.com"
+    ],
+    "url": "https://wordpress.org"
+  },
+  {
+    "pattern": "PhxBot",
+    "addition_date": "2024/01/06",
+    "instances": [
+      "PhxBot/0.1 (phxbot@protonmail.com)"
+    ]
+  },
+  {
+    "pattern": "ImagesiftBot",
+    "addition_date": "2024/01/06",
+    "instances": [
+      "Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)"
+    ],
+    "url": "https://imagesift.com"
+  },
+  {
+    "pattern": "Expanse",
+    "addition_date": "2024/02/01",
+    "instances": [
+      "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+    ],
+    "url": "https://www.paloaltonetworks.com/cortex/cortex-xpanse"
+  },
+  {
+    "pattern": "InternetMeasurement",
+    "addition_date": "2024/02/01",
+    "instances": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "url": "https://internet-measurement.com"
+  },
+  {
+    "pattern": "3eZNDnO",
+    "addition_date": "2024/02/08",
+    "instances": [
+      "BW/1.1; bit.ly/3eZNDnO"
+    ],
+    "url": "https://builtwith.com/biup"
   }
 ]
