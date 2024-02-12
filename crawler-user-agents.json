@@ -5262,5 +5262,13 @@
       "BW/1.1; bit.ly/3eZNDnO"
     ],
     "url": "https://builtwith.com/biup"
+  },
+  {
+    "pattern": "GeedoBot",
+    "addition_date": "2024/02/11",
+    "instances": [
+      "Mozilla/5.0 (compatible; GeedoBot; +http://www.geedo.com/bot.html)"
+    ],
+    "url": "http://www.geedo.com"
   }
 ]
