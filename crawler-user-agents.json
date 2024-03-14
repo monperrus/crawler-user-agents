@@ -5270,5 +5270,24 @@
       "Mozilla/5.0 (compatible; GeedoBot; +http://www.geedo.com/bot.html)"
     ],
     "url": "http://www.geedo.com"
+  },
+  {
+    "pattern": "Audisto Crawler",
+    "addition_date": "2024/03/14",
+    "instances": [
+      "Audisto Crawler (mobile; +https://audisto.com/bot)",
+      "Audisto Crawler (desktop; +https://audisto.com/bot)",
+      "Audisto Crawler (mobile; essential; +https://audisto.com/bot)",
+      "Audisto Crawler (desktop; essential; +https://audisto.com/bot)"
+    ],
+    "url": "https://audisto.com/help/crawler/bot/"
+  },
+  {
+    "pattern": "PerplexityBot\\/",
+    "addition_date": "2024/03/14",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)"
+    ],
+    "url": "https://docs.perplexity.ai/docs/perplexitybot"
   }
 ]
