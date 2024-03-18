@@ -37,8 +37,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm install pacote@11.1.11
       - run: git checkout .
-      - run: npm version `node -e 'pacote=require("pacote");pacote.manifest("crawler-user-agents").then(pkgJson => { console.log(pkgJson.version); });'`
-      - run: npm version patch
+      - run: npm version --no-git-tag-version `node -e 'pacote=require("pacote");pacote.manifest("crawler-user-agents").then(pkgJson => { console.log(pkgJson.version); });'`
+      - run: npm version --no-git-tag-version patch
       - run: npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
