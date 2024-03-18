@@ -27,7 +27,7 @@ jobs:
     permissions:
       id-token: write # To attach provenance to the published package
     environment:
-      name: npm
+      name: npm_token
       url: https://www.npmjs.com/package/crawler-user-agents
     steps:
       - uses: actions/checkout@v4
