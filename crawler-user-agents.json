@@ -5256,10 +5256,11 @@
     "url": "https://internet-measurement.com"
   },
   {
-    "pattern": "3eZNDnO",
+    "pattern": "^BW\\/",
     "addition_date": "2024/02/08",
     "instances": [
-      "BW/1.1; bit.ly/3eZNDnO"
+      "BW/1.1; bit.ly/3eZNDnO",
+      "BW/1.1; rb.gy/oupwis"
     ],
     "url": "https://builtwith.com/biup"
   },
