@@ -16,8 +16,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 16
-      - run: npm ci
-      - run: npm test
+      - run: pip3 install jsonschema pytest
+      - run: py.test -vv
+      - run: python3 validate.py  
+      - run: php validate.php
 
   publish-npm:
     needs: build
