@@ -27,18 +27,35 @@ func TestPatterns(t *testing.T) {
 	}
 }
 
-const userAgent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google-PageRenderer Google (+https://developers.google.com/+/web/snippet/)"
+const (
+	crawlerUA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google (+https://developers.google.com/+/web/snippet/"
+	browserUA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36"
+)
 
-func BenchmarkIsCrawler(b *testing.B) {
-	b.SetBytes(int64(len(userAgent)))
+func BenchmarkIsCrawlerPositive(b *testing.B) {
+	b.SetBytes(int64(len(crawlerUA)))
 	for n := 0; n < b.N; n++ {
-		IsCrawler(userAgent)
+		IsCrawler(crawlerUA)
 	}
 }
 
-func BenchmarkMatchingCrawlers(b *testing.B) {
-	b.SetBytes(int64(len(userAgent)))
+func BenchmarkMatchingCrawlersPositive(b *testing.B) {
+	b.SetBytes(int64(len(crawlerUA)))
 	for n := 0; n < b.N; n++ {
-		MatchingCrawlers(userAgent)
+		MatchingCrawlers(crawlerUA)
+	}
+}
+
+func BenchmarkIsCrawlerNegative(b *testing.B) {
+	b.SetBytes(int64(len(browserUA)))
+	for n := 0; n < b.N; n++ {
+		IsCrawler(browserUA)
+	}
+}
+
+func BenchmarkMatchingCrawlersNegative(b *testing.B) {
+	b.SetBytes(int64(len(browserUA)))
+	for n := 0; n < b.N; n++ {
+		MatchingCrawlers(browserUA)
 	}
 }
