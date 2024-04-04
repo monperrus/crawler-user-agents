@@ -1,28 +1,20 @@
-# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
-# For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
+# Continuous Delivery to https://www.npmjs.com/package/crawler-user-agents
+# for each commit, with provenance
 
-name: Node.js Package
+name: Deploy to NPM
 
 on:
-  push:
-    branches: 
-      - master
+#  push:
+#    branches: 
+#      - master
+  workflow_run:
+    workflows: [CI validation]
+    branches: [master]
+    types: 
+      - completed
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - run: pip3 install jsonschema pytest
-      - run: py.test -vv
-      - run: python3 validate.py  
-      - run: php validate.php
-
   publish-npm:
-    needs: build
     runs-on: ubuntu-latest
     permissions:
       id-token: write # To attach provenance to the published package
