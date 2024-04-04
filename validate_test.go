@@ -3,9 +3,16 @@ package agents
 import (
 	"fmt"
 	"testing"
-
-	"github.com/stretchr/testify/require"
 )
+
+func contains(list []int, value int) bool {
+	for _, elem := range list {
+		if elem == value {
+			return true
+		}
+	}
+	return false
+}
 
 func TestPatterns(t *testing.T) {
 	// Loading all crawlers with go:embed
@@ -13,15 +20,22 @@ func TestPatterns(t *testing.T) {
 	allCrawlers := Crawlers
 
 	// There are at least 10 crawlers.
-	require.GreaterOrEqual(t, len(allCrawlers), 10)
+	if len(allCrawlers) < 10 {
+		t.Errorf("Number of crawlers must be at least 10, got %d.", len(allCrawlers))
+	}
 
 	for i, crawler := range allCrawlers {
 		t.Run(crawler.Pattern, func(t *testing.T) {
 			fmt.Println(crawler.Pattern)
 
 			for _, instance := range crawler.Instances {
-				require.True(t, IsCrawler(instance), instance)
-				require.Contains(t, MatchingCrawlers(instance), i, instance)
+				if !IsCrawler(instance) {
+					t.Errorf("Instance %q is not detected as a crawler.", instance)
+				}
+				hits := MatchingCrawlers(instance)
+				if !contains(hits, i) {
+					t.Errorf("Crawler with index %d (pattern %q) is not in the list returned by MatchingCrawlers(%q): %v.", i, crawler.Pattern, instance, hits)
+				}
 			}
 		})
 	}
