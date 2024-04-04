@@ -6,6 +6,7 @@ from __future__ import print_function
 import json
 import re
 from collections import Counter
+import datetime
 
 from jsonschema import validate
 
@@ -65,6 +66,13 @@ def main():
     for entry in json_data:
         pattern = entry['pattern']
         
+        # assert that field "addition_date" has format "2019/12/23",
+        if 'addition_date' in entry:
+            if not re.match(r'\d{4}/\d{2}/\d{2}', entry['addition_date']):
+                raise ValueError('addition_date {!r} has invalid format'.format(entry['addition_date']))
+            # parse the date with datetime
+            datetime.datetime.strptime(entry['addition_date'], '%Y/%m/%d')
+            
         # canonicalize entry
         if 'depends_on' not in entry: entry['depends_on'] = []
             

@@ -1,0 +1,36 @@
+# Continuous Delivery to https://www.npmjs.com/package/crawler-user-agents
+# for each commit, with provenance
+
+name: Deploy to NPM
+
+on:
+#  push:
+#    branches: 
+#      - master
+  workflow_run:
+    workflows: [CI validation]
+    branches: [master]
+    types: 
+      - completed
+
+jobs:
+  publish-npm:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # To attach provenance to the published package
+    environment:
+      name: npm_token
+      url: https://www.npmjs.com/package/crawler-user-agents
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org/
+      - run: npm install pacote@11.1.11
+      - run: git checkout .
+      - run: npm version --no-git-tag-version `node -e 'pacote=require("pacote");pacote.manifest("crawler-user-agents").then(pkgJson => { console.log(pkgJson.version); });'`
+      - run: npm version --no-git-tag-version patch
+      - run: npm publish --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

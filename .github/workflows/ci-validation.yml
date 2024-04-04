@@ -1,0 +1,25 @@
+# run all tests for crawler-user-agents (python/php)
+
+name: CI validation
+
+on:
+  # https://stackoverflow.com/questions/64635032/github-actions-run-on-push-to-all-branches
+  push:
+    branches: 
+      - '**'
+  pull_request:
+    branches:
+      - master  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: pip3 install jsonschema pytest
+      - run: py.test -vv
+      - run: python3 validate.py  
+      - run: php validate.php

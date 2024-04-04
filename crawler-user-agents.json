@@ -220,7 +220,7 @@
   ,
   {
     "pattern": "httpx",
-    "addition_date":" 2019/12/23",
+    "addition_date": "2019/12/23",
     "instances": [
       "python-httpx/0.16.1",
       "python-httpx/0.13.0.dev1"
@@ -265,7 +265,7 @@
   ,
   {
     "pattern": "phpcrawl",
-    "addition_date": "2012-09/17",
+    "addition_date": "2012/09/17",
     "url": "http://phpcrawl.cuab.de/",
     "instances": [
       "phpcrawl"
@@ -5223,5 +5223,72 @@
       "WordPress/X.X.X; https://example.com"
     ],
     "url": "https://wordpress.org"
+  },
+  {
+    "pattern": "PhxBot",
+    "addition_date": "2024/01/06",
+    "instances": [
+      "PhxBot/0.1 (phxbot@protonmail.com)"
+    ]
+  },
+  {
+    "pattern": "ImagesiftBot",
+    "addition_date": "2024/01/06",
+    "instances": [
+      "Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)"
+    ],
+    "url": "https://imagesift.com"
+  },
+  {
+    "pattern": "Expanse",
+    "addition_date": "2024/02/01",
+    "instances": [
+      "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+    ],
+    "url": "https://www.paloaltonetworks.com/cortex/cortex-xpanse"
+  },
+  {
+    "pattern": "InternetMeasurement",
+    "addition_date": "2024/02/01",
+    "instances": [
+      "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+    ],
+    "url": "https://internet-measurement.com"
+  },
+  {
+    "pattern": "^BW\\/",
+    "addition_date": "2024/02/08",
+    "instances": [
+      "BW/1.1; bit.ly/3eZNDnO",
+      "BW/1.1; rb.gy/oupwis"
+    ],
+    "url": "https://builtwith.com/biup"
+  },
+  {
+    "pattern": "GeedoBot",
+    "addition_date": "2024/02/11",
+    "instances": [
+      "Mozilla/5.0 (compatible; GeedoBot; +http://www.geedo.com/bot.html)"
+    ],
+    "url": "http://www.geedo.com"
+  },
+  {
+    "pattern": "Audisto Crawler",
+    "addition_date": "2024/03/14",
+    "instances": [
+      "Audisto Crawler (mobile; +https://audisto.com/bot)",
+      "Audisto Crawler (desktop; +https://audisto.com/bot)",
+      "Audisto Crawler (mobile; essential; +https://audisto.com/bot)",
+      "Audisto Crawler (desktop; essential; +https://audisto.com/bot)"
+    ],
+    "url": "https://audisto.com/help/crawler/bot/"
+  },
+  {
+    "pattern": "PerplexityBot\\/",
+    "addition_date": "2024/03/14",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)"
+    ],
+    "url": "https://docs.perplexity.ai/docs/perplexitybot"
   }
 ]
