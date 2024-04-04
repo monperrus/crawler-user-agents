@@ -23,3 +23,4 @@ jobs:
       - run: py.test -vv
       - run: python3 validate.py  
       - run: php validate.php
+      - run: go test
