@@ -8,17 +8,16 @@ import (
 )
 
 func TestPatterns(t *testing.T) {
-	// loading all crawlers wwith go:embed
-	// some validation happens in UnmarshalJSON
+	// Loading all crawlers with go:embed
+	// some validation happens in UnmarshalJSON.
 	allCrawlers := Crawlers
 
-	// there is at least 10 crawlers
+	// There are at least 10 crawlers.
 	require.GreaterOrEqual(t, len(allCrawlers), 10)
 
 	for i, crawler := range allCrawlers {
-		t.Run(crawler.URL, func(t *testing.T) {
-			// print pattern to console for quickcheck in CI
-			fmt.Print(crawler.Pattern)
+		t.Run(crawler.Pattern, func(t *testing.T) {
+			fmt.Println(crawler.Pattern)
 
 			for _, instance := range crawler.Instances {
 				require.True(t, IsCrawler(instance), instance)
