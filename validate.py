@@ -55,6 +55,12 @@ def main():
         if re.search('[^\\\\]/', pattern):
             raise ValueError('Pattern {!r} has an unescaped slash character'.format(pattern))
 
+    # check that no pattern contains unescaped dot .
+    for entry in json_data:
+        pattern = entry['pattern']
+        if re.search('[^\\\\]\\.', pattern):
+            raise ValueError('Pattern {!r} has an unescaped dot character'.format(pattern))
+
     # check that we match the given instances
     num_instances = 0
     for entry in json_data:
