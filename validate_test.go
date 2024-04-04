@@ -1,14 +1,25 @@
 package agents
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/require"
 )
 
 func TestPatterns(t *testing.T) {
-	for i, crawler := range Crawlers {
+	// loading all crawlers wwith go:embed
+	// some validation happens in UnmarshalJSON
+	allCrawlers := Crawlers
+
+	// there is at least 10 crawlers
+	require.GreaterOrEqual(t, len(allCrawlers), 10)
+
+	for i, crawler := range allCrawlers {
 		t.Run(crawler.URL, func(t *testing.T) {
+			// print pattern to console for quickcheck in CI
+			fmt.Print(crawler.Pattern)
+
 			for _, instance := range crawler.Instances {
 				require.True(t, IsCrawler(instance), instance)
 				require.Contains(t, MatchingCrawlers(instance), i, instance)
