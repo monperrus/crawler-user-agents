@@ -4,10 +4,8 @@ import (
 	_ "embed"
 	"encoding/json"
 	"fmt"
-	"strings"
+	"regexp"
 	"time"
-
-	regexp "github.com/wasilibs/go-re2"
 )
 
 //go:embed crawler-user-agents.json
@@ -82,102 +80,31 @@ var Crawlers = func() []Crawler {
 	return crawlers
 }()
 
-func joinRes(begin, end int) string {
-	regexps := make([]string, 0, len(Crawlers))
-	for _, crawler := range Crawlers[begin:end] {
-		regexps = append(regexps, "("+crawler.Pattern+")")
+var regexps = func() []*regexp.Regexp {
+	regexps := make([]*regexp.Regexp, len(Crawlers))
+	for i, crawler := range Crawlers {
+		regexps[i] = regexp.MustCompile(crawler.Pattern)
 	}
-	return strings.Join(regexps, "|")
-}
-
-var allRegexps = joinRes(0, len(Crawlers))
-
-var allRegexpsRe = regexp.MustCompile(allRegexps)
+	return regexps
+}()
 
 // Returns if User Agent string matches any of crawler patterns.
 func IsCrawler(userAgent string) bool {
-	return allRegexpsRe.MatchString(userAgent)
+	for _, re := range regexps {
+		if re.MatchString(userAgent) {
+			return true
+		}
+	}
+	return false
 }
-
-// With RE2 it is fast to check the text against a large regexp.
-// To find matching regexps faster, built a binary tree of regexps.
-
-type regexpNode struct {
-	re    *regexp.Regexp
-	left  *regexpNode
-	right *regexpNode
-	index int
-}
-
-var regexpsTree = func() *regexpNode {
-	nodes := make([]*regexpNode, len(Crawlers))
-	starts := make([]int, len(Crawlers)+1)
-	for i, crawler := range Crawlers {
-		nodes[i] = &regexpNode{
-			re:    regexp.MustCompile(crawler.Pattern),
-			index: i,
-		}
-		starts[i] = i
-	}
-	starts[len(Crawlers)] = len(Crawlers) // To get end of interval.
-
-	for len(nodes) > 1 {
-		// Join into pairs.
-		nodes2 := make([]*regexpNode, (len(nodes)+1)/2)
-		starts2 := make([]int, 0, len(nodes2)+1)
-		for i := 0; i < len(nodes)/2; i++ {
-			leftIndex := 2 * i
-			rightIndex := 2*i + 1
-			nodes2[i] = &regexpNode{
-				left:  nodes[leftIndex],
-				right: nodes[rightIndex],
-			}
-			if len(nodes2) != 1 {
-				// Skip regexp for root node, it is not used.
-				joinedRe := joinRes(starts[leftIndex], starts[rightIndex+1])
-				nodes2[i].re = regexp.MustCompile(joinedRe)
-			}
-			starts2 = append(starts2, starts[leftIndex])
-		}
-		if len(nodes)%2 == 1 {
-			nodes2[len(nodes2)-1] = nodes[len(nodes)-1]
-			starts2 = append(starts2, starts[len(starts)-2])
-		}
-		starts2 = append(starts2, starts[len(starts)-1])
-
-		nodes = nodes2
-		starts = starts2
-	}
-
-	root := nodes[0]
-
-	if root.left == nil {
-		panic("the algoriths does not work with just one regexp")
-	}
-
-	return root
-}()
 
 // Finds all crawlers matching the User Agent and returns the list of their indices in Crawlers.
 func MatchingCrawlers(userAgent string) []int {
 	indices := []int{}
-
-	var visit func(node *regexpNode)
-	visit = func(node *regexpNode) {
-		if node.left != nil {
-			if node.left.re.MatchString(userAgent) {
-				visit(node.left)
-			}
-			if node.right.re.MatchString(userAgent) {
-				visit(node.right)
-			}
-		} else {
-			// Leaf.
-			indices = append(indices, node.index)
+	for i, re := range regexps {
+		if re.MatchString(userAgent) {
+			indices = append(indices, i)
 		}
 	}
-
-	visit(regexpsTree)
-
 	return indices
 }

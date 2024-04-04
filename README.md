@@ -36,9 +36,7 @@ Each `pattern` is a regular expression. It should work out-of-the-box wih your f
 * Python: `if re.search(entry['pattern'], ua): ...`
 * Go: use [this package](https://pkg.go.dev/github.com/monperrus/crawler-user-agents),
   it provides global variable `Crawlers` (it is synchronized with `crawler-user-agents.json`),
-  functions `IsCrawler` and `MatchingCrawlers`. To achieve the best performance possible in functions
-  `IsCrawler` and `MatchingCrawlers`, install C++ RE2 into your system: `sudo apt-get install libre2-dev`
-  and pass tag: `-tags re2_cgo`.
+  functions `IsCrawler` and `MatchingCrawlers`.
 
 Example of Go program:
 
