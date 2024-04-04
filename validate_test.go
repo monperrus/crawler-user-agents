@@ -24,6 +24,13 @@ func TestPatterns(t *testing.T) {
 		t.Errorf("Number of crawlers must be at least 10, got %d.", len(allCrawlers))
 	}
 
+	if IsCrawler(browserUA) {
+		t.Errorf("Browser UA %q was detected as a crawler.", browserUA)
+	}
+	if len(MatchingCrawlers(browserUA)) != 0 {
+		t.Errorf("MatchingCrawlers found crawlers matching Browser UA %q.", browserUA)
+	}
+
 	for i, crawler := range allCrawlers {
 		t.Run(crawler.Pattern, func(t *testing.T) {
 			fmt.Println(crawler.Pattern)
@@ -49,27 +56,35 @@ const (
 func BenchmarkIsCrawlerPositive(b *testing.B) {
 	b.SetBytes(int64(len(crawlerUA)))
 	for n := 0; n < b.N; n++ {
-		IsCrawler(crawlerUA)
+		if !IsCrawler(crawlerUA) {
+			b.Fail()
+		}
 	}
 }
 
 func BenchmarkMatchingCrawlersPositive(b *testing.B) {
 	b.SetBytes(int64(len(crawlerUA)))
 	for n := 0; n < b.N; n++ {
-		MatchingCrawlers(crawlerUA)
+		if len(MatchingCrawlers(crawlerUA)) == 0 {
+			b.Fail()
+		}
 	}
 }
 
 func BenchmarkIsCrawlerNegative(b *testing.B) {
 	b.SetBytes(int64(len(browserUA)))
 	for n := 0; n < b.N; n++ {
-		IsCrawler(browserUA)
+		if IsCrawler(browserUA) {
+			b.Fail()
+		}
 	}
 }
 
 func BenchmarkMatchingCrawlersNegative(b *testing.B) {
 	b.SetBytes(int64(len(browserUA)))
 	for n := 0; n < b.N; n++ {
-		MatchingCrawlers(browserUA)
+		if len(MatchingCrawlers(browserUA)) != 0 {
+			b.Fail()
+		}
 	}
 }
