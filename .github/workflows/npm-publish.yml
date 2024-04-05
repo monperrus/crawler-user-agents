@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
-      - run: npm install pacote@11.1.11
+      - run: npm clean-install
       - run: git checkout .
       - run: npm version --no-git-tag-version `node -e 'pacote=require("pacote");pacote.manifest("crawler-user-agents").then(pkgJson => { console.log(pkgJson.version); });'`
       - run: npm version --no-git-tag-version patch
