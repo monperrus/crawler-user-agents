@@ -1,7 +1,9 @@
 package agents
 
 import (
+	"encoding/json"
 	"fmt"
+	"net/http"
 	"testing"
 )
 
@@ -45,6 +47,35 @@ func TestPatterns(t *testing.T) {
 				}
 			}
 		})
+	}
+}
+
+func TestFalseNegatives(t *testing.T) {
+	const browsersURL = "https://raw.githubusercontent.com/microlinkhq/top-user-agents/master/src/index.json"
+	resp, err := http.Get(browsersURL)
+	if err != nil {
+		t.Fatalf("Failed to fetch the list of browser User Agents from %s: %v.", browsersURL, err)
+	}
+
+	t.Cleanup(func() {
+		if err := resp.Body.Close(); err != nil {
+			t.Fatal(err)
+		}
+	})
+
+	var browsers []string
+	if err := json.NewDecoder(resp.Body).Decode(&browsers); err != nil {
+		t.Fatalf("Failed to parse the list of browser User Agents: %v.", err)
+	}
+
+	for _, userAgent := range browsers {
+		if IsCrawler(userAgent) {
+			t.Errorf("Browser User Agent %q is recognized as a crawler.", userAgent)
+		}
+		indices := MatchingCrawlers(userAgent)
+		if len(indices) != 0 {
+			t.Errorf("Browser User Agent %q matches with crawlers %v.", userAgent, indices)
+		}
 	}
 }
 
