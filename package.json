@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/monperrus/crawler-user-agents#readme",
   "devDependencies": {
-    "pacote": "11.1.11"
+    "pacote": "17.0.6"
   }
 }
