@@ -4805,6 +4805,14 @@
     "url": "https://platform.openai.com/docs/gptbot"
   },
   {
+    "pattern": "ChatGPT-User",
+    "addition_date": "2024/04/19",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot"
+    ],
+    "url": "https://openai.com/bot"
+  },
+  {
     "pattern": "YandexRenderResourcesBot\\/",
     "addition_date": "2023/08/16",
     "instances": [
