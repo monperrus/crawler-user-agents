@@ -246,8 +246,9 @@
   }
   ,
   {
-    "pattern": "nutch",
+    "pattern": "Nutch",
     "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/605.1.16 (KHTML, like Gecko; compatible; Friendly_Crawler/2.0) Chrome/120.0.6099.217 Safari/605.1.15/Nutch-1.20-SNAPSHOT",
       "NutchCVS/0.7.1 (Nutch; http://lucene.apache.org/nutch/bot.html; nutch-agent@lucene.apache.org)",
       "istellabot-nutch/Nutch-1.10"
     ]
