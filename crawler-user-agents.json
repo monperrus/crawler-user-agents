@@ -5290,5 +5290,14 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)"
     ],
     "url": "https://docs.perplexity.ai/docs/perplexitybot"
+  },
+  {
+    "pattern": "[cC]laude[bB]ot",
+    "addition_date": "2024/04/19",
+    "instances": [
+      "claudebot",
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)"
+    ],
+    "url": "https://www.anthropic.com/"
   }
 ]
