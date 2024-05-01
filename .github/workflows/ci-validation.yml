@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: pip3 install jsonschema pytest
+      - run: pip3 install -r requirements.txt
       - run: py.test -vv
       - run: python3 validate.py  
       - run: php validate.php
