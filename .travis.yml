@@ -3,7 +3,7 @@ language: python
 python: 3.11.0
 
 install: 
-- pip3 install jsonschema pytest
+- pip3 install -r requirements.txt
 - npm clean-install
 
 script:
