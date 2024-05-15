@@ -1110,7 +1110,7 @@
   {
     "pattern": "SeznamBot",
     "addition_date": "2012/03/14",
-    "instances": [	
+    "instances": [
       "Mozilla/5.0 (compatible; SeznamBot/3.2-test1-1; +http://napoveda.seznam.cz/en/seznambot-intro/)",
       "Mozilla/5.0 (compatible; SeznamBot/3.2-test1; +http://napoveda.seznam.cz/en/seznambot-intro/)",
       "Mozilla/5.0 (compatible; SeznamBot/3.2-test2; +http://napoveda.seznam.cz/en/seznambot-intro/)",
@@ -5308,5 +5308,11 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)"
     ],
     "url": "https://www.anthropic.com/"
+  },
+  {
+    "pattern": "Monsidobot",
+    "addition_date": "2024/05/14",
+    "instances": ["Mozilla/5.0 (compatible; Monsidobot/2.2; +http://monsido.com/bot.html; info@monsido.com)"],
+    "url": "http://monsido.com/bot.html"
   }
 ]
