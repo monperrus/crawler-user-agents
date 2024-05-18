@@ -8,6 +8,8 @@ authors = [
 
 readme = "README.md"
 
-[tool.setuptools.packages.find]
-where = [ "." ]
+[tool.setuptools]
+package-dir = {"crawleruseragents" = "."}
 
+[tool.setuptools.package-data]
+"*" = ["*.json"]

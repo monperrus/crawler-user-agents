@@ -31,6 +31,6 @@ jobs:
       with:
         python-version: '3.x'
     - run: pip install build
-    - run: python -m build --sdist
+    - run: python -m build --wheel
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@release/v1.8
