@@ -19,6 +19,11 @@ jobs:
       id-token: write 
     steps:
     - uses: actions/checkout@v4
+    - name: Version bump
+      uses: apowis/pyproject-bump-version@v0.0.1
+      with:
+        file_to_bump: "./pyproject.toml"
+        bump_type: "minor"
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
