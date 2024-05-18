@@ -1,10 +1,13 @@
 name: Upload Package to PyPi
 on:
-  workflow_run:
-    workflows: [CI validation]
-    branches: [testpypi]
-    types: 
-      - completed
+  push:
+    branches: 
+      - 'testpypi'
+  # workflow_run:
+  #   workflows: [CI validation]
+  #   branches: [testpypi]
+  #   types: 
+  #     - completed
 
 permissions:
   contents: read
