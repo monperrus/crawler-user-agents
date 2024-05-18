@@ -2,6 +2,10 @@
 
 This repository contains a list of of HTTP user-agents used by robots, crawlers, and spiders as in single JSON file.
 
+* NPM package: <https://www.npmjs.com/package/crawler-user-agents>
+* Go package: <https://pkg.go.dev/github.com/monperrus/crawler-user-agents>
+* PyPi package: <https://pypi.org/project/crawler-user-agents/>
+
 ## Install
 
 ### Direct download

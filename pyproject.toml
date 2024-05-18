@@ -1,0 +1,13 @@
+[project]
+name = "crawler-user-agents"
+version = "0.1"
+
+authors = [
+  { name="Martin Monperrus", email="martin.monperrus@gnieh.org" },
+]
+
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = [ "." ]
+
