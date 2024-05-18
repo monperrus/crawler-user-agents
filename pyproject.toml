@@ -6,6 +6,8 @@ authors = [
   { name="Martin Monperrus", email="martin.monperrus@gnieh.org" },
 ]
 
+readme = "README.md"
+
 [tool.setuptools.packages.find]
 where = [ "." ]
 
