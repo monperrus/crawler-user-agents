@@ -12,8 +12,7 @@
       "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36"
     ]
-  }
-  ,
+  },
   {
     "pattern": "Googlebot-Mobile",
     "instances": [
@@ -5314,5 +5313,11 @@
     "addition_date": "2024/05/14",
     "instances": ["Mozilla/5.0 (compatible; Monsidobot/2.2; +http://monsido.com/bot.html; info@monsido.com)"],
     "url": "http://monsido.com/bot.html"
+  },
+  {
+    "pattern": "GroupMeBot",
+    "addition_date": "2024/05/19",
+    "instances": ["GroupMeBot/1.0"],
+    "url": "https://groupme.com/"
   }
 ]
