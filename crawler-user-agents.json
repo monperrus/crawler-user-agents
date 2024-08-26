@@ -1,5 +1,6 @@
 [
   {
+    "id": "google-crawler",
     "pattern": "Googlebot\\/",
     "url": "http://www.google.com/bot.html",
     "instances": [
@@ -14,6 +15,7 @@
     ]
   },
   {
+    "id": "google-crawler-mobile",
     "pattern": "Googlebot-Mobile",
     "instances": [
       "DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)",
@@ -24,24 +26,28 @@
     ]
   },
   {
+    "id": "google-crawler-image",
     "pattern": "Googlebot-Image",
     "instances": [
       "Googlebot-Image/1.0"
     ]
   },
   {
+    "id": "google-crawler-news",
     "pattern": "Googlebot-News",
     "instances": [
       "Googlebot-News"
     ]
   },
   {
+    "id": "google-crawler-video",
     "pattern": "Googlebot-Video",
     "instances": [
       "Googlebot-Video/1.0"
     ]
   },
   {
+    "id": "google-adsbot",
     "pattern": "AdsBot-Google([^-]|$)",
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en",
     "instances": [
@@ -49,6 +55,7 @@
     ]
   },
   {
+    "id": "google-adsbot-mobile",
     "pattern": "AdsBot-Google-Mobile",
     "addition_date": "2017/08/21",
     "url": "https://support.google.com/adwords/answer/2404197",
@@ -59,6 +66,7 @@
     ]
   },
   {
+    "id": "google-feedfetcher",
     "pattern": "Feedfetcher-Google",
     "addition_date": "2018/06/27",
     "url": "https://support.google.com/webmasters/answer/178852",
@@ -67,6 +75,7 @@
     ]
   },
   {
+    "id": "google-adsense",
     "pattern": "Mediapartners-Google",
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en",
     "instances": [
@@ -77,12 +86,14 @@
     ]
   },
   {
+    "id": "google-adsense-googlebot",
     "pattern": "Mediapartners \\(Googlebot\\)",
     "addition_date": "2017/08/08",
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en",
     "instances": []
   },
   {
+    "id": "google-push-notifications",
     "pattern": "APIs-Google",
     "addition_date": "2017/08/08",
     "url": "https://support.google.com/webmasters/answer/1061943?hl=en",
@@ -91,6 +102,7 @@
     ]
   },
   {
+    "id": "google-inspection-tool",
     "pattern": "Google-InspectionTool",
     "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
     "instances": [
@@ -99,6 +111,7 @@
     ]
   },
   {
+    "id": "google-crawler-store",
     "pattern": "Storebot-Google",
     "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
     "instances": [
@@ -107,6 +120,7 @@
     ]
   },
   {
+    "id": "google-crawler-other",
     "pattern": "GoogleOther",
     "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
     "instances": [
@@ -114,6 +128,7 @@
     ]
   },
   {
+    "id": "bing-crawler",
     "pattern": "bingbot",
     "url": "http://www.bing.com/bingbot.htm",
     "instances": [
@@ -134,6 +149,7 @@
     ]
   },
   {
+    "id": "yahoo-crawler",
     "pattern": "Slurp",
     "url": "http://help.yahoo.com/help/us/ysearch/slurp",
     "instances": [
@@ -143,6 +159,7 @@
     ]
   },
   {
+    "id": "wget",
     "pattern": "[wW]get",
     "instances": [
       "WGETbot/1.0 (+http://wget.alanreed.org)",
@@ -151,6 +168,7 @@
     ]
   },
   {
+    "id": "linkedin-crawler",
     "pattern": "LinkedInBot",
     "instances": [
       "LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/3.1 +http://www.linkedin.com)",
@@ -159,6 +177,7 @@
     ]
   },
   {
+    "id": "python-urllib",
     "pattern": "Python-urllib",
     "instances": [
       "Python-urllib/1.17",
@@ -175,6 +194,7 @@
     ]
   },
   {
+    "id": "python-requests",
     "pattern": "python-requests",
     "addition_date": "2018/05/27",
     "instances": [
@@ -188,6 +208,7 @@
     ]
   },
   {
+    "id": "python-aiohttp",
     "pattern": "aiohttp",
     "addition_date": "2019/12/23",
     "instances": [
@@ -198,6 +219,7 @@
     "url": "https://docs.aiohttp.org/en/stable/"
   },
   {
+    "id": "python-httpx",
     "pattern": "httpx",
     "addition_date": "2019/12/23",
     "instances": [
@@ -207,6 +229,7 @@
     "url": "https://www.python-httpx.org"
   },
   {
+    "id": "perl-libwww",
     "pattern": "libwww-perl",
     "instances": [
       "2Bone_LinkChecker/1.0 libwww-perl/6.03",
@@ -215,12 +238,14 @@
     ]
   },
   {
+    "id": "java-httpunit",
     "pattern": "httpunit",
     "instances": [
       "httpunit/1.x"
     ]
   },
   {
+    "id": "nutch",
     "pattern": "Nutch",
     "instances": [
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/605.1.16 (KHTML, like Gecko; compatible; Friendly_Crawler/2.0) Chrome/120.0.6099.217 Safari/605.1.15/Nutch-1.20-SNAPSHOT",
@@ -229,6 +254,7 @@
     ]
   },
   {
+    "id": "go-http",
     "pattern": "Go-http-client",
     "addition_date": "2016/03/26",
     "url": "https://golang.org/pkg/net/http/",
@@ -238,6 +264,7 @@
     ]
   },
   {
+    "id": "php-phpcrawl",
     "pattern": "phpcrawl",
     "addition_date": "2012/09/17",
     "url": "http://phpcrawl.cuab.de/",
@@ -246,6 +273,7 @@
     ]
   },
   {
+    "id": "msn-crawler",
     "pattern": "msnbot",
     "url": "http://search.msn.com/msnbot.htm",
     "instances": [
@@ -266,10 +294,12 @@
     ]
   },
   {
+    "id": "jyxo-crawler",
     "pattern": "jyxobot",
     "instances": []
   },
   {
+    "id": "fast-crawler",
     "pattern": "FAST-WebCrawler",
     "instances": [
       "FAST-WebCrawler/3.6/FirstPage (atw-crawler at fast dot no;http://fast.no/support/crawler.asp)",
@@ -279,6 +309,7 @@
     ]
   },
   {
+    "id": "fast-crawler-enterprise",
     "pattern": "FAST Enterprise Crawler",
     "instances": [
       "FAST Enterprise Crawler 6 / Scirus scirus-crawler@fast.no; http://www.scirus.com/srsapp/contactus/",
@@ -286,12 +317,14 @@
     ]
   },
   {
+    "id": "biglotron",
     "pattern": "BIGLOTRON",
     "instances": [
       "BIGLOTRON (Beta 2;GNU/Linux)"
     ]
   },
   {
+    "id": "ask-crawler",
     "pattern": "Teoma",
     "instances": [
       "Mozilla/2.0 (compatible; Ask Jeeves/Teoma; +http://sp.ask.com/docs/about/tech_crawling.html)",
@@ -300,6 +333,7 @@
     "url": "http://about.ask.com/en/docs/about/webmasters.shtml"
   },
   {
+    "id": "convera-crawler",
     "pattern": "convera",
     "instances": [
       "ConveraCrawler/0.9e (+http://ews.converasearch.com/crawl.htm)"
@@ -307,6 +341,7 @@
     "url": "http://ews.converasearch.com/crawl.htm"
   },
   {
+    "id": "seekbot-crawler",
     "pattern": "seekbot",
     "instances": [
       "Seekbot/1.0 (http://www.seekbot.net/bot.html) RobotsTxtFetcher/1.2"
@@ -314,6 +349,7 @@
     "url": "http://www.seekbot.net/bot.html"
   },
   {
+    "id": "gigablast-crawler",
     "pattern": "Gigabot",
     "instances": [
       "Gigabot/1.0",
@@ -322,6 +358,7 @@
     "url": "http://www.gigablast.com/spider.html"
   },
   {
+    "id": "gigablast-crawler-oss",
     "pattern": "Gigablast",
     "instances": [
       "GigablastOpenSource/1.0"
@@ -329,6 +366,7 @@
     "url": "https://github.com/gigablast/open-source-search-engine"
   },
   {
+    "id": "amazon-alexa-crawler",
     "pattern": "exabot",
     "instances": [
       "Mozilla/5.0 (compatible; Alexabot/1.0; +http://www.alexa.com/help/certifyscan; certifyscan@alexa.com)",
@@ -340,6 +378,7 @@
     ]
   },
   {
+    "id": "ia-archiver",
     "pattern": "ia_archiver",
     "instances": [
       "ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)",
@@ -347,22 +386,26 @@
     ]
   },
   {
+    "id": "ginger-crawler",
     "pattern": "GingerCrawler",
     "instances": [
       "GingerCrawler/1.0 (Language Assistant for Dyslexics; www.gingersoftware.com/crawler_agent.htm; support at ginger software dot com)"
     ]
   },
   {
+    "id": "webmon",
     "pattern": "webmon ",
     "instances": []
   },
   {
+    "id": "httrack",
     "pattern": "HTTrack",
     "instances": [
       "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)"
     ]
   },
   {
+    "id": "grub",
     "pattern": "grub\\.org",
     "instances": [
       "Mozilla/4.0 (compatible; grub-client-0.3.0; Crawl your own stuff with http://grub.org)",
@@ -379,18 +422,22 @@
     ]
   },
   {
+    "id": "usine-nouvelle-crawler",
     "pattern": "UsineNouvelleCrawler",
     "instances": []
   },
   {
+    "id": "antibot",
     "pattern": "antibot",
     "instances": []
   },
   {
+    "id": "loop-crawler",
     "pattern": "netresearchserver",
     "instances": []
   },
   {
+    "id": "entireweb-crawler",
     "pattern": "speedy",
     "instances": [
       "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) Speedy Spider (http://www.entireweb.com/about/search_tech/speedy_spider/)",
@@ -401,10 +448,12 @@
     ]
   },
   {
+    "id": "fluffy",
     "pattern": "fluffy",
     "instances": []
   },
   {
+    "id": "leipzig-findlinks",
     "pattern": "findlink",
     "instances": [
       "findlinks/1.0 (+http://wortschatz.uni-leipzig.de/findlinks/)",
@@ -433,16 +482,19 @@
     ]
   },
   {
+    "id": "microsoft-research-crawler",
     "pattern": "msrbot",
     "instances": []
   },
   {
+    "id": "panscient-crawler",
     "pattern": "panscient",
     "instances": [
       "panscient.com"
     ]
   },
   {
+    "id": "yacy-crawler",
     "pattern": "yacybot",
     "instances": [
       "yacybot (/global; amd64 FreeBSD 10.3-RELEASE; java 1.8.0_77; GMT/en) http://yacy.net/bot.html",
@@ -495,10 +547,12 @@
     ]
   },
   {
+    "id": "ai-search-bot",
     "pattern": "AISearchBot",
     "instances": []
   },
   {
+    "id": "verisign-ips-agent",
     "pattern": "ips-agent",
     "instances": [
       "BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 ips-agent",
@@ -509,10 +563,12 @@
     ]
   },
   {
+    "id": "tagoo-crawler",
     "pattern": "tagoobot",
     "instances": []
   },
   {
+    "id": "majestic-crawler",
     "pattern": "MJ12bot",
     "instances": [
       "MJ12bot/v1.2.0 (http://majestic12.co.uk/bot.php?+)",
@@ -538,6 +594,7 @@
     ]
   },
   {
+    "id": "worio-crawler",
     "pattern": "woriobot",
     "instances": [
       "Mozilla/5.0 (compatible; woriobot +http://worio.com)",
@@ -545,24 +602,28 @@
     ]
   },
   {
+    "id": "yanga-crawler",
     "pattern": "yanga",
     "instances": [
       "Yanga WorldSearch Bot v1.1/beta (http://www.yanga.co.uk/)"
     ]
   },
   {
+    "id": "buzzstream-crawler",
     "pattern": "buzzbot",
     "instances": [
       "Buzzbot/1.0 (Buzzbot; http://www.buzzstream.com; buzzbot@buzzstream.com)"
     ]
   },
   {
+    "id": "metadatalabs-crawler",
     "pattern": "mlbot",
     "instances": [
       "MLBot (www.metadatalabs.com/mlbot)"
     ]
   },
   {
+    "id": "yandex-crawler",
     "pattern": "yandex\\.com\\/bots",
     "url": "https://yandex.ru/support/webmaster/robot-workings/check-yandex-robots.html#robot-in-logs",
     "instances": [
@@ -611,11 +672,13 @@
     "addition_date": "2015/04/14"
   },
   {
+    "id": "pure-crawler",
     "pattern": "purebot",
     "addition_date": "2010/01/19",
     "instances": []
   },
   {
+    "id": "linguee-crawler",
     "pattern": "Linguee Bot",
     "addition_date": "2010/01/26",
     "url": "http://www.linguee.com/bot",
@@ -625,6 +688,7 @@
     ]
   },
   {
+    "id": "cyberpatrol-crawler",
     "pattern": "CyberPatrol",
     "addition_date": "2010/02/11",
     "url": "http://www.cyberpatrol.com/cyberpatrolcrawler.asp",
@@ -633,6 +697,7 @@
     ]
   },
   {
+    "id": "orange-ftgroup-crawler",
     "pattern": "voilabot",
     "addition_date": "2010/05/18",
     "instances": [
@@ -641,6 +706,7 @@
     ]
   },
   {
+    "id": "baidu-crawler",
     "pattern": "Baiduspider",
     "addition_date": "2010/07/15",
     "url": "http://www.baidu.jp/spider/",
@@ -650,11 +716,13 @@
     ]
   },
   {
+    "id": "citeseerx-crawler",
     "pattern": "citeseerxbot",
     "addition_date": "2010/07/17",
     "instances": []
   },
   {
+    "id": "seoprofiler-crawler",
     "pattern": "spbot",
     "addition_date": "2010/07/31",
     "url": "http://www.seoprofiler.com/bot",
@@ -696,12 +764,14 @@
     ]
   },
   {
+    "id": "twenga-crawler",
     "pattern": "twengabot",
     "addition_date": "2010/08/03",
     "url": "http://www.twenga.com/bot.html",
     "instances": []
   },
   {
+    "id": "postrank-crawler",
     "pattern": "postrank",
     "addition_date": "2010/08/03",
     "url": "http://www.postrank.com",
@@ -711,6 +781,7 @@
     ]
   },
   {
+    "id": "turnitin-crawler",
     "pattern": "Turnitin",
     "addition_date": "2010/09/26",
     "url": "http://www.turnitin.com",
@@ -720,12 +791,14 @@
     ]
   },
   {
+    "id": "scribd-crawler",
     "pattern": "scribdbot",
     "addition_date": "2010/09/28",
     "url": "http://www.scribd.com",
     "instances": []
   },
   {
+    "id": "page-to-rss",
     "pattern": "page2rss",
     "addition_date": "2010/10/07",
     "url": "http://www.page2rss.com",
@@ -734,6 +807,7 @@
     ]
   },
   {
+    "id": "sitebot-crawler",
     "pattern": "sitebot",
     "addition_date": "2010/12/15",
     "url": "http://www.sitebot.org",
@@ -742,6 +816,7 @@
     ]
   },
   {
+    "id": "linkdex-crawler",
     "pattern": "linkdex",
     "addition_date": "2011/01/06",
     "url": "http://www.linkdex.com",
@@ -756,11 +831,13 @@
     ]
   },
   {
+    "id": "bing-ads",
     "pattern": "Adidxbot",
     "url": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0",
     "instances": []
   },
   {
+    "id": "dotnetdotcom-crawler",
     "pattern": "ezooms",
     "addition_date": "2011/04/27",
     "url": "http://www.phpbb.com/community/viewtopic.php?f=64&t=935605&start=450#p12948289",
@@ -769,6 +846,7 @@
     ]
   },
   {
+    "id": "moz-crawler",
     "pattern": "dotbot",
     "addition_date": "2011/04/27",
     "instances": [
@@ -777,6 +855,7 @@
     ]
   },
   {
+    "id": "mailru-crawler",
     "pattern": "Mail\\.RU_Bot",
     "addition_date": "2011/04/27",
     "instances": [
@@ -787,6 +866,7 @@
     ]
   },
   {
+    "id": "discoveryengine-crawler",
     "pattern": "discobot",
     "addition_date": "2011/05/03",
     "url": "http://discoveryengine.com/discobot.html",
@@ -797,6 +877,7 @@
     ]
   },
   {
+    "id": "internetarchive-crawler-oss",
     "pattern": "heritrix",
     "addition_date": "2011/06/21",
     "url": "https://github.com/internetarchive/heritrix3/wiki",
@@ -826,12 +907,14 @@
     ]
   },
   {
+    "id": "findthatfile-crawler",
     "pattern": "findthatfile",
     "addition_date": "2011/06/21",
     "url": "http://www.findthatfile.com/",
     "instances": []
   },
   {
+    "id": "europarchive-crawler",
     "pattern": "europarchive\\.org",
     "addition_date": "2011/06/21",
     "url": "",
@@ -840,6 +923,7 @@
     ]
   },
   {
+    "id": "nerdbynature-crawler",
     "pattern": "NerdByNature\\.Bot",
     "addition_date": "2011/07/12",
     "url": "http://www.nerdbynature.net/bot",
@@ -848,6 +932,7 @@
     ]
   },
   {
+    "id": "sistrix-crawler",
     "pattern": "(sistrix|SISTRIX) [cC]rawler",
     "addition_date": "2011/08/02",
     "url": "https://www.sistrix.com/tutorials/crawling-errors-in-the-optimizer/",
@@ -856,6 +941,7 @@
     ]
   },
   {
+    "id": "ahrefs-crawler",
     "pattern": "Ahrefs(Bot|SiteAudit)",
     "addition_date": "2011/08/28",
     "instances": [
@@ -869,6 +955,7 @@
     ]
   },
   {
+    "id": "fuelbot",
     "pattern": "fuelbot",
     "addition_date": "2018/06/28",
     "instances": [
@@ -876,6 +963,7 @@
     ]
   },
   {
+    "id": "leadcrunch-crawler",
     "pattern": "CrunchBot",
     "addition_date": "2018/06/28",
     "instances": [
@@ -883,6 +971,7 @@
     ]
   },
   {
+    "id": "indeed-crawler",
     "pattern": "IndeedBot",
     "addition_date": "2018/06/28",
     "instances": [
@@ -890,6 +979,7 @@
     ]
   },
   {
+    "id": "mappydata-crawler",
     "pattern": "mappydata",
     "addition_date": "2018/06/28",
     "instances": [
@@ -897,6 +987,7 @@
     ]
   },
   {
+    "id": "woorank-crawler",
     "pattern": "woobot",
     "addition_date": "2018/06/28",
     "instances": [
@@ -904,6 +995,7 @@
     ]
   },
   {
+    "id": "zoominfo-crawler",
     "pattern": "ZoominfoBot",
     "addition_date": "2018/06/28",
     "instances": [
@@ -911,6 +1003,7 @@
     ]
   },
   {
+    "id": "privacyaware-crawler",
     "pattern": "PrivacyAwareBot",
     "addition_date": "2018/06/28",
     "instances": [
@@ -918,6 +1011,7 @@
     ]
   },
   {
+    "id": "multiviewbot",
     "pattern": "Multiviewbot",
     "addition_date": "2018/06/28",
     "instances": [
@@ -925,6 +1019,7 @@
     ]
   },
   {
+    "id": "swimgbot",
     "pattern": "SWIMGBot",
     "addition_date": "2018/06/28",
     "instances": [
@@ -932,6 +1027,7 @@
     ]
   },
   {
+    "id": "grob-crawler",
     "pattern": "Grobbot",
     "addition_date": "2018/06/28",
     "instances": [
@@ -939,6 +1035,7 @@
     ]
   },
   {
+    "id": "eright-crawler",
     "pattern": "eright",
     "addition_date": "2018/06/28",
     "instances": [
@@ -946,6 +1043,7 @@
     ]
   },
   {
+    "id": "apercite-crawler",
     "pattern": "Apercite",
     "addition_date": "2018/06/28",
     "instances": [
@@ -953,6 +1051,7 @@
     ]
   },
   {
+    "id": "semanticaudience-crawler",
     "pattern": "semanticbot",
     "addition_date": "2018/06/28",
     "instances": [
@@ -961,6 +1060,7 @@
     ]
   },
   {
+    "id": "aboundex-crawler",
     "pattern": "Aboundex",
     "addition_date": "2011/09/28",
     "url": "http://www.aboundex.com/crawler/",
@@ -970,6 +1070,7 @@
     ]
   },
   {
+    "id": "domaincrawler-crawler",
     "pattern": "domaincrawler",
     "addition_date": "2011/10/21",
     "instances": [
@@ -977,12 +1078,14 @@
     ]
   },
   {
+    "id": "warebay-crawler",
     "pattern": "wbsearchbot",
     "addition_date": "2011/12/21",
     "url": "http://www.warebay.com/bot.html",
     "instances": []
   },
   {
+    "id": "summify-crawler",
     "pattern": "summify",
     "addition_date": "2012/01/04",
     "url": "http://summify.com",
@@ -991,6 +1094,7 @@
     ]
   },
   {
+    "id": "commoncrawl-crawler",
     "pattern": "CCBot",
     "addition_date": "2012/02/05",
     "url": "http://www.commoncrawl.org/bot.html",
@@ -1000,11 +1104,13 @@
     ]
   },
   {
+    "id": "edister-crawler",
     "pattern": "edisterbot",
     "addition_date": "2012/02/25",
     "instances": []
   },
   {
+    "id": "seznam-crawler",
     "pattern": "SeznamBot",
     "addition_date": "2012/03/14",
     "instances": [
@@ -1017,6 +1123,7 @@
     ]
   },
   {
+    "id": "ec2linkfinder",
     "pattern": "ec2linkfinder",
     "addition_date": "2012/03/22",
     "instances": [
@@ -1024,11 +1131,13 @@
     ]
   },
   {
+    "id": "gslfbot",
     "pattern": "gslfbot",
     "addition_date": "2012/04/03",
     "instances": []
   },
   {
+    "id": "aihit-crawler",
     "pattern": "aiHitBot",
     "addition_date": "2012/04/16",
     "instances": [
@@ -1036,11 +1145,13 @@
     ]
   },
   {
+    "id": "intelium-crawler",
     "pattern": "intelium_bot",
     "addition_date": "2012/05/07",
     "instances": []
   },
   {
+    "id": "facebook-share-crawler",
     "pattern": "facebookexternalhit",
     "addition_date": "2012/05/07",
     "instances": [
@@ -1051,6 +1162,7 @@
     "url": "https://developers.facebook.com/docs/sharing/webmasters/crawler/"
   },
   {
+    "id": "naver-crawler",
     "pattern": "Yeti",
     "addition_date": "2012/05/07",
     "url": "http://naver.me/bot",
@@ -1059,6 +1171,7 @@
     ]
   },
   {
+    "id": "retrevo-page-analyzer",
     "pattern": "RetrevoPageAnalyzer",
     "addition_date": "2012/05/07",
     "instances": [
@@ -1066,11 +1179,13 @@
     ]
   },
   {
+    "id": "lb-spider",
     "pattern": "lb-spider",
     "addition_date": "2012/05/07",
     "instances": []
   },
   {
+    "id": "sogou-crawler",
     "pattern": "Sogou",
     "addition_date": "2012/05/13",
     "url": "http://www.sogou.com/docs/help/webmasters.htm#07",
@@ -1081,18 +1196,21 @@
     ]
   },
   {
+    "id": "lssbot",
     "pattern": "lssbot",
     "addition_date": "2012/05/15",
     "url": "https://www.lssbot.com/",
     "instances": []
   },
   {
+    "id": "careerx-crawler",
     "pattern": "careerbot",
     "addition_date": "2012/05/23",
     "url": "http://www.career-x.de/bot.html",
     "instances": []
   },
   {
+    "id": "wotbox-crawler",
     "pattern": "wotbox",
     "addition_date": "2012/06/12",
     "url": "http://www.wotbox.com",
@@ -1102,12 +1220,14 @@
     ]
   },
   {
+    "id": "wocodi-crawler",
     "pattern": "wocbot",
     "addition_date": "2012/07/25",
     "url": "http://www.wocodi.com/crawler",
     "instances": []
   },
   {
+    "id": "goo-crawler",
     "pattern": "ichiro",
     "addition_date": "2012/08/28",
     "url": "http://help.goo.ne.jp/help/article/1142",
@@ -1130,6 +1250,7 @@
     ]
   },
   {
+    "id": "duckduckgo-crawler",
     "pattern": "DuckDuckBot",
     "addition_date": "2012/09/19",
     "url": "http://duckduckgo.com/duckduckbot.html",
@@ -1141,11 +1262,13 @@
     ]
   },
   {
+    "id": "lssbot-rocket",
     "pattern": "lssrocketcrawler",
     "addition_date": "2012/09/24",
     "instances": []
   },
   {
+    "id": "arocom-crawler",
     "pattern": "drupact",
     "addition_date": "2012/09/27",
     "url": "http://www.arocom.de/drupact",
@@ -1154,38 +1277,45 @@
     ]
   },
   {
+    "id": "webcompany-crawler",
     "pattern": "webcompanycrawler",
     "addition_date": "2012/10/03",
     "instances": []
   },
   {
+    "id": "acoon-crawler",
     "pattern": "acoonbot",
     "addition_date": "2012/10/07",
     "url": "http://www.acoon.de/robot.asp",
     "instances": []
   },
   {
+    "id": "openindex-crawler",
     "pattern": "openindexspider",
     "addition_date": "2012/10/26",
     "url": "http://www.openindex.io/en/webmasters/spider.html",
     "instances": []
   },
   {
+    "id": "gnam-gnam-spider",
     "pattern": "gnam gnam spider",
     "addition_date": "2012/10/31",
     "instances": []
   },
   {
+    "id": "webarchive-crawler",
     "pattern": "web-archive-net\\.com\\.bot",
     "instances": []
   },
   {
+    "id": "backlinktest-crawler",
     "pattern": "backlinkcrawler",
     "addition_date": "2013/01/04",
     "url": "http://www.backlinktest.com/crawler.html",
     "instances": []
   },
   {
+    "id": "coccoc-crawler",
     "pattern": "coccoc",
     "addition_date": "2013/01/04",
     "url": "http://help.coccoc.vn/",
@@ -1204,6 +1334,7 @@
     ]
   },
   {
+    "id": "integromedb-crawler",
     "pattern": "integromedb",
     "addition_date": "2013/01/10",
     "url": "http://www.integromedb.org/Crawler",
@@ -1212,16 +1343,19 @@
     ]
   },
   {
+    "id": "content-crawler-spider",
     "pattern": "content crawler spider",
     "addition_date": "2013/01/11",
     "instances": []
   },
   {
+    "id": "toplist-crawler",
     "pattern": "toplistbot",
     "addition_date": "2013/02/05",
     "instances": []
   },
   {
+    "id": "it2media-crawler",
     "pattern": "it2media-domain-crawler",
     "addition_date": "2013/03/12",
     "instances": [
@@ -1230,11 +1364,13 @@
     ]
   },
   {
+    "id": "ip-web-crawler",
     "pattern": "ip-web-crawler\\.com",
     "addition_date": "2013/03/22",
     "instances": []
   },
   {
+    "id": "siteexplorer-crawler",
     "pattern": "siteexplorer\\.info",
     "addition_date": "2013/05/01",
     "instances": [
@@ -1243,11 +1379,13 @@
     ]
   },
   {
+    "id": "elisabot",
     "pattern": "elisabot",
     "addition_date": "2013/06/27",
     "instances": []
   },
   {
+    "id": "proximic-crawler",
     "pattern": "proximic",
     "addition_date": "2013/09/12",
     "url": "http://www.proximic.com/info/spider.php",
@@ -1257,6 +1395,7 @@
     ]
   },
   {
+    "id": "changedetection-crawler",
     "pattern": "changedetection",
     "addition_date": "2013/09/13",
     "url": "http://www.changedetection.com/bot.html",
@@ -1265,11 +1404,13 @@
     ]
   },
   {
+    "id": "ara-crawler",
     "pattern": "arabot",
     "addition_date": "2013/10/09",
     "instances": []
   },
   {
+    "id": "wesee-crawler",
     "pattern": "WeSEE:Search",
     "addition_date": "2013/11/18",
     "instances": [
@@ -1278,17 +1419,20 @@
     ]
   },
   {
+    "id": "niki-bot",
     "pattern": "niki-bot",
     "addition_date": "2014/01/01",
     "instances": []
   },
   {
+    "id": "crystalsemantics-crawler",
     "pattern": "CrystalSemanticsBot",
     "addition_date": "2014/02/17",
     "url": "http://www.crystalsemantics.com/user-agent/",
     "instances": []
   },
   {
+    "id": "moz-site-audit",
     "pattern": "rogerbot",
     "addition_date": "2014/02/28",
     "url": "http://moz.com/help/pro/what-is-rogerbot-",
@@ -1309,6 +1453,7 @@
     ]
   },
   {
+    "id": "haosou-crawler",
     "pattern": "360Spider",
     "addition_date": "2014/03/14",
     "url": "http://needs-be.blogspot.co.uk/2013/02/how-to-block-spider360.html",
@@ -1326,6 +1471,7 @@
     ]
   },
   {
+    "id": "picsearch-crawler",
     "pattern": "psbot",
     "addition_date": "2014/03/31",
     "url": "http://www.picsearch.com/bot.html",
@@ -1336,12 +1482,14 @@
     ]
   },
   {
+    "id": "scan-interfax-crawler",
     "pattern": "InterfaxScanBot",
     "addition_date": "2014/03/31",
     "url": "http://scan-interfax.ru",
     "instances": []
   },
   {
+    "id": "creativecommons-crawler",
     "pattern": "CC Metadata Scaper",
     "addition_date": "2014/04/01",
     "url": "http://wiki.creativecommons.org/Metadata_Scraper",
@@ -1350,12 +1498,14 @@
     ]
   },
   {
+    "id": "g00g1e-crawler",
     "pattern": "g00g1e\\.net",
     "addition_date": "2014/04/01",
     "url": "http://www.g00g1e.net/",
     "instances": []
   },
   {
+    "id": "grapeshot-crawler",
     "pattern": "GrapeshotCrawler",
     "addition_date": "2014/04/01",
     "url": "http://www.grapeshot.co.uk/crawler.php",
@@ -1364,6 +1514,7 @@
     ]
   },
   {
+    "id": "profound-crawler",
     "pattern": "urlappendbot",
     "addition_date": "2014/05/10",
     "url": "http://www.profound.net/urlappendbot.html",
@@ -1372,11 +1523,13 @@
     ]
   },
   {
+    "id": "brainobot",
     "pattern": "brainobot",
     "addition_date": "2014/06/24",
     "instances": []
   },
   {
+    "id": "fr-crawler",
     "pattern": "fr-crawler",
     "addition_date": "2014/07/31",
     "instances": [
@@ -1384,6 +1537,7 @@
     ]
   },
   {
+    "id": "binlar",
     "pattern": "binlar",
     "addition_date": "2014/09/12",
     "instances": [
@@ -1395,6 +1549,7 @@
     ]
   },
   {
+    "id": "simple-crawler",
     "pattern": "SimpleCrawler",
     "addition_date": "2014/09/12",
     "instances": [
@@ -1402,6 +1557,7 @@
     ]
   },
   {
+    "id": "twitter-crawler",
     "pattern": "Twitterbot",
     "addition_date": "2014/09/12",
     "url": "https://dev.twitter.com/cards/getting-started",
@@ -1411,6 +1567,7 @@
     ]
   },
   {
+    "id": "cxense-crawler",
     "pattern": "cXensebot",
     "addition_date": "2014/10/05",
     "instances": [
@@ -1419,6 +1576,7 @@
     "url": "http://www.cxense.com/bot.html"
   },
   {
+    "id": "similartech-crawler",
     "pattern": "smtbot",
     "addition_date": "2014/10/04",
     "instances": [
@@ -1431,6 +1589,7 @@
     "url": "http://www.similartech.com/smtbot"
   },
   {
+    "id": "bnf-crawler",
     "pattern": "bnf\\.fr_bot",
     "addition_date": "2014/11/18",
     "url": "http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html",
@@ -1440,6 +1599,7 @@
     ]
   },
   {
+    "id": "a6corp-crawler",
     "pattern": "A6-Indexer",
     "addition_date": "2014/12/05",
     "url": "http://www.a6corp.com/a6-web-scraping-policy/",
@@ -1448,6 +1608,7 @@
     ]
   },
   {
+    "id": "admantx-crawler",
     "pattern": "ADmantX",
     "addition_date": "2014/12/05",
     "url": "http://www.admantx.com",
@@ -1456,6 +1617,7 @@
     ]
   },
   {
+    "id": "facebook-crawler",
     "pattern": "Facebot",
     "url": "https://developers.facebook.com/docs/sharing/best-practices#crawl",
     "addition_date": "2014/12/30",
@@ -1464,6 +1626,7 @@
     ]
   },
   {
+    "id": "orange-crawler",
     "pattern": "OrangeBot\\/",
     "instances": [
       "Mozilla/5.0 (compatible; OrangeBot/2.0; support.orangebot@orange.com"
@@ -1471,6 +1634,7 @@
     "addition_date": "2015/01/12"
   },
   {
+    "id": "mignify-crawler",
     "pattern": "memorybot",
     "url": "http://mignify.com/bot.htm",
     "instances": [
@@ -1479,6 +1643,7 @@
     "addition_date": "2015/02/01"
   },
   {
+    "id": "advbot-crawler",
     "pattern": "AdvBot",
     "url": "http://advbot.net/bot.html",
     "instances": [
@@ -1487,6 +1652,7 @@
     "addition_date": "2015/02/01"
   },
   {
+    "id": "megaindex-crawler",
     "pattern": "MegaIndex",
     "url": "https://www.megaindex.ru/?tab=linkAnalyze",
     "instances": [
@@ -1496,6 +1662,7 @@
     "addition_date": "2015/03/28"
   },
   {
+    "id": "semanticscholar-crawler",
     "pattern": "SemanticScholarBot",
     "url": "https://www.semanticscholar.org/crawler",
     "instances": [
@@ -1505,6 +1672,7 @@
     "addition_date": "2015/03/28"
   },
   {
+    "id": "ltx71-crawler",
     "pattern": "ltx71",
     "url": "http://ltx71.com/",
     "instances": [
@@ -1513,6 +1681,7 @@
     "addition_date": "2015/04/04"
   },
   {
+    "id": "nerdybot-crawler",
     "pattern": "nerdybot",
     "url": "http://nerdybot.com/",
     "instances": [
@@ -1521,6 +1690,7 @@
     "addition_date": "2015/04/05"
   },
   {
+    "id": "xovibot-crawler",
     "pattern": "xovibot",
     "url": "http://www.xovibot.net/",
     "instances": [
@@ -1529,6 +1699,7 @@
     "addition_date": "2015/04/05"
   },
   {
+    "id": "law-unimi-crawler",
     "pattern": "BUbiNG",
     "url": "http://law.di.unimi.it/BUbiNG.html",
     "instances": [
@@ -1537,6 +1708,7 @@
     "addition_date": "2015/04/06"
   },
   {
+    "id": "qwant-crawler",
     "pattern": "Qwantify",
     "url": "https://www.qwant.com/",
     "instances": [
@@ -1548,6 +1720,7 @@
     "addition_date": "2015/04/06"
   },
   {
+    "id": "archiveorg-archiver",
     "pattern": "archive\\.org_bot",
     "url": "http://www.archive.org/details/archive.org_bot",
     "depends_on": [
@@ -1564,6 +1737,7 @@
     "addition_date": "2015/04/14"
   },
   {
+    "id": "apple-crawler",
     "pattern": "Applebot",
     "url": "http://www.apple.com/go/applebot",
     "addition_date": "2015/04/15",
@@ -1576,6 +1750,7 @@
     ]
   },
   {
+    "id": "tweetmemebot",
     "pattern": "TweetmemeBot",
     "url": "http://datasift.com/bot.html",
     "instances": [
@@ -1584,6 +1759,7 @@
     "addition_date": "2015/04/15"
   },
   {
+    "id": "java-crawler4j",
     "pattern": "crawler4j",
     "url": "https://github.com/yasserg/crawler4j",
     "instances": [
@@ -1593,6 +1769,7 @@
     "addition_date": "2015/05/07"
   },
   {
+    "id": "privacore-crawler",
     "pattern": "findxbot",
     "url": "http://www.findxbot.com",
     "instances": [
@@ -1601,6 +1778,7 @@
     "addition_date": "2015/05/07"
   },
   {
+    "id": "semrush-crawler",
     "pattern": "S[eE][mM]rushBot",
     "url": "http://www.semrush.com/bot.html",
     "instances": [
@@ -1616,6 +1794,7 @@
     "addition_date": "2015/05/26"
   },
   {
+    "id": "yooz-crawler",
     "pattern": "yoozBot",
     "url": "http://yooz.ir",
     "instances": [
@@ -1624,6 +1803,7 @@
     "addition_date": "2015/05/26"
   },
   {
+    "id": "lipperhey-crawler",
     "pattern": "lipperhey",
     "url": "http://www.lipperhey.com/",
     "instances": [
@@ -1635,6 +1815,7 @@
     "addition_date": "2015/08/26"
   },
   {
+    "id": "yahoo-crawler-japan",
     "pattern": "Y!J",
     "url": "https://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/~/%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
     "instances": [
@@ -1648,6 +1829,7 @@
     "addition_date": "2015/05/26"
   },
   {
+    "id": "domainreanimator-crawler",
     "pattern": "Domain Re-Animator Bot",
     "url": "http://domainreanimator.com",
     "instances": [
@@ -1656,6 +1838,7 @@
     "addition_date": "2015/04/14"
   },
   {
+    "id": "addthis-crawler",
     "pattern": "AddThis",
     "url": "https://www.addthis.com",
     "instances": [
@@ -1664,6 +1847,7 @@
     "addition_date": "2015/06/02"
   },
   {
+    "id": "screamingfrog-crawler",
     "pattern": "Screaming Frog SEO Spider",
     "url": "http://www.screamingfrog.co.uk/seo-spider",
     "instances": [
@@ -1672,6 +1856,7 @@
     "addition_date": "2016/01/08"
   },
   {
+    "id": "metauri-crawler",
     "pattern": "MetaURI",
     "url": "http://www.useragentstring.com/MetaURI_id_17683.php",
     "instances": [
@@ -1680,6 +1865,7 @@
     "addition_date": "2016/01/02"
   },
   {
+    "id": "python-scrapy",
     "pattern": "Scrapy",
     "url": "http://scrapy.org/",
     "instances": [
@@ -1688,6 +1874,7 @@
     "addition_date": "2016/01/02"
   },
   {
+    "id": "livelap-crawler",
     "pattern": "Livelap[bB]ot",
     "url": "http://site.livelap.com/crawler",
     "instances": [
@@ -1697,6 +1884,7 @@
     "addition_date": "2016/01/02"
   },
   {
+    "id": "openhose-crawler",
     "pattern": "OpenHoseBot",
     "url": "http://www.openhose.org/bot.html",
     "instances": [
@@ -1705,6 +1893,7 @@
     "addition_date": "2016/01/02"
   },
   {
+    "id": "capsulink-crawler",
     "pattern": "CapsuleChecker",
     "url": "http://www.capsulink.com/about",
     "instances": [
@@ -1713,6 +1902,7 @@
     "addition_date": "2016/01/02"
   },
   {
+    "id": "infegy-crawler",
     "pattern": "collection@infegy\\.com",
     "url": "http://infegy.com/",
     "instances": [
@@ -1721,6 +1911,7 @@
     "addition_date": "2016/01/03"
   },
   {
+    "id": "tiscali-crawler",
     "pattern": "IstellaBot",
     "url": "http://www.tiscali.it/",
     "instances": [
@@ -1729,6 +1920,7 @@
     "addition_date": "2016/01/09"
   },
   {
+    "id": "deusu-crawler",
     "pattern": "DeuSu\\/",
     "addition_date": "2016/01/23",
     "url": "https://deusu.de/robot.html",
@@ -1738,11 +1930,13 @@
     ]
   },
   {
+    "id": "betabot",
     "pattern": "betaBot",
     "addition_date": "2016/01/23",
     "instances": []
   },
   {
+    "id": "cliqz-crawler",
     "pattern": "Cliqzbot\\/",
     "addition_date": "2016/01/23",
     "url": "http://cliqz.com/company/cliqzbot",
@@ -1755,6 +1949,7 @@
     ]
   },
   {
+    "id": "mojeek-crawler",
     "pattern": "MojeekBot\\/",
     "addition_date": "2016/01/23",
     "url": "https://www.mojeek.com/bot.html",
@@ -1768,6 +1963,7 @@
     ]
   },
   {
+    "id": "netestate-crawler",
     "pattern": "netEstate NE Crawler",
     "addition_date": "2016/01/23",
     "url": "http://www.website-datenbank.de/",
@@ -1777,6 +1973,7 @@
     ]
   },
   {
+    "id": "avira-crawler",
     "pattern": "SafeSearch microdata crawler",
     "addition_date": "2016/01/23",
     "url": "https://safesearch.avira.com",
@@ -1785,6 +1982,7 @@
     ]
   },
   {
+    "id": "glutenfreepleasure-crawler",
     "pattern": "Gluten Free Crawler\\/",
     "addition_date": "2016/01/23",
     "url": "http://glutenfreepleasure.com/",
@@ -1793,6 +1991,7 @@
     ]
   },
   {
+    "id": "yamanalab-crawler",
     "pattern": "Sonic",
     "addition_date": "2016/02/08",
     "url": "http://www.yama.info.waseda.ac.jp/~crawler/info.html",
@@ -1803,6 +2002,7 @@
     ]
   },
   {
+    "id": "sysomos-crawler",
     "pattern": "Sysomos",
     "addition_date": "2016/02/08",
     "url": "http://www.sysomos.com",
@@ -1811,12 +2011,14 @@
     ]
   },
   {
+    "id": "trove-crawler",
     "pattern": "Trove",
     "addition_date": "2016/02/08",
     "url": "http://www.trove.com",
     "instances": []
   },
   {
+    "id": "deadlinkchecker",
     "pattern": "deadlinkchecker",
     "addition_date": "2016/02/08",
     "url": "http://www.deadlinkchecker.com",
@@ -1827,6 +2029,7 @@
     ]
   },
   {
+    "id": "slack-image-proxy",
     "pattern": "Slack-ImgProxy",
     "addition_date": "2016/04/25",
     "url": "https://api.slack.com/robots",
@@ -1840,6 +2043,7 @@
     ]
   },
   {
+    "id": "embedly-crawler",
     "pattern": "Embedly",
     "addition_date": "2016/04/25",
     "url": "http://support.embed.ly",
@@ -1850,6 +2054,7 @@
     ]
   },
   {
+    "id": "rankactive-crawler",
     "pattern": "RankActiveLinkBot",
     "addition_date": "2016/06/20",
     "url": "https://rankactive.com/resources/rankactive-linkbot",
@@ -1858,6 +2063,7 @@
     ]
   },
   {
+    "id": "iskanie-crawler",
     "pattern": "iskanie",
     "addition_date": "2016/09/02",
     "url": "http://www.iskanie.com",
@@ -1866,6 +2072,7 @@
     ]
   },
   {
+    "id": "safedns-crawler",
     "pattern": "SafeDNSBot",
     "addition_date": "2016/09/10",
     "url": "https://www.safedns.com/searchbot",
@@ -1874,6 +2081,7 @@
     ]
   },
   {
+    "id": "skype-preview",
     "pattern": "SkypeUriPreview",
     "addition_date": "2016/10/10",
     "instances": [
@@ -1881,6 +2089,7 @@
     ]
   },
   {
+    "id": "veooz-crawler",
     "pattern": "Veoozbot",
     "addition_date": "2016/11/03",
     "url": "http://www.veooz.com/veoozbot.html",
@@ -1889,6 +2098,7 @@
     ]
   },
   {
+    "id": "slack-crawler",
     "pattern": "Slackbot",
     "addition_date": "2016/11/03",
     "url": "https://api.slack.com/robots",
@@ -1899,6 +2109,7 @@
     ]
   },
   {
+    "id": "reddit-crawler",
     "pattern": "redditbot",
     "addition_date": "2016/11/03",
     "url": "http://www.reddit.com/feedback",
@@ -1907,6 +2118,7 @@
     ]
   },
   {
+    "id": "datagnion-crawler",
     "pattern": "datagnionbot",
     "addition_date": "2016/11/03",
     "url": "http://www.datagnion.com/bot.html",
@@ -1915,6 +2127,7 @@
     ]
   },
   {
+    "id": "google-adwords",
     "pattern": "Google-Adwords-Instant",
     "addition_date": "2016/11/03",
     "url": "http://www.google.com/adsbot.html",
@@ -1923,6 +2136,7 @@
     ]
   },
   {
+    "id": "adbeat-crawler",
     "pattern": "adbeat_bot",
     "addition_date": "2016/11/04",
     "instances": [
@@ -1931,6 +2145,7 @@
     ]
   },
   {
+    "id": "whatsapp-crawler",
     "pattern": "WhatsApp",
     "addition_date": "2016/11/15",
     "url": "https://www.whatsapp.com/",
@@ -1963,6 +2178,7 @@
     ]
   },
   {
+    "id": "contxbot",
     "pattern": "contxbot",
     "addition_date": "2017/02/25",
     "instances": [
@@ -1970,6 +2186,7 @@
     ]
   },
   {
+    "id": "pintrest-crawler",
     "pattern": "pinterest\\.com\\/bot",
     "addition_date": "2017/03/03",
     "instances": [
@@ -1979,6 +2196,7 @@
     "url": "http://www.pinterest.com/bot.html"
   },
   {
+    "id": "duedil-crawler",
     "pattern": "electricmonk",
     "addition_date": "2017/03/04",
     "instances": [
@@ -1987,6 +2205,7 @@
     "url": "https://www.duedil.com/our-crawler/"
   },
   {
+    "id": "garlik-crawler",
     "pattern": "GarlikCrawler",
     "addition_date": "2017/03/18",
     "instances": [
@@ -1995,6 +2214,7 @@
     "url": "http://garlik.com/"
   },
   {
+    "id": "bing-preview",
     "pattern": "BingPreview\\/",
     "addition_date": "2017/04/23",
     "url": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0",
@@ -2007,6 +2227,7 @@
     ]
   },
   {
+    "id": "vebidoo-crawler",
     "pattern": "vebidoobot",
     "addition_date": "2017/05/08",
     "instances": [
@@ -2015,6 +2236,7 @@
     "url": "https://blog.vebidoo.de/vebidoobot/"
   },
   {
+    "id": "femtosearch-crawler",
     "pattern": "FemtosearchBot",
     "addition_date": "2017/05/16",
     "instances": [
@@ -2023,6 +2245,7 @@
     "url": "http://femtosearch.com"
   },
   {
+    "id": "yahoo-preview",
     "pattern": "Yahoo Link Preview",
     "addition_date": "2017/06/28",
     "instances": [
@@ -2031,6 +2254,7 @@
     "url": "https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html"
   },
   {
+    "id": "metajob-crawler",
     "pattern": "MetaJobBot",
     "addition_date": "2017/08/16",
     "instances": [
@@ -2039,6 +2263,7 @@
     "url": "http://www.metajob.de/the/crawler"
   },
   {
+    "id": "domainstats-crawler",
     "pattern": "DomainStatsBot",
     "addition_date": "2017/08/16",
     "instances": [
@@ -2047,6 +2272,7 @@
     "url": "http://domainstats.io/our-bot"
   },
   {
+    "id": "datenbutler-crawler",
     "pattern": "mindUpBot",
     "addition_date": "2017/08/16",
     "instances": [
@@ -2055,6 +2281,7 @@
     "url": "http://www.datenbutler.de/"
   },
   {
+    "id": "daum-crawler",
     "pattern": "Daum\\/",
     "addition_date": "2017/08/16",
     "instances": [
@@ -2063,6 +2290,7 @@
     "url": "http://cs.daum.net/faq/15/4118.html?faqId=28966"
   },
   {
+    "id": "jusprog-crawler",
     "pattern": "Jugendschutzprogramm-Crawler",
     "addition_date": "2017/08/16",
     "instances": [
@@ -2071,6 +2299,7 @@
     "url": "http://www.jugendschutzprogramm.de"
   },
   {
+    "id": "xenu-crawler",
     "pattern": "Xenu Link Sleuth",
     "addition_date": "2017/08/19",
     "instances": [
@@ -2079,6 +2308,7 @@
     "url": "http://home.snafu.de/tilman/xenulink.html"
   },
   {
+    "id": "perl-pcore",
     "pattern": "Pcore-HTTP",
     "addition_date": "2017/08/19",
     "instances": [
@@ -2088,6 +2318,7 @@
     "url": "https://bitbucket.org/softvisio/pcore/overview"
   },
   {
+    "id": "moat-crawler",
     "pattern": "moatbot",
     "addition_date": "2017/09/16",
     "instances": [
@@ -2097,6 +2328,7 @@
     "url": "https://moat.com"
   },
   {
+    "id": "kosmio-crawler",
     "pattern": "KosmioBot",
     "addition_date": "2017/09/16",
     "instances": [
@@ -2105,6 +2337,7 @@
     "url": "http://kosm.io/bot.html"
   },
   {
+    "id": "pingdom-crawler",
     "pattern": "[pP]ingdom",
     "addition_date": "2017/09/16",
     "instances": [
@@ -2121,6 +2354,7 @@
     "url": "http://www.pingdom.com"
   },
   {
+    "id": "azure-app-insights",
     "pattern": "AppInsights",
     "addition_date": "2019/03/09",
     "instances": [
@@ -2129,6 +2363,7 @@
     "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview"
   },
   {
+    "id": "javascript-phantom",
     "pattern": "PhantomJS",
     "addition_date": "2017/09/18",
     "instances": [
@@ -2137,6 +2372,7 @@
     "url": "http://phantomjs.org/"
   },
   {
+    "id": "gowiki-crawler",
     "pattern": "Gowikibot",
     "addition_date": "2017/10/26",
     "instances": [
@@ -2145,6 +2381,7 @@
     "url": "http://www.gowikibot.com"
   },
   {
+    "id": "pipl-crawler",
     "pattern": "PiplBot",
     "addition_date": "2017/10/30",
     "instances": [
@@ -2154,6 +2391,7 @@
     "url": "http://www.pipl.com/bot/"
   },
   {
+    "id": "discord-crawler",
     "pattern": "Discordbot",
     "addition_date": "2017/09/22",
     "url": "https://discordapp.com",
@@ -2162,6 +2400,7 @@
     ]
   },
   {
+    "id": "telegram-crawler",
     "pattern": "TelegramBot",
     "addition_date": "2017/10/01",
     "instances": [
@@ -2169,6 +2408,7 @@
     ]
   },
   {
+    "id": "jetslide-crawler",
     "pattern": "Jetslide",
     "addition_date": "2017/09/27",
     "url": "http://jetsli.de/crawler",
@@ -2177,6 +2417,7 @@
     ]
   },
   {
+    "id": "newsharecounts-crawler",
     "pattern": "newsharecounts",
     "addition_date": "2017/09/30",
     "url": "http://newsharecounts.com/crawler",
@@ -2185,6 +2426,7 @@
     ]
   },
   {
+    "id": "cognitiveseo-crawler",
     "pattern": "James BOT",
     "addition_date": "2017/10/12",
     "url": "http://cognitiveseo.com/bot.html",
@@ -2193,6 +2435,7 @@
     ]
   },
   {
+    "id": "exensa-crawler",
     "pattern": "Bark[rR]owler",
     "addition_date": "2017/10/09",
     "url": "http://www.exensa.com/crawl",
@@ -2204,6 +2447,7 @@
     ]
   },
   {
+    "id": "tineye-crawler",
     "pattern": "TinEye",
     "addition_date": "2017/10/14",
     "url": "http://www.tineye.com/crawler.html",
@@ -2213,6 +2457,7 @@
     ]
   },
   {
+    "id": "socialrank-crawler",
     "pattern": "SocialRankIOBot",
     "addition_date": "2017/10/19",
     "url": "http://socialrank.io/about",
@@ -2221,6 +2466,7 @@
     ]
   },
   {
+    "id": "trendiction-crawler",
     "pattern": "trendictionbot",
     "addition_date": "2017/10/30",
     "url": "http://www.trendiction.de/bot",
@@ -2230,6 +2476,7 @@
     ]
   },
   {
+    "id": "ocarinabot",
     "pattern": "Ocarinabot",
     "addition_date": "2017/09/27",
     "instances": [
@@ -2237,6 +2484,7 @@
     ]
   },
   {
+    "id": "epictions-crawler",
     "pattern": "epicbot",
     "addition_date": "2017/10/31",
     "url": "http://www.epictions.com/epicbot",
@@ -2245,6 +2493,7 @@
     ]
   },
   {
+    "id": "primal-crawler",
     "pattern": "Primalbot",
     "addition_date": "2017/09/27",
     "url": "https://www.primal.com",
@@ -2253,6 +2502,7 @@
     ]
   },
   {
+    "id": "duckduckgo-crawler-favicons",
     "pattern": "DuckDuckGo-Favicons-Bot",
     "addition_date": "2017/10/06",
     "url": "http://duckduckgo.com",
@@ -2261,6 +2511,7 @@
     ]
   },
   {
+    "id": "gnowit-crawler",
     "pattern": "GnowitNewsbot",
     "addition_date": "2017/10/30",
     "url": "http://www.gnowit.com",
@@ -2269,6 +2520,7 @@
     ]
   },
   {
+    "id": "leiki-crawler",
     "pattern": "Leikibot",
     "addition_date": "2017/09/24",
     "url": "http://www.leiki.com",
@@ -2277,6 +2529,7 @@
     ]
   },
   {
+    "id": "linkarchiver",
     "pattern": "LinkArchiver",
     "addition_date": "2017/09/24",
     "url": "https://github.com/thisisparker/linkarchiver",
@@ -2285,6 +2538,7 @@
     ]
   },
   {
+    "id": "linkfluence-crawler",
     "pattern": "YaK\\/",
     "addition_date": "2017/09/25",
     "url": "http://linkfluence.com",
@@ -2293,6 +2547,7 @@
     ]
   },
   {
+    "id": "paperli-crawler",
     "pattern": "PaperLiBot",
     "addition_date": "2017/09/25",
     "url": "http://support.paper.li/entries/20023257-what-is-paper-li",
@@ -2302,6 +2557,7 @@
     ]
   },
   {
+    "id": "digg-crawler",
     "pattern": "Digg Deeper",
     "addition_date": "2017/09/26",
     "url": "http://digg.com/about",
@@ -2310,6 +2566,7 @@
     ]
   },
   {
+    "id": "dcrawl",
     "pattern": "dcrawl",
     "addition_date": "2017/09/22",
     "url": "https://github.com/kgretzky/dcrawl",
@@ -2318,6 +2575,7 @@
     ]
   },
   {
+    "id": "java-snacktory",
     "pattern": "Snacktory",
     "addition_date": "2017/09/23",
     "url": "https://github.com/karussell/snacktory",
@@ -2326,6 +2584,7 @@
     ]
   },
   {
+    "id": "anderspink-crawler",
     "pattern": "AndersPinkBot",
     "addition_date": "2017/09/24",
     "url": "http://anderspink.com/bot.html",
@@ -2334,6 +2593,7 @@
     ]
   },
   {
+    "id": "fyrebot",
     "pattern": "Fyrebot",
     "addition_date": "2017/09/22",
     "instances": [
@@ -2341,6 +2601,7 @@
     ]
   },
   {
+    "id": "everyonesocial-crawler",
     "pattern": "EveryoneSocialBot",
     "addition_date": "2017/09/22",
     "url": "http://everyonesocial.com",
@@ -2349,6 +2610,7 @@
     ]
   },
   {
+    "id": "mediatoolkit-crawler",
     "pattern": "Mediatoolkitbot",
     "addition_date": "2017/10/06",
     "url": "http://mediatoolkit.com",
@@ -2357,6 +2619,7 @@
     ]
   },
   {
+    "id": "luminator-crawler",
     "pattern": "Luminator-robots",
     "addition_date": "2017/09/22",
     "instances": [
@@ -2364,6 +2627,7 @@
     ]
   },
   {
+    "id": "extlinks-crawler",
     "pattern": "ExtLinksBot",
     "addition_date": "2017/11/02",
     "url": "https://extlinks.com/Bot.html",
@@ -2372,6 +2636,7 @@
     ]
   },
   {
+    "id": "domaintools-crawler",
     "pattern": "SurveyBot",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2379,6 +2644,7 @@
     ]
   },
   {
+    "id": "ning-crawler",
     "pattern": "NING\\/",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2386,6 +2652,7 @@
     ]
   },
   {
+    "id": "java-okhttp",
     "pattern": "okhttp",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2397,6 +2664,7 @@
     ]
   },
   {
+    "id": "nuzzel-crawler",
     "pattern": "Nuzzel",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2404,6 +2672,7 @@
     ]
   },
   {
+    "id": "omgili-crawler",
     "pattern": "omgili",
     "addition_date": "2017/11/02",
     "url": "http://omgili.com",
@@ -2412,6 +2681,7 @@
     ]
   },
   {
+    "id": "pocket-crawler",
     "pattern": "PocketParser",
     "addition_date": "2017/11/02",
     "url": "https://getpocket.com/pocketparser_ua",
@@ -2420,6 +2690,7 @@
     ]
   },
   {
+    "id": "yisou-crawler",
     "pattern": "YisouSpider",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2428,6 +2699,7 @@
     ]
   },
   {
+    "id": "ubermetrics-crawler",
     "pattern": "um-LN",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2435,6 +2707,7 @@
     ]
   },
   {
+    "id": "toutiao-crawler",
     "pattern": "ToutiaoSpider",
     "addition_date": "2017/11/02",
     "url": "http://web.toutiao.com/media_cooperation/",
@@ -2443,6 +2716,7 @@
     ]
   },
   {
+    "id": "muckrack-crawler",
     "pattern": "MuckRack",
     "addition_date": "2017/11/02",
     "url": "http://muckrack.com",
@@ -2451,6 +2725,7 @@
     ]
   },
   {
+    "id": "jamiembrown-crawler",
     "pattern": "Jamie's Spider",
     "addition_date": "2017/11/02",
     "url": "http://jamiembrown.com/",
@@ -2459,6 +2734,7 @@
     ]
   },
   {
+    "id": "java-asynchttpclient",
     "pattern": "AHC\\/",
     "addition_date": "2017/11/02",
     "url": "https://github.com/AsyncHttpClient/async-http-client",
@@ -2467,6 +2743,7 @@
     ]
   },
   {
+    "id": "netcraft-crawler",
     "pattern": "NetcraftSurveyAgent",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2474,6 +2751,7 @@
     ]
   },
   {
+    "id": "laserlike-crawler",
     "pattern": "Laserlikebot",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2481,6 +2759,7 @@
     ]
   },
   {
+    "id": "java-apache-httpclient",
     "pattern": "^Apache-HttpClient",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2501,6 +2780,7 @@
     ]
   },
   {
+    "id": "google-appengine",
     "pattern": "AppEngine-Google",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2509,6 +2789,7 @@
     ]
   },
   {
+    "id": "java-jetty",
     "pattern": "Jetty",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2516,6 +2797,7 @@
     ]
   },
   {
+    "id": "upflow-crawler",
     "pattern": "Upflow",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2523,6 +2805,7 @@
     ]
   },
   {
+    "id": "thinklab-crawler",
     "pattern": "Thinklab",
     "addition_date": "2017/11/02",
     "url": "thinklab.com",
@@ -2531,6 +2814,7 @@
     ]
   },
   {
+    "id": "traackr-crawler",
     "pattern": "Traackr\\.com",
     "addition_date": "2017/11/02",
     "url": "https://www.traackr.com/",
@@ -2539,6 +2823,7 @@
     ]
   },
   {
+    "id": "twurly-crawler",
     "pattern": "Twurly",
     "addition_date": "2017/11/02",
     "url": "http://twurly.org",
@@ -2547,6 +2832,7 @@
     ]
   },
   {
+    "id": "mastodon-crawler",
     "pattern": "Mastodon",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2554,6 +2840,7 @@
     ]
   },
   {
+    "id": "http-get",
     "pattern": "http_get",
     "addition_date": "2017/11/02",
     "instances": [
@@ -2561,6 +2848,7 @@
     ]
   },
   {
+    "id": "dnyz-crawler",
     "pattern": "DnyzBot",
     "addition_date": "2017/11/20",
     "instances": [
@@ -2568,6 +2856,7 @@
     ]
   },
   {
+    "id": "botify-crawler",
     "pattern": "botify",
     "addition_date": "2018/02/01",
     "instances": [
@@ -2575,6 +2864,7 @@
     ]
   },
   {
+    "id": "sistrix-007ac9-crawler",
     "pattern": "007ac9 Crawler",
     "addition_date": "2018/02/09",
     "instances": [
@@ -2582,6 +2872,7 @@
     ]
   },
   {
+    "id": "webeaver-crawler",
     "pattern": "BehloolBot",
     "addition_date": "2018/02/09",
     "instances": [
@@ -2589,6 +2880,7 @@
     ]
   },
   {
+    "id": "brandverity-crawler",
     "pattern": "BrandVerity",
     "addition_date": "2018/02/27",
     "instances": [
@@ -2598,6 +2890,7 @@
     "url": "http://www.brandverity.com/why-is-brandverity-visiting-me"
   },
   {
+    "id": "nagios-check-http",
     "pattern": "check_http",
     "addition_date": "2018/02/09",
     "instances": [
@@ -2605,6 +2898,7 @@
     ]
   },
   {
+    "id": "bigdatacorp-crawler",
     "pattern": "BDCbot",
     "addition_date": "2018/02/09",
     "instances": [
@@ -2613,6 +2907,7 @@
     ]
   },
   {
+    "id": "zum-crawler",
     "pattern": "ZumBot",
     "addition_date": "2018/02/09",
     "instances": [
@@ -2620,6 +2915,7 @@
     ]
   },
   {
+    "id": "ezid-crawler",
     "pattern": "EZID",
     "addition_date": "2018/02/09",
     "instances": [
@@ -2627,6 +2923,7 @@
     ]
   },
   {
+    "id": "nict-crawler",
     "pattern": "ICC-Crawler",
     "addition_date": "2018/02/28",
     "instances": [
@@ -2635,6 +2932,7 @@
     "url": "http://ucri.nict.go.jp/en/icccrawler.html"
   },
   {
+    "id": "irc-archivebot",
     "pattern": "ArchiveBot",
     "addition_date": "2018/02/28",
     "instances": [
@@ -2643,6 +2941,7 @@
     "url": "https://github.com/ArchiveTeam/ArchiveBot"
   },
   {
+    "id": "leipzig-lcc",
     "pattern": "^LCC ",
     "addition_date": "2018/02/28",
     "instances": [
@@ -2651,6 +2950,7 @@
     "url": "http://corpora.informatik.uni-leipzig.de/crawler_faq.html"
   },
   {
+    "id": "iss-crawler",
     "pattern": "filterdb\\.iss\\.net\\/crawler",
     "addition_date": "2018/03/16",
     "instances": [
@@ -2659,6 +2959,7 @@
     "url": "http://filterdb.iss.net/crawler/"
   },
   {
+    "id": "blp-bbot",
     "pattern": "BLP_bbot",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2666,6 +2967,7 @@
     ]
   },
   {
+    "id": "bombora-crawler",
     "pattern": "BomboraBot",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2674,6 +2976,7 @@
     "url": "http://www.bombora.com/bot"
   },
   {
+    "id": "hypefactors-crawler",
     "pattern": "Buck\\/",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2682,6 +2985,7 @@
     "url": "https://app.hypefactors.com/media-monitoring/about.html"
   },
   {
+    "id": "companybook-crawler",
     "pattern": "Companybook-Crawler",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2690,6 +2994,7 @@
     "url": "https://www.companybooknetworking.com/"
   },
   {
+    "id": "genieo-crawler",
     "pattern": "Genieo",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2698,6 +3003,7 @@
     "url": "http://www.genieo.com/webfilter.html"
   },
   {
+    "id": "brandwatch-crawler",
     "pattern": "magpie-crawler",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2706,6 +3012,7 @@
     "url": "http://www.brandwatch.net"
   },
   {
+    "id": "meltwater-crawler",
     "pattern": "MeltwaterNews",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2714,6 +3021,7 @@
     "url": "http://www.meltwater.com"
   },
   {
+    "id": "moreover-crawler",
     "pattern": "Moreover",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2722,6 +3030,7 @@
     "url": "http://www.moreover.com"
   },
   {
+    "id": "newspaper",
     "pattern": "newspaper\\/",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2732,6 +3041,7 @@
     ]
   },
   {
+    "id": "scoutjet-crawler",
     "pattern": "ScoutJet",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2740,6 +3050,7 @@
     "url": "http://www.scoutjet.com/"
   },
   {
+    "id": "sentry-crawler",
     "pattern": "(^| )sentry\\/",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2748,6 +3059,7 @@
     "url": "https://sentry.io"
   },
   {
+    "id": "storygize-crawler",
     "pattern": "StorygizeBot",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2756,6 +3068,7 @@
     "url": "http://www.storygize.com"
   },
   {
+    "id": "uptimerobot-monitor",
     "pattern": "UptimeRobot",
     "addition_date": "2018/03/27",
     "instances": [
@@ -2764,6 +3077,7 @@
     "url": "http://www.uptimerobot.com/"
   },
   {
+    "id": "outclicks-crawler",
     "pattern": "OutclicksBot",
     "addition_date": "2018/04/21",
     "instances": [
@@ -2775,6 +3089,7 @@
     "url": "https://www.outclicks.net"
   },
   {
+    "id": "seoscanners-crawler",
     "pattern": "seoscanners",
     "addition_date": "2018/05/27",
     "instances": [
@@ -2783,6 +3098,7 @@
     "url": "http://www.seoscanners.net/"
   },
   {
+    "id": "hatena-crawler",
     "pattern": "Hatena",
     "addition_date": "2018/05/29",
     "instances": [
@@ -2795,6 +3111,7 @@
     ]
   },
   {
+    "id": "google-preview",
     "pattern": "Google Web Preview",
     "addition_date": "2018/05/31",
     "instances": [
@@ -2803,6 +3120,7 @@
     ]
   },
   {
+    "id": "mauibot",
     "pattern": "MauiBot",
     "addition_date": "2018/06/06",
     "instances": [
@@ -2810,6 +3128,7 @@
     ]
   },
   {
+    "id": "alphaseobot-crawler",
     "pattern": "AlphaBot",
     "addition_date": "2018/05/27",
     "instances": [
@@ -2818,6 +3137,7 @@
     "url": "http://alphaseobot.com/bot.html"
   },
   {
+    "id": "softbytelabs-crawler",
     "pattern": "SBL-BOT",
     "addition_date": "2018/06/06",
     "instances": [
@@ -2827,6 +3147,7 @@
     "description": "Bot of SoftByte BlackWidow"
   },
   {
+    "id": "integralads-crawler",
     "pattern": "IAS crawler",
     "addition_date": "2018/06/06",
     "instances": [
@@ -2836,6 +3157,7 @@
     "description": "Bot of Integral Ad Science, Inc."
   },
   {
+    "id": "adscanner-crawler",
     "pattern": "adscanner",
     "addition_date": "2018/06/24",
     "instances": [
@@ -2843,6 +3165,7 @@
     ]
   },
   {
+    "id": "netvibes-crawler",
     "pattern": "Netvibes",
     "addition_date": "2018/06/24",
     "instances": [
@@ -2852,6 +3175,7 @@
     "url": "http://www.netvibes.com"
   },
   {
+    "id": "acapbot",
     "pattern": "acapbot",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2860,6 +3184,7 @@
     ]
   },
   {
+    "id": "baidu-cloud-watch",
     "pattern": "Baidu-YunGuanCe",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2873,6 +3198,7 @@
     "description": "Baidu Cloud Watch"
   },
   {
+    "id": "bitly-crawler",
     "pattern": "bitlybot",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2883,6 +3209,7 @@
     "url": "http://bit.ly/"
   },
   {
+    "id": "blogmura-crawler",
     "pattern": "blogmuraBot",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2892,6 +3219,7 @@
     "description": "A blog ranking site which links to blogs on just about every theme possible."
   },
   {
+    "id": "araturka-crawler",
     "pattern": "Bot\\.AraTurka\\.com",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2900,6 +3228,7 @@
     "url": "http://www.araturka.com"
   },
   {
+    "id": "chlooe-crawler",
     "pattern": "bot-pge\\.chlooe\\.com",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2907,6 +3236,7 @@
     ]
   },
   {
+    "id": "boxcar-crawler",
     "pattern": "BoxcarBot",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2915,6 +3245,7 @@
     "url": "https://boxcar.io/"
   },
   {
+    "id": "utorrent-crawler",
     "pattern": "BTWebClient",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2924,6 +3255,7 @@
     "description": "µTorrent BitTorrent Client"
   },
   {
+    "id": "contextad-crawler",
     "pattern": "ContextAd Bot",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2932,6 +3264,7 @@
     ]
   },
   {
+    "id": "digincore-crawler",
     "pattern": "Digincore bot",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2940,6 +3273,7 @@
     "url": "http://www.digincore.com/crawler.html"
   },
   {
+    "id": "disqus-crawler",
     "pattern": "Disqus",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2949,6 +3283,7 @@
     "description": "validate and quality check pages."
   },
   {
+    "id": "feedly-feedfetcher",
     "pattern": "Feedly",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2959,6 +3294,7 @@
     "description": "Feedly Fetcher is how Feedly grabs RSS or Atom feeds when users choose to add them to their Feedly or any of the other applications built on top of the feedly cloud."
   },
   {
+    "id": "scritch-crawler",
     "pattern": "Fetch\\/",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2966,6 +3302,7 @@
     ]
   },
   {
+    "id": "feedafever-crawler",
     "pattern": "Fever",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2974,6 +3311,7 @@
     "url": "http://feedafever.com"
   },
   {
+    "id": "flamingosearch-crawler",
     "pattern": "Flamingo_SearchEngine",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2981,6 +3319,7 @@
     ]
   },
   {
+    "id": "flipboard-proxy",
     "pattern": "FlipboardProxy",
     "addition_date": "2018/06/27",
     "instances": [
@@ -2994,6 +3333,7 @@
     "description": "a proxy service to fetch, validate, and prepare certain elements of websites for presentation through the Flipboard Application"
   },
   {
+    "id": "g2reader-crawler",
     "pattern": "g2reader-bot",
     "addition_date": "2018/06/27",
     "instances": [
@@ -3002,6 +3342,7 @@
     "url": "http://www.g2reader.com/"
   },
   {
+    "id": "g2webservices-crawler",
     "pattern": "G2 Web Services",
     "addition_date": "2019/03/01",
     "instances": [
@@ -3010,6 +3351,7 @@
     "url": "https://www.g2webservices.com/"
   },
   {
+    "id": "mignify-imrbot",
     "pattern": "imrbot",
     "addition_date": "2018/06/27",
     "instances": [
@@ -3018,6 +3360,7 @@
     "url": "http://www.mignify.com"
   },
   {
+    "id": "k7computing-crawler",
     "pattern": "K7MLWCBot",
     "addition_date": "2018/06/27",
     "instances": [
@@ -3027,6 +3370,7 @@
     "description": "Virus scanner"
   },
   {
+    "id": "kemvi-crawler",
     "pattern": "Kemvibot",
     "addition_date": "2018/06/27",
     "instances": [
@@ -3035,6 +3379,7 @@
     "url": "http://kemvi.com"
   },
   {
+    "id": "landaumedia-crawler",
     "pattern": "Landau-Media-Spider",
     "addition_date": "2018/06/27",
     "instances": [
@@ -3043,6 +3388,7 @@
     "url": "http://bots.landaumedia.de/bot.html"
   },
   {
+    "id": "linkapedia-crawler",
     "pattern": "linkapediabot",
     "addition_date": "2018/06/27",
     "instances": [
@@ -3051,6 +3397,7 @@
     "url": "http://www.linkapedia.com"
   },
   {
+    "id": "vkshare-crawler",
     "pattern": "vkShare",
     "addition_date": "2018/07/02",
     "instances": [
@@ -3059,6 +3406,7 @@
     "url": "http://vk.com/dev/Share"
   },
   {
+    "id": "siteimprove-crawler",
     "pattern": "Siteimprove\\.com",
     "addition_date": "2018/06/22",
     "instances": [
@@ -3069,6 +3417,7 @@
     ]
   },
   {
+    "id": "webmeup-crawler",
     "pattern": "BLEXBot\\/",
     "addition_date": "2018/07/07",
     "instances": [
@@ -3077,6 +3426,7 @@
     "url": "http://webmeup-crawler.com"
   },
   {
+    "id": "dareboost-crawler",
     "pattern": "DareBoost",
     "addition_date": "2018/07/07",
     "instances": [
@@ -3086,6 +3436,7 @@
     "description": "Bot to test, Analyze and Optimize website"
   },
   {
+    "id": "zuperlist-crawler",
     "pattern": "ZuperlistBot\\/",
     "addition_date": "2018/07/07",
     "instances": [
@@ -3093,6 +3444,7 @@
     ]
   },
   {
+    "id": "miniflux-feedfetcher",
     "pattern": "Miniflux\\/",
     "addition_date": "2018/07/07",
     "instances": [
@@ -3110,6 +3462,7 @@
     "description": "Miniflux is a minimalist and opinionated feed reader."
   },
   {
+    "id": "feedspot-feedfetcher",
     "pattern": "Feedspot",
     "addition_date": "2018/07/07",
     "instances": [
@@ -3119,6 +3472,7 @@
     "url": "http://www.feedspot.com/fs/bot"
   },
   {
+    "id": "diffbot-crawler",
     "pattern": "Diffbot\\/",
     "addition_date": "2018/07/07",
     "instances": [
@@ -3127,6 +3481,7 @@
     "url": "http://www.diffbot.com"
   },
   {
+    "id": "seokicks-crawler",
     "pattern": "SEOkicks",
     "addition_date": "2018/08/22",
     "instances": [
@@ -3135,6 +3490,7 @@
     "url": "https://www.seokicks.de/robot.html"
   },
   {
+    "id": "tracemyfile-crawler",
     "pattern": "tracemyfile",
     "addition_date": "2018/08/23",
     "instances": [
@@ -3142,6 +3498,7 @@
     ]
   },
   {
+    "id": "cloudsystemnetworks-crawler",
     "pattern": "Nimbostratus-Bot",
     "addition_date": "2018/08/29",
     "instances": [
@@ -3149,6 +3506,7 @@
     ]
   },
   {
+    "id": "zgrab",
     "pattern": "zgrab",
     "addition_date": "2018/08/30",
     "instances": [
@@ -3157,6 +3515,7 @@
     "url": "https://github.com/zmap/zgrab2"
   },
   {
+    "id": "prcy-crawler",
     "pattern": "PR-CY\\.RU",
     "addition_date": "2018/08/30",
     "instances": [
@@ -3165,6 +3524,7 @@
     "url": "https://a.pr-cy.ru/"
   },
   {
+    "id": "adstxtcrawler",
     "pattern": "AdsTxtCrawler",
     "addition_date": "2018/08/30",
     "instances": [
@@ -3172,6 +3532,7 @@
     ]
   },
   {
+    "id": "datafeedwatch-crawler",
     "pattern": "Datafeedwatch",
     "addition_date": "2018/09/05",
     "instances": [
@@ -3180,6 +3541,7 @@
     "url": "https://www.datafeedwatch.com/"
   },
   {
+    "id": "zabbix-monitor",
     "pattern": "Zabbix",
     "addition_date": "2018/09/05",
     "instances": [
@@ -3188,6 +3550,7 @@
     "url": "https://www.zabbix.com/documentation/3.4/manual/web_monitoring"
   },
   {
+    "id": "tangiblee-crawler",
     "pattern": "TangibleeBot",
     "addition_date": "2018/09/05",
     "instances": [
@@ -3196,6 +3559,7 @@
     "url": "http://tangiblee.com/bot"
   },
   {
+    "id": "google-xrawler",
     "pattern": "google-xrawler",
     "addition_date": "2018/09/05",
     "instances": [
@@ -3204,6 +3568,7 @@
     "url": "https://webmasters.stackexchange.com/questions/105560/what-is-the-google-xrawler-user-agent-used-for"
   },
   {
+    "id": "javascript-axios",
     "pattern": "axios",
     "addition_date": "2018/09/06",
     "instances": [
@@ -3213,6 +3578,7 @@
     "url": "https://github.com/axios/axios"
   },
   {
+    "id": "amazon-cloudfront",
     "pattern": "Amazon CloudFront",
     "addition_date": "2018/09/07",
     "instances": [
@@ -3221,6 +3587,7 @@
     "url": "https://aws.amazon.com/cloudfront/"
   },
   {
+    "id": "pulsepoint-crawler",
     "pattern": "Pulsepoint",
     "addition_date": "2018/09/24",
     "instances": [
@@ -3228,6 +3595,7 @@
     ]
   },
   {
+    "id": "cloudflare-archiver",
     "pattern": "CloudFlare-AlwaysOnline",
     "addition_date": "2018/09/27",
     "instances": [
@@ -3237,6 +3605,7 @@
     "url": "https://www.cloudflare.com/always-online/"
   },
   {
+    "id": "google-structured-data-testing-tool",
     "pattern": "Google-Structured-Data-Testing-Tool",
     "addition_date": "2018/10/02",
     "instances": [
@@ -3246,6 +3615,7 @@
     "url": "https://search.google.com/structured-data/testing-tool"
   },
   {
+    "id": "wordup-crawler",
     "pattern": "WordupInfoSearch",
     "addition_date": "2018/10/07",
     "instances": [
@@ -3253,6 +3623,7 @@
     ]
   },
   {
+    "id": "webdatastats-crawler",
     "pattern": "WebDataStats",
     "addition_date": "2018/10/08",
     "instances": [
@@ -3261,6 +3632,7 @@
     "url": "https://webdatastats.com/"
   },
   {
+    "id": "java-jersey",
     "pattern": "HttpUrlConnection",
     "addition_date": "2018/10/08",
     "instances": [
@@ -3268,6 +3640,7 @@
     ]
   },
   {
+    "id": "seozoom-crawler",
     "pattern": "ZoomBot",
     "addition_date": "2018/10/10",
     "instances": [
@@ -3276,6 +3649,7 @@
     "url": "http://suite.seozoom.it/bot.html"
   },
   {
+    "id": "velen-crawler",
     "pattern": "VelenPublicWebCrawler",
     "addition_date": "2018/10/09",
     "url": "https://velen.io/",
@@ -3284,6 +3658,7 @@
     ]
   },
   {
+    "id": "moodle-crawler",
     "pattern": "MoodleBot",
     "addition_date": "2018/10/10",
     "instances": [
@@ -3291,6 +3666,7 @@
     ]
   },
   {
+    "id": "vipnytt-crawler",
     "pattern": "jpg-newsbot",
     "addition_date": "2018/10/10",
     "instances": [
@@ -3299,6 +3675,7 @@
     "url": "https://vipnytt.no/bots/"
   },
   {
+    "id": "outbrain-link-checker",
     "pattern": "outbrain",
     "addition_date": "2018/10/14",
     "instances": [
@@ -3307,6 +3684,7 @@
     "url": "https://www.outbrain.com/help/advertisers/invalid-url/"
   },
   {
+    "id": "w3c-validator-html",
     "pattern": "W3C_Validator",
     "addition_date": "2018/10/14",
     "instances": [
@@ -3315,6 +3693,7 @@
     "url": "https://validator.w3.org/services"
   },
   {
+    "id": "w3c-validator-html-nu",
     "pattern": "Validator\\.nu",
     "addition_date": "2018/10/14",
     "instances": [
@@ -3323,6 +3702,7 @@
     "url": "https://validator.w3.org/services"
   },
   {
+    "id": "w3c-validator-links",
     "pattern": "W3C-checklink",
     "addition_date": "2018/10/14",
     "depends_on": [
@@ -3342,6 +3722,7 @@
     "url": "https://validator.w3.org/services"
   },
   {
+    "id": "w3c-validator-mobile",
     "pattern": "W3C-mobileOK",
     "addition_date": "2018/10/14",
     "instances": [
@@ -3350,6 +3731,7 @@
     "url": "https://validator.w3.org/services"
   },
   {
+    "id": "w3c-validator-i18n",
     "pattern": "W3C_I18n-Checker",
     "addition_date": "2018/10/14",
     "instances": [
@@ -3358,6 +3740,7 @@
     "url": "https://validator.w3.org/services"
   },
   {
+    "id": "w3c-validator-feed",
     "pattern": "FeedValidator",
     "addition_date": "2018/10/14",
     "instances": [
@@ -3366,6 +3749,7 @@
     "url": "https://validator.w3.org/services"
   },
   {
+    "id": "w3c-validator-css",
     "pattern": "W3C_CSS_Validator",
     "addition_date": "2018/10/14",
     "instances": [
@@ -3374,6 +3758,7 @@
     "url": "https://validator.w3.org/services"
   },
   {
+    "id": "w3c-validator-unified",
     "pattern": "W3C_Unicorn",
     "addition_date": "2018/10/14",
     "instances": [
@@ -3382,6 +3767,7 @@
     "url": "https://validator.w3.org/services"
   },
   {
+    "id": "google-physical-web",
     "pattern": "Google-PhysicalWeb",
     "addition_date": "2018/10/21",
     "instances": [
@@ -3389,6 +3775,7 @@
     ]
   },
   {
+    "id": "blackboard-crawler",
     "pattern": "Blackboard",
     "addition_date": "2018/10/28",
     "instances": [
@@ -3397,6 +3784,7 @@
     "url": "https://help.blackboard.com/Learn/Administrator/Hosting/Tools_Management/SafeAssign"
   },
   {
+    "id": "ideasandcode-crawler",
     "pattern": "ICBot\\/",
     "addition_date": "2018/10/23",
     "instances": [
@@ -3405,6 +3793,7 @@
     "url": "https://ideasandcode.xyz"
   },
   {
+    "id": "bazqux-feedfetcher",
     "pattern": "BazQux",
     "addition_date": "2018/10/23",
     "instances": [
@@ -3413,6 +3802,7 @@
     "url": "https://bazqux.com/fetcher"
   },
   {
+    "id": "twingly-crawler",
     "pattern": "Twingly",
     "addition_date": "2018/10/23",
     "instances": [
@@ -3421,6 +3811,7 @@
     "url": "https://twingly.com"
   },
   {
+    "id": "rivva-crawler",
     "pattern": "Rivva",
     "addition_date": "2018/10/23",
     "instances": [
@@ -3429,6 +3820,7 @@
     "url": "http://rivva.de"
   },
   {
+    "id": "experibot-crawler",
     "pattern": "Experibot",
     "addition_date": "2018/11/03",
     "instances": [
@@ -3438,6 +3830,7 @@
     "url": "https://amirkr.wixsite.com/experibot"
   },
   {
+    "id": "awesomecrawler",
     "pattern": "awesomecrawler",
     "addition_date": "2018/11/24",
     "instances": [
@@ -3445,6 +3838,7 @@
     ]
   },
   {
+    "id": "dataprovider-crawler",
     "pattern": "Dataprovider\\.com",
     "addition_date": "2018/11/24",
     "instances": [
@@ -3453,6 +3847,7 @@
     "url": "https://www.dataprovider.com/"
   },
   {
+    "id": "grouphigh-crawler",
     "pattern": "GroupHigh\\/",
     "addition_date": "2018/11/24",
     "instances": [
@@ -3461,6 +3856,7 @@
     "url": "http://www.grouphigh.com/"
   },
   {
+    "id": "theoldreader-crawler",
     "pattern": "theoldreader\\.com",
     "addition_date": "2018/12/02",
     "instances": [
@@ -3469,6 +3865,7 @@
     "url": "https://www.theoldreader.com/"
   },
   {
+    "id": "schmorp-crawler",
     "pattern": "AnyEvent",
     "addition_date": "2018/12/07",
     "instances": [
@@ -3477,6 +3874,7 @@
     "url": "http://software.schmorp.de/pkg/AnyEvent.html"
   },
   {
+    "id": "uptimebot-monitor",
     "pattern": "Uptimebot\\.org",
     "addition_date": "2019/01/17",
     "instances": [
@@ -3485,6 +3883,7 @@
     "url": "http://uptimebot.org/"
   },
   {
+    "id": "nmap",
     "pattern": "Nmap Scripting Engine",
     "addition_date": "2019/02/04",
     "instances": [
@@ -3493,6 +3892,7 @@
     "url": "https://nmap.org/book/nse.html"
   },
   {
+    "id": "twoip-crawler-cms",
     "pattern": "2ip\\.ru",
     "addition_date": "2019/02/12",
     "instances": [
@@ -3501,6 +3901,7 @@
     "url": "https://2ip.ru/cms/"
   },
   {
+    "id": "clickagy-crawler",
     "pattern": "Clickagy",
     "addition_date": "2019/02/19",
     "instances": [
@@ -3509,6 +3910,7 @@
     "url": "https://www.clickagy.com"
   },
   {
+    "id": "conductor-crawler",
     "pattern": "Caliperbot",
     "addition_date": "2019/03/02",
     "instances": [
@@ -3517,6 +3919,7 @@
     "url": "http://www.conductor.com/caliperbot"
   },
   {
+    "id": "monitorbacklinks-crawler",
     "pattern": "MBCrawler",
     "addition_date": "2019/03/02",
     "instances": [
@@ -3525,6 +3928,7 @@
     "url": "https://monitorbacklinks.com"
   },
   {
+    "id": "webceo-crawler",
     "pattern": "online-webceo-bot",
     "addition_date": "2019/03/02",
     "instances": [
@@ -3533,6 +3937,7 @@
     "url": "http://online.webceo.com"
   },
   {
+    "id": "b2bbot",
     "pattern": "B2B Bot",
     "addition_date": "2019/03/02",
     "instances": [
@@ -3540,6 +3945,7 @@
     ]
   },
   {
+    "id": "addsearch-crawler",
     "pattern": "AddSearchBot",
     "addition_date": "2019/03/02",
     "instances": [
@@ -3548,6 +3954,7 @@
     "url": "http://www.addsearch.com/bot"
   },
   {
+    "id": "google-favicon",
     "pattern": "Google Favicon",
     "addition_date": "2019/03/14",
     "instances": [
@@ -3555,6 +3962,7 @@
     ]
   },
   {
+    "id": "hubspot-crawler",
     "pattern": "HubSpot",
     "addition_date": "2019/04/15",
     "instances": [
@@ -3565,18 +3973,19 @@
     ]
   },
   {
+    "id": "google-lighthouse",
     "pattern": "Chrome-Lighthouse",
     "addition_date": "2019/03/15",
     "instances": [
       "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36(KHTML, like Gecko) Chrome/69.0.3464.0 Mobile Safari/537.36 Chrome-Lighthouse",
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36 Chrome-Lighthouse",
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Safari/537.36 Chrome-Lighthouse",
-      "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
       "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
     ],
     "url": "https://developers.google.com/speed/pagespeed/insights"
   },
   {
+    "id": "headless-chrome",
     "pattern": "HeadlessChrome",
     "url": "https://developers.google.com/web/updates/2017/04/headless-chrome",
     "addition_date": "2019/06/17",
@@ -3587,6 +3996,7 @@
     ]
   },
   {
+    "id": "checkmarknetwork-crawler",
     "pattern": "CheckMarkNetwork\\/",
     "addition_date": "2019/06/30",
     "instances": [
@@ -3595,6 +4005,7 @@
     "url": "https://www.checkmarknetwork.com/"
   },
   {
+    "id": "uptime-monitor",
     "pattern": "www\\.uptime\\.com",
     "addition_date": "2019/07/21",
     "instances": [
@@ -3603,6 +4014,7 @@
     "url": "http://www.uptime.com/uptimebot"
   },
   {
+    "id": "ubt-crawler",
     "pattern": "Streamline3Bot\\/",
     "addition_date": "2019/07/21",
     "instances": [
@@ -3612,6 +4024,7 @@
     "url": "https://www.ubtsupport.com/legal/Streamline3Bot.php"
   },
   {
+    "id": "serpstatbot-crawler",
     "pattern": "serpstatbot\\/",
     "addition_date": "2019/07/25",
     "instances": [
@@ -3621,6 +4034,7 @@
     "url": "http://serpstatbot.com"
   },
   {
+    "id": "mixnode-cache",
     "pattern": "MixnodeCache\\/",
     "addition_date": "2019/08/04",
     "instances": [
@@ -3629,6 +4043,7 @@
     "url": "https://cache.mixnode.com/"
   },
   {
+    "id": "curl",
     "pattern": "^curl",
     "addition_date": "2019/08/15",
     "instances": [
@@ -3644,6 +4059,7 @@
     "url": "https://curl.haxx.se/"
   },
   {
+    "id": "php-simple-scraper",
     "pattern": "SimpleScraper",
     "addition_date": "2019/08/16",
     "instances": [
@@ -3652,6 +4068,7 @@
     "url": "https://github.com/ramonkcom/simple-scraper/"
   },
   {
+    "id": "rssing-crawler",
     "pattern": "RSSingBot",
     "addition_date": "2019/09/15",
     "instances": [
@@ -3660,6 +4077,7 @@
     "url": "http://www.rssing.com"
   },
   {
+    "id": "jooble-crawler",
     "pattern": "Jooblebot",
     "addition_date": "2019/09/25",
     "instances": [
@@ -3668,6 +4086,7 @@
     "url": "http://jooble.org/jooble-bot"
   },
   {
+    "id": "fedoraplanet-crawler",
     "pattern": "fedoraplanet",
     "addition_date": "2019/09/28",
     "instances": [
@@ -3676,6 +4095,7 @@
     "url": "http://fedoraplanet.org/"
   },
   {
+    "id": "hoyer-crawler",
     "pattern": "Friendica",
     "addition_date": "2019/09/28",
     "instances": [
@@ -3684,6 +4104,7 @@
     "url": "https://hoyer.xyz"
   },
   {
+    "id": "nextcloud-crawler",
     "pattern": "NextCloud",
     "addition_date": "2019/09/30",
     "instances": [
@@ -3692,6 +4113,7 @@
     "url": "https://nextcloud.com/"
   },
   {
+    "id": "ttrss-feedfetcher",
     "pattern": "Tiny Tiny RSS",
     "addition_date": "2019/10/04",
     "instances": [
@@ -3703,6 +4125,7 @@
     "url": "http://tt-rss.org/"
   },
   {
+    "id": "stuttgart-crawler",
     "pattern": "RegionStuttgartBot",
     "addition_date": "2019/10/17",
     "instances": [
@@ -3711,6 +4134,7 @@
     "url": "http://it.region-stuttgart.de/competenzatlas/unternehmen-suchen/"
   },
   {
+    "id": "bytedance-crawler",
     "pattern": "Bytespider",
     "addition_date": "2019/11/11",
     "instances": [
@@ -3737,6 +4161,7 @@
     "url": "https://stackoverflow.com/questions/57908900/what-is-the-bytespider-user-agent"
   },
   {
+    "id": "datanyze-crawler",
     "pattern": "Datanyze",
     "addition_date": "2019/11/17",
     "instances": [
@@ -3745,6 +4170,7 @@
     "url": "https://www.datanyze.com/dnyzbot/"
   },
   {
+    "id": "google-site-verification",
     "pattern": "Google-Site-Verification",
     "addition_date": "2019/12/11",
     "instances": [
@@ -3753,6 +4179,7 @@
     "url": "https://support.google.com/webmasters/answer/9008080"
   },
   {
+    "id": "trendsmap-crawler",
     "pattern": "TrendsmapResolver",
     "addition_date": "2020/02/24",
     "instances": [
@@ -3761,6 +4188,7 @@
     "url": "https://www.trendsmap.com/"
   },
   {
+    "id": "tweetedtimes-crawler",
     "pattern": "tweetedtimes",
     "addition_date": "2020/02/24",
     "instances": [
@@ -3769,6 +4197,7 @@
     "url": "https://tweetedtimes.com/"
   },
   {
+    "id": "ntent-crawler",
     "pattern": "NTENTbot",
     "addition_date": "2020/02/24",
     "instances": [
@@ -3777,6 +4206,7 @@
     "url": "https://ntent.com/ntentbot/"
   },
   {
+    "id": "gwene-crawler",
     "pattern": "Gwene",
     "addition_date": "2020/02/24",
     "instances": [
@@ -3785,6 +4215,7 @@
     "url": "https://gwene.org"
   },
   {
+    "id": "php-simplepie",
     "pattern": "SimplePie",
     "addition_date": "2020/02/24",
     "instances": [
@@ -3793,6 +4224,7 @@
     "url": "http://simplepie.org"
   },
   {
+    "id": "searchatlas-crawler",
     "pattern": "SearchAtlas",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3801,6 +4233,7 @@
     "url": "http://SearchAtlas.com"
   },
   {
+    "id": "superfeedr-crawler",
     "pattern": "Superfeedr",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3809,6 +4242,7 @@
     "url": "http://superfeedr.com"
   },
   {
+    "id": "wordpress-crawler-rss",
     "pattern": "feedbot",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3817,6 +4251,7 @@
     "url": "http://wp.com"
   },
   {
+    "id": "utexas-crawler",
     "pattern": "UT-Dorkbot",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3825,6 +4260,7 @@
     "url": "https://security.utexas.edu/dorkbot"
   },
   {
+    "id": "amazon-crawler",
     "pattern": "Amazonbot",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3833,6 +4269,7 @@
     "url": "https://developer.amazon.com/support/amazonbot"
   },
   {
+    "id": "serendeputy-crawler",
     "pattern": "SerendeputyBot",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3841,6 +4278,7 @@
     "url": "http://serendeputy.com/about/serendeputy-bot"
   },
   {
+    "id": "eyeota-crawler",
     "pattern": "Eyeotabot",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3849,6 +4287,7 @@
     "url": "http://www.eyeota.com"
   },
   {
+    "id": "bing-office-store",
     "pattern": "officestorebot",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3857,6 +4296,7 @@
     "url": "https://aka.ms/officestorebot"
   },
   {
+    "id": "neticle-crawler",
     "pattern": "Neticle Crawler",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3865,6 +4305,7 @@
     "url": "https://neticle.com/bot/en/"
   },
   {
+    "id": "surly-crawler",
     "pattern": "SurdotlyBot",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3873,6 +4314,7 @@
     "url": "http://sur.ly/bot.html"
   },
   {
+    "id": "linkis-crawler",
     "pattern": "LinkisBot",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3880,6 +4322,7 @@
     ]
   },
   {
+    "id": "awario-crawler-smart",
     "pattern": "AwarioSmartBot",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3888,6 +4331,7 @@
     "url": "https://awario.com/bots.html"
   },
   {
+    "id": "awario-crawler-rss",
     "pattern": "AwarioRssBot",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3896,6 +4340,7 @@
     "url": "https://awario.com/bots.html"
   },
   {
+    "id": "ryte-crawler",
     "pattern": "RyteBot",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3904,6 +4349,7 @@
     "url": "https://bot.ryte.com/"
   },
   {
+    "id": "freewebmonitoring-monitor",
     "pattern": "FreeWebMonitoring SiteChecker",
     "addition_date": "2020/03/02",
     "instances": [
@@ -3912,6 +4358,7 @@
     "url": "https://www.freewebmonitoring.com/bot.html"
   },
   {
+    "id": "aspiegel-crawler",
     "pattern": "AspiegelBot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -3920,6 +4367,7 @@
     "url": "https://aspiegel.com"
   },
   {
+    "id": "naver-crawler-rss",
     "pattern": "NAVER Blog Rssbot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -3928,6 +4376,7 @@
     "url": "http://www.naver.com"
   },
   {
+    "id": "logly-crawler",
     "pattern": "zenback bot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -3936,6 +4385,7 @@
     "url": "http://corp.logly.co.jp/"
   },
   {
+    "id": "sentione-crawler",
     "pattern": "SentiBot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -3944,6 +4394,7 @@
     "url": "https://sites.google.com/senti1.com/sentibot-eu/home"
   },
   {
+    "id": "domainsproject-crawler",
     "pattern": "Domains Project\\/",
     "addition_date": "2020/03/16",
     "instances": [
@@ -3952,6 +4403,7 @@
     "url": "https://github.com/tb0hdan/domains"
   },
   {
+    "id": "domainsbot-crawler",
     "pattern": "Pandalytics",
     "addition_date": "2020/03/16",
     "instances": [
@@ -3960,6 +4412,7 @@
     "url": "https://domainsbot.com/pandalytics/"
   },
   {
+    "id": "vkrobot-crawler",
     "pattern": "VKRobot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -3967,6 +4420,7 @@
     ]
   },
   {
+    "id": "bidswitch-crawler",
     "pattern": "bidswitchbot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -3975,6 +4429,7 @@
     "url": "https://www.bidswitch.com/about-us/"
   },
   {
+    "id": "tiger-crawler",
     "pattern": "tigerbot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -3982,6 +4437,7 @@
     ]
   },
   {
+    "id": "nixstats-crawler",
     "pattern": "NIXStatsbot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -3990,6 +4446,7 @@
     "url": "http://www.nixstats.com/bot.html"
   },
   {
+    "id": "rssmicro-feedfetcher",
     "pattern": "Atom Feed Robot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -3998,6 +4455,7 @@
     "url": "https://rssmicro.com"
   },
   {
+    "id": "curebot-crawler",
     "pattern": "[Cc]urebot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4006,6 +4464,7 @@
     ]
   },
   {
+    "id": "pagepeeker-crawler",
     "pattern": "PagePeeker\\/",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4014,6 +4473,7 @@
     "url": "https://pagepeeker.com/robots/"
   },
   {
+    "id": "vigil-crawler",
     "pattern": "Vigil\\/",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4022,6 +4482,7 @@
     "url": "http://vigil-app.com/bot.html"
   },
   {
+    "id": "rssbot-feedfetcher",
     "pattern": "rssbot\\/",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4030,6 +4491,7 @@
     "url": "https://github.com/iovxw/rssbot"
   },
   {
+    "id": "startme-crawler",
     "pattern": "startmebot\\/",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4038,6 +4500,7 @@
     "url": "https://start.me/bot"
   },
   {
+    "id": "jobboerse-crawler",
     "pattern": "JobboerseBot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4046,6 +4509,7 @@
     "url": "http://www.jobboerse.com/bot.htm"
   },
   {
+    "id": "seewithkids-crawler",
     "pattern": "seewithkids",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4054,6 +4518,7 @@
     "url": "http://seewithkids.com/bot"
   },
   {
+    "id": "ninjabot",
     "pattern": "NINJA bot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4061,6 +4526,7 @@
     ]
   },
   {
+    "id": "cutbot-crawler",
     "pattern": "Cutbot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4069,6 +4535,7 @@
     "url": "http://cutbot.net/"
   },
   {
+    "id": "bublup-crawler",
     "pattern": "BublupBot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4077,6 +4544,7 @@
     "url": "https://www.bublup.com/bublup-bot.html"
   },
   {
+    "id": "brandonmedia-crawler",
     "pattern": "BrandONbot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4085,6 +4553,7 @@
     "url": "http://brandonmedia.net"
   },
   {
+    "id": "ridder-crawler",
     "pattern": "RidderBot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4094,6 +4563,7 @@
     "url": "https://ridder.co/"
   },
   {
+    "id": "taboola-crawler",
     "pattern": "Taboolabot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4102,6 +4572,7 @@
     "url": "http://www.taboola.com"
   },
   {
+    "id": "dubbot-crawler",
     "pattern": "Dubbotbot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4110,6 +4581,7 @@
     "url": "http://dubbot.com"
   },
   {
+    "id": "itinfluentials-crawler",
     "pattern": "FindITAnswersbot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4118,6 +4590,7 @@
     "url": "http://search.it-influentials.com/bot.htm"
   },
   {
+    "id": "infoo-crawler",
     "pattern": "infoobot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4126,6 +4599,7 @@
     "url": "https://www.infoo.nl/bot.html"
   },
   {
+    "id": "refind-crawler",
     "pattern": "Refindbot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4134,6 +4608,7 @@
     "url": "https://refind.com/about"
   },
   {
+    "id": "blogtraffic-feedfetcher",
     "pattern": "BlogTraffic\\/\\d\\.\\d+ Feed-Fetcher",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4142,6 +4617,7 @@
     "url": "http://www.blogtraffic.de/rss-bot.html"
   },
   {
+    "id": "seobility-crawler",
     "pattern": "SeobilityBot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4150,6 +4626,7 @@
     "url": "https://www.seobility.net/sites/bot.html"
   },
   {
+    "id": "cincrawdata-crawler",
     "pattern": "Cincraw",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4158,6 +4635,7 @@
     "url": "http://cincrawdata.net/bot/"
   },
   {
+    "id": "dragonmetrics-crawler",
     "pattern": "Dragonbot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4166,6 +4644,7 @@
     "url": "http://www.dragonmetrics.com"
   },
   {
+    "id": "codewise-crawler",
     "pattern": "VoluumDSP-content-bot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4174,6 +4653,7 @@
     "url": "https://codewise.com"
   },
   {
+    "id": "freshrss-feedfetcher",
     "pattern": "FreshRSS",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4182,6 +4662,7 @@
     "url": "https://freshrss.org"
   },
   {
+    "id": "python-bitbot",
     "pattern": "BitBot",
     "addition_date": "2020/03/16",
     "instances": [
@@ -4190,6 +4671,7 @@
     "url": "https://bitbot.dev"
   },
   {
+    "id": "php-curlclass",
     "pattern": "^PHP-Curl-Class",
     "addition_date": "2020/12/10",
     "instances": [
@@ -4204,6 +4686,7 @@
     "url": "https://github.com/php-curl-class/php-curl-class"
   },
   {
+    "id": "google-certificates-bridge",
     "pattern": "Google-Certificates-Bridge",
     "addition_date": "2020/12/23",
     "instances": [
@@ -4211,6 +4694,7 @@
     ]
   },
   {
+    "id": "centurybot",
     "pattern": "centurybot",
     "addition_date": "2022/04/26",
     "instances": [
@@ -4218,6 +4702,7 @@
     ]
   },
   {
+    "id": "viber-crawler",
     "pattern": "Viber",
     "addition_date": "2021/04/27",
     "instances": [
@@ -4226,6 +4711,7 @@
     "url": "https://www.viber.com/"
   },
   {
+    "id": "eventures-crawler",
     "pattern": "e\\.ventures Investment Crawler",
     "addition_date": "2021/06/05",
     "url": "https://www.eventures.vc/",
@@ -4234,6 +4720,7 @@
     ]
   },
   {
+    "id": "eventures-crawler-batch",
     "pattern": "evc-batch",
     "addition_date": "2021/06/07",
     "url": "https://www.eventures.vc/",
@@ -4242,6 +4729,7 @@
     ]
   },
   {
+    "id": "petalsearch-crawler",
     "pattern": "PetalBot",
     "addition_date": "2021/06/07",
     "instances": [
@@ -4251,6 +4739,7 @@
     "url": "https://webmaster.petalsearch.com/site/petalbot"
   },
   {
+    "id": "virustotal-crawler",
     "pattern": "virustotal",
     "addition_date": "2021/09/22",
     "instances": [
@@ -4260,6 +4749,7 @@
     "url": "https://www.virustotal.com/gui/home/url"
   },
   {
+    "id": "webpagetest-crawler",
     "pattern": "(^| )PTST\\/",
     "addition_date": "2021/12/05",
     "instances": [
@@ -4269,6 +4759,7 @@
     "url": "https://www.webpagetest.org"
   },
   {
+    "id": "testomato-crawler",
     "pattern": "minicrawler",
     "addition_date": "2022/01/12",
     "instances": [
@@ -4277,6 +4768,7 @@
     "url": "https://www.testomato.com/bot"
   },
   {
+    "id": "cookiebot-crawler",
     "pattern": "Cookiebot",
     "addition_date": "2022/01/23",
     "url": "https://www.cookiebot.com/",
@@ -4285,6 +4777,7 @@
     ]
   },
   {
+    "id": "trovit-crawler",
     "pattern": "trovitBot",
     "addition_date": "2022/06/08",
     "url": "http://www.trovit.com/bot.html",
@@ -4293,6 +4786,7 @@
     ]
   },
   {
+    "id": "seostar-crawler",
     "pattern": "seostar\\.co",
     "addition_date": "2022/08/04",
     "url": "https://seostar.co/robot/",
@@ -4301,6 +4795,7 @@
     ]
   },
   {
+    "id": "ionos-crawler",
     "pattern": "IonCrawl",
     "addition_date": "2022/08/04",
     "url": "https://www.ionos.de/terms-gtc/faq-crawler-en",
@@ -4309,6 +4804,7 @@
     ]
   },
   {
+    "id": "kuma-monitor",
     "pattern": "Uptime-Kuma",
     "addition_date": "2022/10/17",
     "url": "https://uptime.kuma.pet/",
@@ -4317,6 +4813,7 @@
     ]
   },
   {
+    "id": "seekport-crawler",
     "pattern": "Seekport",
     "addition_date": "2022/10/17",
     "url": "https://bot.seekport.com",
@@ -4326,6 +4823,7 @@
     ]
   },
   {
+    "id": "freshworks-monitor",
     "pattern": "FreshpingBot",
     "addition_date": "2022/10/17",
     "url": "https://www.freshworks.com/website-monitoring/",
@@ -4334,6 +4832,7 @@
     ]
   },
   {
+    "id": "feedbin-crawler",
     "pattern": "Feedbin",
     "addition_date": "2022/11/05",
     "url": "https://feedbin.com/",
@@ -4342,6 +4841,7 @@
     ]
   },
   {
+    "id": "criteo-crawler",
     "pattern": "CriteoBot",
     "addition_date": "2022/11/13",
     "url": "https://www.criteo.com/",
@@ -4350,6 +4850,7 @@
     ]
   },
   {
+    "id": "snap-preview",
     "pattern": "Snap URL Preview Service",
     "addition_date": "2022/11/13",
     "url": "https://snap.com/",
@@ -4358,6 +4859,7 @@
     ]
   },
   {
+    "id": "betteruptime-monitor",
     "pattern": "Better Uptime Bot",
     "addition_date": "2022/11/13",
     "url": "https://betteruptime.com/",
@@ -4366,6 +4868,7 @@
     ]
   },
   {
+    "id": "dynatrace-monitor",
     "pattern": "RuxitSynthetic",
     "addition_date": "2023/02/16",
     "url": "https://www.dynatrace.com/support/help/platform-modules/digital-experience/synthetic-monitoring/browser-monitors/configure-browser-monitors#expand--default-user-agent",
@@ -4374,6 +4877,7 @@
     ]
   },
   {
+    "id": "google-read-aloud",
     "pattern": "Google-Read-Aloud",
     "addition_date": "2023/02/16",
     "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
@@ -4383,6 +4887,7 @@
     ]
   },
   {
+    "id": "steam-preview",
     "pattern": "Valve\\/Steam",
     "addition_date": "2023/05/24",
     "instances": [
@@ -4390,6 +4895,7 @@
     ]
   },
   {
+    "id": "okru-crawler",
     "pattern": "OdklBot\\/",
     "addition_date": "2023/05/24",
     "instances": [
@@ -4399,6 +4905,7 @@
     "url": "https://odnoklassniki.ru/"
   },
   {
+    "id": "openai-crawler",
     "pattern": "GPTBot",
     "addition_date": "2023/08/09",
     "instances": [
@@ -4407,6 +4914,7 @@
     "url": "https://platform.openai.com/docs/gptbot"
   },
   {
+    "id": "openai-crawler-user",
     "pattern": "ChatGPT-User",
     "addition_date": "2024/04/19",
     "instances": [
@@ -4415,6 +4923,7 @@
     "url": "https://openai.com/bot"
   },
   {
+    "id": "yandex-crawler-javascript",
     "pattern": "YandexRenderResourcesBot\\/",
     "addition_date": "2023/08/16",
     "instances": [
@@ -4423,6 +4932,7 @@
     "url": "http://yandex.com/bots"
   },
   {
+    "id": "lightspeedsystems-crawler",
     "pattern": "LightspeedSystemsCrawler",
     "addition_date": "2023/08/16",
     "instances": [
@@ -4430,6 +4940,7 @@
     ]
   },
   {
+    "id": "headline-crawler",
     "pattern": "ev-crawler\\/",
     "addition_date": "2023/08/16",
     "instances": [
@@ -4438,6 +4949,7 @@
     "url": "https://headline.com/legal/crawler"
   },
   {
+    "id": "bitsight-crawler",
     "pattern": "BitSightBot\\/",
     "addition_date": "2023/08/16",
     "instances": [
@@ -4446,6 +4958,7 @@
     "url": "https://www.bitsight.com"
   },
   {
+    "id": "woorank-crawler-review",
     "pattern": "woorankreview\\/",
     "addition_date": "2023/08/16",
     "instances": [
@@ -4455,6 +4968,7 @@
     "url": "https://www.woorank.com/"
   },
   {
+    "id": "google-crawler-safety",
     "pattern": "Google-Safety",
     "addition_date": "2023/08/17",
     "instances": [
@@ -4465,6 +4979,7 @@
     "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
   },
   {
+    "id": "awario-crawler",
     "pattern": "AwarioBot",
     "addition_date": "2023/08/23",
     "instances": [
@@ -4473,6 +4988,7 @@
     "url": "https://awario.com/bots.html"
   },
   {
+    "id": "dataforseo-crawler",
     "pattern": "DataForSeoBot",
     "addition_date": "2023/08/23",
     "instances": [
@@ -4481,6 +4997,7 @@
     "url": "https://dataforseo.com/dataforseo-bot"
   },
   {
+    "id": "line-crawler",
     "pattern": "Linespider",
     "addition_date": "2023/08/24",
     "instances": [
@@ -4490,6 +5007,7 @@
     "url": "https://help2.line.me/linesearchbot/web/?contentId=50006055&lang=en"
   },
   {
+    "id": "wellknown-crawler",
     "pattern": "WellKnownBot",
     "addition_date": "2023/08/29",
     "instances": [
@@ -4498,6 +5016,7 @@
     "url": "https://well-known.dev/about/#bot)"
   },
   {
+    "id": "epfl-crawler",
     "pattern": "A Patent Crawler",
     "addition_date": "2023/08/29",
     "instances": [
@@ -4506,6 +5025,7 @@
     "url": "http://scitas.epfl.ch/"
   },
   {
+    "id": "stract-crawler",
     "pattern": "StractBot",
     "addition_date": "2023/09/06",
     "instances": [
@@ -4514,6 +5034,7 @@
     "url": "https://trystract.com/webmasters"
   },
   {
+    "id": "marginalia-crawler",
     "pattern": "search\\.marginalia\\.nu",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4522,6 +5043,7 @@
     "url": "https://search.marginalia.nu"
   },
   {
+    "id": "you-crawler",
     "pattern": "YouBot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4530,6 +5052,7 @@
     "url": "https://you.com/"
   },
   {
+    "id": "nicecrawler-archive",
     "pattern": "Nicecrawler",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4538,6 +5061,7 @@
     "url": "http://www.nicecrawler.com/"
   },
   {
+    "id": "neeva-crawler",
     "pattern": "Neevabot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4546,6 +5070,7 @@
     "url": "https://neeva.com/neevabot"
   },
   {
+    "id": "brightedge-crawler",
     "pattern": "BrightEdge Crawler",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4554,6 +5079,7 @@
     "url": "https://www.brightedge.com/"
   },
   {
+    "id": "sitechecker-crawler",
     "pattern": "SiteCheckerBotCrawler",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4562,6 +5088,7 @@
     "url": "http://sitechecker.pro"
   },
   {
+    "id": "tombascraper-crawler",
     "pattern": "TombaPublicWebCrawler",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4570,6 +5097,7 @@
     "url": "https://tombascraper.com"
   },
   {
+    "id": "digitaldragon-crawler",
     "pattern": "CrawlyProjectCrawler",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4578,6 +5106,7 @@
     "url": "https://crawlyproject.digitaldragon.dev/"
   },
   {
+    "id": "komodia-crawler",
     "pattern": "KomodiaBot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4586,6 +5115,7 @@
     "url": "http://www.komodia.com/newwiki/index.php/URL_server_crawler"
   },
   {
+    "id": "urlclassification-crawler",
     "pattern": "KStandBot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4594,6 +5124,7 @@
     "url": "http://url-classification.io"
   },
   {
+    "id": "cispa-crawler",
     "pattern": "CISPA Webcrawler",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4602,6 +5133,7 @@
     "url": "https://vuln-notify-checker.cispa.saarland"
   },
   {
+    "id": "metricstools-crawler",
     "pattern": "MTRobot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4610,6 +5142,7 @@
     "url": "https://metrics-tools.de/robot.html"
   },
   {
+    "id": "hyscore-crawler",
     "pattern": "hyscore\\.io",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4618,6 +5151,7 @@
     "url": "https://hyscore.io/crawler/"
   },
   {
+    "id": "alexandria-crawler",
     "pattern": "AlexandriaOrgBot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4626,6 +5160,7 @@
     "url": "https://www.alexandria.org/bot.html"
   },
   {
+    "id": "twoip-crawler",
     "pattern": "2ip bot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4634,6 +5169,7 @@
     "url": "http://2ip.io"
   },
   {
+    "id": "yellowbp-crawler",
     "pattern": "Yellowbrandprotectionbot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4642,6 +5178,7 @@
     "url": "https://www.yellowbp.com/bot.html"
   },
   {
+    "id": "seolizer-crawler",
     "pattern": "SEOlizer",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4650,6 +5187,7 @@
     "url": "https://www.seolizer.de/bot.html"
   },
   {
+    "id": "vuhuv-crawler",
     "pattern": "vuhuvBot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4658,6 +5196,7 @@
     "url": "http://vuhuv.com/bot.html"
   },
   {
+    "id": "inetdex-crawler",
     "pattern": "INETDEX-BOT",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4666,6 +5205,7 @@
     "url": "https://inetdex.com/bot.html"
   },
   {
+    "id": "synapse-crawler",
     "pattern": "Synapse",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4674,6 +5214,7 @@
     "url": "https://github.com/matrix-org/synapse"
   },
   {
+    "id": "t3versions-crawler",
     "pattern": "t3versionsBot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4682,6 +5223,7 @@
     "url": "https://www.t3versions.com/bot"
   },
   {
+    "id": "deepnoc-crawler",
     "pattern": "deepnoc",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4690,6 +5232,7 @@
     "url": "https://deepnoc.com/bot"
   },
   {
+    "id": "cocolyze-crawler",
     "pattern": "Cocolyzebot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4698,6 +5241,7 @@
     "url": "https://cocolyze.com/bot"
   },
   {
+    "id": "hypestat-crawler",
     "pattern": "hypestat",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4706,6 +5250,7 @@
     "url": "https://hypestat.com/bot"
   },
   {
+    "id": "torus-crawler",
     "pattern": "ReverseEngineeringBot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4714,6 +5259,7 @@
     "url": "https://torus.company/bot.html"
   },
   {
+    "id": "sempitech-crawler",
     "pattern": "sempi\\.tech",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4722,6 +5268,7 @@
     "url": "http://sempi.tech/bot.html"
   },
   {
+    "id": "iframely-preview",
     "pattern": "Iframely",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4730,6 +5277,7 @@
     "url": "https://iframely.com/docs/about"
   },
   {
+    "id": "ruby-metainspector",
     "pattern": "MetaInspector",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4738,6 +5286,7 @@
     "url": "https://github.com/jaimeiniesta/metainspector"
   },
   {
+    "id": "javascript-node-fetch",
     "pattern": "node-fetch",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4746,6 +5295,7 @@
     "url": "https://github.com/bitinn/node-fetch"
   },
   {
+    "id": "l9explore",
     "pattern": "lkxscan",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4754,6 +5304,7 @@
     "url": "https://github.com/LeakIX/l9explore"
   },
   {
+    "id": "python-opengraph",
     "pattern": "python-opengraph",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4762,6 +5313,7 @@
     "url": "https://github.com/jaywink/python-opengraph"
   },
   {
+    "id": "opengraphcheck-crawler",
     "pattern": "OpenGraphCheck",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4770,6 +5322,7 @@
     "url": "https://opengraphcheck.com"
   },
   {
+    "id": "google-web-snippet",
     "pattern": "developers\\.google\\.com\\/\\+\\/web\\/snippet",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4779,6 +5332,7 @@
     "url": "https://developers.google.com/+/web/snippet"
   },
   {
+    "id": "senuto-crawler",
     "pattern": "SenutoBot",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4787,6 +5341,7 @@
     "url": "https://www.senuto.com"
   },
   {
+    "id": "macocu-crawler",
     "pattern": "MaCoCu",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4795,6 +5350,7 @@
     "url": "https://www.clarin.si/info/macocu-massive-collection-and-curation-of-monolingual-and-bilingual-data"
   },
   {
+    "id": "newsblur-aggregator",
     "pattern": "NewsBlur",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4803,6 +5359,7 @@
     "url": "http://www.newsblur.com"
   },
   {
+    "id": "inoreader-aggregator",
     "pattern": "inoreader",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4811,6 +5368,7 @@
     "url": "http://inoreader.com"
   },
   {
+    "id": "netsystemsresearch-crawler",
     "pattern": "NetSystemsResearch",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4819,6 +5377,7 @@
     "url": "http://netsystemsresearch.com"
   },
   {
+    "id": "pagething-crawler",
     "pattern": "PageThing",
     "addition_date": "2023/09/08",
     "instances": [
@@ -4827,6 +5386,7 @@
     "url": "http://pagething.com"
   },
   {
+    "id": "wordpress-crawler",
     "pattern": "WordPress\\/",
     "addition_date": "2023/10/24",
     "instances": [
@@ -4835,6 +5395,7 @@
     "url": "https://wordpress.org"
   },
   {
+    "id": "phxbot",
     "pattern": "PhxBot",
     "addition_date": "2024/01/06",
     "instances": [
@@ -4842,6 +5403,7 @@
     ]
   },
   {
+    "id": "imagesift-crawler",
     "pattern": "ImagesiftBot",
     "addition_date": "2024/01/06",
     "instances": [
@@ -4850,6 +5412,7 @@
     "url": "https://imagesift.com/about"
   },
   {
+    "id": "paloaltonetworks-crawler",
     "pattern": "Expanse",
     "addition_date": "2024/02/01",
     "instances": [
@@ -4858,6 +5421,7 @@
     "url": "https://www.paloaltonetworks.com/cortex/cortex-xpanse"
   },
   {
+    "id": "driftnet-crawler",
     "pattern": "InternetMeasurement",
     "addition_date": "2024/02/01",
     "instances": [
@@ -4866,6 +5430,7 @@
     "url": "https://internet-measurement.com"
   },
   {
+    "id": "builtwith-crawler",
     "pattern": "^BW\\/",
     "addition_date": "2024/02/08",
     "instances": [
@@ -4875,6 +5440,7 @@
     "url": "https://builtwith.com/biup"
   },
   {
+    "id": "geedo-crawler",
     "pattern": "GeedoBot",
     "addition_date": "2024/02/11",
     "instances": [
@@ -4883,6 +5449,7 @@
     "url": "http://www.geedo.com"
   },
   {
+    "id": "audisto-crawler",
     "pattern": "Audisto Crawler",
     "addition_date": "2024/03/14",
     "instances": [
@@ -4894,6 +5461,7 @@
     "url": "https://audisto.com/help/crawler/bot/"
   },
   {
+    "id": "perplexity-crawler",
     "pattern": "PerplexityBot\\/",
     "addition_date": "2024/03/14",
     "instances": [
@@ -4902,6 +5470,7 @@
     "url": "https://docs.perplexity.ai/docs/perplexitybot"
   },
   {
+    "id": "anthropic-crawler",
     "pattern": "[cC]laude[bB]ot",
     "addition_date": "2024/04/19",
     "instances": [
@@ -4911,6 +5480,7 @@
     "url": "https://www.anthropic.com/"
   },
   {
+    "id": "monsido-crawler",
     "pattern": "Monsidobot",
     "addition_date": "2024/05/14",
     "instances": [
@@ -4919,6 +5489,7 @@
     "url": "http://monsido.com/bot.html"
   },
   {
+    "id": "groupme-crawler",
     "pattern": "GroupMeBot",
     "addition_date": "2024/05/19",
     "instances": [
@@ -4927,6 +5498,7 @@
     "url": "https://groupme.com/"
   },
   {
+    "id": "vercel-crawler",
     "pattern": "Vercelbot",
     "addition_date": "2024/08/30",
     "instances": [
@@ -4935,6 +5507,7 @@
     "url": "https://github.com/vercel/vercel/discussions/5095#discussioncomment-58705"
   },
   {
+    "id": "vercel-monitor-preview",
     "pattern": "vercel-screenshot",
     "addition_date": "2024/08/30",
     "instances": []
