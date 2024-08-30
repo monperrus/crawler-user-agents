@@ -5320,5 +5320,16 @@
     "addition_date": "2024/05/19",
     "instances": ["GroupMeBot/1.0"],
     "url": "https://groupme.com/"
+  },
+  {
+    "pattern": "Vercelbot",
+    "addition_date": "2024/08/30",
+    "instances": ["Vercelbot (+https://vercel.com)"],
+    "url": "https://github.com/vercel/vercel/discussions/5095#discussioncomment-58705"
+  },
+  {
+    "pattern": "vercel-screenshot",
+    "addition_date": "2024/08/30",
+    "instances": []
   }
 ]
