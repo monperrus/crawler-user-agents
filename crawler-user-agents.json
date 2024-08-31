@@ -3630,15 +3630,6 @@
   }
   ,
   {
-    "pattern": "Seekport Crawler",
-    "addition_date": "2018/10/08",
-    "instances": [
-      "Mozilla/5.0 (compatible; Seekport Crawler; http://seekport.com/)"
-    ],
-    "url": "http://seekport.com/"
-  }
-  ,
-  {
     "pattern": "ZoomBot",
     "addition_date": "2018/10/10",
     "instances": [
@@ -4719,11 +4710,12 @@
     ]
   },
   {
-    "pattern": "SeekportBot",
+    "pattern": "Seekport",
     "addition_date": "2022/10/17",
     "url": "https://bot.seekport.com",
     "instances": [
-      "Mozilla/5.0 (compatible; SeekportBot; +https://bot.seekport.com)"
+      "Mozilla/5.0 (compatible; SeekportBot; +https://bot.seekport.com)",
+      "Mozilla/5.0 (compatible; Seekport Crawler; http://seekport.com/)"
     ]
   },
   {
