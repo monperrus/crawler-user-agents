@@ -14,7 +14,7 @@ if (process.argv[2] === "--generate") {
 
 if (process.argv[2] === "--check") {
     if (updated !== original) {
-        console.error("JSON file format is wrong. Run `node validate.js --generate` to update.");
+        console.error("JSON file format is wrong. Run `node format.js --generate` to update.");
         process.exit(1);
     }
 }
