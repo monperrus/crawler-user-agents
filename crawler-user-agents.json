@@ -4244,8 +4244,8 @@
     "pattern": "virustotal",
     "addition_date": "2021/09/22",
     "instances": [
-      "Mozilla\/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US) AppEngine-Google; (+http:\/\/code.google.com\/appengine; appid: s~virustotalcloud)",
-      "AppEngine-Google; (+http:\/\/code.google.com\/appengine; appid: s~virustotalcloud)"
+      "Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US) AppEngine-Google; (+http://code.google.com/appengine; appid: s~virustotalcloud)",
+      "AppEngine-Google; (+http://code.google.com/appengine; appid: s~virustotalcloud)"
     ],
     "url": "https://www.virustotal.com/gui/home/url"
   },
