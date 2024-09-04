@@ -848,7 +848,7 @@
     ]
   },
   {
-    "pattern": "sistrix crawler",
+    "pattern": "(sistrix|SISTRIX) [cC]rawler",
     "addition_date": "2011/08/02",
     "url": "https://www.sistrix.com/tutorials/crawling-errors-in-the-optimizer/",
     "instances": [
