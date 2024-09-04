@@ -757,7 +757,7 @@
   },
   {
     "pattern": "Adidxbot",
-    "url": "http://onlinehelp.microsoft.com/en-us/bing/hh204496.aspx",
+    "url": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0",
     "instances": []
   },
   {
@@ -850,7 +850,10 @@
   {
     "pattern": "sistrix crawler",
     "addition_date": "2011/08/02",
-    "instances": []
+    "url": "https://www.sistrix.com/tutorials/crawling-errors-in-the-optimizer/",
+    "instances": [
+      "Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)"
+    ]
   },
   {
     "pattern": "Ahrefs(Bot|SiteAudit)",
@@ -1080,6 +1083,7 @@
   {
     "pattern": "lssbot",
     "addition_date": "2012/05/15",
+    "url": "https://www.lssbot.com/",
     "instances": []
   },
   {
@@ -1178,6 +1182,7 @@
   {
     "pattern": "backlinkcrawler",
     "addition_date": "2013/01/04",
+    "url": "http://www.backlinktest.com/crawler.html",
     "instances": []
   },
   {
@@ -2274,6 +2279,7 @@
   {
     "pattern": "LinkArchiver",
     "addition_date": "2017/09/24",
+    "url": "https://github.com/thisisparker/linkarchiver",
     "instances": [
       "@LinkArchiver twitter bot"
     ]
@@ -2306,6 +2312,7 @@
   {
     "pattern": "dcrawl",
     "addition_date": "2017/09/22",
+    "url": "https://github.com/kgretzky/dcrawl",
     "instances": [
       "dcrawl/1.0"
     ]
@@ -2454,6 +2461,7 @@
   {
     "pattern": "AHC\\/",
     "addition_date": "2017/11/02",
+    "url": "https://github.com/AsyncHttpClient/async-http-client",
     "instances": [
       "AHC/2.0"
     ]
@@ -2525,7 +2533,7 @@
   {
     "pattern": "Traackr\\.com",
     "addition_date": "2017/11/02",
-    "url": "Traackr.com",
+    "url": "https://www.traackr.com/",
     "instances": [
       "Traackr.com"
     ]
@@ -3146,7 +3154,7 @@
     "instances": [
       "Mozilla/5.0 zgrab/0.x"
     ],
-    "url": "https://zmap.io/"
+    "url": "https://github.com/zmap/zgrab2"
   },
   {
     "pattern": "PR-CY\\.RU",
@@ -3270,6 +3278,7 @@
   {
     "pattern": "VelenPublicWebCrawler",
     "addition_date": "2018/10/09",
+    "url": "https://velen.io/",
     "instances": [
       "VelenPublicWebCrawler (velen.io)"
     ]
@@ -3932,7 +3941,7 @@
     "instances": [
       "SentiBot www.sentibot.eu (compatible with Googlebot)"
     ],
-    "url": "https://www.sentibot.eu"
+    "url": "https://sites.google.com/senti1.com/sentibot-eu/home"
   },
   {
     "pattern": "Domains Project\\/",
@@ -4018,7 +4027,7 @@
     "instances": [
       "rssbot/1.4.3 (+https://t.me/RustRssBot)"
     ],
-    "url": "https://t.me/RustRssBot"
+    "url": "https://github.com/iovxw/rssbot"
   },
   {
     "pattern": "startmebot\\/",
@@ -4082,7 +4091,7 @@
       "Mozilla/5.0 (compatible; RidderBot/1.0; bot@ridder.co)",
       "Mozilla/5.0 (compatible; RidderBot/1.0; bot@ridder.co) (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) Mobile/12H321"
     ],
-    "url": "http://brandonmedia.net"
+    "url": "https://ridder.co/"
   },
   {
     "pattern": "Taboolabot",
@@ -4206,8 +4215,7 @@
     "addition_date": "2022/04/26",
     "instances": [
       "Mozilla/5.0 (compatible; Go-http-client/1.1; +centurybot9@gmail.com)"
-    ],
-    "url": "unknown"
+    ]
   },
   {
     "pattern": "Viber",
@@ -4220,6 +4228,7 @@
   {
     "pattern": "e\\.ventures Investment Crawler",
     "addition_date": "2021/06/05",
+    "url": "https://www.eventures.vc/",
     "instances": [
       "e.ventures Investment Crawler (eventures.vc)"
     ]
@@ -4227,6 +4236,7 @@
   {
     "pattern": "evc-batch",
     "addition_date": "2021/06/07",
+    "url": "https://www.eventures.vc/",
     "instances": [
       "Mozilla/5.0 (compatible; evc-batch/2.0)"
     ]
@@ -4837,7 +4847,7 @@
     "instances": [
       "Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)"
     ],
-    "url": "https://imagesift.com"
+    "url": "https://imagesift.com/about"
   },
   {
     "pattern": "Expanse",
