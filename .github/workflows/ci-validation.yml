@@ -5,11 +5,11 @@ name: CI validation
 on:
   # https://stackoverflow.com/questions/64635032/github-actions-run-on-push-to-all-branches
   push:
-    branches: 
+    branches:
       - '**'
   pull_request:
     branches:
-      - master  
+      - master
 
 jobs:
   build:
@@ -19,8 +19,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - run: node format.js --check
       - run: pip3 install -r requirements.txt
       - run: py.test -vv
-      - run: python3 validate.py  
+      - run: python3 validate.py
       - run: php validate.php
       - run: go test
