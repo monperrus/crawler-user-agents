@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 20
       - run: node format.js --check
-      - run: pip3 install -r requirements.txt
+      - run: pip3 install -e .[dev]
       - run: py.test -vv
       - run: python3 validate.py
       - run: php validate.php
