@@ -16,6 +16,7 @@ JSON_SCHEMA = {
     "items": {
         "type": "object",
         "properties": {
+            "id": {"type": "string"}, # required
             "pattern": {"type": "string"}, # required
             "instances": {"type": "array"}, # required
             "url": {"type": "string"}, # optional
@@ -23,7 +24,7 @@ JSON_SCHEMA = {
             "addition_date": {"type": "string"}, # optional
             "depends_on": {"type": "array"} # allows an instance to match twice
         },
-        "required": ["pattern", "instances"]
+        "required": ["id", "pattern", "instances"]
     }
 }
 

@@ -7,6 +7,7 @@
 // }
 
 declare const crawlerUserAgents: {
+	id: string
 	pattern: string
 	addition_date?: string
 	url?: string

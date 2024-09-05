@@ -13,6 +13,9 @@ var crawlersJson []byte
 
 // Crawler contains information about one crawler.
 type Crawler struct {
+	// An identifier for the crawler.
+	Id string `json:"id"`
+
 	// Regexp of User Agent of the crawler.
 	Pattern string `json:"pattern"`
 
@@ -28,6 +31,7 @@ type Crawler struct {
 
 // Private time needed to convert addition_date from/to the format used in JSON.
 type jsonCrawler struct {
+	Id           string   `json:"id"`
 	Pattern      string   `json:"pattern"`
 	AdditionDate string   `json:"addition_date"`
 	URL          string   `json:"url"`
@@ -52,9 +56,14 @@ func (c *Crawler) UnmarshalJSON(b []byte) error {
 		return err
 	}
 
+	c.Id = jc.Id
 	c.Pattern = jc.Pattern
 	c.URL = jc.URL
 	c.Instances = jc.Instances
+
+	if c.Id == "" {
+		return fmt.Errorf("empty id in record %s", string(b))
+	}
 
 	if c.Pattern == "" {
 		return fmt.Errorf("empty pattern in record %s", string(b))
