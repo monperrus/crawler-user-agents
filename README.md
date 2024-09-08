@@ -6,7 +6,9 @@ This repository contains a list of of HTTP user-agents used by robots, crawlers,
 * Go package: <https://pkg.go.dev/github.com/monperrus/crawler-user-agents>
 * PyPi package: <https://pypi.org/project/crawler-user-agents/>
 
-Each `pattern` is a regular expression. It should work out-of-the-box wih your favorite regex library:
+Each `pattern` is a regular expression. It should work out-of-the-box wih your favorite regex library.
+
+If you use this project in a commercial product, [please sponsor it](https://github.com/sponsors/monperrus).
 
 ## Install
 
