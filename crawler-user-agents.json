@@ -4946,5 +4946,31 @@
     "pattern": "vercel-screenshot",
     "addition_date": "2024/08/30",
     "instances": []
+  },
+  {
+    "pattern": "facebookcatalog\\/",
+    "addition_date": "2024/10/03",
+    "instances": [
+      "facebookcatalog/1.0"
+    ],
+    "url": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers"
+  },
+  {
+    "pattern": "meta-externalagent\\/",
+    "addition_date": "2024/10/03",
+    "instances": [
+      "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+      "meta-externalagent/1.1"
+    ],
+    "url": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers"
+  },
+  {
+    "pattern": "meta-externalfetcher\\/",
+    "addition_date": "2024/10/03",
+    "instances": [
+      "meta-externalfetcher/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+      "meta-externalfetcher/1.1"
+    ],
+    "url": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers"
   }
 ]
