@@ -26,7 +26,7 @@ type Crawler struct {
 	Instances []string `json:"instances"`
 }
 
-// Private time needed to convert addition_date from/to the format used in JSON.
+// Private type needed to convert addition_date from/to the format used in JSON.
 type jsonCrawler struct {
 	Pattern      string   `json:"pattern"`
 	AdditionDate string   `json:"addition_date"`
