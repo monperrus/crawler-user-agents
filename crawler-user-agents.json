@@ -4980,5 +4980,13 @@
       "AcademicBotRTU (https://academicbot.rtu.lv; mailto:caps@rtu.lv)"
     ],
     "url": "https://academicbot.rtu.lv"
+  },
+  {
+    "pattern": "LinkCheck by Siteimprove",
+    "addition_date": "2024/10/17",
+    "instances": [
+      "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) LinkCheck by Siteimprove.com"
+    ],
+    "url": "https://www.siteimprove.com/"
   }
 ]
