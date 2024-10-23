@@ -4980,5 +4980,13 @@
       "AcademicBotRTU (https://academicbot.rtu.lv; mailto:caps@rtu.lv)"
     ],
     "url": "https://academicbot.rtu.lv"
+  },
+  {
+    "pattern": "KeybaseBot",
+    "addition_date": "2024/10/21",
+    "url": "https://book.keybase.io/docs/chat/link-previews",
+    "instances": [
+      "Mozilla/5.0 (compatible; KeybaseBot; +https://keybase.io)"
+    ]
   }
 ]
