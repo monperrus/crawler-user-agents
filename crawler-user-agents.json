@@ -4974,6 +4974,14 @@
     "url": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers"
   },
   {
+    "pattern": "AcademicBotRTU",
+    "addition_date": "2024/10/17",
+    "instances": [
+      "AcademicBotRTU (https://academicbot.rtu.lv; mailto:caps@rtu.lv)"
+    ],
+    "url": "https://academicbot.rtu.lv"
+  },
+  {
     "pattern": "KeybaseBot",
     "addition_date": "2024/10/21",
     "url": "https://book.keybase.io/docs/chat/link-previews",
