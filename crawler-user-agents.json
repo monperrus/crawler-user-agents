@@ -4988,5 +4988,13 @@
     "instances": [
       "Mozilla/5.0 (compatible; KeybaseBot; +https://keybase.io)"
     ]
+  },
+  {
+    "pattern": "CookieHubScan",
+    "addition_date": "2024/11/29",
+    "url": "https://www.cookiehub.com/",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 CookieHubScan/3.0"
+    ]
   }
 ]
