@@ -3237,6 +3237,46 @@
     "url": "https://www.cloudflare.com/always-online/"
   },
   {
+    "pattern": "Cloudflare-Healthchecks",
+    "addition_date": "2024/12/17",
+    "instances": [
+      "Mozilla/5.0 (compatible; Cloudflare-Healthchecks/1.0; +https://www.cloudflare.com/; healthcheck-id: AAAAAAAAAAAAAAAA)"
+    ],
+    "url": "https://developers.cloudflare.com/health-checks/"
+  },
+  {
+    "pattern": "Cloudflare-Traffic-Manager",
+    "addition_date": "2024/12/17",
+    "instances": [
+      "Mozilla/5.0 (compatible; Cloudflare-Traffic-Manager/1.0; +https://www.cloudflare.com/traffic-manager/; pool-id: AAAAAAAAAAAAAAAA)"
+    ],
+    "url": "https://developers.cloudflare.com/load-balancing/monitors/"
+  },
+  {
+    "pattern": "CloudFlare-Prefetch",
+    "addition_date": "2024/12/17",
+    "instances": [
+      "Mozilla/5.0 (compatible; CloudFlare-Prefetch/0.1; +http://www.cloudflare.com/)"
+    ],
+    "url": "https://developers.cloudflare.com/speed/optimization/content/prefetch-urls/"
+  },
+  {
+    "pattern": "Cloudflare-SSLDetector",
+    "addition_date": "2024/12/17",
+    "instances": [
+      "Cloudflare-SSLDetector"
+    ],
+    "url": "https://developers.cloudflare.com/ssl/origin-configuration/ssl-tls-recommender/"
+  },
+  {
+    "pattern": "https:\\/\\/developers\\.cloudflare\\.com\\/security-center\\/",
+    "addition_date": "2024/12/17",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 (compatible; +https://developers.cloudflare.com/security-center/)"
+    ],
+    "url": "https://developers.cloudflare.com/ssl/origin-configuration/ssl-tls-recommender/"
+  },
+  {
     "pattern": "Google-Structured-Data-Testing-Tool",
     "addition_date": "2018/10/02",
     "instances": [
