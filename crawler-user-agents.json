@@ -2775,14 +2775,6 @@
     "url": "https://www.outclicks.net"
   },
   {
-    "pattern": "seoscanners",
-    "addition_date": "2018/05/27",
-    "instances": [
-      "Mozilla/5.0 (compatible; seoscanners.net/1; +spider@seoscanners.net)"
-    ],
-    "url": "http://www.seoscanners.net/"
-  },
-  {
     "pattern": "Hatena",
     "addition_date": "2018/05/29",
     "instances": [
