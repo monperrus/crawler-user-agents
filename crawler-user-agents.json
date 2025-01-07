@@ -2780,7 +2780,7 @@
     "instances": [
       "Mozilla/5.0 (compatible; seoscanners.net/1; +spider@seoscanners.net)"
     ],
-    "url": "http://www.seoscanners.net/"
+    "url": "https://github.com/monperrus/crawler-user-agents/issues/384#issuecomment-2575367162"
   },
   {
     "pattern": "Hatena",
