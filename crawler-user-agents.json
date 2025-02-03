@@ -5036,5 +5036,13 @@
     "instances": [
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 CookieHubScan/3.0"
     ]
-  }
+  },
+  {
+    "pattern": "^Hydrozen\\.io/\\d+\\.\\d+$",
+    "addition_date": "2025/02/02",
+    "instances": [
+      "Hydrozen.io/1.0"
+    ],
+    "url": "https://docs.hydrozen.io/overview/misc/user-agent-and-ip-list"
+  },
 ]
