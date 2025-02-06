@@ -5038,7 +5038,7 @@
     ]
   },
   {
-    "pattern": "^Hydrozen\\.io\\/\\d+\\.\\d+$",
+    "pattern": "Hydrozen\\.io",
     "addition_date": "2025/02/02",
     "instances": [
       "Hydrozen.io/1.0"
