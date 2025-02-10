@@ -5044,5 +5044,13 @@
       "Hydrozen.io/1.0"
     ],
     "url": "https://docs.hydrozen.io/overview/misc/user-agent-and-ip-list"
+  },
+  {
+    "pattern": "HTTP Banner Detection",
+    "addition_date": "2025/02/10",
+    "instances": [
+      "HTTP Banner Detection (https://security.ipip.net)"
+    ],
+    "url": "https://security.ipip.net"
   }
 ]
