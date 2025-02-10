@@ -4851,6 +4851,14 @@
     "url": "http://www.newsblur.com"
   },
   {
+    "pattern": "Lemmy",
+    "addition_date": "2025/02/10",
+    "instances": [
+      "Lemmy/0.19.8; +https://leminal.space"
+    ],
+    "url": "https://leminal.space"
+  },
+  {
     "pattern": "inoreader",
     "addition_date": "2023/09/08",
     "instances": [
