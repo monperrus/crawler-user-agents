@@ -5067,5 +5067,13 @@
       "HTTP Banner Detection (https://security.ipip.net)"
     ],
     "url": "https://security.ipip.net"
+  },
+  {
+    "pattern": "SummalyBot",
+    "addition_date": "2025/02/10",
+    "instances": [
+      "SummalyBot/5.1.0"
+    ],
+    "url": "https://github.com/misskey-dev/summaly"
   }
 ]
