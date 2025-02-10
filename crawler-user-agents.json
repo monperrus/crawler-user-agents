@@ -4353,6 +4353,13 @@
     "addition_date": "2022/10/17",
     "url": "https://uptime.kuma.pet/",
     "instances": [
+      "Uptime-Kuma/1.23.16",
+      "Uptime-Kuma/1.23.15",
+      "Uptime-Kuma/1.23.14",
+      "Uptime-Kuma/1.23.13",
+      "Uptime-Kuma/1.23.12",
+      "Uptime-Kuma/1.23.11",
+      "Uptime-Kuma/1.23.10",
       "Uptime-Kuma/1.18.0"
     ]
   },
