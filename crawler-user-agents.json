@@ -5037,6 +5037,14 @@
     ]
   },
   {
+    "pattern": "Lemmy",
+    "addition_date": "2025/02/11",
+    "instances": [
+      "Lemmy/0.19.8; +https://leminal.space"
+    ],
+    "url": "https://leminal.space"
+  },
+  {
     "pattern": "CookieHubScan",
     "addition_date": "2024/11/29",
     "url": "https://www.cookiehub.com/",
