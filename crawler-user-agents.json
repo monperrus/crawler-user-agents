@@ -5059,19 +5059,5 @@
       "HTTP Banner Detection (https://security.ipip.net)"
     ],
     "url": "https://security.ipip.net"
-  },
-  {
-    "pattern": "Uptime-Kuma",
-    "addition_date": "2025/02/10",
-    "instances": [
-      "Uptime-Kuma/1.23.16",
-      "Uptime-Kuma/1.23.15",
-      "Uptime-Kuma/1.23.14",
-      "Uptime-Kuma/1.23.13",
-      "Uptime-Kuma/1.23.12",
-      "Uptime-Kuma/1.23.11",
-      "Uptime-Kuma/1.23.10"
-    ],
-    "url": "https://github.com/louislam/uptime-kuma"
   }
 ]
