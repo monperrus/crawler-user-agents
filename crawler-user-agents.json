@@ -5075,5 +5075,13 @@
       "SummalyBot/5.1.0"
     ],
     "url": "https://github.com/misskey-dev/summaly"
+  },
+  {
+    "pattern": "MicrosoftPreview\\/",
+    "addition_date": "2025/02/11",
+    "url": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0",
+    "instances": [
+      "MicrosoftPreview/2.0; +https://aka.ms/MicrosoftPreview"
+    ]
   }
 ]
