@@ -4801,9 +4801,10 @@
     "url": "https://github.com/bitinn/node-fetch"
   },
   {
-    "pattern": "lkxscan",
+    "pattern": "l9explore",
     "addition_date": "2023/09/08",
     "instances": [
+      "l9explore/1.2.2",
       "lkxscan/v0.1.0 (+https://leakix.net) l9explore/v1.0.0 (+https://github.com/LeakIX/l9explore)"
     ],
     "url": "https://github.com/LeakIX/l9explore"
