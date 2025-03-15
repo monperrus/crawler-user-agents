@@ -30,7 +30,8 @@ jobs:
       - run: npm clean-install
       - run: git checkout .
       - run: npm version --no-git-tag-version `node -e 'pacote=require("pacote");pacote.manifest("crawler-user-agents").then(pkgJson => { console.log(pkgJson.version); });'`
-      - run: npm version --no-git-tag-version patch
+      # we now bump mino in order to trigger automated dependency updates
+      - run: npm version --no-git-tag-version minor
       - run: npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
