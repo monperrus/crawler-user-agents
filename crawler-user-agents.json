@@ -5087,10 +5087,17 @@
   },
   {
     "pattern": "GeedoProductSearch",
-    "addition_date": "2025/02/11",
+    "addition_date": "2025/03/15",
     "url": "http://www.geedo.com/product-search.html",
     "instances": [
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GeedoProductSearch; +http://www.geedo.com/product-search.html) Chrome/79.0.3945.88 Safari/537.36"
+    ]
+  },
+  {
+    "pattern": "TikTokSpider",
+    "addition_date": "2025/03/16",
+    "instances": [
+      "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; TikTokSpider; ttspider-feedback@tiktok.com)"
     ]
   }
 ]
