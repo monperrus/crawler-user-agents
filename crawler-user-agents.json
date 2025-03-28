@@ -5099,5 +5099,14 @@
     "instances": [
       "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; TikTokSpider; ttspider-feedback@tiktok.com)"
     ]
+  },
+  {
+    "pattern": "OnCrawl\\/",
+    "addition_date": "2025/03/27",
+    "url": "http://www.oncrawl.com",
+    "instances": [
+      "Mozilla/5.0 (compatible; OnCrawl/1.0; +http://www.oncrawl.com)",
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; OnCrawl/1.0; +http://www.oncrawl.com)"
+    ]
   }
 ]
