@@ -29,12 +29,17 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm clean-install
       - run: git checkout .
+      # fetch the latest version from npm and set it in package.json
       - run: npm version --no-git-tag-version `node -e 'pacote=require("pacote");pacote.manifest("crawler-user-agents").then(pkgJson => { console.log(pkgJson.version); });'`
-      # we now bump mino in order to trigger automated dependency updates
-      - run: npm version --git-tag-version minor -m "%s"
+      # we now bump the minor in package.json
+      - run: npm version --no-git-tag-version minor
+      # publish this new version to npm
       - run: npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - run: git config user.name "github-actions"
       - run: git config user.email "github-actions@github.com"
-      - run: git push origin --tags
+      - run: echo "NEW_VERSION=$(node -p "require('./package.json').version")" >> $GITHUB_ENV
+      - run: git tag "v$NEW_VERSION"
+      # publish this new version to github (to give the Go module a new version)
+      - run: git push origin "v$NEW_VERSION"
