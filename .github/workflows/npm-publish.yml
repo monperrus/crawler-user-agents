@@ -13,6 +13,9 @@ on:
     types: 
       - completed
 
+permissions:
+  contents: write
+
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
