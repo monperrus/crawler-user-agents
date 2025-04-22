@@ -13,21 +13,17 @@ on:
     types: 
       - completed
 
-permissions:
-  contents: write
-
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
     permissions:
+      contents: write
       id-token: write # To attach provenance to the published package
     environment:
       name: npm_token
       url: https://www.npmjs.com/package/crawler-user-agents
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT }}
       - uses: actions/setup-node@v4
         with:
           node-version: 20
