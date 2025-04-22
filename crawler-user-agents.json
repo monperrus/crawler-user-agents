@@ -5116,5 +5116,13 @@
     "instances": [
       "got (https://github.com/sindresorhus/got)"
     ]
+  },
+  {
+    "pattern": "CensysInspect\\/",
+    "addition_date": "2025/04/22",
+    "url": "https://about.censys.io",
+    "instances": [
+      "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+    ]
   }
 ]
