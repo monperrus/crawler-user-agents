@@ -5110,6 +5110,14 @@
     ]
   },
   {
+    "pattern": "sindresorhus\\/got",
+    "addition_date": "2025/04/22",
+    "url": "https://github.com/sindresorhus/got",
+    "instances": [
+      "got (https://github.com/sindresorhus/got)"
+    ]
+  },
+  {
     "pattern": "CensysInspect\\/",
     "addition_date": "2025/04/22",
     "url": "https://about.censys.io",
