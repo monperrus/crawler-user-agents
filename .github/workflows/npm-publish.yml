@@ -45,4 +45,5 @@ jobs:
       - run: echo "NEW_VERSION=$(node -p "require('./package.json').version")" >> $GITHUB_ENV
       - run: git tag "v$NEW_VERSION"
       # publish this new version to github (to give the Go module a new version)
+      - run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
       - run: git push origin "v$NEW_VERSION"
