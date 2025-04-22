@@ -5108,5 +5108,13 @@
       "Mozilla/5.0 (compatible; OnCrawl/1.0; +http://www.oncrawl.com)",
       "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; OnCrawl/1.0; +http://www.oncrawl.com)"
     ]
+  },
+  {
+    "pattern": "CensysInspect\\/",
+    "addition_date": "2025/04/22",
+    "url": "https://about.censys.io",
+    "instances": [
+      "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+    ]
   }
 ]
