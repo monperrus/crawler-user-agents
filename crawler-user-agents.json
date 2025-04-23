@@ -5124,5 +5124,13 @@
     "instances": [
       "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
     ]
+  },
+  {
+    "pattern": "SBIntuitionsBot\\/",
+    "addition_date": "2025/04/23",
+    "url": "https://www.sbintuitions.co.jp/bot/",
+    "instances": [
+      "Mozilla/5.0 (compatible; SBIntuitionsBot/0.1; +https://www.sbintuitions.co.jp/bot/)"
+    ]
   }
 ]
