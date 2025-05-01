@@ -5132,5 +5132,13 @@
     "instances": [
       "Mozilla/5.0 (compatible; SBIntuitionsBot/0.1; +https://www.sbintuitions.co.jp/bot/)"
     ]
+  },
+  {
+    "pattern": "sitebulb",
+    "addition_date": "2025/04/30",
+    "url": "https://sitebulb.com/",
+    "instances": [
+      "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6439.0 Mobile Safari/537.36 +https://sitebulb.com"
+    ]
   }
 ]
