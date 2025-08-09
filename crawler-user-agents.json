@@ -5004,6 +5004,15 @@
     "url": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers"
   },
   {
+    "pattern": "meta-externalads\\/",
+    "addition_date": "2025/08/08",
+    "instances": [
+      "meta-externalads/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+      "meta-externalads/1.1"
+    ],
+    "url": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers"
+  },
+  {
     "pattern": "meta-externalagent\\/",
     "addition_date": "2024/10/03",
     "instances": [
