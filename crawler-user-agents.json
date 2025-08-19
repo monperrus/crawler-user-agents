@@ -5157,5 +5157,13 @@
     "instances": [
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/87.0.4280.88 YextBot/Java Safari/537.36"
     ]
+  },
+  {
+    "pattern": "DatadogSynthetics",
+    "addition_date": "2025/08/19",
+    "url": "https://docs.datadoghq.com/synthetics/",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.168 Safari/537.36 DatadogSynthetics"
+    ]
   }
 ]
