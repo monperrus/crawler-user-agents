@@ -5165,5 +5165,13 @@
     "instances": [
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.168 Safari/537.36 DatadogSynthetics"
     ]
+  },
+  {
+    "pattern": "Google-Ads-Conversions",
+    "addition_date": "2025/09/10",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/upload-online",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 Chrome/139.0.7258.127 Safari/537.36 Google-Ads-Conversions"
+    ]
   }
 ]
