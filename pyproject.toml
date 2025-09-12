@@ -1,6 +1,7 @@
 [project]
 name = "crawler-user-agents"
 version = "0.1"
+description = "Syntactic patterns of HTTP user-agents used by bots / robots / crawlers / scrapers / spiders."
 
 authors = [
   { name="Martin Monperrus", email="martin.monperrus@gnieh.org" },
