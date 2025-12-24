@@ -3873,6 +3873,23 @@
     "url": "https://developer.amazon.com/support/amazonbot"
   },
   {
+    "pattern": "AmazonProductDiscovery",
+    "addition_date": "2025/12/22",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 (compatible; AmazonProductDiscovery/1.0; https://vendorcentral.amazon.com/support/amazonproductbot)",
+      "Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0 (compatible; AmazonProductDiscovery/1.0; https://vendorcentral.amazon.com/support/amazonproductbot)"
+    ],
+    "url": "https://vendorcentral.amazon.com/support/amazonproductbot"
+  },
+  {
+    "pattern": "AmazonSellerInitiatedListing",
+    "addition_date": "2025/12/22",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 (compatible; AmazonSellerInitiatedListing/1.0; https://vendorcentral.amazon.com/support/amazonproductbot)"
+    ],
+    "url": "https://vendorcentral.amazon.com/support/amazonproductbot"
+  },
+  {
     "pattern": "SerendeputyBot",
     "addition_date": "2020/03/02",
     "instances": [
