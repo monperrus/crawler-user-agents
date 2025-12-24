@@ -5190,5 +5190,11 @@
     "instances": [
       "Mozilla/5.0 AppleWebKit/537.36 Chrome/139.0.7258.127 Safari/537.36 Google-Ads-Conversions"
     ]
+  },
+  {
+    "pattern": "ObservePoint",
+    "addition_date": "2025/12/23",
+    "url": "https://help.observepoint.com/en/articles/9101465-allow-exclude-observepoint-traffic#h_2a8176c9b9",
+    "instances": []
   }
 ]
