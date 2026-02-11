@@ -25,6 +25,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v6
+        with:
+          node-version: 24
       - run: npm clean-install
       - run: git checkout .
       # fetch the latest version from npm and set it in package.json
