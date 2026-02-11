@@ -5196,5 +5196,13 @@
     "addition_date": "2025/12/23",
     "url": "https://help.observepoint.com/en/articles/9101465-allow-exclude-observepoint-traffic#h_2a8176c9b9",
     "instances": []
+  },
+  {
+    "pattern": "Checkly",
+    "addition_date": "2026/02/11",
+    "url": "https://www.checklyhq.com/docs/",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.35 Safari/537.36 (Checkly, https://www.checklyhq.com)"
+    ]
   }
 ]
