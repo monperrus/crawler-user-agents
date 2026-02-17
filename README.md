@@ -8,7 +8,11 @@ This repository contains a list of of HTTP user-agents used by robots, crawlers,
 
 Each `pattern` is a regular expression. It should work out-of-the-box wih your favorite regex library.
 
-If you use this project in a commercial product, [please sponsor it](https://github.com/sponsors/monperrus).
+## Sponsor
+
+💼 **Using crawler-user-agents in a commercial product?** This package is free to use, but it takes real time to maintain and expand. If it's providing value (and it probably is), please consider [sponsoring at the commercial tier](https://github.com/sponsors/monperrus?frequency=recurring).
+
+It keeps the project alive and actively maintained. Your company can afford it. 🙏
 
 ## Install
 
