@@ -19,6 +19,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - run: npm ci
       - run: node format.js --check
       - run: python3 -mpip install -U pip
       - run: python3 -mpip install -e .[dev]
