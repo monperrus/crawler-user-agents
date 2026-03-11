@@ -3,6 +3,18 @@
   "version": "1.0.0",
   "main": "crawler-user-agents.json",
   "typings": "./index.d.ts",
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./crawler-user-agents.json"
+      },
+      "import": {
+        "types": "./index.d.mts",
+        "default": "./index.mjs"
+      }
+    }
+  },
   "author": "Martin Monperrus <martin.monperrus@gnieh.org>",
   "license": "MIT",
   "description": "This repository contains a list of of HTTP user-agents used by robots, crawlers, and spiders as in single JSON file.",
