@@ -5204,5 +5204,343 @@
     "instances": [
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.35 Safari/537.36 (Checkly, https://www.checklyhq.com)"
     ]
+  },
+  {
+    "pattern": "ALittle Client",
+    "addition_date": "2026/04/07",
+    "instances": [
+      "ALittle Client"
+    ]
+  },
+  {
+    "pattern": "AliyunSecBot",
+    "addition_date": "2026/04/07",
+    "url": "https://service.alibaba.com",
+    "instances": [
+      "AliyunSecBot/Aliyun AliyunSecBot@service.alibaba.com"
+    ]
+  },
+  {
+    "pattern": "PerplexityUser",
+    "addition_date": "2026/04/07",
+    "url": "https://perplexity.ai",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityUser/1.0; +https://perplexity.ai)"
+    ]
+  },
+  {
+    "pattern": "Claude-Web",
+    "addition_date": "2026/04/07",
+    "url": "https://anthropic.com",
+    "instances": [
+      "Claude-Web",
+      "Claude-Web/1.0 (web crawler; +https://www.anthropic.com/; bots@anthropic.com)"
+    ]
+  },
+  {
+    "pattern": "anthropic-ai|Anthropic",
+    "addition_date": "2026/04/07",
+    "url": "https://anthropic.com",
+    "instances": [
+      "anthropic-ai"
+    ]
+  },
+  {
+    "pattern": "Claude-User",
+    "addition_date": "2026/04/07",
+    "url": "https://useragents.io/uas/mozilla-5-0-applewebkit-537-36-khtml-like-gecko-compatible-claudebot-1-0-supportanthropic-com_954fa13a8e1e46d8267fb56e2d48100e",
+    "instances": [
+      "Claude-User",
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +Claude-User@anthropic.com)",
+      "Claude-User (claude-code/2.1.86; +https://support.anthropic.com/)"
+    ]
+  },
+  {
+    "pattern": "Claude-SearchBot",
+    "addition_date": "2026/04/07",
+    "url": "https://useragents.io/uas/mozilla-5-0-applewebkit-537-36-khtml-like-gecko-compatible-claudebot-1-0-supportanthropic-com_954fa13a8e1e46d8267fb56e2d48100e",
+    "instances": [
+      "Claude-SearchBot",
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-SearchBot/1.0; +https://www.anthropic.com)"
+    ]
+  },
+  {
+    "pattern": "Google-Extended",
+    "addition_date": "2026/04/07",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
+    "instances": [
+      "Mozilla/5.0 (compatible; Google-Extended)"
+    ]
+  },
+  {
+    "pattern": "Cohere-ai|cohere-ai",
+    "addition_date": "2026/04/07",
+    "url": "https://cohere.com",
+    "instances": [
+      "cohere-ai"
+    ]
+  },
+  {
+    "pattern": "Timpibot",
+    "addition_date": "2026/04/07",
+    "url": "https://timpi.io",
+    "instances": [
+      "Timpibot/0.9 (+http://www.timpi.io)",
+      "Mozilla/5.0 (compatible; Timpibot/0.8; +http://www.timpi.io)",
+      "Mozilla/5.0 (compatible; Timpibot/0.9; +http://www.timpi.io)"
+    ]
+  },
+  {
+    "pattern": "SERankingBacklinksBot",
+    "addition_date": "2026/04/07",
+    "url": "https://seranking.com/backlinks-crawler",
+    "instances": [
+      "Mozilla/5.0 (compatible; SERankingBacklinksBot/1.0; +https://seranking.com/backlinks-crawler)"
+    ]
+  },
+  {
+    "pattern": "CMSChecker",
+    "addition_date": "2026/04/07",
+    "instances": [
+      "Mozilla/5.0 (compatible; CMSChecker/1.0; +https://cmschecker.net)"
+    ]
+  },
+  {
+    "pattern": "Wayback",
+    "addition_date": "2026/04/07",
+    "url": "https://archive.org",
+    "instances": [
+      "Mozilla/5.0 (compatible; archive.org_bot; Wayback Machine Live Record; +http://archive.org/details/archive.org_bot)"
+    ]
+  },
+  {
+    "pattern": "Playwright",
+    "addition_date": "2026/04/07",
+    "url": "https://playwright.dev",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Playwright/1.40.0"
+    ]
+  },
+  {
+    "pattern": "Puppeteer",
+    "addition_date": "2026/04/07",
+    "url": "https://pptr.dev",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/120.0.0.0 Safari/537.36 Puppeteer"
+    ]
+  },
+  {
+    "pattern": "Selenium",
+    "addition_date": "2026/04/07",
+    "url": "https://www.selenium.dev",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36; Selenium"
+    ]
+  },
+  {
+    "pattern": "Nikto",
+    "addition_date": "2026/04/07",
+    "url": "https://cirt.net/Nikto2",
+    "instances": [
+      "Mozilla/5.00 (Nikto/2.1.5) (Evasions:None) (Test:Port Check)",
+      "Mozilla/5.0 (X11; Linux x86_64) Nikto/2.5.0 (Evasions:None) (Test:Port Check)"
+    ]
+  },
+  {
+    "pattern": "sqlmap",
+    "addition_date": "2026/04/07",
+    "url": "https://sqlmap.org",
+    "instances": [
+      "sqlmap/1.7.8#stable (https://sqlmap.org)"
+    ]
+  },
+  {
+    "pattern": "ZmEu",
+    "addition_date": "2026/04/07",
+    "instances": [
+      "ZmEu"
+    ]
+  },
+  {
+    "pattern": "masscan",
+    "addition_date": "2026/04/07",
+    "url": "https://github.com/robertdavidgraham/masscan",
+    "instances": [
+      "masscan/1.0 (https://github.com/robertdavidgraham/masscan)"
+    ]
+  },
+  {
+    "pattern": "WPScan",
+    "addition_date": "2026/04/07",
+    "url": "https://wpscan.com",
+    "instances": [
+      "WPScan v3.8.22 (https://wpscan.com/wordpress-security-scanner)",
+      "Mozilla/5.0 (compatible; WPScan; +https://wpscan.com/wordpress-security-scanner)"
+    ]
+  },
+  {
+    "pattern": "[aA]cunetix",
+    "addition_date": "2026/04/07",
+    "url": "https://www.acunetix.com",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.1; WOW64) acunetix-product/wvs (Acunetix Web Vulnerability Scanner - Free Edition)",
+      "acunetix-product/wvs"
+    ]
+  },
+  {
+    "pattern": "Nessus",
+    "addition_date": "2026/04/07",
+    "url": "https://www.tenable.com/products/nessus",
+    "instances": [
+      "Mozilla/5.0 (compatible; Nessus; http://www.nessus.org)"
+    ]
+  },
+  {
+    "pattern": "[dD]ir[Bb]uster",
+    "addition_date": "2026/04/07",
+    "url": "https://github.com/KajanM/DirBuster",
+    "instances": [
+      "DirBuster-1.0-RC1 (http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)"
+    ]
+  },
+  {
+    "pattern": "StatusCake",
+    "addition_date": "2026/04/07",
+    "url": "https://www.statuscake.com",
+    "instances": [
+      "StatusCake_Uptime_Checker/1.0"
+    ]
+  },
+  {
+    "pattern": "colly",
+    "addition_date": "2026/04/07",
+    "url": "https://go-colly.org",
+    "instances": [
+      "colly - https://github.com/gocolly/colly",
+      "colly/2.1.0"
+    ]
+  },
+  {
+    "pattern": "[mM]echanize",
+    "addition_date": "2026/04/07",
+    "url": "https://github.com/sparklemotion/mechanize",
+    "instances": [
+      "Mechanize/2.9.1 Ruby/3.1.2 (http://github.com/sparklemotion/mechanize/)"
+    ]
+  },
+  {
+    "pattern": "air\\.ai\\/scanning",
+    "addition_date": "2026/04/07",
+    "instances": [
+      "air.ai/scanning Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36"
+    ]
+  },
+  {
+    "pattern": "asnriskscorer",
+    "addition_date": "2026/04/07",
+    "instances": [
+      "asnriskscorer/1.0"
+    ]
+  },
+  {
+    "pattern": "OICrawler",
+    "addition_date": "2026/04/07",
+    "url": "https://openindex.ai",
+    "instances": [
+      "OICrawler/Nutch https://openindex.ai"
+    ]
+  },
+  {
+    "pattern": "l9scan",
+    "addition_date": "2026/04/07",
+    "url": "https://github.com/LeakIX/l9scan",
+    "instances": [
+      "Mozilla/5.0 (l9scan/2.0; +https://github.com/LeakIX/l9scan)"
+    ]
+  },
+  {
+    "pattern": "SlaccaleBot",
+    "addition_date": "2026/04/07",
+    "instances": [
+      "SlaccaleBot"
+    ]
+  },
+  {
+    "pattern": "CustomAsyncHttpClient",
+    "addition_date": "2026/04/07",
+    "instances": [
+      "CustomAsyncHttpClient"
+    ]
+  },
+  {
+    "pattern": "Java\\/",
+    "addition_date": "2026/04/07",
+    "url": "https://docs.oracle.com/en/java/",
+    "instances": [
+      "Java/1.8.0_322"
+    ]
+  },
+  {
+    "pattern": "^HTTPie\\/",
+    "addition_date": "2026/04/07",
+    "url": "https://httpie.io",
+    "instances": [
+      "HTTPie/3.2.2"
+    ]
+  },
+  {
+    "pattern": "Gemini-Deep-Research",
+    "addition_date": "2026/04/07",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Gemini-Deep-Research; +https://gemini.google/overview/deep-research/) Chrome/135.0.0.0 Safari/537.36"
+    ]
+  },
+  {
+    "pattern": "Applebot-Extended",
+    "addition_date": "2026/04/07",
+    "url": "https://support.apple.com/en-us/119829",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)"
+    ]
+  },
+  {
+    "pattern": "Perplexity-User",
+    "addition_date": "2026/04/07",
+    "url": "https://docs.perplexity.ai/guides/bots",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +https://perplexity.ai/perplexity-user)"
+    ]
+  },
+  {
+    "pattern": "meta-webindexer",
+    "addition_date": "2026/04/07",
+    "url": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers#meta-webindexer",
+    "instances": [
+      "meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)"
+    ]
+  },
+  {
+    "pattern": "DuckAssistBot",
+    "addition_date": "2026/04/07",
+    "url": "https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot",
+    "instances": [
+      "DuckAssistBot/1.2; (+http://duckduckgo.com/duckassistbot.html)"
+    ]
+  },
+  {
+    "pattern": "MistralAI-User",
+    "addition_date": "2026/04/07",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; MistralAI-User/1.0; +https://docs.mistral.ai/robots)"
+    ]
+  },
+  {
+    "pattern": "webzio",
+    "addition_date": "2026/04/07",
+    "url": "https://webz.io/blog/company/from-omgilibot-to-the-webzbot-duo-a-powerful-leap-for-ethical-and-comprehensive-data-collection/#",
+    "instances": [
+      "webzio (+https://webz.io/bot.html)"
+    ]
   }
 ]
