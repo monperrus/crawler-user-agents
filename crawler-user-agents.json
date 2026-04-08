@@ -5497,14 +5497,6 @@
     ]
   },
   {
-    "pattern": "Applebot-Extended",
-    "addition_date": "2026/04/07",
-    "url": "https://support.apple.com/en-us/119829",
-    "instances": [
-      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)"
-    ]
-  },
-  {
     "pattern": "Perplexity-User",
     "addition_date": "2026/04/07",
     "url": "https://docs.perplexity.ai/guides/bots",
