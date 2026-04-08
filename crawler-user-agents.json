@@ -5208,6 +5208,7 @@
   {
     "pattern": "ALittle Client",
     "addition_date": "2026/04/07",
+    "url":"https://udger.com/resources/ua-list/bot-detail?bot=ALittle+Client"
     "instances": [
       "ALittle Client"
     ]
@@ -5221,24 +5222,15 @@
     ]
   },
   {
-    "pattern": "PerplexityUser",
-    "addition_date": "2026/04/07",
-    "url": "https://perplexity.ai",
-    "instances": [
-      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityUser/1.0; +https://perplexity.ai)"
-    ]
-  },
-  {
     "pattern": "Claude-Web",
     "addition_date": "2026/04/07",
     "url": "https://anthropic.com",
     "instances": [
-      "Claude-Web",
       "Claude-Web/1.0 (web crawler; +https://www.anthropic.com/; bots@anthropic.com)"
     ]
   },
   {
-    "pattern": "anthropic-ai|Anthropic",
+    "pattern": "anthropic-ai",
     "addition_date": "2026/04/07",
     "url": "https://anthropic.com",
     "instances": [
@@ -5250,7 +5242,6 @@
     "addition_date": "2026/04/07",
     "url": "https://useragents.io/uas/mozilla-5-0-applewebkit-537-36-khtml-like-gecko-compatible-claudebot-1-0-supportanthropic-com_954fa13a8e1e46d8267fb56e2d48100e",
     "instances": [
-      "Claude-User",
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +Claude-User@anthropic.com)",
       "Claude-User (claude-code/2.1.86; +https://support.anthropic.com/)"
     ]
@@ -5260,7 +5251,6 @@
     "addition_date": "2026/04/07",
     "url": "https://useragents.io/uas/mozilla-5-0-applewebkit-537-36-khtml-like-gecko-compatible-claudebot-1-0-supportanthropic-com_954fa13a8e1e46d8267fb56e2d48100e",
     "instances": [
-      "Claude-SearchBot",
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-SearchBot/1.0; +https://www.anthropic.com)"
     ]
   },
@@ -5269,11 +5259,11 @@
     "addition_date": "2026/04/07",
     "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
     "instances": [
-      "Mozilla/5.0 (compatible; Google-Extended)"
+      "Mozilla/5.0 (compatible; Google-Extended/1.0; +http://www.google.com/bot.html)"
     ]
   },
   {
-    "pattern": "Cohere-ai|cohere-ai",
+    "pattern": "cohere-ai",
     "addition_date": "2026/04/07",
     "url": "https://cohere.com",
     "instances": [
@@ -5357,6 +5347,7 @@
   {
     "pattern": "ZmEu",
     "addition_date": "2026/04/07",
+    "url":"https://en.wikipedia.org/wiki/ZmEu_(vulnerability_scanner)",
     "instances": [
       "ZmEu"
     ]
@@ -5473,14 +5464,6 @@
     ]
   },
   {
-    "pattern": "Java\\/",
-    "addition_date": "2026/04/07",
-    "url": "https://docs.oracle.com/en/java/",
-    "instances": [
-      "Java/1.8.0_322"
-    ]
-  },
-  {
     "pattern": "^HTTPie\\/",
     "addition_date": "2026/04/07",
     "url": "https://httpie.io",
@@ -5502,6 +5485,14 @@
     "url": "https://docs.perplexity.ai/guides/bots",
     "instances": [
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +https://perplexity.ai/perplexity-user)"
+    ]
+  },
+  {
+    "pattern": "PerplexityUser",
+    "addition_date": "2026/04/07",
+    "url": "https://perplexity.ai",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityUser/1.0; +https://perplexity.ai)"
     ]
   },
   {
