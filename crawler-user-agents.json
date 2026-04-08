@@ -5208,7 +5208,7 @@
   {
     "pattern": "ALittle Client",
     "addition_date": "2026/04/07",
-    "url":"https://udger.com/resources/ua-list/bot-detail?bot=ALittle+Client",
+    "url": "https://udger.com/resources/ua-list/bot-detail?bot=ALittle+Client",
     "instances": [
       "ALittle Client"
     ]
@@ -5347,7 +5347,7 @@
   {
     "pattern": "ZmEu",
     "addition_date": "2026/04/07",
-    "url":"https://en.wikipedia.org/wiki/ZmEu_(vulnerability_scanner)",
+    "url": "https://en.wikipedia.org/wiki/ZmEu_(vulnerability_scanner)",
     "instances": [
       "ZmEu"
     ]
