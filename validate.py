@@ -21,7 +21,8 @@ JSON_SCHEMA = {
             "url": {"type": "string"}, # optional
             "description": {"type": "string"}, # optional
             "addition_date": {"type": "string"}, # optional
-            "depends_on": {"type": "array"} # allows an instance to match twice
+            "depends_on": {"type": "array"}, # allows an instance to match twice
+            "tags": {"type": "array"} # optional, array of classification tags
         },
         "required": ["pattern", "instances"]
     }
