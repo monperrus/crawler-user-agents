@@ -23,7 +23,7 @@
       "Nokia6820/2.0 (4.83) Profile/MIDP-1.0 Configuration/CLDC-1.0 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)",
       "SAMSUNG-SGH-E250/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)"
     ],
-    "description": "Google's mobile web crawling bot for mobile search indexing"
+    "description": "Google's legacy mobile crawler for Google Search indexing"
   },
   {
     "pattern": "Googlebot-Image",
@@ -44,7 +44,7 @@
     "instances": [
       "Googlebot-Video/1.0"
     ],
-    "description": "Google's video-specific web crawling bot for Google Video indexing"
+    "description": "Google's video crawler for video-related Google Search features"
   },
   {
     "pattern": "AdsBot-Google([^-]|$)",
@@ -52,7 +52,7 @@
     "instances": [
       "AdsBot-Google (+http://www.google.com/adsbot.html)"
     ],
-    "description": "Google's Ads bot for crawling pages to serve targeted ads"
+    "description": "Google's Ads bot for checking web page ad quality"
   },
   {
     "pattern": "AdsBot-Google-Mobile",
