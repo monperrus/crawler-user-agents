@@ -11,6 +11,21 @@ import datetime
 from jsonschema import validate
 
 
+ACCEPTED_TAGS = {
+    "search-engine",
+    "ai-crawler",
+    "social-preview",
+    "seo",
+    "monitoring",
+    "feed-reader",
+    "archiver",
+    "advertising",
+    "scanner",
+    "http-library",
+    "browser-automation",
+    "academic",
+}
+
 JSON_SCHEMA = {
     "type": "array",
     "items": {
@@ -22,7 +37,10 @@ JSON_SCHEMA = {
             "description": {"type": "string"}, # optional
             "addition_date": {"type": "string"}, # optional
             "depends_on": {"type": "array"}, # allows an instance to match twice
-            "tags": {"type": "array"} # optional, array of classification tags
+            "tags": { # optional, array of classification tags
+                "type": "array",
+                "items": {"type": "string", "enum": sorted(ACCEPTED_TAGS)},
+            }
         },
         "required": ["pattern", "instances"]
     }
@@ -67,6 +85,15 @@ def main():
     for entry in json_data:
         pattern = entry['pattern']
         
+        # check that tags, if present, only contain accepted values
+        for tag in entry.get('tags', []):
+            if tag not in ACCEPTED_TAGS:
+                raise ValueError(
+                    'Pattern {!r} has unknown tag {!r}. Accepted tags: {}'.format(
+                        pattern, tag, ', '.join(sorted(ACCEPTED_TAGS))
+                    )
+                )
+
         # assert that field "addition_date" has format "2019/12/23",
         if 'addition_date' in entry:
             if not re.match(r'\d{4}/\d{2}/\d{2}', entry['addition_date']):

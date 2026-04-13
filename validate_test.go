@@ -474,6 +474,31 @@ func contains(list []int, value int) bool {
 	return false
 }
 
+var acceptedTags = map[string]bool{
+	"search-engine":    true,
+	"ai-crawler":       true,
+	"social-preview":   true,
+	"seo":              true,
+	"monitoring":       true,
+	"feed-reader":      true,
+	"archiver":         true,
+	"advertising":      true,
+	"scanner":          true,
+	"http-library":     true,
+	"browser-automation": true,
+	"academic":         true,
+}
+
+func TestTags(t *testing.T) {
+	for _, crawler := range Crawlers {
+		for _, tag := range crawler.Tags {
+			if !acceptedTags[tag] {
+				t.Errorf("Pattern %q has unknown tag %q.", crawler.Pattern, tag)
+			}
+		}
+	}
+}
+
 func TestPatterns(t *testing.T) {
 	// Loading all crawlers with go:embed
 	// some validation happens in UnmarshalJSON.
