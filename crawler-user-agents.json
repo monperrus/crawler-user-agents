@@ -8110,5 +8110,13 @@
     "tags": [
       "seo"
     ]
+  },
+  {
+    "pattern": "newsai\\/",
+    "addition_date": "2026/04/14",
+    "url": "https://knownagents.com/agents/newsai",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 newsai/1.0 Safari/537.36"
+    ]
   }
 ]
