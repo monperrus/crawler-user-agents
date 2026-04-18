@@ -8118,7 +8118,10 @@
       "008/0.83 (http://www.advancedwebranking.com)"
     ],
     "description": "SEO monitoring bot tracks keyword rankings across regions",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "monitoring360bot\\/",
@@ -8127,7 +8130,10 @@
       "Mozilla/5.0 (compatible; monitoring360bot/1.1; +https://app.360monitoring.com/bot.html)"
     ],
     "description": "Monitors website uptime and performance at intervals",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "AccessStatusBot",
@@ -8136,7 +8142,10 @@
       "AccessStatusBot/1.0 (+https://accessstatus.com/bot-info)"
     ],
     "description": "Evaluates websites for accessibility compliance standards",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "ActiveComplyBot",
@@ -8145,7 +8154,10 @@
       "ActiveComplyBot"
     ],
     "description": "Compliance monitoring for regulated industries",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "AdagioBot",
@@ -8154,7 +8166,10 @@
       "AdagioBot"
     ],
     "description": "SEO analysis bot for performance and optimization",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "adbeat\\.com",
@@ -8163,7 +8178,10 @@
       "Mozilla/5.0 (iPad; CPU OS 15_3_1 like Mac OS X) adbeat.com/policy AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3.1 Mobile/15E148 Safari/604.1"
     ],
     "description": "Competitive intelligence bot for digital ad tracking",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "AdminLabs",
@@ -8172,7 +8190,10 @@
       "AdminLabs"
     ],
     "description": "Web scraping tool for data collection and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "advanced_crawler",
@@ -8181,7 +8202,10 @@
       "advanced_crawler (+http://example.com)"
     ],
     "description": "Sophisticated crawler with dynamic content rendering",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Adventurer",
@@ -8190,7 +8214,10 @@
       "Adventurer"
     ],
     "description": "Web crawler for indexing content and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "AGAKIDSBOT",
@@ -8199,7 +8226,10 @@
       "Mozilla/5.0 (compatible; Linux; AGAKIDSBOT/3.1 +agakids.ru/project) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ],
     "description": "Web crawler for indexing and data gathering",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "AgencyAnalyticsBot",
@@ -8208,7 +8238,10 @@
       "AgencyAnalyticsBot"
     ],
     "description": "SEO audit bot for performance and backlink analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "AI2Bot",
@@ -8217,7 +8250,11 @@
       "AI2Bot"
     ],
     "description": "Academic research crawler for NLP dataset creation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic",
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "AkismetBot",
@@ -8226,7 +8263,10 @@
       "AkismetBot"
     ],
     "description": "Spam filtering service for WordPress and CMS",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "alexa site audit",
@@ -8235,7 +8275,10 @@
       "Mozilla/5.0 (compatible; alexa site audit/1.0; +http://www.alexa.com/help/webmasters; )"
     ],
     "description": "Web crawler for SEO data aggregation and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Algolia Crawler",
@@ -8244,7 +8287,10 @@
       "Algolia Crawler"
     ],
     "description": "Hosted search engine and site search crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "alienfarm",
@@ -8253,7 +8299,10 @@
       "alienfarm"
     ],
     "description": "Web crawler for data aggregation and intelligence",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "AllAfricaBot",
@@ -8262,7 +8311,10 @@
       "AllAfricaBot"
     ],
     "description": "Content aggregator for African news coverage",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "allOrigins",
@@ -8271,7 +8323,10 @@
       "Mozilla/5.0 (compatible; allOrigins/3; +http://allorigins.win/)"
     ],
     "description": "Web scraping proxy tool bypassing CORS restrictions",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "AmazonAdBot",
@@ -8280,7 +8335,10 @@
       "AmazonAdBot"
     ],
     "description": "Ad verification bot for delivery and impressions",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "KendraBot",
@@ -8289,7 +8347,11 @@
       "KendraBot"
     ],
     "description": "AI-powered enterprise search crawler for documents",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine",
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "AntBot",
@@ -8298,7 +8360,10 @@
       "AntBot"
     ],
     "description": "Web crawler for data aggregation and research",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "AppSiteAssociation",
@@ -8307,7 +8372,10 @@
       "AppSiteAssociation"
     ],
     "description": "Verifies app connection to website domains",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Aragog\\/",
@@ -8316,7 +8384,10 @@
       "Aragog/1.0 (+https://wordads.co)"
     ],
     "description": "Web crawler for indexing and data collection",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Aranea",
@@ -8325,7 +8396,10 @@
       "Aranea Web-Crawled Corpora Project (+http://unesco.uniba.sk/guest (Hebrew 2024 Spring Crawl))"
     ],
     "description": "Automated web crawler for content aggregation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "ArchiveBox",
@@ -8334,7 +8408,10 @@
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/)"
     ],
     "description": "Web archiving tool for long-term content preservation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "ArquivoBot",
@@ -8343,7 +8420,10 @@
       "ArquivoBot"
     ],
     "description": "Preserves Portuguese websites historical content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "Arquivo-web-crawler",
@@ -8352,7 +8432,10 @@
       "Arquivo-web-crawler (compatible; +https://arquivo.pt/robot)"
     ],
     "description": "Portuguese web archive for digital heritage",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "ArtemisBot",
@@ -8361,7 +8444,10 @@
       "ArtemisBot"
     ],
     "description": "Vulnerability scanning and cybersecurity research bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Asana\\/",
@@ -8370,7 +8456,10 @@
       "Asana/1.4.0 WebsiteMetadataRetriever"
     ],
     "description": "Work management platform metadata retriever bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "AttractaBot",
@@ -8379,7 +8468,10 @@
       "AttractaBot"
     ],
     "description": "SEO tools and performance insights crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "AudistoBot",
@@ -8388,7 +8480,10 @@
       "AudistoBot"
     ],
     "description": "Technical SEO and website audit bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "AuthoryBot",
@@ -8397,7 +8492,10 @@
       "AuthoryBot"
     ],
     "description": "Content archiving bot for authors and journalists",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "Autoconfig Test from USTC",
@@ -8406,7 +8504,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 (Autoconfig Test from USTC, Quit please contact: mailservertest2023@gmail.com)"
     ],
     "description": "USTC university research crawler for web analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "AutomatonBot",
@@ -8415,7 +8516,10 @@
       "AutomatonBot"
     ],
     "description": "Automation platform for web service workflows",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "tracking-quality-spider",
@@ -8424,7 +8528,10 @@
       "Mozilla/5.0 (compatible; tracking-quality-spider/0.1; https://www.awin.com)"
     ],
     "description": "Affiliate marketing network tracking and verification",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "Bad Neighborhood Header Detector",
@@ -8433,7 +8540,10 @@
       "Bad Neighborhood Header Detector (http://www.bad-neighborhood.com/header_detector.php)"
     ],
     "description": "Website security risk analysis for link quality",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "BaiduAdsBot",
@@ -8442,7 +8552,10 @@
       "BaiduAdsBot"
     ],
     "description": "Baidu ad verification and tracking bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "BDBot\\/",
@@ -8451,7 +8564,10 @@
       "BDBot/1.0"
     ],
     "description": "Web crawler for data aggregation and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "BeeperBot",
@@ -8460,7 +8576,10 @@
       "BeeperBot/0 Matrix-Media-Repo/1"
     ],
     "description": "Web crawler for aggregation and business intelligence",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "BestChangeBot",
@@ -8469,7 +8588,10 @@
       "BestChangeBot"
     ],
     "description": "Cryptocurrency monitoring and exchange rate aggregator",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "BetterUptimeBot",
@@ -8478,7 +8600,10 @@
       "BetterUptimeBot"
     ],
     "description": "Website uptime and performance monitoring service",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "BnFBot",
@@ -8487,7 +8612,10 @@
       "BnFBot"
     ],
     "description": "French national library archiving cultural content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "BigUpDataBot",
@@ -8496,7 +8624,10 @@
       "BigUpDataBot"
     ],
     "description": "Analytics crawler for SEO and metric tracking",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "BinaryCanary",
@@ -8505,7 +8636,10 @@
       "BinaryCanary/1.0 (+https://www.binarycanary.com)"
     ],
     "description": "Uptime monitoring for servers and services",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Bitbucket-Webhooks",
@@ -8514,7 +8648,10 @@
       "Bitbucket-Webhooks/2.0"
     ],
     "description": "Webhook notifications for CI/CD pipeline automation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "bl\\.uk_ldfc_bot",
@@ -8523,7 +8660,10 @@
       "bl.uk_ldfc_bot/3.4.0-20220727 (+https://www.bl.uk/legal-deposit/web-archiving)"
     ],
     "description": "British Library web archiver for content preservation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "BlackDuck-FD",
@@ -8532,7 +8672,10 @@
       "BlackDuck-FD"
     ],
     "description": "Vulnerability scanner for application security testing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "BlingERPBot",
@@ -8541,7 +8684,10 @@
       "BlingERPBot/1.0"
     ],
     "description": "Brazilian ERP platform for invoicing and inventory",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "BlockaidBot",
@@ -8550,7 +8696,10 @@
       "BlockaidBot/1.0"
     ],
     "description": "Security scanning for phishing and malware threats",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Blogtrottr",
@@ -8559,7 +8708,10 @@
       "Blogtrottr/2.0"
     ],
     "description": "Email subscription service for blog and feed updates",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "BlogVaultBot",
@@ -8568,7 +8720,10 @@
       "BlogVaultBot/1.0"
     ],
     "description": "WordPress backup and malware scanning service",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "BlueskyPreviewBot",
@@ -8577,7 +8732,10 @@
       "BlueskyPreviewBot/1.0"
     ],
     "description": "Bluesky social platform link preview fetcher",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "BoardGamePricesBot",
@@ -8586,7 +8744,10 @@
       "Likely BoardGamePricesBot or similar (not officially published)"
     ],
     "description": "Board game price comparison and availability tracker",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "BotPoke",
@@ -8595,7 +8756,10 @@
       "BotPoke"
     ],
     "description": "Web crawler for data aggregation and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "BDFetch",
@@ -8604,7 +8768,10 @@
       "BDFetch"
     ],
     "description": "Brand protection bot for unauthorized use detection",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Brandwatch",
@@ -8613,7 +8780,10 @@
       "Brandwatch/1.0 (varies)"
     ],
     "description": "Social listening and sentiment analysis platform",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "BraveBot",
@@ -8622,7 +8792,10 @@
       "BraveBot / Mozilla/5.0 (compatible; BraveBot/1.0)"
     ],
     "description": "Privacy-focused search engine indexing crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "brokenlinkcheck\\.com",
@@ -8631,7 +8804,10 @@
       "Mozilla/5.0 (Windows NT 5.1) brokenlinkcheck.com/1.2"
     ],
     "description": "Broken link detection and website integrity checker",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "bugsnag-crawler",
@@ -8640,7 +8816,10 @@
       "bugsnag-crawler / varies"
     ],
     "description": "Application monitoring and error reporting bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "BW\\/",
@@ -8649,7 +8828,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BW/1.2; rb.gy/oupwis) Chrome/124.0.0.0 Safari/537.36"
     ],
     "description": "Technology profiling crawler for web analytics",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Bushbaby",
@@ -8658,7 +8840,10 @@
       "Bushbaby (reported in logs)"
     ],
     "description": "Content aggregation and market intelligence crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Butterfly",
@@ -8667,7 +8852,10 @@
       "Mozilla/5.0 (compatible; Butterfly/1.0; +http://labs.topsy.com/butterfly/) Gecko/2009032608 Firefox/3.0.8"
     ],
     "description": "Experimental data collection crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "rss-parser",
@@ -8676,7 +8864,10 @@
       "rss-parser / Buttondown"
     ],
     "description": "Newsletter RSS feed parser and aggregator",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "CaliberBot",
@@ -8685,7 +8876,10 @@
       "CaliberBot (varies)"
     ],
     "description": "Market research and analytics crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "CapitalOneShopping",
@@ -8694,7 +8888,10 @@
       "CapitalOneShopping/1.0 (example)"
     ],
     "description": "E-commerce price comparison and shopping bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Catchpoint",
@@ -8703,7 +8900,10 @@
       "Catchpoint"
     ],
     "description": "Digital experience and performance monitoring bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "centuryb\\.o\\.t9",
@@ -8712,7 +8912,10 @@
       "Mozilla/5.0 (compatible; +centuryb.o.t9[at]gmail.com)"
     ],
     "description": "General web crawler for data aggregation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "CertChiefBot",
@@ -8721,7 +8924,10 @@
       "CertChiefBot"
     ],
     "description": "SSL/TLS certificate monitoring and auditing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "CERT PL",
@@ -8730,7 +8936,10 @@
       "Mozilla/5.0 (compatible; Artemis; CERT PL; +https://cert.pl/skanowanie)"
     ],
     "description": "Polish cybersecurity vulnerability and threat scanner",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "certytags",
@@ -8739,7 +8948,10 @@
       "Mozilla/5.0 (compatible; certytags/1.0; +https://certybot.certytags.com)"
     ],
     "description": "Web content indexing and verification crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "ChannableBot",
@@ -8748,7 +8960,10 @@
       "ChannableBot"
     ],
     "description": "E-commerce feed management and product data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "ChargeBeeBot",
@@ -8757,7 +8972,10 @@
       "ChargeBeeBot"
     ],
     "description": "Subscription billing verification and integration bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Charlotte",
@@ -8766,7 +8984,10 @@
       "Commonly seen variations include: Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.11) Gecko/20080109 (Charlotte/0.9t; http://www.searchme.com/support/)"
     ],
     "description": "Financial institution and robot-friendly crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "ChatGLM-Spider",
@@ -8775,7 +8996,10 @@
       "Mozilla/5.0 (compatible; ChatGLM-Spider/1.0; +https://chatglm.cn/)"
     ],
     "description": "AI model training data collection crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "Chatwork LinkPreview",
@@ -8784,7 +9008,10 @@
       "Chatwork LinkPreview v1"
     ],
     "description": "Collaboration platform URL preview fetcher",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "CheckHost",
@@ -8793,7 +9020,10 @@
       "CheckHost (https://check-host.net/)"
     ],
     "description": "Website uptime and performance monitoring bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Goodzer",
@@ -8802,7 +9032,10 @@
       "Mozilla/5.0 (compatible; Goodzer/1.0) and Mozilla/5.0 (compatible; Goodzer/2.0; crawler@goodzer.com)"
     ],
     "description": "Discord bot enhancement and server functionality crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Chrome Privacy Preserving Prefetch Proxy",
@@ -8811,7 +9044,10 @@
       "Chrome Privacy Preserving Prefetch Proxy"
     ],
     "description": "Chrome browser resource prefetching with privacy protection",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "CirrusExplorer",
@@ -8820,7 +9056,10 @@
       "CirrusExplorer/2 (https://cseu.ro/explorer.php)"
     ],
     "description": "Web crawler for indexing and competitive analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "CLASSLA-web",
@@ -8829,7 +9068,10 @@
       "Mozilla/5.0 (compatible; CLASSLA-web; +https://www.clarin.si/info/classla-web-crawler/)"
     ],
     "description": "Linguistic research data crawler for NLP",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "Clearscopebot",
@@ -8838,7 +9080,10 @@
       "UA Clearscopebot or similar"
     ],
     "description": "Content optimization and keyword performance analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WorldBot",
@@ -8847,7 +9092,10 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; WorldBot/0.1; +https://worldlabs.ai)"
     ],
     "description": "Behavioral analytics and audience segmentation crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Cloudflare-Validator",
@@ -8856,7 +9104,10 @@
       "Cloudflare-Validator/1.0"
     ],
     "description": "Cloudflare security and performance validation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "cloudflare-csup",
@@ -8865,7 +9116,10 @@
       "cloudflare-csup (Cloudflare Radar)"
     ],
     "description": "Cache status updates and performance monitoring",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Cloudflare-Custom-Error-Page-Crawler",
@@ -8874,7 +9128,10 @@
       "Cloudflare-Custom-Error-Page-Crawler"
     ],
     "description": "Custom error page validation and testing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Cloudflare-Radar-Scanner",
@@ -8883,7 +9140,10 @@
       "Cloudflare-Radar-Scanner"
     ],
     "description": "URL scanning for traffic and threat intelligence",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Cloudflare-SpeedTest",
@@ -8892,7 +9152,10 @@
       "Cloudflare-SpeedTest"
     ],
     "description": "Website performance and latency testing bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Cloudflare-Stream-Hook",
@@ -8901,7 +9164,10 @@
       "Cloudflare-Stream-Hook"
     ],
     "description": "Video lifecycle event notifications and management",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "CloudtrellisBot",
@@ -8910,7 +9176,10 @@
       "CloudtrellisBot"
     ],
     "description": "Infrastructure and performance monitoring bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "CludoBot",
@@ -8919,7 +9188,10 @@
       "CludoBot"
     ],
     "description": "Site search and analytics bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "cognitiveSEO Bot",
@@ -8928,7 +9200,10 @@
       "cognitiveSEO Bot"
     ],
     "description": "SEO analytics and digital marketing crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "cohere-training-data-crawler",
@@ -8937,7 +9212,10 @@
       "cohere-training-data-crawler (+crawler@cohere.ai)"
     ],
     "description": "LLM training data collection for AI models",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "CommaFeed",
@@ -8946,7 +9224,10 @@
       "CommaFeed/4.4.0 (https://github.com/Athou/commafeed)"
     ],
     "description": "RSS feed aggregator and reader bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "researchscan\\.comsys\\.rwth-aachen\\.de",
@@ -8955,7 +9236,10 @@
       "Mozilla/5.0 researchscan.comsys.rwth-aachen.de"
     ],
     "description": "Academic network measurement and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "contentkingapp",
@@ -8964,7 +9248,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 (+https://whatis.contentkingapp.com)"
     ],
     "description": "Real-time SEO auditing and monitoring tool",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Convermax Bot",
@@ -8973,7 +9260,10 @@
       "Convermax Bot"
     ],
     "description": "Conversion and digital marketing optimization",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "CookieHub Bot",
@@ -8982,7 +9272,10 @@
       "CookieHub Bot"
     ],
     "description": "Cookie consent and privacy compliance auditor",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "cookie-maestro Bot",
@@ -8991,7 +9284,10 @@
       "cookie-maestro Bot"
     ],
     "description": "Cookie tracking and privacy regulation compliance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Cotoyogi",
@@ -9000,7 +9296,10 @@
       "Mozilla/5.0 (compatible; Cotoyogi/4.0; +https://ds.rois.ac.jp/center8/crawler/)"
     ],
     "description": "Web crawler for content and data aggregation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Coveobot",
@@ -9009,7 +9308,10 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) (compatible; Coveobot/2.0;+http://www.coveo.com/bot.html)"
     ],
     "description": "Enterprise search and content indexing platform",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Crawlson",
@@ -9018,7 +9320,10 @@
       "Mozilla/5.0 (compatible; Crawlson/1.0; +https://www.crawlson.com/domain)"
     ],
     "description": "Web crawler for auditing and monitoring",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Crazy Egg Bot",
@@ -9027,7 +9332,10 @@
       "Crazy Egg Bot/Crazy Egg Bot (Mobile)/Crazy Egg Bot (Tablet)"
     ],
     "description": "Analytics bot for heatmaps and A/B testing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "RepoLookoutBot",
@@ -9036,7 +9344,10 @@
       "RepoLookoutBot/v1.1.0-297-gcf436d3 (abuse reports to abuse@repo-lookout.org)"
     ],
     "description": "Repository and web content lookup crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Criticalcss\\.com",
@@ -9045,7 +9356,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.0 Safari/537.36 Criticalcss.com/2.0.0"
     ],
     "description": "Critical CSS extraction for performance optimization",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "cron-job\\.org",
@@ -9054,7 +9368,10 @@
       "cron-job.org monitor"
     ],
     "description": "Automated website monitoring and uptime checking",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "DnBCrawler",
@@ -9063,7 +9380,10 @@
       "DnBCrawler-Analytics"
     ],
     "description": "Business data analytics crawler gathering company information insights",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "DMBrowser",
@@ -9072,7 +9392,10 @@
       "DMBrowser/"
     ],
     "description": "Synthetic monitoring browser checking website performance and availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "DomCopBot",
@@ -9081,7 +9404,10 @@
       "DomCopBot (https://www.domcop.com/bot)"
     ],
     "description": "Domain research crawler analyzing website metrics and SEO data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "downnotifier\\.com",
@@ -9090,7 +9416,10 @@
       "downnotifier.com monitoring"
     ],
     "description": "Uptime monitoring service alerting on website downtime events",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "DowntimeDetector\\/",
@@ -9099,7 +9428,10 @@
       "DowntimeDetector/4.0 (+https://downforeveryoneorjustme.com)"
     ],
     "description": "Availability monitor detecting and reporting website downtime incidents",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Dlc\\/",
@@ -9108,7 +9440,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Dlc/2.0.1"
     ],
     "description": "Link checking crawler auditing broken URLs across websites",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Dratabot",
@@ -9117,7 +9452,10 @@
       "Dratabot (+https://dratabot.com)"
     ],
     "description": "Compliance automation crawler auditing security controls and documentation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "EasyBib AutoCite",
@@ -9126,7 +9464,10 @@
       "EasyBib AutoCite (http://autocite-info.citation-api.com/)"
     ],
     "description": "Citation generator fetching metadata for bibliography and reference creation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "easybill-ImportManager",
@@ -9135,7 +9476,10 @@
       "easybill-ImportManager/ShopwareClient"
     ],
     "description": "Billing platform crawler importing product data from ecommerce stores",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "EasyCron\\/",
@@ -9144,7 +9488,10 @@
       "EasyCron/1.0 (https://www.easycron.com/)"
     ],
     "description": "Cron job service executing scheduled HTTP requests and monitoring endpoints",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "easyDNS Monitoring",
@@ -9153,7 +9500,10 @@
       "easyDNS Monitoring ( http://easyurl.net/monitoring )"
     ],
     "description": "DNS monitoring service verifying domain resolution and availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "EchoboxBot\\/",
@@ -9162,7 +9512,10 @@
       "Mozilla/5.0 (compatible; EchoboxBot/1.0; hash/w4mwnpbXf3MFAbxOkJRw; +http://www.echobox.com)"
     ],
     "description": "Social media automation crawler fetching content for publishing optimization",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Cronless",
@@ -9171,7 +9524,10 @@
       "Cronless/2.0 (+http://cronless.com)"
     ],
     "description": "Dynamic task execution crawler without fixed scheduling",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "crusty\\/",
@@ -9180,7 +9536,10 @@
       "crusty/0.12.0"
     ],
     "description": "Undocumented web crawler of unknown origin",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "csirt\\.cz",
@@ -9189,7 +9548,10 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36 1.6.4 (+https://csirt.cz/cs/dns-crawler)"
     ],
     "description": "Czech cybersecurity team vulnerability scanning bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "CXK_Bot",
@@ -9198,7 +9560,10 @@
       "CXK/5.0 (linux; 43A1AAD0; ARMv9) assistenC5/v6.5.6 (KHTML, lcxk) CXK_Bot/2.3.1"
     ],
     "description": "Web content indexing and SEO analysis crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Dark Visitor Client",
@@ -9207,7 +9572,10 @@
       "Dark Visitor Client"
     ],
     "description": "Headless bot detection helper client",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Dark Visitor Server",
@@ -9216,7 +9584,10 @@
       "Dark Visitor Server"
     ],
     "description": "Developer helper for bot detection service",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "daumoa",
@@ -9225,7 +9596,10 @@
       "daumoa,damoa,daum,daumos,duamoa,duam,duamo"
     ],
     "description": "South Korean Daum search engine indexing bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "DaspeedBot",
@@ -9234,7 +9608,10 @@
       "DaspeedBot/1.0 (+https://daspeed.io/bot-info)"
     ],
     "description": "Web content indexing and analytics crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Dead Link Checker",
@@ -9243,7 +9620,10 @@
       "Mozilla/5.0 (compatible; Dead Link Checker; http://www.dead-link-checker.com/)"
     ],
     "description": "Broken link detection and website maintenance bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Deskyobot",
@@ -9252,7 +9632,10 @@
       "Deskyobot/1.0 (+https://www.deskyo.com/bot)"
     ],
     "description": "Website content indexing and SEO analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Detectify",
@@ -9261,7 +9644,10 @@
       "Mozilla/5.0 (compatible; Detectify) +https://detectify.com/bot/"
     ],
     "description": "Vulnerability and attack surface scanning bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Devin",
@@ -9270,7 +9656,11 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36; Devin/1.0; +https://devin.ai"
     ],
     "description": "AI-driven browser automation and content extraction",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "browser-automation",
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "DF Bot",
@@ -9279,7 +9669,10 @@
       "DF Bot 1.0"
     ],
     "description": "Web content indexing and competitive analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "DigiCert DCV Bot",
@@ -9288,7 +9681,10 @@
       "DigiCert DCV Bot/1.0"
     ],
     "description": "SSL/TLS domain control validation checker",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "DingTalkBot-LinkService",
@@ -9297,7 +9693,10 @@
       "DingTalkBot-LinkService/1.0 (+https://open-doc.dingtalk.com/microapp/faquestions/ftpfeu)"
     ],
     "description": "Alibaba DingTalk link preview and metadata fetcher",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "Discourse Forum Onebox",
@@ -9306,7 +9705,10 @@
       "Discourse Forum Onebox v3.3.0.beta1-dev"
     ],
     "description": "Forum link preview and embed content fetcher",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "Dmbot",
@@ -9315,7 +9717,10 @@
       "Mozilla/5.0 (compatible; Dmbot/1.1)"
     ],
     "description": "Web crawler for data aggregation and SEO",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SustainabilityCrawler",
@@ -9324,7 +9729,10 @@
       "ecotrek GmbH - SustainabilityCrawler (bot@ecotrek.tech)"
     ],
     "description": "ESG and sustainability rating data collection",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "edansbot",
@@ -9333,7 +9741,10 @@
       "Mozilla/5.0 edansbot (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/118.0"
     ],
     "description": "Web content indexing and analytics crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "EdgeWatch",
@@ -9342,7 +9753,10 @@
       "Mozilla/5.0 (compatible; EdgeWatch/1.1; https://about.edgewatch.com/)"
     ],
     "description": "Performance monitoring and security assessment bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Do Not Track Verifier",
@@ -9351,7 +9765,10 @@
       "Electronic Frontier Foundation's Do Not Track Verifier (for questions or concerns email dnt-policy@eff.org)"
     ],
     "description": "Privacy practices and security protocol analyzer",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "elmahio-uptimebot",
@@ -9360,7 +9777,10 @@
       "elmahio-uptimebot/2.0"
     ],
     "description": "Error logging uptime and availability monitoring",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "eMoneyBot",
@@ -9369,7 +9789,10 @@
       "eMoneyBot/1.0; +https://emoneyadvisor.com/DataAggregationNotice/"
     ],
     "description": "Financial account aggregation and data scraping",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "EpivozCrawler",
@@ -9378,7 +9801,10 @@
       "EpivozCrawler/1.7"
     ],
     "description": "Content scraping and indexing crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "eRepublik\\.tools",
@@ -9387,7 +9813,10 @@
       "eRepublik.tools - Multithreaded Crawler - "
     ],
     "description": "MMO game data and analytics crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "EvoUptimeBot",
@@ -9396,7 +9825,10 @@
       "EvoUptimeBot/1.0"
     ],
     "description": "Uptime and performance monitoring service",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "ExodusMovement",
@@ -9405,7 +9837,10 @@
       "ExodusMovement/1.0 GlobalCoinHeight/1.0"
     ],
     "description": "Web scraping and data extraction bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Ezgif",
@@ -9414,7 +9849,10 @@
       "Mozilla/5.0 (compatible; Ezgif/69.420; +https://ezgif.com/about)"
     ],
     "description": "GIF and image fetching and editing bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "factset_spyderbot",
@@ -9423,7 +9861,10 @@
       "Mozilla/5.0(windows NT 10.0; Win64; x64) AppleWebkit/537.36(KHTML, like Gecko)  Chrome/90.0.4430.72  Safari/537.36 factset_spyderbot"
     ],
     "description": "Financial data and regulatory filing crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "FastmailUA",
@@ -9432,7 +9873,10 @@
       "FastmailUA/1.0"
     ],
     "description": "Email link preview and image proxy fetcher",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "FDL Stats Bot",
@@ -9441,7 +9885,10 @@
       "FDL Stats Bot"
     ],
     "description": "Firebase dynamic link analytics and validation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Fedicabot",
@@ -9450,7 +9897,10 @@
       "Fedicabot / FedicaApp"
     ],
     "description": "Social media analytics and link preview bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "FedReporterDataBot",
@@ -9459,7 +9909,10 @@
       "FedReporterDataBot/1.0 (+https://fedreporter.net/FedReporterBotDocumentation;)"
     ],
     "description": "Financial and regulatory filing data aggregator",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Feed Image Audit",
@@ -9468,7 +9921,10 @@
       "Feed Image Audit -- App"
     ],
     "description": "Image validation and compliance auditing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "FeedBurner",
@@ -9477,7 +9933,10 @@
       "FeedBurner/1.0 (http://www.FeedBurner.com)"
     ],
     "description": "RSS feed distribution and subscriber management",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "feeder\\.co",
@@ -9486,7 +9945,10 @@
       "Mozilla/5.0 (feeder.co; Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
     ],
     "description": "RSS feed aggregation and monitoring service",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "Feedpresso Content Index Bot",
@@ -9495,7 +9957,10 @@
       "Feedpresso Content Index Bot"
     ],
     "description": "News aggregation platform content indexer",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "Feedwind",
@@ -9504,7 +9969,10 @@
       "Mozilla/5.0 (compatible; Feedwind/3.0; +http://feed.mikle.com/support/description/)"
     ],
     "description": "Dynamic content aggregation widget fetcher",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "fidget-spinner-bot",
@@ -9513,7 +9981,10 @@
       "fidget-spinner-bot"
     ],
     "description": "Content indexing and SEO analysis crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "FirmoGraph",
@@ -9522,7 +9993,10 @@
       "FirmoGraph (+https://firmograph.io)"
     ],
     "description": "Business data collection and analytics crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "FlipboardRSS",
@@ -9531,7 +10005,10 @@
       "Mozilla/5.0 (compatible; FlipboardRSS/1.2; +http://flipboard.com/browserproxy)"
     ],
     "description": "Social magazine content aggregation and curation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "fluid",
@@ -9540,7 +10017,10 @@
       "Mozilla/4.0 (compatible; fluid/0.0; +http://www.leak.info/bot.html)"
     ],
     "description": "Human-like behavior mimicking web scraper bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Foregenix",
@@ -9549,7 +10029,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko, Foregenix) Chrome/91.0.4472.77 Safari/537.36"
     ],
     "description": "Cybersecurity vulnerability and weakness scanner",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Freespoke\\/",
@@ -9558,7 +10041,10 @@
       "Mozilla/5.0 (compatible; Freespoke/2.0; +https://crawler.freespoke.com)"
     ],
     "description": "Privacy-focused search engine indexing web content for results",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Friendly testing bot",
@@ -9567,7 +10053,10 @@
       "Friendly testing bot"
     ],
     "description": "Testing crawler verifying website functionality and response behavior",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "friendly-spider",
@@ -9576,7 +10065,10 @@
       "friendly-spider"
     ],
     "description": "Web crawler indexing content for search and data aggregation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "FriendlyCrawler\\/",
@@ -9585,7 +10077,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/605.1.15 (KHTML, like Gecko; compatible; FriendlyCrawler/1.0) Chrome/120.0.6099.216 Safari/605.1.15"
     ],
     "description": "General web crawler indexing content for data collection purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "FullStoryBot\\/",
@@ -9594,7 +10089,10 @@
       "FullStoryBot/1.0"
     ],
     "description": "Analytics platform crawler collecting session and behavioral data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Funnelback",
@@ -9603,7 +10101,10 @@
       "Funnelback"
     ],
     "description": "Enterprise search crawler indexing content for internal search platforms",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "FuseonBot\\/",
@@ -9612,7 +10113,10 @@
       "FuseonBot/1.1 (+http://linkaffinity.io)"
     ],
     "description": "Link affinity crawler indexing web content for SEO analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Gabanzabot\\/",
@@ -9621,7 +10125,10 @@
       "Gabanzabot/1.1 (Gabanza Search Engine; https://www.gabanza.com)"
     ],
     "description": "Search engine crawler indexing websites for Gabanza search results",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "gdnplus\\.com",
@@ -9630,7 +10137,10 @@
       "https://gdnplus.com:Gather Analyze Provide."
     ],
     "description": "Data gathering crawler analyzing and providing web content insights",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "getthit\\.com",
@@ -9639,7 +10149,10 @@
       "www.GettHIT.com | Free Traffic Exchange Bot | If you are seeing this, then your website has been listed in our traffic exchange service. | Visit Us : https://www.getthit.com/bot | Macintosh; Intel Mac OS X 10_7_5 (compatible; getthit.com/3.1;)"
     ],
     "description": "Traffic exchange service bot generating visits to listed websites",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "GG PeekBot",
@@ -9648,7 +10161,10 @@
       "GG PeekBot 2.0 ( https://www.gg.pl/ https://www.gg.pl/info/praca/ )"
     ],
     "description": "Polish messaging platform crawler generating link previews for users",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "Ghost Inspector",
@@ -9657,7 +10173,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0 Safari/537.36 Ghost Inspector (63c85ddbde52d6697f57c623)"
     ],
     "description": "Browser testing service automating UI tests and monitoring website changes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "browser-automation"
+    ]
   },
   {
     "pattern": "github-camo",
@@ -9666,7 +10185,10 @@
       "github-camo (c006e452)"
     ],
     "description": "GitHub image proxy fetching external images for secure rendering",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "GlobalWebSearch",
@@ -9675,7 +10197,10 @@
       "GlobalWebSearchx"
     ],
     "description": "Web crawler indexing content for global search engine results",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Golfe\\/",
@@ -9684,7 +10209,10 @@
       "Mozilla/7.0 (compatible; Golfe/1.1; +http://www.goo-olfe.ae/bot.html)"
     ],
     "description": "UAE-based search engine crawler indexing web content for search",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Google-Apps-Script",
@@ -9693,7 +10221,10 @@
       "Mozilla/5.0 (compatible; Google-Apps-Script; beanserver; +https://script.google.com; id: UAEmdDd_XLoqpGxtGfu5uvUaQlW77VLYz-w)"
     ],
     "description": "Google scripting platform fetching URLs for automation workflows",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "GoogleStackdriverMonitoring",
@@ -9702,7 +10233,10 @@
       "GoogleStackdriverMonitoring-UptimeChecks(https://cloud.google.com/monitoring)"
     ],
     "description": "Google Cloud monitoring service performing uptime checks on endpoints",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "GoogleAssociationService\\/",
@@ -9711,7 +10245,10 @@
       "GoogleAssociationService/"
     ],
     "description": "Google service verifying digital asset links between apps and websites",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "GoogleImageProxy",
@@ -9720,7 +10257,10 @@
       "Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)"
     ],
     "description": "Google image proxy fetching and caching images for Gmail display",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "GoogleProducer",
@@ -9729,7 +10269,10 @@
       "GoogleProducer; (+https://developers.google.com/search/docs/crawling-indexing/google-producer)"
     ],
     "description": "Google user-triggered fetcher retrieving content for Google products",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Googlebot-IA\\/",
@@ -9738,7 +10281,11 @@
       "Googlebot-IA/2.1"
     ],
     "description": "Google Scholar crawler indexing academic papers and library content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine",
+      "academic"
+    ]
   },
   {
     "pattern": "Google-Trust-Services\\/",
@@ -9747,7 +10294,10 @@
       "Mozilla/5.0 (compatible; Google-Trust-Services/2.0; http://pki.goog/)"
     ],
     "description": "Google PKI service validating SSL certificates and checking revocation status",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Google-Area120",
@@ -9756,7 +10306,10 @@
       "Google-Area120-PrivacyPolicyFetcher"
     ],
     "description": "Google Area 120 experimental tool fetching privacy policies from websites",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Google-CloudVertexBot",
@@ -9766,7 +10319,11 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Google-CloudVertexBot; +https://cloud.google.com/enterprise-search) Chrome/W.X.Y.Z Safari/537.36"
     ],
     "description": "Google Vertex AI crawler indexing content for enterprise search solutions",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine",
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "GoogleAssociationService$",
@@ -9775,7 +10332,10 @@
       "GoogleAssociationService"
     ],
     "description": "Google service verifying digital asset link associations between platforms",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "GoogleDocs",
@@ -9784,7 +10344,10 @@
       "Mozilla/5.0 (compatible; GoogleDocs; apps-spreadsheets; +http://docs.google.com)"
     ],
     "description": "Google Docs crawler fetching web content for spreadsheet import functions",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "GoPay",
@@ -9793,7 +10356,10 @@
       "GoPay"
     ],
     "description": "Payment gateway service verifying merchant websites and payment endpoints",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "GotSiteMonitor\\.com",
@@ -9802,7 +10368,10 @@
       "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11 GotSiteMonitor.com"
     ],
     "description": "Website monitoring service tracking uptime and alerting on downtime",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "synthetic-monitoring-agent\\/",
@@ -9811,7 +10380,10 @@
       "synthetic-monitoring-agent/v0.20.1-0-g66af84ad (linux amd64; 66af84ad6a8755895d4b69606281ca7354c1589a; 2024-02-12 16:50:07+00:00; +https://github.com/grafana/synthetic-monitoring-agent)"
     ],
     "description": "Grafana synthetic monitoring agent probing endpoints for availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Grammarly\\/",
@@ -9820,7 +10392,10 @@
       "Grammarly/1.0 (http://www.grammarly.com)"
     ],
     "description": "Writing assistant crawler fetching web content for grammar analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "gregcrawler",
@@ -9829,7 +10404,10 @@
       "gregcrawler"
     ],
     "description": "Web crawler indexing content for data aggregation and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "GroovinaAdsbot\\/",
@@ -9838,7 +10416,10 @@
       "Mozilla/5.0 (compatible; GroovinaAdsbot/1.0; +https://www.groovinads.com/en/#bot)"
     ],
     "description": "Advertising platform crawler indexing products and pricing for campaigns",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "Grover\\/",
@@ -9847,7 +10428,10 @@
       "Grover/Grover-1.18 (Web Crawler)"
     ],
     "description": "Anonymous web crawler likely used for research or content scraping",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "GTmetrix",
@@ -9856,7 +10440,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 GTmetrix"
     ],
     "description": "Performance testing tool analyzing page speed and optimization recommendations",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "GuestpostsBot\\/",
@@ -9865,7 +10452,10 @@
       "Mozilla/5.0 (compatible; GuestpostsBot/2.0; +https://guestposts.com.br/blog/robot/)"
     ],
     "description": "Guest posting platform crawler discovering and indexing blog opportunities",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Gulper Web Bot",
@@ -9874,7 +10464,10 @@
       "Gulper Web Bot 0.2.4 (www.ecsl.cs.sunysb.edu/~maxim/cgi-bin/Link/GulperBot)"
     ],
     "description": "Academic web crawler collecting data for research and link analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "Verity\\/",
@@ -9883,7 +10476,10 @@
       "Verity/1.1 (https://gumgum.com/verity; verity-support@gumgum.com)"
     ],
     "description": "Contextual advertising crawler analyzing page content for brand safety",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "HappyWing",
@@ -9892,7 +10488,10 @@
       "HappyWing"
     ],
     "description": "Web crawler indexing content for data aggregation and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "harsilbot\\/",
@@ -9901,7 +10500,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 (compatible; harsilbot/1.1; +http://www.harsil.com/bot)"
     ],
     "description": "Web crawler indexing and collecting data for SEO analysis purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "HawaiiBot",
@@ -9910,7 +10512,10 @@
       "HawaiiBot"
     ],
     "description": "Web crawler gathering content for data aggregation and indexing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "hCardValidator",
@@ -9919,7 +10524,10 @@
       "hCardValidator/1 PHP/5 (http://hcard.geekhood.net)"
     ],
     "description": "Microformat validator checking hCard contact data on web pages",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Hello World",
@@ -9928,7 +10536,10 @@
       "Hello World"
     ],
     "description": "Test crawler sending generic requests to verify web server responses",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "HelloworkJobPostingBot\\/",
@@ -9937,7 +10548,10 @@
       "HelloworkJobPostingBot/1.0"
     ],
     "description": "Job board crawler indexing employment listings and posting data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "HetrixTools",
@@ -9946,7 +10560,10 @@
       "HetrixTools Uptime Monitoring Bot. https://hetrix.tools/uptime-monitoring-bot.html"
     ],
     "description": "Uptime monitoring bot checking server availability and alerting downtime",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "HIFIBot\\/",
@@ -9955,7 +10572,10 @@
       "Mozilla/5.0 (compatible; HIFIBot/1; +https://hi.fi)"
     ],
     "description": "Web crawler indexing content for search and information aggregation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Hlidam\\.to robot",
@@ -9964,7 +10584,10 @@
       "Hlidam.to robot"
     ],
     "description": "Czech job listing crawler indexing employment offers and postings",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Honeybadger Uptime Check",
@@ -9973,7 +10596,10 @@
       "Honeybadger Uptime Check"
     ],
     "description": "Error monitoring service checking website availability and health",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "HostTracker\\/",
@@ -9982,7 +10608,10 @@
       "Mozilla/5.0 (compatible;HostTracker/2.0;+http://www.host-tracker.com/)"
     ],
     "description": "Website monitoring service checking availability from multiple global locations",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Hotjar",
@@ -9991,7 +10620,10 @@
       "Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Hotjar Version/11.0 Mobile/15E148 Safari/604.1"
     ],
     "description": "Analytics platform crawler collecting heatmap and behavior tracking data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "hstspreload-bot",
@@ -10000,7 +10632,10 @@
       "hstspreload-bot"
     ],
     "description": "HSTS preload list checker verifying HTTPS enforcement across websites",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Huckabot\\/",
@@ -10009,7 +10644,10 @@
       "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Huckabot/0.0; +https://huckabuy.com/)"
     ],
     "description": "E-commerce SEO crawler analyzing product pages for optimization insights",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Hype Machine\\/",
@@ -10018,7 +10656,10 @@
       "Hype Machine/4.0 hypem.com (anthony@hypem.com)"
     ],
     "description": "Music blog aggregator crawler indexing tracks and artist content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Web Screen Service By hyperhost",
@@ -10027,7 +10668,10 @@
       "Web Screen Service By hyperhost.ua"
     ],
     "description": "Web screenshot service capturing page visuals for hosting platform",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "AdsBot-IAB",
@@ -10036,7 +10680,10 @@
       "AdsBot-IAB"
     ],
     "description": "IAB technology crawler verifying ads.txt files for programmatic advertising",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "iAskBot\\/",
@@ -10045,7 +10692,11 @@
       "Mozilla/5.0 AppleWebKit/605.1.15 (KHTML, like Gecko; compatible; iAskBot/1.0; +https://iask.ai/) Chrome/120.0.6099.119 Safari/605.1.15"
     ],
     "description": "AI search engine crawler indexing web content for question answering",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine",
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "IBM Crawler",
@@ -10054,7 +10705,10 @@
       "IBM Crawler"
     ],
     "description": "IBM enterprise crawler indexing content for Watson and cloud services",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "IFTTT\\/",
@@ -10063,7 +10717,10 @@
       "IFTTT/1.0 (https://ifttt.com/support)"
     ],
     "description": "Automation platform crawler fetching feeds for conditional workflow triggers",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "ImageFetcher\\/",
@@ -10072,7 +10729,10 @@
       "Mozilla/5.0 (compatible; ImageFetcher/9.0; +http://wsrv.nl/)"
     ],
     "description": "Image proxy service fetching and caching images for web applications",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "ImageMind",
@@ -10081,7 +10741,10 @@
       "ImageMind"
     ],
     "description": "Image analysis crawler collecting visual data for AI training purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "img2dataset",
@@ -10090,7 +10753,10 @@
       "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0 (compatible; img2dataset; +https://github.com/rom1504/img2dataset)"
     ],
     "description": "Open source tool downloading images for machine learning dataset creation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "imgproxy\\/",
@@ -10099,7 +10765,10 @@
       "imgproxy/3.21.0"
     ],
     "description": "Image processing proxy resizing and optimizing images for web delivery",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "impendoom-bot\\/",
@@ -10108,7 +10777,10 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; impendoom-bot/0.1.0; +https://impendoom.com/) Safari/537.36"
     ],
     "description": "Web crawler indexing content for competitive intelligence and data analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "IndeedJobBot",
@@ -10117,7 +10789,10 @@
       "IndeedJobBot"
     ],
     "description": "Job search engine crawler indexing employment listings and company pages",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Innguma\\/",
@@ -10126,7 +10801,10 @@
       "Innguma/1.0 (+https://factory.innguma.com/fetcher/)"
     ],
     "description": "Content fetcher crawler gathering web data for information extraction",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Instapaper\\/",
@@ -10135,7 +10813,10 @@
       "Instapaper/4.0Instaparser/1.0"
     ],
     "description": "Read-later service crawler fetching articles for offline reading storage",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Integromat\\/",
@@ -10144,7 +10825,10 @@
       "Integromat/production"
     ],
     "description": "Automation platform crawler fetching web data for workflow integration",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "intelx\\.io_bot",
@@ -10153,7 +10837,10 @@
       "Mozilla/5.0 (compatible; intelx.io_bot +https://intelx.io)"
     ],
     "description": "Intelligence search engine crawler indexing leaks and dark web content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "internetVista monitor",
@@ -10162,7 +10849,10 @@
       "internetVista monitor (Mozilla compatible)"
     ],
     "description": "Website monitoring service checking availability performance and SSL status",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Irokez\\.cz monitoring",
@@ -10171,7 +10861,10 @@
       "Irokez.cz monitoring v1.2 - (http://www.irokez.cz, Irokez.cz, crawl)"
     ],
     "description": "Czech web monitoring service tracking availability and performance metrics",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "IsDownBot\\/",
@@ -10180,7 +10873,10 @@
       "Mozilla/5.0 (compatible; IsDownBot/1.0;)"
     ],
     "description": "Downtime monitoring bot checking website and service availability status",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "ISSCyberRiskCrawler\\/",
@@ -10189,7 +10885,10 @@
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 ISSCyberRiskCrawler/1.1.4"
     ],
     "description": "Cybersecurity risk crawler scanning websites for vulnerabilities and exposures",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "iubenda-radar\\/",
@@ -10198,7 +10897,10 @@
       "iubenda-radar/2.25.2"
     ],
     "description": "Compliance platform crawler auditing privacy policies and cookie consent",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "UptimeBot\\/",
@@ -10207,7 +10909,10 @@
       "Mozilla/5.0 (compatible; UptimeBot/1.0; +https://www.getuptime.co)"
     ],
     "description": "Uptime monitoring service verifying website availability and response latency",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "jetmon\\/",
@@ -10216,7 +10921,10 @@
       "jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)"
     ],
     "description": "WordPress Jetpack site uptime monitor and health checking service",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "jobswithgptcom-bot",
@@ -10225,7 +10933,10 @@
       "jobswithgptcom-bot"
     ],
     "description": "Job portal crawler indexing career pages and employment listings",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Jumio",
@@ -10234,7 +10945,10 @@
       "Jumio"
     ],
     "description": "Identity and KYC verification service web content analyzer",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Kagibot\\/",
@@ -10243,7 +10957,10 @@
       "Mozilla/5.0 (compatible; Kagibot/1.0; +https://kagi.com/bot)"
     ],
     "description": "Privacy-focused search engine crawler indexing content for rankings",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "KangarooBot\\/",
@@ -10252,7 +10969,10 @@
       "Mozilla/5.0 (compatible; KangarooBot/1.0; +https://kangaroobot.com)"
     ],
     "description": "Data scraping and content aggregation crawler mimicking human behavior",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "KargoBot-Artemis",
@@ -10261,7 +10981,10 @@
       "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 (compatible; KargoBot-Artemis-Mobile; +https://www.kargo.com/kargobot-artemis)"
     ],
     "description": "Ad-tech crawler analyzing pages for contextual targeting and brand safety",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "kazbtbot\\/",
@@ -10270,7 +10993,10 @@
       "Mozilla/5.0 (compatible; kazbtbot/0.1; +http://kazbt.com/)"
     ],
     "description": "Web crawler for content indexing and data aggregation purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "keycdn-tools\\/",
@@ -10279,7 +11005,10 @@
       "keycdn-tools/speed"
     ],
     "description": "CDN performance monitoring measuring website load times and metrics",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "keys-so-bot",
@@ -10288,7 +11017,10 @@
       "Mozilla/5.0 (keys-so-bot)"
     ],
     "description": "Automated crawler for indexing and data collection purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "kinsta-bot",
@@ -10297,7 +11029,10 @@
       "kinsta-bot"
     ],
     "description": "Hosting platform crawler for cache warming and SEO audit checks",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Klaviyo\\/",
@@ -10306,7 +11041,10 @@
       "Klaviyo/1.0"
     ],
     "description": "Marketing automation bot fetching product data for email campaigns",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Kukei\\.eu-Bot\\/",
@@ -10315,7 +11053,10 @@
       "Mozilla/5.0 (compatible; Kukei.eu-Bot/0.2; +https://kukei.eu)"
     ],
     "description": "Web crawler indexing and analyzing page content for search purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "LAC_IAHarvester",
@@ -10324,7 +11065,10 @@
       "Mozilla/5.0 (compatible; LAC_IAHarvester/3.3.0; +https://library-archives.canada.ca/eng/services/government-canada/web-social-media-preservation-program/Pages/web-archive.aspx)"
     ],
     "description": "Canadian library web archiving bot preserving government websites",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "LastModBot\\/",
@@ -10333,7 +11077,10 @@
       "Mozilla/5.0 (compatible; LastModBot/0.1; +https://last-modified.com/en)"
     ],
     "description": "Web crawler detecting page freshness by analyzing last modified headers",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "LegalMonster",
@@ -10342,7 +11089,10 @@
       "LegalMonster"
     ],
     "description": "Compliance monitoring scanner detecting cookies and tracking consent",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Let's Encrypt",
@@ -10351,7 +11101,10 @@
       "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
     ],
     "description": "SSL certificate validation bot verifying domain control for TLS certs",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Level9SearchBot\\/",
@@ -10360,7 +11113,10 @@
       "Mozilla/5.0 (compatible; Level9SearchBot/2-1.5)"
     ],
     "description": "Search and OSINT crawler indexing public content for search purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "loc\\.gov\\/programs\\/web-archiving",
@@ -10369,7 +11125,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 (+https://www.loc.gov/programs/web-archiving/for-site-owners/)"
     ],
     "description": "Government web archiver preserving cultural content for long-term access",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "LinerBot\\/",
@@ -10378,7 +11137,10 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; LinerBot/1.0; +https://docs.getliner.com/docs/linerbot)"
     ],
     "description": "AI workspace crawler indexing web content for search and discovery",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "LinkTiger",
@@ -10387,7 +11149,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 LinkTiger"
     ],
     "description": "Broken link detection crawler auditing website link integrity",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "LinkAce\\/",
@@ -10396,7 +11161,10 @@
       "LinkAce/1 (https://github.com/Kovah/LinkAce)"
     ],
     "description": "Self-hosted bookmark archive crawler preserving web content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "LinksIndexerBot\\/",
@@ -10405,7 +11173,10 @@
       "Mozilla/5.0 (compatible; LinksIndexerBot/1.0; +http://linksindexer.com/bot)"
     ],
     "description": "SEO crawler indexing backlinks and submitting URLs for search engines",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "LinkWalker\\/",
@@ -10414,7 +11185,10 @@
       "Mozilla/5.0 (compatible; LinkWalker/2.0; +http://www.seventwentyfour.com)"
     ],
     "description": "Automated web crawler for content and data collection purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "LogicMonitor",
@@ -10423,7 +11197,10 @@
       "LogicMonitor SiteMonitor/1.0"
     ],
     "description": "Synthetic monitoring bot checking website and API availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "LoomlyBot",
@@ -10432,7 +11209,10 @@
       "LoomlyBot"
     ],
     "description": "Social media management metadata fetcher for link previews",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "Macrobondbot",
@@ -10441,7 +11221,10 @@
       "Mozilla/5.0 (compatible; Macrobondbot +http://redir.macrobond.com/go/bot/)"
     ],
     "description": "Financial data crawler gathering macroeconomic time-series data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MADBbot\\/",
@@ -10450,7 +11233,10 @@
       "MADBbot/0.1 (Gathering webpages for data analytics; https://madb.zapto.org/bot.html; ma-db-crawl@googlegroups.com)"
     ],
     "description": "Web crawler gathering data for analytics and research purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Magellan",
@@ -10459,7 +11245,10 @@
       "Magellan"
     ],
     "description": "Web content indexing and competitive analysis crawler tool",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "magicsearchdev\\/",
@@ -10468,7 +11257,10 @@
       "magicsearchdev/1.0"
     ],
     "description": "Web crawler for content indexing and data aggregation purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Magnet\\.me-web\\/",
@@ -10477,7 +11269,10 @@
       "Magnet.me-web/1.0 (+https://magnet.me/bot.html)"
     ],
     "description": "Graduate recruitment platform crawling job postings and employer data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MainWP\\/",
@@ -10486,7 +11281,10 @@
       "Mozilla/5.0 (compatible; MainWP/4.2.7.1; +http://mainwp.com)"
     ],
     "description": "WordPress management platform crawler auditing child site health",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Make\\/",
@@ -10495,7 +11293,10 @@
       "Make/production"
     ],
     "description": "Automation platform crawler validating endpoints and collecting metadata",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "ManageWP",
@@ -10504,7 +11305,10 @@
       "ManageWP"
     ],
     "description": "WordPress dashboard scanner verifying site availability and health",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MarketGoo\\/",
@@ -10513,7 +11317,10 @@
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10 MarketGoo/2.1"
     ],
     "description": "SEO audit spider evaluating technical search engine optimization signals",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MarketingMiner",
@@ -10522,7 +11329,10 @@
       "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/W.X.Y.Z Mobile Safari/537.36(compatible; MarketingMiner v2.0; +https://www.marketingminer.com)"
     ],
     "description": "Digital marketing analytics crawler gathering SEO and performance data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "dbot\\)",
@@ -10531,7 +11341,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) (dbot)"
     ],
     "description": "Link preview and content discovery metadata harvester bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "Mattermost-Bot\\/",
@@ -10540,7 +11353,10 @@
       "Mattermost-Bot/1.1"
     ],
     "description": "Team communication platform fetching URLs for preview and automation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "Mavifinds",
@@ -10549,7 +11365,10 @@
       "Mavifinds Bot"
     ],
     "description": "Shopping discovery crawler indexing product prices and availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MB-LinkChecker",
@@ -10558,7 +11377,10 @@
       "MB-LinkChecker"
     ],
     "description": "Website crawler for structure analysis and metadata collection",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MedialogiaBot",
@@ -10567,7 +11389,10 @@
       "Mozilla/5.0 (compatible; MedialogiaBot; +http://home.prod.mlg.ru/bots.txt)"
     ],
     "description": "Media monitoring crawler tracking news and brand mentions online",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MediaMonitoringBot\\/",
@@ -10576,7 +11401,10 @@
       "MediaMonitoringBot/1.1 (+https://mediamonitoringbot.com/crawler; crawler@mediamonitoringbot.com)"
     ],
     "description": "OSINT crawler harvesting mentions from news blogs and forums",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MediavineMetadataParser\\/",
@@ -10585,7 +11413,10 @@
       "MediavineMetadataParser/7.7.3"
     ],
     "description": "Ad network metadata extractor gathering schema and preview data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "Pywikibot\\/",
@@ -10594,7 +11425,10 @@
       "wlc3 Pywikibot/9.0.0.dev0 (g18371) requests/2.31.0 Python/3.10.12.final.0"
     ],
     "description": "MediaWiki crawler indexing wiki content for search and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "CentComBot\\/",
@@ -10603,7 +11437,10 @@
       "Mozilla/5.0 (compatible; CentComBot/"
     ],
     "description": "Content indexing and dataset building crawler tool",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MergadoBot",
@@ -10612,7 +11449,10 @@
       "MergadoBot (+http://mergado.cz)"
     ],
     "description": "E-commerce product data feed optimization and aggregation crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Meta-ExternalHit\\/",
@@ -10621,7 +11461,10 @@
       "Mozilla/5.0 (compatible; Meta-ExternalHit/1.1; +http://www.facebook.com/externalhit_uatext.php)"
     ],
     "description": "Meta platform bot fetching link previews and metadata for sharing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "Metorik",
@@ -10630,7 +11473,10 @@
       "Metorik API Client/2.0.1"
     ],
     "description": "E-commerce analytics platform crawler for WooCommerce and Shopify stores",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MgidBot",
@@ -10639,7 +11485,10 @@
       "MgidBot 1.0"
     ],
     "description": "Native advertising platform crawler analyzing pages for targeting",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "Miniature\\.io\\/",
@@ -10648,7 +11497,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) Miniature.io/6.0 AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.12.4 Chrome/69.0.3497.128 Safari/537.36"
     ],
     "description": "Web page archiving and thumbnail generation bot tool",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "mirrorweb\\.com",
@@ -10657,7 +11509,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 +https://www.mirrorweb.com"
     ],
     "description": "Web archiving platform crawler capturing timestamped website snapshots",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "MissinglettrBot\\/",
@@ -10666,7 +11521,10 @@
       "Mozilla/5.0 (compatible; MissinglettrBot/2.0; +http://missinglettr.com/bot/)"
     ],
     "description": "Social media automation platform crawler for blog and feed indexing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "crawler_eb_germany",
@@ -10675,7 +11533,10 @@
       "crawler_eb_germany_2.0"
     ],
     "description": "General web crawler for indexing and data collection purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "ModularConnector\\/",
@@ -10684,7 +11545,10 @@
       "ModularConnector/1.0 (Linux)"
     ],
     "description": "Distributed modular crawler framework for content processing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Mollie HTTP client",
@@ -10693,7 +11557,10 @@
       "Mollie HTTP client/1.0"
     ],
     "description": "Payment service provider verifying merchant sites and compliance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Monibot",
@@ -10702,7 +11569,10 @@
       "Monibot"
     ],
     "description": "Web crawler for competitive analysis and price monitoring",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "monitis -",
@@ -10711,7 +11581,10 @@
       "Mozilla/5.0 (compatible; monitis - premium monitoring service; http://www.monitis.com)"
     ],
     "description": "Synthetic monitoring bot checking website availability and performance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "MonitoRSS\\/",
@@ -10720,7 +11593,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 MonitoRSS/1.0"
     ],
     "description": "Discord bot crawler fetching RSS feeds for channel notifications",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "MonSpark\\/",
@@ -10729,7 +11605,10 @@
       "Mozilla/5.0+(compatible; MonSpark/1.0; http://www.monspark.com/)"
     ],
     "description": "Website monitoring service bot checking uptime and performance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "montastic-monitor",
@@ -10738,7 +11617,10 @@
       "montastic-monitor www.montastic.com"
     ],
     "description": "Uptime monitoring bot tracking website availability and latency",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "MonTools\\.com",
@@ -10747,7 +11629,10 @@
       "Mozilla/5.0 (compatible; MonTools.com)"
     ],
     "description": "Web crawler for scanning and indexing website pages",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MotoMinerBot\\/",
@@ -10756,7 +11641,10 @@
       "Mozilla/5.0 (compatible; MotoMinerBot/1.0; +https://motominer.com/Bot)"
     ],
     "description": "Automotive marketplace crawler indexing vehicle listings and prices",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MRGbot\\/",
@@ -10765,7 +11653,10 @@
       "Mozilla/5.0 (compatible; MRGbot/1.0; +https://www.mrg.ro/bot.html)"
     ],
     "description": "Security testing lab crawler for anti-fraud control evaluation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "MxToolbox",
@@ -10774,7 +11665,10 @@
       "Mozilla/5.0+(compatible; MxToolbox/Beta7; http://www.mxtoolbox.com/)"
     ],
     "description": "Email delivery and reputation monitoring for organizations",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "my-tiny-bot",
@@ -10783,7 +11677,10 @@
       "my-tiny-bot"
     ],
     "description": "Lightweight web crawler for content indexing and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "MyBot\\/",
@@ -10792,7 +11689,10 @@
       "Mozilla/5.0 (compatible; MyBot/1.0)"
     ],
     "description": "Web crawler for indexing and data aggregation purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "nbertaupete95",
@@ -10801,7 +11701,10 @@
       "Mozilla/5.0/Firefox/42.0 - nbertaupete95(at)gmail.com"
     ],
     "description": "Web crawler for SEO and competitive analysis purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "NetAPI",
@@ -10810,7 +11713,10 @@
       "NetAPI v1"
     ],
     "description": "Automated crawler interacting with websites for data collection",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "NetpeakCheckerBot\\/",
@@ -10819,7 +11725,10 @@
       "Mozilla/5.0 (compatible; NetpeakCheckerBot/3.6; +https://netpeaksoftware.com/checker)"
     ],
     "description": "SEO analysis crawler identifying technical issues and metrics",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "NetShelter ContentScan",
@@ -10828,7 +11737,10 @@
       "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (NetShelter ContentScan)"
     ],
     "description": "Media network crawler categorizing content for ad targeting",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "netumoDisallow",
@@ -10837,7 +11749,10 @@
       "netumoDisallow"
     ],
     "description": "Domain health monitoring bot verifying uptime and DNS",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "NETVIGIE",
@@ -10846,7 +11761,10 @@
       "NETVIGIE"
     ],
     "description": "European performance and uptime monitoring synthetic crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "NewRelicbot\\/",
@@ -10855,7 +11773,10 @@
       "Mozilla/5.0 (compatible; NewRelicbot/2.1; +http://www.newrelic.com)"
     ],
     "description": "Application monitoring bot for uptime and performance checking",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "nyt_scraping",
@@ -10864,7 +11785,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 nyt_scraping/scraping@nytimes.com"
     ],
     "description": "News organization newsgathering crawler for reporting support",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "NewsNow\\/",
@@ -10873,7 +11797,10 @@
       "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT) NewsNow/1.0"
     ],
     "description": "UK news aggregation platform crawler for content discovery",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Nitro-Warmup-Agent",
@@ -10882,7 +11809,10 @@
       "Nitro-Warmup-AgentNitro-Webhook-AgentNitro-Optimizer-Agent"
     ],
     "description": "Website optimization platform cache warming and asset generation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "NLNZ_IAHarvester",
@@ -10891,7 +11821,10 @@
       "Mozilla/5.0 (compatible; NLNZ_IAHarvester2024/3.3.0; +https://natlib.govt.nz/publishers-and-authors/web-harvesting/domain-harvest)"
     ],
     "description": "New Zealand library digital preservation and archiving bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "NodePing",
@@ -10900,7 +11833,10 @@
       "NodePing"
     ],
     "description": "Website monitoring service performing uptime checks globally",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Noibu JS Beautifier",
@@ -10909,7 +11845,10 @@
       "Noibu JS Beautifier"
     ],
     "description": "Error monitoring bot beautifying JavaScript for debugging",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "nomore404\\.com robot",
@@ -10918,7 +11857,10 @@
       "Mozilla/5.0 (nomore404.com robot/1.1; +https://nomore404.com/)"
     ],
     "description": "Broken link detection crawler identifying HTTP 404 errors",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "noorobot",
@@ -10927,7 +11869,10 @@
       "noorobot"
     ],
     "description": "Web scraper performing high-volume programmatic content collection",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Nooshub\\/",
@@ -10936,7 +11881,10 @@
       "Mozilla/5.0 (compatible; Nooshub/1.0; +https://www.nooshub.com/statics/bots)"
     ],
     "description": "AI feed platform crawler indexing content and RSS feeds",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Notabot",
@@ -10945,7 +11893,10 @@
       "Notabot"
     ],
     "description": "Content aggregation and metadata extraction crawler bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Novaact\\/",
@@ -10954,7 +11905,10 @@
       "Mozilla/5.0 (compatible; Novaact/1.0; +https://www.novaact.com)"
     ],
     "description": "Web crawler for data aggregation and analysis purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Novellum",
@@ -10963,7 +11917,10 @@
       "Novellum"
     ],
     "description": "AI data collection crawler for model training and enrichment",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "NsToolsBot\\/",
@@ -10972,7 +11929,10 @@
       "NsToolsBot/analyse"
     ],
     "description": "Network and security analysis tool crawler gathering server data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "nvdorz",
@@ -10981,7 +11941,10 @@
       "nvdorz"
     ],
     "description": "Web crawler for content indexing and analysis purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Odin;",
@@ -10990,7 +11953,10 @@
       "Mozilla/5.0 (compatible; Odin; https://docs.getodin.com/)"
     ],
     "description": "Automated crawler for data collection and indexing purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Offline Explorer",
@@ -10999,7 +11965,10 @@
       "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; Offline Explorer; MSIECrawler)"
     ],
     "description": "Website downloader tool for offline archival and content analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "OhDear\\/",
@@ -11008,7 +11977,10 @@
       "Mozilla/5.0 (compatible; OhDear/1.1; +https://ohdear.app/checkerOhDear.app (+https://ohdear.app/docs/checks/uptime)"
     ],
     "description": "Website monitoring bot scanning uptime and TLS certificate validity",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Omnisend\\/",
@@ -11017,7 +11989,10 @@
       "Omnisend/1.0"
     ],
     "description": "Ecommerce marketing automation crawler fetching campaign URLs metadata",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "OneTrust;",
@@ -11026,7 +12001,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.199 Safari/537.36;OneTrust;"
     ],
     "description": "Consent management platform crawler detecting cookies and tracking",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Online Domain Tools",
@@ -11035,7 +12013,10 @@
       "Mozilla/5.0 (compatible; Online Domain Tools - Server Monitor/1.0; +http://server-monitoring.online-domain-tools.com)"
     ],
     "description": "SEO analysis crawler identifying technical issues and metrics",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WebCEO Online\\/",
@@ -11044,7 +12025,10 @@
       "Mozilla/5.0 (compatible; WebCEO Online/1.0; +http://online.webceo.com)"
     ],
     "description": "SEO platform crawler analyzing keywords and backlinks",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "OnlineOrNot\\.com_bot",
@@ -11053,7 +12037,10 @@
       "OnlineOrNot.com_bot_1.0_(https://onlineornot.com)"
     ],
     "description": "Web crawler for systematic content browsing and indexing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "OpenGraph\\.io\\/",
@@ -11062,7 +12049,10 @@
       "Mozilla/5.0 (compatible; OpenGraph.io/1.1; +https://opengraph.io/ AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
     ],
     "description": "Open Graph metadata extractor for link preview generation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "OpenRSS",
@@ -11071,7 +12061,10 @@
       "OpenRSS"
     ],
     "description": "Feed discovery crawler converting websites into RSS feeds",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "OpenVAS",
@@ -11080,7 +12073,10 @@
       "Mozilla/5.0 [en] (X11, U; OpenVAS)"
     ],
     "description": "Vulnerability scanner crawler identifying security weaknesses",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Owler \\(ows\\.eu",
@@ -11089,7 +12085,10 @@
       "Owler (ows.eu/owler)"
     ],
     "description": "European open search crawler for decentralized indexing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Operator\\/",
@@ -11098,7 +12097,10 @@
       "Mozilla/5.0 (compatible; Operator/1.0; +https://www.example.com/bot.html)"
     ],
     "description": "Automated crawler performing repetitive internet tasks",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Orbbot\\/",
@@ -11107,7 +12109,10 @@
       "Mozilla/5.0 (compatible; Orbbot/1.1;)"
     ],
     "description": "Web crawler indexing content for SEO and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "zebra-v2-bot",
@@ -11116,7 +12121,10 @@
       "zebra-v2-bot"
     ],
     "description": "Web crawler for indexing and data collection purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Orlo-LinkPreview\\/",
@@ -11125,7 +12133,10 @@
       "Orlo-LinkPreview/1.0"
     ],
     "description": "Social platform link preview and metadata fetcher",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "Cozi-iCalendar-FeedReader",
@@ -11134,7 +12145,10 @@
       "Cozi-iCalendar-FeedReader"
     ],
     "description": "Co-parenting platform crawler fetching shared content metadata",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "OutsellURLValidator",
@@ -11143,7 +12157,10 @@
       "OutsellURLValidator"
     ],
     "description": "Digital marketing crawler validating campaign link health",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Overcast\\/",
@@ -11152,7 +12169,10 @@
       "Overcast/1.0 Podcast Sync (123 subscribers; feed-id=456789; +http://overcast.fm/)"
     ],
     "description": "Podcast platform crawler discovering and refreshing feeds",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "PRTGCloudBot\\/",
@@ -11161,7 +12181,10 @@
       "Mozilla/5.0 (compatible; PRTGCloudBot/1.0; +http://www.paessler.com/prtgcloudbot; for_[edf7e62f223b268942b7efa36b6be1e305fcdadb])"
     ],
     "description": "Paessler cloud monitoring bot checking uptime and health",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Pagespeed\\/",
@@ -11170,7 +12193,10 @@
       "Mozilla/5.0 (compatible; Pagespeed/1.1 Fetcher; +http://www.pagespeed.de)"
     ],
     "description": "Performance analysis crawler assessing web page metrics",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "PanguBot",
@@ -11179,7 +12205,10 @@
       "Mozilla/5.0 (compatible; PanguBot +https://www.pangutech.com)"
     ],
     "description": "Chinese search engine crawler indexing websites",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Panopta",
@@ -11188,7 +12217,10 @@
       "Panopta v1.1"
     ],
     "description": "Synthetic monitoring bot verifying uptime and transactions",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Paqlebot\\/",
@@ -11197,7 +12229,10 @@
       "Mozilla/5.0 (compatible; Paqlebot/2.0; +http://www.paqle.dk/about/paqlebot)"
     ],
     "description": "Web crawler gathering data for analytics and research",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "parse\\.ly scraper\\/",
@@ -11206,7 +12241,10 @@
       "Mozilla/5.0 (compatible; parse.ly scraper/0.16; +http://parsely.com)"
     ],
     "description": "Content analytics platform crawler for metadata extraction",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "PayPal\\/",
@@ -11215,7 +12253,10 @@
       "PayPal/AUHR-214.0-51787073PayPal IPN ( https://www.paypal.com/ipn )"
     ],
     "description": "Payment processor bot validating endpoints and compliance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "PDF24 URL To PDF",
@@ -11224,7 +12265,10 @@
       "PDF24 URL To PDF"
     ],
     "description": "PDF conversion crawler capturing web pages as documents",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "PingAdmin\\.Ru\\/",
@@ -11233,7 +12277,10 @@
       "Mozilla/5.0 (compatible; PingAdmin.Ru/1.2; +http://pingadmin.ru/free_test/)"
     ],
     "description": "Uptime monitoring service bot checking website availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "pingping\\.io\\/",
@@ -11242,7 +12289,10 @@
       "pingping.io/1.0"
     ],
     "description": "Lightweight monitoring bot validating URL availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "PlayStore-Google",
@@ -11251,7 +12301,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.182 Safari/537.36 PlayStore-Google"
     ],
     "description": "Google Play Store crawler indexing apps and content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Plesk screenshot bot",
@@ -11260,7 +12313,10 @@
       "Plesk screenshot bot https://support.plesk.com/hc/en-us/articles/10301006946066"
     ],
     "description": "Hosting platform management crawler for website auditing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "PocketCasts\\/",
@@ -11269,7 +12325,10 @@
       "PocketCasts/1.0 (Pocket Casts Feed Parser; +http://pocketcasts.com/)"
     ],
     "description": "Podcast platform crawler parsing feeds and episodes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "Potions\\/",
@@ -11278,7 +12337,10 @@
       "Potions/1.0.0"
     ],
     "description": "E-commerce personalization crawler ingesting catalogs",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "PressEngineBot",
@@ -11287,7 +12349,10 @@
       "PressEngineBot (+http://pressengine.net/crawl-policy)"
     ],
     "description": "Press release aggregation crawler for content syndication",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "PricedroneShoppingBot\\/",
@@ -11296,7 +12361,10 @@
       "Mozilla/5.0 (compatible; PricedroneShoppingBot/1.0; +http://pricedrone.com/robot/)"
     ],
     "description": "Price comparison crawler aggregating product pricing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "PriEcoBot\\/",
@@ -11305,7 +12373,10 @@
       "Mozilla/5.0 (compatible; PriEcoBot/1.0; +https://prieco.net)"
     ],
     "description": "Web crawler for content aggregation and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "PrintFriendly\\.com",
@@ -11314,7 +12385,10 @@
       "Mozilla/5.0 (X11; Linux i586; rv:31.0) Gecko/20100101 Firefox/31.0 PrintFriendly.com"
     ],
     "description": "Print optimization crawler converting pages to printable format",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Pro-Sitemaps\\/",
@@ -11323,7 +12397,10 @@
       "Mozilla/5.0 (compatible; Pro Sitemaps Generator; pro-sitemaps.com) Gecko Pro-Sitemaps/1.0"
     ],
     "description": "Sitemap generation crawler discovering and indexing URLs",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "ProbelySPDR\\/",
@@ -11332,7 +12409,10 @@
       "Mozilla/5.0 (compatible; +https://probely.com/sos) ProbelySPDR/0.1.0"
     ],
     "description": "Security testing crawler identifying web vulnerabilities",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "PHPot Verispider",
@@ -11341,7 +12421,10 @@
       "PHPot Verispider v0.1 - http://www.projecthoneypot.org/"
     ],
     "description": "Deception bot detection network identifying malicious crawlers",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "ProjectShield-UrlCheck",
@@ -11350,7 +12433,10 @@
       "Mozilla/5.0 (compatible; ProjectShield-UrlCheck; +http://g.co/projectshield)"
     ],
     "description": "Google DDoS protection bot validating customer origins",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Blackbox Exporter\\/",
@@ -11359,7 +12445,10 @@
       "Blackbox Exporter/0.20.0-rc.0"
     ],
     "description": "Prometheus monitoring crawler checking endpoint health",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Protopage\\/",
@@ -11368,7 +12457,10 @@
       "Protopage/3.0 (http://www.protopage.com)"
     ],
     "description": "Start page and RSS reader crawler aggregating content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "PS_Daily\\/",
@@ -11377,7 +12469,10 @@
       "PS_Daily/1.0 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
     ],
     "description": "Web crawler for data collection and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "pulsetic\\.com",
@@ -11386,7 +12481,10 @@
       "pulsetic.com (+https://pulsetic.com)"
     ],
     "description": "Uptime monitoring bot tracking website availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "PWABuilderHttpAgent",
@@ -11395,7 +12493,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57 PWABuilderHttpAgent"
     ],
     "description": "Microsoft PWA readiness evaluation crawler tool",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "QualifiedBot\\/",
@@ -11405,7 +12506,10 @@
       "Mozilla/5.0 (compatible; QualifiedBot/1.0; +https://www.qualified.com/legal/qualified-crawler-user-agent)"
     ],
     "description": "Conversational sales platform crawler inventorying site URLs",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "cf-qualys-scanner",
@@ -11414,7 +12518,10 @@
       "cf-qualys-scanner"
     ],
     "description": "Web vulnerability scanner detecting security issues and compliance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Quantcastbot\\/",
@@ -11423,7 +12530,10 @@
       "Quantcastbot/1.0 (+http://www.quantcast.com/bot)"
     ],
     "description": "Audience analytics crawler for ad measurement and targeting",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "Rackspace Monitoring\\/",
@@ -11432,7 +12542,10 @@
       "Rackspace Monitoring/1.1 (https://monitoring.api.rackspacecloud.com)"
     ],
     "description": "Cloud infrastructure monitoring bot checking endpoint availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "rakutenusabot-image\\/",
@@ -11441,7 +12554,10 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; rakutenusabot-image/1.0) Chrome/114.0.0.0 Safari/537.36"
     ],
     "description": "E-commerce platform crawler extracting product images",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "top100\\.rambler\\.ru crawler",
@@ -11450,7 +12566,10 @@
       "Mozilla/5.0 (compatible; top100.rambler.ru crawler)"
     ],
     "description": "Russian search engine crawler indexing web content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "RankurBot\\/",
@@ -11459,7 +12578,10 @@
       "RankurBot/3.3 (+http://rankur.com)"
     ],
     "description": "Social media and reputation monitoring crawler collecting data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "RavenCrawler\\/",
@@ -11468,7 +12590,10 @@
       "Mozilla/5.0 (compatible; RavenCrawler/2.0; +https://raventools.com/seo-website-auditor/)"
     ],
     "description": "SEO auditing crawler analyzing website optimization signals",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Readable\\/",
@@ -11477,7 +12602,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Readable/1.1.4"
     ],
     "description": "Content analysis crawler computing readability and metrics",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Recurly Webhooks\\/",
@@ -11486,7 +12614,10 @@
       "Recurly Webhooks/2.0 (+https://docs.recurly.com/push-notifications)"
     ],
     "description": "Billing platform webhook validation and monitoring bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "RED\\/",
@@ -11495,7 +12626,10 @@
       "RED/2.0.14 (https://redbot.org/)"
     ],
     "description": "HTTP response testing and validation analyzer",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Reelevant\\/",
@@ -11504,7 +12638,10 @@
       "Reelevant/1.0"
     ],
     "description": "Personalization platform fetching URLs for email and content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "remove\\.bg\\/",
@@ -11513,7 +12650,10 @@
       "remove.bg/1.0 background removal website"
     ],
     "description": "Image editing service crawler accessing and processing images",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Retool\\/",
@@ -11522,7 +12662,10 @@
       "Retool/2.0 (+https://docs.tryretool.com/docs/apis)"
     ],
     "description": "Internal tools platform fetching page metadata and content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "RetroListeCOM\\/",
@@ -11531,7 +12674,10 @@
       "Mozilla/5.0 (compatible; RetroListeCOM/1.0)"
     ],
     "description": "Directory and price comparison crawler indexing listings",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "RevvimGort\\/",
@@ -11540,7 +12686,10 @@
       "Chrome/54.0.2840.71 (compatible; RevvimGort/5.0; +http://www.revvim.com; webmaster@revvim.com)"
     ],
     "description": "SEO optimization crawler detecting performance issues",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "reward-gateway",
@@ -11549,7 +12698,10 @@
       "reward-gateway"
     ],
     "description": "Employee engagement platform crawler validating offers",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Riddler \\(http:\\/\\/riddler\\.io",
@@ -11558,7 +12710,10 @@
       "Riddler (http://riddler.io/about)"
     ],
     "description": "Internet scanning crawler gathering domain and IP metadata",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "RobotsChecker\\/",
@@ -11567,7 +12722,10 @@
       "RobotsChecker/0.6 (+http://www.blocked.org.uk)"
     ],
     "description": "Website health monitoring and content indexing crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "RSSAPI\\/",
@@ -11576,7 +12734,10 @@
       "RSSAPI/2.0 (+https://rssapi.net/)"
     ],
     "description": "RSS and Atom feed crawler for content aggregation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "rss2tg",
@@ -11585,7 +12746,10 @@
       "Mozilla/5.0 (compatible; rss2tg bot; +http://komar.in/en/rss2tg_crawler)"
     ],
     "description": "RSS to Telegram converter fetching feed content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "RssReaderBot",
@@ -11594,7 +12758,10 @@
       "RssReaderBot"
     ],
     "description": "RSS feed aggregator indexing content updates",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "s4a-probe-bot\\/",
@@ -11603,7 +12770,10 @@
       "Mozilla/5.0 AppleWebKit (compatible; s4a-probe-bot/1.0; Fake-Googlebot; +https://www.seo4ajax.com/webscraper)"
     ],
     "description": "Web scraping and SEO analysis crawler tool",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SFDC-Callout\\/",
@@ -11612,7 +12782,10 @@
       "SFDC-Callout/49.0"
     ],
     "description": "Salesforce platform crawler fetching web resources",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "page-preview-tool",
@@ -11621,7 +12794,10 @@
       "page-preview-tool Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36"
     ],
     "description": "B2B intelligence platform identifying visiting companies",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SandobaCrawler\\/",
@@ -11630,7 +12806,10 @@
       "mozilla/5.0 (compatible; SandobaCrawler/1.0; +https://www.sandoba.com/en/crawler/)"
     ],
     "description": "Web crawler for data aggregation and indexing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Sansec Security Monitor\\/",
@@ -11639,7 +12818,10 @@
       "Mozilla/5.0 (compatible; Sansec Security Monitor/1.0; +https://sansec.io/monitor)"
     ],
     "description": "E-commerce malware detection scanner for skimmers",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "GIFTEDVISITOR SCAN",
@@ -11648,7 +12830,10 @@
       "GIFTEDVISITOR SCAN"
     ],
     "description": "Web crawler for content indexing and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Schema-Markup-Validator",
@@ -11657,7 +12842,10 @@
       "Mozilla/5.0 (compatible; Schema-Markup-Validator; +https://validator.schema.org/)"
     ],
     "description": "Structured data validation crawler for schema compliance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Scoop\\.it\\/",
@@ -11666,7 +12854,10 @@
       "Mozilla/5.0 (compatible; Scoop.it/1.0; +http://www.scoop.it/bot)"
     ],
     "description": "Content curation platform crawler discovering relevant content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "ScourRSSBot\\/",
@@ -11675,7 +12866,10 @@
       "ScourRSSBot/1.0 (+https://scour.ing/bot)"
     ],
     "description": "RSS feed discovery and monitoring crawler bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "ScrapeheroBot\\/",
@@ -11684,7 +12878,10 @@
       "Mozilla/5.0 (compatible; ScrapeheroBot/1.0; +https://scrapehero.de/)"
     ],
     "description": "Web scraping service crawler for data extraction",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "screeenly-bot",
@@ -11693,7 +12890,10 @@
       "screeenly-bot 2.0"
     ],
     "description": "Screenshot capture service crawler taking website snapshots",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SEBot-WA",
@@ -11702,7 +12902,10 @@
       "SEBot-WA"
     ],
     "description": "SEO audit crawler performing technical analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Searcherweb",
@@ -11711,7 +12914,10 @@
       "Searcherweb"
     ],
     "description": "Web crawler indexing content for search engines",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Searcherxweb",
@@ -11720,7 +12926,10 @@
       "Searcherxweb"
     ],
     "description": "Web crawler for indexing and data collection",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "SearchExpress",
@@ -11729,7 +12938,10 @@
       "SearchExpress"
     ],
     "description": "Search engine crawler gathering website information",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "SecurityHeaders",
@@ -11738,7 +12950,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 SecurityHeaders"
     ],
     "description": "HTTP security headers analyzer and evaluator",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "semaltbot\\/",
@@ -11747,7 +12962,10 @@
       "semaltbot/0.1 (+http://semalt.net)"
     ],
     "description": "SEO analytics crawler collecting ranking and performance data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SendGrid Event API",
@@ -11756,7 +12974,10 @@
       "SendGrid Event API"
     ],
     "description": "Email service crawler scanning links in messages",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SentryUptimeBot\\/",
@@ -11765,7 +12986,10 @@
       "SentryUptimeBot/1.0 (+http://docs.sentry.io/product/alerts/uptime-monitoring/)"
     ],
     "description": "Application monitoring bot verifying URL availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "seo-audit-check-bot\\/",
@@ -11774,7 +12998,10 @@
       "Mozilla/5.0 (compatible; seo-audit-check-bot/1.0)"
     ],
     "description": "SEO auditing crawler evaluating optimization signals",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "s4a\\/",
@@ -11783,7 +13010,10 @@
       "Mozilla/5.0 AppleWebKit (compatible; s4a/1.0; +https://www.seo4ajax.com/webscraper)"
     ],
     "description": "JavaScript rendering and SEO prerendering service",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "ClarityBot\\/",
@@ -11792,7 +13022,10 @@
       "Mozilla/5.0 (compatible; ClarityBot/9.0; +https://www.seoclarity.net/bot.html)"
     ],
     "description": "SEO analytics crawler providing optimization insights",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SeoSiteCheckup",
@@ -11801,7 +13034,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 SeoSiteCheckup (https://seositecheckup.com)"
     ],
     "description": "SEO site analysis crawler evaluating search performance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SeoulBot",
@@ -11810,7 +13046,10 @@
       "SeoulBot"
     ],
     "description": "Web crawler for SEO and competitive analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SequelWP Uptime Monitoring",
@@ -11819,7 +13058,10 @@
       "SequelWP Uptime Monitoring Bot. https://sequelwp.com.au"
     ],
     "description": "WordPress hosting crawler checking site availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "SERPtimizerBot",
@@ -11828,7 +13070,10 @@
       "Mozilla/5.0 (compatible; SERPtimizerBot; +http://serptimizer.com/serptimizer-bot)"
     ],
     "description": "SEO analysis crawler gathering data for optimization",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Server Density Service Monitoring",
@@ -11837,7 +13082,10 @@
       "Server Density Service Monitoring v2Server Density Agent"
     ],
     "description": "Cloud monitoring bot checking uptime and performance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "ServerHunterSpider\\/",
@@ -11846,7 +13094,10 @@
       "Mozilla/5.0 (compatible; ServerHunterSpider/1.1; +https://www.serverhunter.com/spider/)"
     ],
     "description": "Hosting and VPS price comparison crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SeznamHomepageCrawler\\/",
@@ -11855,7 +13106,10 @@
       "SeznamHomepageCrawler/v1.0.6"
     ],
     "description": "Czech search engine crawler indexing web pages",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Shopify-Captain-Hook",
@@ -11864,7 +13118,10 @@
       "Shopify-Captain-Hook"
     ],
     "description": "E-commerce platform crawler for webhook verification",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Shortwave Image Fetcher",
@@ -11873,7 +13130,10 @@
       "Shortwave Image Fetcher"
     ],
     "description": "Email client image proxy and link preview fetcher",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "linkReader\\/",
@@ -11882,7 +13142,10 @@
       "linkReader/1.0 (+https://gochitchat.ai)"
     ],
     "description": "AI assistant crawler for content indexing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "Sidetrade indexer bot",
@@ -11891,7 +13154,10 @@
       "Sidetrade indexer bot"
     ],
     "description": "Financial analytics crawler gathering business data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Silk\\/",
@@ -11900,7 +13166,10 @@
       "Silk/1.0 Also seen as: silk/1.0 (+http://www.slider.com/silk.htm)/3.7"
     ],
     "description": "DMOZ directory crawler indexing web content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SilktideBot\\/",
@@ -11909,7 +13178,10 @@
       "Mozilla/5.0 (compatible; SilktideBot/1.1; +https://help.silktide.com/en/articles/4606146-silktidebot-our-site-scanning-bot)"
     ],
     "description": "Web quality and accessibility auditing crawler bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SinceraSyntheticUser\\/",
@@ -11918,7 +13190,10 @@
       "Mozilla/5.0 (compatible; SinceraSyntheticUser/1.0; +http://app.sincera.io/bots)"
     ],
     "description": "Web data aggregation and analytics crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Optimizer\\)",
@@ -11927,7 +13202,10 @@
       "Mozilla/5.0 (compatible; Optimizer)"
     ],
     "description": "SEO analysis and website optimization crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Site24x7",
@@ -11936,7 +13214,10 @@
       "Site24x7"
     ],
     "description": "Cloud monitoring service checking website health",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "SiteAuditBot\\/",
@@ -11945,7 +13226,10 @@
       "Mozilla/5.0 (compatible; SiteAuditBot/1.1; +https://siteauditbot.com)"
     ],
     "description": "Website SEO auditing and link checking crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SiteCheck-sitecrawl",
@@ -11954,7 +13238,10 @@
       "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) SiteCheck-sitecrawl"
     ],
     "description": "Digital governance platform auditing web quality",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SiteLockSpider",
@@ -11963,7 +13250,10 @@
       "SiteLockSpider"
     ],
     "description": "Malware and vulnerability scanning bot for websites",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "SiteScoreBot",
@@ -11972,7 +13262,10 @@
       "SiteScoreBot v20210315 - https://sitescore.ai"
     ],
     "description": "Website performance and security evaluation crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SiteSearch360\\/",
@@ -11981,7 +13274,10 @@
       "Mozilla/5.0 (compatible; SiteSearch360/1.0; +https://sitesearch360.com/)"
     ],
     "description": "On-site search platform crawler building indices",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "SiteUptime\\.com",
@@ -11990,7 +13286,10 @@
       "SiteUptime.com"
     ],
     "description": "Uptime monitoring service checking website availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Konturbot\\/",
@@ -11999,7 +13298,10 @@
       "Mozilla/5.0 (compatible; Konturbot/1.2; +http://kontur.ru; cargo@kontur.ru)"
     ],
     "description": "Russian business intelligence and analytics crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SkroutzBot",
@@ -12008,7 +13310,10 @@
       "SkroutzBot v1.0"
     ],
     "description": "Price comparison platform crawler aggregating products",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SkyworkSpider",
@@ -12017,7 +13322,10 @@
       "SkyworkSpider"
     ],
     "description": "Web crawler for content indexing and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SlickBot\\/",
@@ -12026,7 +13334,10 @@
       "Mozilla/5.0 (compatible; SlickBot/1.0; +http://slickstream.com)"
     ],
     "description": "Content recommendation and search indexing crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SmartologyBot\\/",
@@ -12035,7 +13346,10 @@
       "SmartologyBot/1.0 (+http://www.smartology.net/smartologybot)"
     ],
     "description": "Contextual advertising crawler for brand safety",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "SnapURLPreview\\/",
@@ -12044,7 +13358,10 @@
       "Mozilla/5.0 (compatible; SnapURLPreview/1.0; +https://www.snapchat.com)"
     ],
     "description": "Social platform URL preview and metadata fetcher",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "SnapchatAds\\/",
@@ -12053,7 +13370,10 @@
       "Mozilla/5.0 (compatible; SnapchatAds/1.0; +https://businesshelp.snapchat.com/s/article/adsbot-crawler)"
     ],
     "description": "Advertising platform crawler for ad verification",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "Snipcart\\/",
@@ -12062,7 +13382,10 @@
       "Snipcart/1.0"
     ],
     "description": "E-commerce shopping cart crawler validating products",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "solarwinds\\/",
@@ -12071,7 +13394,10 @@
       "solarwinds/1.0 ( www.solarwinds.com/solarwinds-observability)"
     ],
     "description": "Observability platform monitoring website performance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Sora POS\\/",
@@ -12080,7 +13406,10 @@
       "Sora POS/1.0 (Sora Websoft)"
     ],
     "description": "Point-of-sale system crawler for transaction data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SparkShipping",
@@ -12089,7 +13418,10 @@
       "SparkShipping"
     ],
     "description": "E-commerce data crawler normalizing product catalogs",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SparkPost",
@@ -12098,7 +13430,10 @@
       "SparkPost"
     ],
     "description": "Email service crawler validating links and tracking",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Spawning-AI",
@@ -12107,7 +13442,10 @@
       "Spawning-AI"
     ],
     "description": "Web crawler indexing content for AI models",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "IDG\\/EU",
@@ -12116,7 +13454,10 @@
       "IDG/EU (http://spaziodati.eu/)"
     ],
     "description": "Semantic data and business intelligence crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Specificfeeds",
@@ -12125,7 +13466,10 @@
       "FeedBurner/1.0 (http://www.FeedBurner.com) Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 Specificfeeds"
     ],
     "description": "Content aggregation crawler for personalized feeds",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   },
   {
     "pattern": "Spectate\\/",
@@ -12134,7 +13478,10 @@
       "Spectate/1.0 (+https://docs.spectate.net/faq/uptime-monitor-bot)"
     ],
     "description": "Content monitoring and uptime checking crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "SpiderLing",
@@ -12143,7 +13490,10 @@
       "Mozilla/5.0 (compatible; SpiderLing (a SPIDER for LINGustic research); +http://nlp.fi.muni.cz/projects/biwec/)"
     ],
     "description": "Linguistic research crawler building language corpora",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "splash Version\\/",
@@ -12152,7 +13502,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/602.1 (KHTML, like Gecko) splash Version/10.0 Safari/602.1"
     ],
     "description": "Headless browser for web scraping and testing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "browser-automation"
+    ]
   },
   {
     "pattern": "Rigor\\)",
@@ -12161,7 +13514,10 @@
       "Mozilla/5.0 (X11; Linux x86_64; Rigor) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
     ],
     "description": "Splunk synthetic monitoring for performance checks",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "TwinWaveScanner",
@@ -12170,7 +13526,10 @@
       "TwinWaveScanner"
     ],
     "description": "Security threat analysis and phishing detection bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Splunk Synthetics\\)",
@@ -12179,7 +13538,10 @@
       "Mozilla/5.0 (X11; Linux x86_64; Splunk Synthetics) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.88 Safari/537.36"
     ],
     "description": "Website monitoring crawler measuring availability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "SSL Labs \\(https:\\/\\/www\\.ssllabs\\.com",
@@ -12188,7 +13550,10 @@
       "SSL Labs (https://www.ssllabs.com/about/assessment.html)"
     ],
     "description": "TLS certificate and encryption configuration analyzer",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "SSSSBot\\/",
@@ -12197,7 +13562,10 @@
       "Mozilla/5.0 (compatible; SSSSBot/0.0.1; +http://s-ans.xyz:80/)"
     ],
     "description": "Web crawler for content indexing and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Stape\\/",
@@ -12206,7 +13574,10 @@
       "Stape/1.0.0Stape"
     ],
     "description": "Server-side tagging platform tag verification bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "StartpagePrivateImageProxy\\/",
@@ -12215,7 +13586,10 @@
       "StartpagePrivateImageProxy/2.0 (https://www.startpage.com/; support@startpage.com) requests/2.25.1"
     ],
     "description": "Privacy-focused search engine crawler indexing pages",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Statabot\\/",
@@ -12224,7 +13598,10 @@
       "Statabot/1.0 https://www.stata.com/support/statabot"
     ],
     "description": "Analytics and market intelligence web crawler",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "StatistikAustria\\/",
@@ -12233,7 +13610,10 @@
       "Mozilla/5.0 (compatible; StatistikAustria/1.0; +http://www.statistik.gv.at)"
     ],
     "description": "National statistics office crawler for price data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "StatsDroneBot",
@@ -12242,7 +13622,10 @@
       "StatsDroneBot (https://statsdrone.com/statsdrone-bot-documentation/) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
     ],
     "description": "Affiliate marketing link validation and monitoring bot",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Stripe\\/",
@@ -12251,7 +13634,10 @@
       "Stripe/1.0 (+https://stripe.com/docs/webhooks)"
     ],
     "description": "Payment processor crawler verifying merchant sites and collecting metadata signals",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Sucuri",
@@ -12260,7 +13646,10 @@
       "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 MSIE 7.0; Sucuri Integrity Monitor/2.4"
     ],
     "description": "Security scanner identifying malware blacklist status and checking plugin vulnerability compliance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Svix-Webhooks\\/",
@@ -12269,7 +13658,10 @@
       "Svix-Webhooks/1.65.0 (sender-9YMgn; +https://www.svix.com/http-sender/)Webhooks/1.65.0 (sender-9YMgn)"
     ],
     "description": "Webhooks infrastructure provider crawler cataloging vendor sites and delivery practices",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "SwifteqLinkChecker",
@@ -12278,7 +13670,10 @@
       "SwifteqLinkChecker"
     ],
     "description": "Web crawler verifying link availability status redirects and basic page content validation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Swisscows",
@@ -12287,7 +13682,10 @@
       "Swisscows Favicons"
     ],
     "description": "Privacy-focused search engine crawler indexing web pages without storing personal data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "Datadog Synthetic",
@@ -12296,7 +13694,10 @@
       "Datadog Synthetic"
     ],
     "description": "Synthetic monitoring bot testing website APIs and collecting uptime performance data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "TactiScout\\/",
@@ -12305,7 +13706,10 @@
       "TactiScout/recruit (+http://find-it.world/TempCrawl/Crawltheque.php)"
     ],
     "description": "Data collection crawler gathering competitive intelligence and monitoring market trends analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "tchelebi\\/",
@@ -12314,7 +13718,10 @@
       "Mozilla/5.0 (compatible; tchelebi/1.0; +http://tchelebi.io)"
     ],
     "description": "Web crawling tool indexing content for SEO data aggregation and competitive analysis purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "bitdiscovery",
@@ -12323,7 +13730,10 @@
       "bitdiscovery"
     ],
     "description": "Security vulnerability scanner identifying weaknesses and compliance issues in web infrastructure",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "TermlyBot\\/",
@@ -12332,7 +13742,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.82 Safari/537.36 (compatible; TermlyBot/2.0; +http://www.termly.io/bot.html)"
     ],
     "description": "Compliance scanner gathering legal policies and cookie consent mechanisms from websites",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Test Certificate Info",
@@ -12341,7 +13754,10 @@
       "Test Certificate Info"
     ],
     "description": "SSL TLS certificate analyzer assessing website security encryption and expiration status",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Testcrawler",
@@ -12350,7 +13766,10 @@
       "Testcrawler"
     ],
     "description": "Testing crawler evaluating website performance security vulnerabilities and SEO optimization",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "test-bot",
@@ -12359,7 +13778,10 @@
       "test-bot"
     ],
     "description": "Automated testing script monitoring uptime and gathering performance analysis data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "TestLocally\\/",
@@ -12368,7 +13790,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.26 Safari/537.36 TestLocally/1.0"
     ],
     "description": "Development testing bot simulating user interactions and verifying website functionality behavior",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "browser-automation"
+    ]
   },
   {
     "pattern": "TestURI",
@@ -12377,7 +13802,10 @@
       "Mozilla/5.0 (compatible; TestURI; +http://testuri.org/)"
     ],
     "description": "Web crawler testing performance security compliance and assessing website configuration",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "TextRazor",
@@ -12386,7 +13814,10 @@
       "TextRazor Downloader (https://www.textrazor.com)"
     ],
     "description": "NLP service crawler collecting web data for text analysis entity extraction processing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "The Knowledge AI",
@@ -12395,7 +13826,10 @@
       "The Knowledge AI"
     ],
     "description": "AI data collection crawler indexing content and enhancing machine learning models",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "ai-crawler"
+    ]
   },
   {
     "pattern": "TheInternetSearchx",
@@ -12404,7 +13838,10 @@
       "TheInternetSearchx"
     ],
     "description": "Search engine crawler indexing websites and improving search result database coverage",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "thesis-research-bot",
@@ -12413,7 +13850,10 @@
       "thesis-research-bot"
     ],
     "description": "Academic research crawler collecting web data trends and analyzing website structures systematically",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "Trellis-Services",
@@ -12422,7 +13862,10 @@
       "Trellis-Services"
     ],
     "description": "Content scraper and fetching service crawler for programmatic large-scale web page retrieval",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "trentwil\\.es",
@@ -12431,7 +13874,10 @@
       "domain research project (+https://trentwil.es/domains.html)"
     ],
     "description": "Web crawler indexing content for data aggregation SEO analysis and competitive intelligence",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Trustly\\/",
@@ -12440,7 +13886,10 @@
       "Trustly/1"
     ],
     "description": "Open banking crawler automating user sessions for account data and payment initiation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "TTD-Content",
@@ -12449,7 +13898,10 @@
       "Mozilla/5.0 (compatible; TTD-Content; +https://www.thetradedesk.com/general/ttd-content)"
     ],
     "description": "Ad network content crawler analyzing pages for contextual advertising and brand safety",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "Tweakers",
@@ -12458,7 +13910,10 @@
       "Tweakers Image Proxy https://tweakers.net"
     ],
     "description": "Dutch technology website crawler aggregating product reviews and IT content data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "TwilioProxy\\/",
@@ -12467,7 +13922,10 @@
       "TwilioProxy/1.1"
     ],
     "description": "Communication platform fetcher retrieving media links and previews for messaging services",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "UASlinkChecker\\/",
@@ -12476,7 +13934,10 @@
       "Mozilla/5.0 (compatible; UASlinkChecker/2.1; +https://udger.com/support/UASlinkChecker)"
     ],
     "description": "Link checking crawler validating URL availability and HTTP status across websites",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "hgfAlphaXCrawl\\/",
@@ -12485,7 +13946,10 @@
       "hgfAlphaXCrawl/1.0 (+https://www.fim.uni-passau.de/data-science/forschung/open-search)"
     ],
     "description": "University research crawler collecting data for academic projects and information retrieval",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "Unshorten\\.It\\!",
@@ -12494,7 +13958,10 @@
       "Unshorten.It!/1.0 (https://unshorten.it/)"
     ],
     "description": "URL expansion crawler revealing shortened link destinations for cybersecurity threat intelligence",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "updown\\.io",
@@ -12503,7 +13970,10 @@
       "updown.io daemon 2.11"
     ],
     "description": "Website monitoring crawler checking availability and performance metrics from locations",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Uptime\\/",
@@ -12512,7 +13982,10 @@
       "Mozilla/5.0 (compatible; Uptime/1.0; http://uptime.com)"
     ],
     "description": "Synthetic monitoring bot verifying site availability and transaction health globally",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "uptimedoctor",
@@ -12521,7 +13994,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134 www.uptimedoctor.com (username slowmail)"
     ],
     "description": "Uptime monitoring probe verifying website availability and SSL certificate health",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Uptimia",
@@ -12530,7 +14006,10 @@
       "Mozilla/5.0 (compatible; Uptimia; www.uptimia.com)"
     ],
     "description": "Platform crawler monitoring website performance uptime and simulating user interactions",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "uptrends",
@@ -12539,7 +14018,10 @@
       "uptrends"
     ],
     "description": "Synthetic monitoring agent testing transaction availability and performance from locations",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Urlcheckr\\/",
@@ -12548,7 +14030,10 @@
       "Urlcheckr/2.0"
     ],
     "description": "Dead link checker scanner identifying broken hyperlinks and inaccessible web pages",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "URLSuMaBot",
@@ -12557,7 +14042,10 @@
       "Mozilla / 5.0(Windows NT 10.0; Win64; x64) AppleWebKit / 537.36(KHTML, like Gecko; compatible; URLSuMaBot / 1.0; +https://www.urlsuma.de/bot.aspx) Chrome / 70.0.3538.77 Safari / 537.36"
     ],
     "description": "Web crawler systematically indexing and collecting data from websites for analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "useeBookChecker\\/",
@@ -12566,7 +14054,10 @@
       "Mozilla/5.0 (compatible; useeBookChecker/0.2; +http://usee.pl/useeBookChecker.html)"
     ],
     "description": "Ebook metadata scanner identifying and cataloging digital publication availability data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Vagabondo\\/",
@@ -12578,7 +14069,10 @@
       "Mozilla/3.0 (Vagabondo/2.0 MT; webcrawler@NOSPAMexperimental.net; http://aanmelden.ilse.nl/?aanmeld_mode=webhints)"
     ],
     "description": "Legacy Dutch web crawler indexing mobile pages for regional search and content",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "VaultPress",
@@ -12587,7 +14081,10 @@
       "VaultPress"
     ],
     "description": "WordPress backup and security scanner performing malware scanning and integrity",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "videootvBot",
@@ -12596,7 +14093,10 @@
       "Mozilla/5.0 (compatible; videootvBot; +https://www.videoo.tv)"
     ],
     "description": "Video aggregator crawler discovering indexing video content and stream endpoints",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "VsuSearchSpider\\/",
@@ -12605,7 +14105,10 @@
       "VsuSearchSpider/1.0"
     ],
     "description": "Web crawler indexing and gathering information from websites for search purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "search-engine"
+    ]
   },
   {
     "pattern": "vu-server-health-scanner\\/",
@@ -12614,7 +14117,10 @@
       "Mozilla/5.0 (compatible;vu-server-health-scanner/1.0;https://130.37.198.75/index.html)"
     ],
     "description": "Academic crawler indexing web content for research data collection and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "WARDBot\\/",
@@ -12623,7 +14129,10 @@
       "Mozilla/5.0 (compatible; WARDBot/1.0; http://ward.ai/robot)"
     ],
     "description": "Web automation crawler extracting website data for reconnaissance and analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WebsiteOps",
@@ -12632,7 +14141,10 @@
       "WebsiteOps (hello@websiteops.io)"
     ],
     "description": "Web crawling client monitoring uptime changes and analyzing website data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "WatchMouse",
@@ -12641,7 +14153,10 @@
       "WatchMouse (http://watchmouse.com/ ; HQ)"
     ],
     "description": "Web performance monitoring tool assessing website availability from global testing locations",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Web Measure\\/",
@@ -12650,7 +14165,10 @@
       "Web Measure/1.0 (https://webresearch.eecs.umich.edu/overview-of-web-measurements/) Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
     ],
     "description": "Web analytics crawler gathering data for performance optimization and competitive analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "Webflow",
@@ -12659,7 +14177,10 @@
       "Webflow 1.0 - Site Screenshot"
     ],
     "description": "Platform crawler rendering and indexing Webflow hosted websites for optimization",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "webgains-bot",
@@ -12668,7 +14189,10 @@
       "webgains-bot (https://www.webgains.com/public/en/)"
     ],
     "description": "Affiliate marketing crawler extracting product listings and pricing information",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "webprosbot\\/",
@@ -12677,7 +14201,10 @@
       "webprosbot/2.0 (+mailto:abuse-6337@webpros.com)"
     ],
     "description": "SEO crawler analyzing websites for optimization content and competitive research",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "websitepulse",
@@ -12686,7 +14213,10 @@
       "websitepulse checker/3.0 (compatible; MSIE 5.5; Netscape 4.75; Linux)"
     ],
     "description": "Synthetic monitoring agent measuring availability performance and content integrity",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "WebSniffer\\/",
@@ -12695,7 +14225,10 @@
       "WebSniffer/1.1 (+http://websniffer.com/)"
     ],
     "description": "Web analyzer retrieving HTTP headers and HTML content for diagnostic purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WSM\\/",
@@ -12704,7 +14237,10 @@
       "Mozilla/5.0 (compatible; WSM/2.0; +https://webspidermount.com/)"
     ],
     "description": "Web scraper crawler for content collection and data aggregation purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WTotemBot",
@@ -12713,7 +14249,10 @@
       "WTotemBot"
     ],
     "description": "Website security scanner assessing malware phishing and content integrity monitoring",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "WebwikiBot\\/",
@@ -12722,7 +14261,10 @@
       "Mozilla/5.0 (compatible; WebwikiBot/2.1; +https://www.webwiki.com)"
     ],
     "description": "Directory crawler collecting website metadata and content for comprehensive indexing",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WEDOS OnLine",
@@ -12731,7 +14273,10 @@
       "WEDOS OnLine monitoring; https://www.wedos.online/"
     ],
     "description": "Website monitoring service checking availability DNS and SSL certificate status",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "WhatsMyIP\\.org",
@@ -12740,7 +14285,10 @@
       "Mozilla/5.0 (WhatsMyIP.org Text_to_Code_Ratio_Tool) http://whatsmyip.org/ua"
     ],
     "description": "IP address analysis tool gathering network configuration and geolocation data",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WhatWeb\\/",
@@ -12749,7 +14297,10 @@
       "WhatWeb/0.5.5"
     ],
     "description": "Web technology scanner identifying frameworks servers and CMS configurations",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Wheregoes\\.com",
@@ -12758,7 +14309,10 @@
       "Wheregoes.com Redirect Checker/1.0"
     ],
     "description": "URL redirect analyzer mapping redirect chains and HTTP forwarding paths",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "wheresitup\\.com\\/",
@@ -12767,7 +14321,10 @@
       "wheresitup.com/1.1"
     ],
     "description": "Availability monitor crawler tracking website uptime and performance metrics",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "Citoid",
@@ -12776,7 +14333,10 @@
       "Citoid (Wikimedia tool; learn more at https://www.mediawiki.org/wiki/Citoid)"
     ],
     "description": "Wikipedia citation generator extracting metadata for automatic reference creation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "WireReaderBot\\/",
@@ -12785,7 +14345,10 @@
       "Mozilla/5.0 (compatible; WireReaderBot/1.0; +https://wirereader.app)"
     ],
     "description": "Web crawler indexing content for data aggregation and competitive analysis",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "ZoteroTranslationServer\\/WMF",
@@ -12794,7 +14357,10 @@
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 ZoteroTranslationServer/WMF (mailto:noc@wikimedia.org)"
     ],
     "description": "Citation server extracting metadata from URLs for Wikipedia reference generation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "academic"
+    ]
   },
   {
     "pattern": "wmtips\\.com\\/",
@@ -12803,7 +14369,10 @@
       "Mozilla/5.0 (compatible; wmtips.com/2.0; +http://www.wmtips.com/tools/)"
     ],
     "description": "SEO analysis crawler scanning websites for optimization issues and metrics",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WordCountBot\\/",
@@ -12812,7 +14381,10 @@
       "Mozilla/5.0 (compatible; WordCountBot/0.1;)"
     ],
     "description": "Content analysis tool computing word counts keyword density and readability",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Wordup-1",
@@ -12821,7 +14393,10 @@
       "Wordup-1"
     ],
     "description": "Web crawler indexing and analyzing content for search and data analytics",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "workona-favicon-service\\/",
@@ -12830,7 +14405,10 @@
       "workona-favicon-service/1.0.0"
     ],
     "description": "Productivity platform crawler organizing web content and managing bookmarks",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Indy Library",
@@ -12839,7 +14417,10 @@
       "Mozilla/3.0 (compatible; Indy Library)"
     ],
     "description": "Payment processor crawler verifying merchant sites and payment flow transactions",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WJHRO\\/",
@@ -12848,7 +14429,10 @@
       "WJHRO/1.0 (WorldPay Java HTTP Request Object)"
     ],
     "description": "Payment platform crawler testing integrations and verifying checkout flow functionality",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WormlyBot",
@@ -12857,7 +14441,10 @@
       "Mozilla/5.0 (compatible; WormlyBot; +http://wormly.com)"
     ],
     "description": "Synthetic monitoring crawler testing site APIs and measuring uptime performance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "WovnCrawler\\/",
@@ -12866,7 +14453,10 @@
       "WovnCrawler/1.0"
     ],
     "description": "Localization platform crawler extracting content and generating translated versions",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "wowLink Crawler\\/",
@@ -12875,7 +14465,10 @@
       "wowLink Crawler/1.0"
     ],
     "description": "Link management crawler indexing and analyzing web content for optimization",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WP Time Capsule",
@@ -12884,7 +14477,10 @@
       "WP Time Capsule API/1.0 ( https://cron.wptimecapsule.com/; https://service.wptimecapsule.com/ )"
     ],
     "description": "WordPress backup service crawler detecting changes and performing incremental backups",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WPUmbrella",
@@ -12893,7 +14489,10 @@
       "WPUmbrella"
     ],
     "description": "WordPress monitor scanner assessing availability and tracking plugin updates",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "wpbot\\/",
@@ -12902,7 +14501,10 @@
       "Mozilla/5.0 (compatible; wpbot/1.1; +https://forms.gle/ajBaxygz9jSR8p8G9)"
     ],
     "description": "Web crawler indexing websites and analyzing content for search optimization",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WPMU DEV Broken Link Checker",
@@ -12911,7 +14513,10 @@
       "WPMU DEV Broken Link Checker Spider"
     ],
     "description": "Link auditor identifying dead links bad anchors and HTTP errors for maintenance",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "WPMUDEV Uptime Monitor",
@@ -12920,7 +14525,10 @@
       "WPMUDEV Uptime Monitor 5.0 (https://wpmudev.com)"
     ],
     "description": "HTTP probe checking website availability status codes and SSL certificate health",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "WPSec\\/",
@@ -12929,7 +14537,10 @@
       "Mozilla/5.0 (compatible; WPSec/1.3; +https://wpsec.com)"
     ],
     "description": "WordPress security scanner identifying vulnerabilities outdated plugins and misconfigurations",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "WRTNBot",
@@ -12938,7 +14549,10 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; WRTNBot; +https://wrtn.ai/wrtnbot)"
     ],
     "description": "Web crawler indexing content for data aggregation and market analysis purposes",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "abuse\\.xmco\\.fr",
@@ -12947,7 +14561,10 @@
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:103.0) Gecko/20100101 Firefox/103.0 abuse.xmco.fr"
     ],
     "description": "Cybersecurity crawler scanning websites for vulnerabilities and threat analysis signals",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "XY-Archive-Compliance",
@@ -12957,7 +14574,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 (compatible; XY-Archive-Compliance-Archiver; +https://archive.xyplanningnetwork.com/)"
     ],
     "description": "Archiving compliance crawler collecting content for legal retention and eDiscovery",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "archiver"
+    ]
   },
   {
     "pattern": "Yahoo Ad monitoring",
@@ -12966,7 +14586,10 @@
       "Mozilla/5.0 (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)"
     ],
     "description": "Ad ecosystem crawler auditing quality safety and policy compliance across inventory",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "YahooMailProxy",
@@ -12975,7 +14598,10 @@
       "YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html"
     ],
     "description": "Email proxy crawler fetching URLs and resources for security scanning and rendering",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "YahooCacheSystem",
@@ -12984,7 +14610,10 @@
       "YahooCacheSystem; YahooWebServiceClient"
     ],
     "description": "Content fetcher crawler caching web pages and thumbnails for Yahoo properties",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "YLT Chrome",
@@ -12993,7 +14622,10 @@
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) YLT Chrome/85.0.4183.121 Safari/537.36"
     ],
     "description": "Performance analyzer evaluating front-end quality and optimization recommendations",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "monitoring"
+    ]
   },
   {
     "pattern": "YokoyGroupAG\\/",
@@ -13002,7 +14634,10 @@
       "YokoyGroupAG/1.0"
     ],
     "description": "Expense management platform webhook client delivering events and verifying endpoints",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Yuuperbot",
@@ -13011,7 +14646,10 @@
       "Yuuperbot"
     ],
     "description": "Web crawler indexing content for data aggregation market analysis and intelligence",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Zapier",
@@ -13020,7 +14658,10 @@
       "Zapier"
     ],
     "description": "Automation client fetching web pages metadata and content for workflow integration",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Zendesk Webhook",
@@ -13029,16 +14670,10 @@
       "Zendesk Webhook"
     ],
     "description": "Support platform service validating webhook endpoints and fetching URL metadata",
-    "addition_date": "2026/04/17"
-  },
-  {
-    "pattern": "Zeno Bot",
-    "url": "https://github.com/WilloIzCitron/Zeno-Bot",
-    "instances": [
-      "The specific user agent string for Zeno Bot is not publicly documented."
-    ],
-    "description": "Web archiving crawler capturing WARC files for large-scale website preservation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Zombiebot\\/",
@@ -13047,7 +14682,10 @@
       "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv 11.0) like Gecko (compatible; Zombiebot/2.1; +http://www.zombiedomain.net/robot/)"
     ],
     "description": "Web crawler designed to index content for SEO analysis and competitive intelligence",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "zzhbot",
@@ -13056,7 +14694,10 @@
       "zzhbot"
     ],
     "description": "Web crawler indexing and analyzing content for search engine and data aggregation",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Penthouse Critical Path CSS Generator",
@@ -13065,7 +14706,10 @@
       "Penthouse Critical Path CSS Generator"
     ],
     "description": "CSS above-the-fold extractor generating critical path stylesheets",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Google-AdWords-Express",
@@ -13074,7 +14718,10 @@
       "Google-AdWords-Express"
     ],
     "description": "Google Ads Express fetching advertiser landing pages for review",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "advertising"
+    ]
   },
   {
     "pattern": "Notion\\/",
@@ -13083,7 +14730,10 @@
       "Notion/1.0 (https://notion.so; team@makenotion.com)"
     ],
     "description": "Notion workspace crawler fetching URLs for link previews",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "SSL Labs$",
@@ -13092,7 +14742,10 @@
       "SSL Labs"
     ],
     "description": "Qualys SSL Labs scanner testing TLS configuration and certificate grades",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "scanner"
+    ]
   },
   {
     "pattern": "Skroutz ImageBot",
@@ -13101,7 +14754,10 @@
       "Skroutz ImageBot v1"
     ],
     "description": "Greek price comparison platform crawler fetching product images",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "Tumblr\\/",
@@ -13110,7 +14766,10 @@
       "Tumblr/14.0.835.186"
     ],
     "description": "Tumblr social blogging platform crawler fetching link previews",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "social-preview"
+    ]
   },
   {
     "pattern": "upday\\/",
@@ -13119,6 +14778,9 @@
       "Mozilla/5.0 (compatible; upday/1.0; +upday)"
     ],
     "description": "Samsung news aggregator crawler fetching articles for daily briefings",
-    "addition_date": "2026/04/17"
+    "addition_date": "2026/04/17",
+    "tags": [
+      "feed-reader"
+    ]
   }
 ]
