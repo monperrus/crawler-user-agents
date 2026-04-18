@@ -8106,7 +8106,10 @@
     "instances": [
       "webzio (+https://webz.io/bot.html)"
     ],
-    "description": "Webz.io web crawler bot for ethical data collection"
+    "description": "Webz.io web crawler bot for ethical data collection",
+    "tags": [
+      "seo"
+    ]
   },
   {
     "pattern": "008\\/",
@@ -13117,9 +13120,5 @@
     ],
     "description": "Samsung news aggregator crawler fetching articles for daily briefings",
     "addition_date": "2026/04/17"
-    "description": "Webz.io web crawler bot for ethical data collection",
-    "tags": [
-      "seo"
-    ]
   }
 ]
