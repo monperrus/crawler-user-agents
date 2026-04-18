@@ -119,7 +119,8 @@ Example:
       "pattern": "rogerbot",
       "addition_date": "2014/02/28",
       "url": "http://moz.com/help/pro/what-is-rogerbot-",
-      "instances" : ["rogerbot/2.3 example UA"]
+      "instances" : ["rogerbot/2.3 example UA"],
+      "tags": ["seo"]
     }
 
 ## License
