@@ -8112,6 +8112,15 @@
     ]
   },
   {
+    "pattern": "newsai\\/",
+    "addition_date": "2026/04/14",
+    "url": "https://knownagents.com/agents/newsai",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 newsai/1.0 Safari/537.36"
+    ],
+    "description": "NewsAI crawler for news content aggregation and indexing"
+  },
+  {
     "pattern": "008\\/",
     "url": "https://datadome.co/bots/008-2/",
     "instances": [
@@ -14782,12 +14791,5 @@
     "tags": [
       "feed-reader"
     ]
-    "pattern": "newsai\\/",
-    "addition_date": "2026/04/14",
-    "url": "https://knownagents.com/agents/newsai",
-    "instances": [
-      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 newsai/1.0 Safari/537.36"
-    ],
-    "description": "NewsAI crawler for news content aggregation and indexing"
   }
 ]
