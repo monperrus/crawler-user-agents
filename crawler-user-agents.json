@@ -443,7 +443,7 @@
     ]
   },
   {
-    "pattern": "seekbot",
+    "pattern": "^Seekbot",
     "instances": [
       "Seekbot/1.0 (http://www.seekbot.net/bot.html) RobotsTxtFetcher/1.2"
     ],
@@ -1226,7 +1226,7 @@
     ]
   },
   {
-    "pattern": "CrunchBot",
+    "pattern": "^CrunchBot",
     "addition_date": "2018/06/28",
     "instances": [
       "CrunchBot/1.0 (+http://www.leadcrunch.com/crunchbot)"
@@ -3336,7 +3336,7 @@
     ]
   },
   {
-    "pattern": "dcrawl",
+    "pattern": "^dcrawl",
     "addition_date": "2017/09/22",
     "url": "https://github.com/kgretzky/dcrawl",
     "instances": [
@@ -4676,7 +4676,7 @@
     ]
   },
   {
-    "pattern": "Pulsepoint",
+    "pattern": "Pulsepoint ",
     "addition_date": "2018/09/24",
     "instances": [
       "Pulsepoint XT3 web scraper"
@@ -8119,5 +8119,3969 @@
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 newsai/1.0 Safari/537.36"
     ],
     "description": "NewsAI crawler for news content aggregation and indexing"
+  },
+  {
+    "pattern": "^ArenaUnfurlBot",
+    "url": "https://arena.ai/",
+    "instances": [
+      "ArenaUnfurlBot/1.0 (Link preview bot for AI model comparison platform; +https://arena.ai) Mozilla/5.0 (compatible)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Arena.ai link preview generator",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "A360-Search",
+    "url": "https://area360.uk/",
+    "instances": [
+      "Mozilla/5.0 (compatible; A360-Search; +https://area360.uk/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Area360 real estate data crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "AASA-Bot",
+    "url": "https://developer.apple.com/documentation/xcode/allowing-apps-and-websites-to-link-to-your-content",
+    "instances": [
+      "AASA-Bot/1.0.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Apple's Universal Links file fetcher",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "AccessStatus",
+    "url": "https://accesslink.fr/page/a-propos-de-accessstatus/",
+    "instances": [
+      "Mozilla/5.0 (compatible; AccessStatus/1.0; +https://www.accesslink.fr/page/a-propos-de-accessstatus/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "HTTP status code monitoring bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Acquia optimize",
+    "url": "https://knownagents.com/agents/acquia-optimize-monsido",
+    "instances": [
+      "Acquia optimize (Monsido)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Acquia website optimization monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "ActiveComply",
+    "url": "https://knownagents.com/agents/activecomply-bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; ActiveComply; +https://www.activecomply.com/)",
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36 (compatible; ActiveComply/2.0; +https://app.activecomply.com/bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "ActiveComply compliance monitoring bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "AdkernelTopicCrawler",
+    "url": "http://adkernel.com/robot/",
+    "instances": [
+      "Mozilla/5.0 (compatible; AdkernelTopicCrawler/1.0; +http://adkernel.com/robot/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Adkernel ad tech solutions crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "AlertSite",
+    "url": "https://smartbear.com/product/alertsite/",
+    "instances": [
+      "Mozilla/5.0 (compatible; AlertSite; +https://www.alertsite.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "SmartBear's synthetic monitoring service",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "AllAfrica",
+    "url": "https://allafrica.com/misc/info/about/",
+    "instances": [
+      "Mozilla/5.0 (compatible; AllAfrica; +https://allafrica.com/)",
+      "Mozilla/5.0 (compatible; AllAfrica NewsBot; +https://allafrica.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "AllAfrica news aggregation crawler",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Amazing-SearchBot",
+    "url": "https://amazing.com/bot.html",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazing-SearchBot/0.1; +https://amazing.com/bot.html) Chrome/119.0.6045.214 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Amazing e-commerce platform search crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "Amazon-Bedrock-AgentCore-Browser",
+    "url": "https://docs.aws.amazon.com/bedrock-agentcore/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Amazon-Bedrock-AgentCore-Browser; +https://aws.amazon.com/bedrock/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "AWS cloud browser for AI agents",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": "AmazonBuyForMe",
+    "url": "https://buyforme.amazon/",
+    "instances": [
+      "Mozilla/5.0 (compatible; AmazonBuyForMe; +https://www.amazon.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Amazon bot for Buy For Me service purchases",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": "Amzn-SearchBot",
+    "url": "https://developer.amazon.com/amazonbot",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amzn-SearchBot/0.1) Chrome/119.0.6045.214 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Amazon's AI search indexer for Alexa",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Amzn-User",
+    "url": "https://developer.amazon.com/amazonbot",
+    "instances": [
+      "Mozilla/5.0 (compatible; Amzn-User; +https://developer.amazon.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Amazon AI assistant for Alexa queries",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Anchor Browser",
+    "url": "https://knownagents.com/agents/anchor-browser",
+    "instances": [
+      "Mozilla/5.0 (compatible; Anchor Browser; +https://anchorbrowser.io/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Anchor's cloud-hosted browser for AI agents",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": "Anomura",
+    "url": "https://docs.direqt-search.com/direqt-bots/direqt-crawlers-and-user-agents",
+    "instances": [
+      "Anomura/1.2 (+https://www.direqt.ai)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Direqt's AI search indexer",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "AP3A\\.240617\\.008",
+    "url": "https://knownagents.com/agents/008",
+    "instances": [
+      "Mozilla/5.0 (Linux; Android 15; CPH2557 Build/AP3A.240617.008; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/142.0.7444.142 Mobile Safari/537.36 Instagram 406.0.0.58.159 Android (35/15; 480dpi; 1080x2400; OPPO; CPH2557; OP573DL1; mt6833; en_MY; 822918295; IABMV/1) NV/1"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "80legs web scraping service",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "ApifyBot",
+    "url": "https://knownagents.com/agents/apifybot",
+    "instances": [
+      "Mozilla/5.0 (compatible; ApifyBot/1.0)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Apify's web scraping and data extraction",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "ApifyWebsiteContentCrawler",
+    "url": "https://apify.com/apify/website-content-crawler",
+    "instances": [
+      "ApifyWebsiteContentCrawler/1.0 (+https://apify.com/apify/website-content-crawler)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Apify's full website content extractor",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Archive-It",
+    "url": "http://archive-it.org/files/site-owners-special.html",
+    "instances": [
+      "UM-Bentley-Archive-It",
+      "Mozilla/5.0 (compatible; special_archiver; Archive-It; +http://archive-it.org/files/site-owners-special.html)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Internet Archive's web preservation crawler",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "artemis web reader",
+    "url": "https://artemis.jamesg.blog/bot",
+    "instances": [
+      "artemis web reader/1.0 - https://artemis.jamesg.blog/bot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Artemis personal web reader",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "atlassian-bot",
+    "url": "https://support.atlassian.com/organization-administration/docs/connect-custom-website-to-rovo/",
+    "instances": [
+      "Mozilla/5.0 (compatible; atlassian-bot; +https://www.atlassian.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Atlassian Rovo's AI search crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Attracta",
+    "url": "https://attracta.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Attracta)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Attracta SEO optimization crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "AudigentAdBot",
+    "url": "http://audigent.com/bot.html",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; AudigentAdBot; +http://www.audigent.com/bot.html) Chrome/W.X.Y.Z Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Audigent targeted advertising crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "Authory",
+    "url": "https://authory.com/about",
+    "instances": [
+      "Mozilla/5.0 (compatible; Authory/1.0; +https://authory.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Automated content archiving for journalists",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "Automaton|Newsify Feed Fetcher",
+    "url": "https://knownagents.com/agents/automaton",
+    "instances": [
+      "Newsify Feed Fetcher - 3 subscribers - http://www.newsify.co/site/899429/automaton-twocanoes-software (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Automaton feed fetcher monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "AwarioRendererBot",
+    "url": "https://awario.com/help/",
+    "instances": [
+      "AwarioRendererBot/1.0 (+https://awario.com/bots.html; bots@awario.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Awario social media monitoring crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "AzureAI-SearchBot",
+    "url": "https://azure.microsoft.com/en-us/products/ai-services",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; AzureAI-SearchBot/1.0;"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Microsoft's Azure AI search indexer",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "BestChange",
+    "url": "https://bestchange.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; BestChange; +https://bestchange.com/)",
+      "Mozilla/5.0 (compatible; BestChange Bot; +https://bestchange.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "BestChange exchange rate monitoring crawler",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "bigsur\\.ai",
+    "url": "https://bigsur.ai/",
+    "instances": [
+      "bigsur.ai"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Big Sur AI's web agent crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "bl\\.uk_lddc_bot",
+    "url": "https://bl.uk/legal-deposit-web-archiving",
+    "instances": [
+      "bl.uk_lddc_bot/3.4.0-20220727 (+https://www.bl.uk/legal-deposit-web-archiving)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "British Library's legal deposit archiver",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "BlingERP",
+    "url": "https://bling.com.br/",
+    "instances": [
+      "Mozilla/5.0 (compatible; BlingERP; +https://www.bling.com.br/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Bling ERP data synchronization crawler",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Blockaid",
+    "url": "https://knownagents.com/agents/blockaid",
+    "instances": [
+      "Mozilla/5.0 (compatible; Blockaid; +https://www.blockaid.io/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Blockaid security monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Bloglines",
+    "url": "http://bloglines.com/",
+    "instances": [
+      "Bloglines/3.1 (http://www.bloglines.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Bloglines RSS feed reader",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "BlogVault",
+    "url": "https://blogvault.net/",
+    "instances": [
+      "BlogVault/1.0 (+https://blogvault.net)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "WordPress backup and monitoring service",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "bluesky-domain-status-classifier",
+    "url": "https://blueskyweb.xyz/",
+    "instances": [
+      "bluesky-domain-status-classifier/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Bluesky social network link preview bot",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "Bluesky\\/",
+    "url": "https://knownagents.com/agents/bluesky-link-preview-service",
+    "instances": [
+      "Bluesky/"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Bluesky link preview service",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "bne\\.es_bot",
+    "url": "https://bne.es/es/colecciones/archivo-web-espanola/aviso-webmasters",
+    "instances": [
+      "Mozilla/5.0 (compatible; bne.es_bot; https://www.bne.es/es/colecciones/archivo-web-espanola/aviso-webmasters) Firefox/129.0.1"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Spanish National Library web archiver",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "Brightbot",
+    "url": "https://brightdata.com/brightbot",
+    "instances": [
+      "Brightbot 1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Bright Data's AI-ready data collector",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "BrowserBot-Observer",
+    "url": "https://obsrvr.net/about",
+    "instances": [
+      "BrowserBot-Observer (+https://siteobserver.co)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Observer third-party risk security scanner",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "BufferLinkPreviewBot",
+    "url": "https://scraper.buffer.com/about/bots/link-preview-bot",
+    "instances": [
+      "BufferLinkPreviewBot/1.0 (+https://scraper.buffer.com/about/bots/link-preview-bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Buffer social media link preview bot",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "Bugsnag",
+    "url": "https://knownagents.com/agents/bugsnag-script-fetcher",
+    "instances": [
+      "Mozilla/5.0 (compatible; Bugsnag; +https://www.bugsnag.com/)",
+      "Bugsnag script fetcher (support@bugsnag.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Bugsnag JavaScript source fetcher",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Buttondown",
+    "url": "https://buttondown.email/features",
+    "instances": [
+      "Buttondown RSS-Feed-Parser/1.0 (https://buttondown.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Buttondown RSS to email converter",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "CapitalOneBot",
+    "url": "https://developer.capitalone.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; CapitalOneBot; +https://www.capitalone.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Capital One dealer website crawler",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "CertChief",
+    "url": "https://cert.chief.app/",
+    "instances": [
+      "Mozilla/5.0 (compatible; CertChief; +https://www.certchief.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "CertChief SSL certificate monitoring bot",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "channable",
+    "url": "https://channable.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; channable; +https://www.channable.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Channable e-commerce marketing automation crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "Channel3Bot",
+    "url": "https://trychannel3.com/channel3bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; Channel3Bot/1.0; +https://trychannel3.com/channel3bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Channel3's universal product catalog indexer",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Chirp|gotosocial",
+    "url": "http://binarycanary.com/",
+    "instances": [
+      "gotosocial/0.19.2+git-90851fc (+https://chirp.zadzmo.org)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Binary Canary uptime monitoring bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "ClickUpLinkUnfurler",
+    "url": "https://clickup.com/",
+    "instances": [
+      "ClickUpLinkUnfurler/1.0 (+https://clickup.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "ClickUp link preview generator",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "Cloudflare-AutoRAG",
+    "url": "https://developers.cloudflare.com/autorag",
+    "instances": [
+      "Cloudflare-AutoRAG (https://developers.cloudflare.com/autorag; autorag@cloudflare.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Cloudflare's RAG service indexer",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Cloudflare-Custom-Hostname-Verification",
+    "url": "https://knownagents.com/agents/cloudflare-custom-hostname-verification",
+    "instances": [
+      "Mozilla/5.0 (compatible; Cloudflare-Custom-Hostname-Verification; +https://www.cloudflare.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Cloudflare hostname verification crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "Cloudflare-Stream-Webhook",
+    "url": "https://knownagents.com/agents/cloudflare-stream-webhook",
+    "instances": [
+      "Mozilla/5.0 (compatible; Cloudflare-Stream-Webhook; +https://www.cloudflare.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Cloudflare Stream webhook crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "CloudflareRadarURLScanner",
+    "url": "https://knownagents.com/agents/cloudflare-radar-url-scanner",
+    "instances": [
+      "Mozilla/5.0 (compatible; CloudflareRadarURLScanner; +https://radar.cloudflare.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Cloudflare URL security scanner",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Cloudtrellis",
+    "url": "https://cloudtrellis.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Cloudtrellis; +https://www.cloudtrellis.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Cloudtrellis website audit crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "[cC]ludo",
+    "url": "https://knownagents.com/agents/cludo",
+    "instances": [
+      "Mozilla/5.0 (compatible; Cludo; +https://www.cludo.com/)",
+      "Mozilla/5.0 (Windows NT 10.0; cludo.com bot) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Cludo site search monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Code\\/1\\.",
+    "url": "https://github.com/features/copilot",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.115.0 Chrome/142.0.7444.265 Electron/39.8.5 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "GitHub Copilot AI coding agent",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": "Collapsify",
+    "url": "https://developers.cloudflare.com/",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv:60.0) Gecko/20100101 Firefox/60.0 Collapsify"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Cloudflare error page caching service",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "ContextualBot[\\s\\S]*outcomes\\.net",
+    "url": "http://outcomes.net/",
+    "instances": [
+      "Mozilla/5.0 (compatible; ContextualBot/1.0; +http://outcomes.net)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Mobian contextual intelligence crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "Convermax",
+    "url": "https://docs.convermax.com/",
+    "instances": [
+      "Convermax/1.0 (+https://docs.convermax.com/indexer)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Convermax auto parts search indexer",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "cookie-maestro",
+    "url": "https://cookiemaestro.com/documentatie/limit-cookie-maestro-using-robots-txt",
+    "instances": [
+      "Mozilla/5.0 (compatible; cookie-maestro; +https://www.cookiemaestro.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Cookie Maestro GDPR compliance scanner",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "CookieHubVerify",
+    "url": "https://cookiehub.com/",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 CookieHubVerify/3.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "CookieHub consent banner verification scanner",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "CookieYesbot",
+    "url": "http://cookieyes.com/documentation/cookieyesbot",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; CookieYesbot/1.0; +http://www.cookieyes.com/documentation/cookieyesbot) Chrome/131.0.6778.0 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "CookieYes consent compliance scanner",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "Crazy Egg",
+    "url": "https://knownagents.com/agents/crazy-egg",
+    "instances": [
+      "Mozilla/5.0 (compatible; Crazy Egg; +https://www.crazyegg.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Crazy Egg analytics monitoring bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Current[\\s\\S]*RSS Reader",
+    "url": "https://currentreader.app/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Current/1.0; +https://currentreader.app; RSS Reader)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Current RSS reader application",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "cypex\\.ai\\/scanning",
+    "url": "https://cypex.ai/",
+    "instances": [
+      "cypex.ai/scanning Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Cypex security vulnerability scanner",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "DeepCrawl",
+    "url": "https://lumar.io/spdr/",
+    "instances": [
+      "Mozilla/5.0 (compatible; MentalHealthLeadBot/DeepCrawl/1.0; +https://aiinstall.co)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Lumar enterprise SEO platform crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "DigiCert DCV",
+    "url": "https://digicert.com/",
+    "instances": [
+      "DigiCert DCV/1.1"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "DigiCert domain validation scanner",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "dlvr\\.it",
+    "url": "http://dlvr.it/",
+    "instances": [
+      "dlvr.it/1.0 (+http://dlvr.it/fetcher)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "dlvr.it social media automation service",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Dotcom-Monitor",
+    "url": "https://knownagents.com/agents/doctom-monitor",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 (Dotcom-Monitor)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Doctom website monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "DrataAutopilot",
+    "url": "https://knownagents.com/agents/drata-autopilot",
+    "instances": [
+      "Mozilla/5.0 (compatible; DrataAutopilot; +https://drata.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Drata compliance monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "DreamHost Data Team",
+    "url": "http://dreamhost.com/support/",
+    "instances": [
+      "DreamHost Data Team (+http://www.dreamhost.com/support/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "DreamHost hosting monitoring bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "ds9",
+    "url": "https://data.dss.sps.copyright.com/docs/user_agent.html",
+    "instances": [
+      "ds9 2.004.ec2"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Copyright Clearance Center licensing crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": " DVbot",
+    "url": "http://doubleverify.com/",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.3;compatible; DVbot/1.0; +http://www.doubleverify.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "DoubleVerify ad verification crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "EcoVadisSustainabilityBot",
+    "url": "https://ecovadis.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; EcoVadisSustainabilityBot/1.0; +https://www.ecovadis.com; Crawling on behalf of one of your business partners.)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "EcoVadis sustainability ratings crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "elmah\\.io Uptime Monitoring",
+    "url": "https://knownagents.com/agents/elmah-io-uptime-monitoring",
+    "instances": [
+      "elmah.io Uptime Monitoring"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "elmah.io uptime monitoring service",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "EvernoteRichLinkBot",
+    "url": "https://evernote.com/",
+    "instances": [
+      "EvernoteRichLinkBot/1.0 (+https://evernote.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Evernote rich link preview bot",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "EzLynx",
+    "url": "http://ezoic.com/bot.html",
+    "instances": [
+      "https://www.ezoic.com/bot/ Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36 (compatible; EzLynx/0.1; +http://www.ezoic.com/bot.html)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Ezoic website optimization crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "EzoicBot",
+    "url": "https://ezoic.com/bot/",
+    "instances": [
+      "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36 (compatible; EzoicBot-UptimeOwl; +http://www.ezoic.com/bot)",
+      "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36 (compatible; EzoicBot-Nicheiq; +http://www.ezoic.com/bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Ezoic ad monetization platform crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "FacebookBot",
+    "url": "https://developers.facebook.com/docs/sharing/bot/",
+    "instances": [
+      "Mozilla/5.0 (compatible; FacebookBot/1.0; +https://developers.facebook.com/docs/sharing/webmasters/facebookbot/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Meta's AI speech recognition training crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "FastDAST",
+    "url": "https://knownagents.com/agents/black-duck-fast-dynamic",
+    "instances": [
+      "FastDAST",
+      "Mozilla/5.0 (compatible; FastDAST; +https://www.blackduck.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Black Duck security testing bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Feeder \\/",
+    "url": "https://knownagents.com/agents/feeder",
+    "instances": [
+      "Feeder / 1.10.8(88)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Feeder RSS reader app",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "FeedFlow",
+    "url": "https://feedflow.dev/",
+    "instances": [
+      "FeedFlow/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "FeedFlow RSS reader application",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "FindFiles\\.net",
+    "url": "https://findfiles.net/bot",
+    "instances": [
+      "FindFiles.net-FaviconFetcher/1.0 (+https://findfiles.net/bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "FindFiles.net search engine crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "FirecrawlAgent",
+    "url": "https://firecrawl.dev/",
+    "instances": [
+      "Mozilla/5.0 (compatible; FirecrawlAgent; +https://firecrawl.dev/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Firecrawl's LLM data extraction crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "FyndSearchEngine-Crawler",
+    "url": "https://fynd.bot/",
+    "instances": [
+      "FyndSearchEngine-Crawler (by fynd.bot; https://fynd.bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Fynd search engine indexing crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "FyndSearchEngine-ReCrawler",
+    "url": "https://fynd.bot/",
+    "instances": [
+      "FyndSearchEngine-ReCrawler (by fynd.bot; https://fynd.bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Fynd search engine re-indexing crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Goodreads",
+    "url": "https://goodreads.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Goodreads; +https://www.goodreads.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Goodreads book preview fetcher",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "Google Trust Services",
+    "url": "https://knownagents.com/agents/google-trust-services-dcv-check",
+    "instances": [
+      "Google Trust Services (DCV Check)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Google SSL certificate validation",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Google-Agent",
+    "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; Google-Agent)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Google's user-triggered agent for web navigation",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": "Google-Gemini-CLI",
+    "url": "https://geminicli.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Google-Gemini-CLI/1.0; +https://github.com/google-gemini/gemini-cli)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Google's AI coding agent for terminal",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": "Google-NotebookLM",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/google-user-triggered-fetchers",
+    "instances": [
+      "Mozilla/5.0 (compatible; Google-NotebookLM; +https://notebooklm.google.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Google's AI research and note-taking assistant",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "GoogleAgent-Mariner",
+    "url": "https://deepmind.google/technologies/project-mariner/",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; GoogleAgent-Mariner) Chrome/142.0.7444.162 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Google's AI agent for browser-based tasks",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": "Greppr Web Crawler",
+    "url": "https://greppr.org/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Greppr Web Crawler/0.12.0 (https://greppr.org/))"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Greppr unfiltered search engine crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Hardenize",
+    "url": "https://hardenize.com/",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Hardenize"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Hardenize security configuration scanner",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "HoneybadgerBot",
+    "url": "https://knownagents.com/agents/honeybadgerbot",
+    "instances": [
+      "Mozilla/5.0 (compatible; HoneybadgerBot; +https://www.honeybadger.io/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Honeybadger error monitoring bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "IbouBot",
+    "url": "https://ibou.io/iboubot.html",
+    "instances": [
+      "Mozilla/5.0 (compatible; IbouBot/1.0; +bot@ibou.io; +https://ibou.io/iboubot.html)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Ibou web graph search crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "imageSpider",
+    "url": "https://knownagents.com/agents/imagespider",
+    "instances": [
+      "Mozilla/5.0 (compatible; imageSpider; +https://www.bytedance.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "ByteDance's image collection crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Innologica",
+    "url": "https://knownagents.com/agents/innologica",
+    "instances": [
+      "Mozilla/5.0 (compatible; Innologica; +https://www.innologica.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Innologica content fetcher",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "kagi-fetcher",
+    "url": "https://help.kagi.com/kagi/ai/kagi-ai.html",
+    "instances": [
+      "kagi-fetcher/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Kagi AI assistant for web content",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Kangaroo Bot",
+    "url": "https://kangaroollm.com.au/kangaroo-bot/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Kangaroo Bot/1.0; +http://www.kangaroo.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Australian AI model training crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Known Agent",
+    "url": "https://knownagents.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Known Agent/1.0; +https://knownagents.com)",
+      "Mozilla/5.0 (compatible; Known Agents Browser/1.0; +https://knownagents.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Known Agents test and development bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "KrawlerBot",
+    "url": "https://krawler.app/robot",
+    "instances": [
+      "Mozilla/5.0 (compatible; KrawlerBot; +https://www.krawler.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Krawler web scraping service bot",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "laion-huggingface-processor",
+    "url": "https://knownagents.com/agents/laion-huggingface-processor",
+    "instances": [
+      "Mozilla/5.0 (compatible; laion-huggingface-processor; +https://laion.ai/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "LAION's image dataset builder for AI",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "LinkCheckerBot",
+    "url": "https://knownagents.com/agents/linkchecker-bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; LinkCheckerBot/2.0; +https://linkchecker.pro/robot/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "LinkChecker broken link bot",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "LinkupBot",
+    "url": "https://linkup.so/bot",
+    "instances": [
+      "LinkupBot/1.0 (LinkupBot for web indexing; https://linkup.so/bot; bot@linkup.so)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Linkup's enterprise AI search crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "LMArenaUnfurlBot",
+    "url": "https://lmarena.ai/",
+    "instances": [
+      "LMArenaUnfurlBot/1.0 (Link preview bot for AI model comparison platform; +https://lmarena.ai) Mozilla/5.0 (compatible)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "LM Arena link preview bot",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "lyonl-asset-proxy",
+    "url": "https://lyonl.com/crawler",
+    "instances": [
+      "lyonl-asset-proxy/1.0 (+https://lyonl.com/crawler)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Lyonl search engine asset proxy",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "lyonl-crawler",
+    "url": "https://lyonl.com/crawler",
+    "instances": [
+      "lyonl-crawler/0.1 (+https://lyonl.com/crawler; crawler@lyonl.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Lyonl open web search crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "MagiBot",
+    "url": "https://magi.com/bots",
+    "instances": [
+      "Mozilla/5.0 (compatible; MagiBot; +https://www.magi.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Peak Labs information extraction crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "MagpieRSS",
+    "url": "http://magpierss.sf.net/",
+    "instances": [
+      "MagpieRSS/0.7 ( http://magpierss.sf.net)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "MagpieRSS PHP feed parser",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "mail\\.ru",
+    "url": "https://knownagents.com/agents/mailrubot",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 6.1; WOW64; https://top.mail.ru/passremind) AppleWebKit/537.22 (KHTML, like Gecko)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Mail.ru content fetcher",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "MailChimp",
+    "url": "http://mailchimp.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; MailChimp; +https://mailchimp.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Mailchimp email campaign content fetcher",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Manus-User",
+    "url": "https://knownagents.com/agents/manus-user",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36; Manus-User/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Butterfly Effect's AI agent for web tasks",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": "McontextualBot",
+    "url": "http://mcontextual.net/mcontextual-bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; McontextualBot/0.1; +http://mcontextual.net/mcontextual-bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "MContextual advertising targeting crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "Mediumbot-MetaTagFetcher",
+    "url": "https://medium.com/",
+    "instances": [
+      "Mediumbot-MetaTagFetcher/0.3 (+https://medium.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Medium link preview meta tag fetcher",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "MetaIAB Facebook",
+    "url": "https://knownagents.com/agents/facebook",
+    "instances": [
+      "Mozilla/5.0 (Linux; Android 16; Pixel 10 Pro XL Build/CP1A.260305.018; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/146.0.7680.174 Mobile Safari/537.36 MetaIAB Facebook"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Facebook link preview fetcher",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "MixrankBot",
+    "url": "https://knownagents.com/agents/mixrankbot",
+    "instances": [
+      "Mozilla/5.0 (compatible; MixrankBot; crawler@mixrank.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "MixRank business intelligence crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "ModernizeBot",
+    "url": "https://modernizeyourwebsite.com/bot",
+    "instances": [
+      "ModernizeBot/0.1 (+https://modernizeyourwebsite.com/bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "ModernizeYourWebsite analysis crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "MontasticMonitor",
+    "url": "https://knownagents.com/agents/montasticmonitor",
+    "instances": [
+      "Mozilla/5.0 (compatible; MontasticMonitor; +https://montastic.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Montastic uptime monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "NanoInteractive",
+    "url": "https://nanointeractive.com/crawler/",
+    "instances": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1 (compatible; NanoInteractive/1.0; +https://nanointeractive.com/crawler/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Nano Interactive ad targeting crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "NestDaddybot",
+    "url": "https://nestdaddy.com/bot",
+    "instances": [
+      "NestDaddybot/1.0.0 (+https://nestdaddy.com/bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "NestDaddy search engine crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Netcraft SSL Server Survey",
+    "url": "https://knownagents.com/agents/netcraft-ssl-server-survey",
+    "instances": [
+      "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Netcraft SSL Server Survey - contact info@netcraft.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Netcraft SSL certificate intelligence scanner",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "Netcraft Web Server Survey",
+    "url": "https://netcraft.com/blog/june-2025-web-server-survey",
+    "instances": [
+      "Mozilla/4.0 (compatible; Netcraft Web Server Survey)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Netcraft web server survey crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "NetSeer crawler",
+    "url": "http://netseer.com/crawler.html",
+    "instances": [
+      "Mozilla/5.0 (compatible; NetSeer crawler/2.0; +http://www.netseer.com/crawler.html; crawler@netseer.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "NetSeer intelligence gathering crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "Netumo|netumo",
+    "url": "https://docs.netumo.com/",
+    "instances": [
+      "Netumo/0.2 (+https://www.netumo.app/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Netumo uptime monitoring bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "NewRelicSynthetics",
+    "url": "https://knownagents.com/agents/new-relic",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 NewRelicSynthetics/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "New Relic synthetic monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "NewsRoom\\.BI",
+    "url": "http://newsroom.bi/bot.html",
+    "instances": [
+      "Mozilla/5.0 (compatible; NewsRoom.BI/0.1; +http://www.newsroom.bi/bot.html)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Marfeel publisher analytics crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "Nitro-",
+    "url": "https://knownagents.com/agents/nitro",
+    "instances": [
+      "Mozilla/5.0 (compatible; Nitro-; +https://www.nitropack.io/)",
+      "Mozilla/5.0 (Linux; Android 15; GEC77) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Nitro-Optimizer-Agent"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "NitroPack speed optimization crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "NitroBot",
+    "url": "https://knownagents.com/agents/nitrobot",
+    "instances": [
+      "Mozilla/5.0 (compatible; NitroBot; +https://www.nitropack.io/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "NitroPack SEO optimization bot",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "Noibu",
+    "url": "https://noibu.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Noibu; +https://www.noibu.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Noibu ecommerce error monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "NostoCrawlerBot",
+    "url": "http://my.nosto.com/tagging",
+    "instances": [
+      "Mozilla/5.0 (compatible; NostoCrawlerBot/1.0; +http://my.nosto.com/tagging)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Nosto ecommerce personalization crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "OneTrust",
+    "url": "https://knownagents.com/agents/onetrust-cmp-scanner",
+    "instances": [
+      "OneTrust"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "OneTrust consent management scanner",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "opencode-smartfetch",
+    "url": "https://opencode.ai/",
+    "instances": [
+      "opencode-smartfetch/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Open-source AI coding agent",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": ";Owler",
+    "url": "https://knownagents.com/agents/owler",
+    "instances": [
+      "robot;Owler;sthiyagarajan@owler-inc.com"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Owler competitive intelligence crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "ParselySharesBot",
+    "url": "https://docs.parse.ly/",
+    "instances": [
+      "ParselySharesBot (+http://parsely.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Parse.ly content analytics crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "PhindBot",
+    "url": "https://knownagents.com/agents/phindbot",
+    "instances": [
+      "Mozilla/5.0 (compatible; PhindBot; +https://www.phind.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "AI-powered developer answer engine crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "PodchaserParser",
+    "url": "https://podchaser.com/",
+    "instances": [
+      "PodchaserParser/2.0 (https://podchaser.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Podchaser podcast database crawler",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Podimo",
+    "url": "https://podimo.com/",
+    "instances": [
+      "Podimo/1.0 (+https://podimo.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Podimo podcast streaming platform bot",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Poggio-Citations",
+    "url": "https://docs.poggio.io/api/robots",
+    "instances": [
+      "Poggio-Citations 1.0 (+https://docs.poggio.io/api/robots)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Poggio's AI sales enablement data collector",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "productsup\\.io\\/crawler",
+    "url": "https://help.productsup.com/en/29437-29446-import-data-by-crawling-your-website.html",
+    "instances": [
+      "productsup.io/crawler"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Productsup product feed management crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "qcbot",
+    "url": "http://quic.cloud/bot.html",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; qcbot/1.0; +http://quic.cloud/bot.html) Chrome/112.0.0.0 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "QUIC.cloud optimization service crawler",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Qualys",
+    "url": "https://knownagents.com/agents/qualys",
+    "instances": [
+      "Mozilla/5.0 (compatible; Qualys; +https://www.qualys.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Qualys security scanning",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Quora-Bot",
+    "url": "http://quora.com/",
+    "instances": [
+      "Quora-Bot/1.0 (http://www.quora.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Quora link preview crawler",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "Qwantbot",
+    "url": "https://help.qwant.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Qwantbot/1.0_800166; +https://help.qwant.com/bot/)",
+      "Mozilla/5.0 (compatible; Qwantbot/1.0_12345; +https://help.qwant.com/bot/)",
+      "Mozilla/5.0 (compatible; Qwantbot-news/2.0; +https://help.qwant.com/bot/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Qwant privacy-focused search crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Qwarrybot",
+    "url": "http://qwarry.com/bot.html",
+    "instances": [
+      "Mozilla/5.0 (compatible; Qwarrybot/2.0; +http://www.qwarry.com/bot.html)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Qwarry contextual advertising crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "RSiteAuditor",
+    "url": "https://dataforseo.com/apis/on-page-api",
+    "instances": [
+      "Mozilla/5.0 (compatible; RSiteAuditor)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "DataForSEO on-page audit crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "RSS\\.Social",
+    "url": "https://rss.social/bot",
+    "instances": [
+      "RSS.Social/1.0 +https://rss.social/bot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "RSS.Social feed automation bot",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Salesforce\\.com",
+    "url": "https://knownagents.com/agents/sfdc-callout",
+    "instances": [
+      "Salesforce.com"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Salesforce HTTP callout user agent",
+    "tags": [
+      "http-library"
+    ]
+  },
+  {
+    "pattern": "Scope3",
+    "url": "https://docs.scope3.com/docs/scope3-crawler",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Scope3/2.0 (scope3.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Scope3 content classification and brand safety",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "scraping@nytimes\\.com",
+    "url": "https://github.com/nytimes",
+    "instances": [
+      "scraping@nytimes.com"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "NYTimes newsroom data collection bot",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "Scrubby",
+    "url": "http://scrubtheweb.com/",
+    "instances": [
+      "Scrubby/2.2 (http://www.scrubtheweb.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Scrub the Web business directory crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Scrunchbot",
+    "url": "https://scrunchai.com/bots",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Scrunchbot/1.0; +https://scrunchai.com/bots)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Scrunch AI brand visibility tracker",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "seo4ajax\\.com",
+    "url": "https://seo4ajax.com/",
+    "instances": [
+      "seo4ajax.com"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "seo4ajax SPA pre-rendering crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "SequelWP",
+    "url": "https://sequelwp.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; SequelWP; +https://sequelwp.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "SequelWP hosting uptime monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "ServerDensity",
+    "url": "https://knownagents.com/agents/server-density",
+    "instances": [
+      "Mozilla/5.0 (compatible; ServerDensity; +https://www.serverdensity.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Server Density infrastructure monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "ShapBot",
+    "url": "https://docs.parallel.ai/resources/crawler",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ShapBot/0.1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Parallel's AI agent web context provider",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "ShortPixel",
+    "url": "https://shortpixel.com/",
+    "instances": [
+      "ShortPixel/1.0 (+https://shortpixel.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "ShortPixel image optimization service",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Silktide",
+    "url": "https://silktide.com/",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Silktide"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Silktide website quality monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "SiteLock",
+    "url": "https://knownagents.com/agents/sitelock",
+    "instances": [
+      "SiteLock (AccMan Connector)/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "SiteLock security monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "SmarshBot",
+    "url": "https://smarsh.com/platform/compliance-management/web-archive",
+    "instances": [
+      "SmarshBot/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Smarsh's compliance archiving bot",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "SMTnetPMBot",
+    "url": "https://smtnet.com/",
+    "instances": [
+      "SMTnetPMBot/"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "SMTnet electronics manufacturing search crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Snapchat[\\s\\S]*panda",
+    "url": "https://developers.snap.com/robots",
+    "instances": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 16_2_2 like Mac OS X) AppleWebKit/526.3.23 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Snapchat/11.13.0.31 (like Safari/526.3, panda)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Snapchat link preview fetcher",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "Software-Security-Research",
+    "url": "https://reverse-proxies-measurements.softsec.ruhr-uni-bochum.de/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Software-Security-Research; +https://www.ruhr-uni-bochum.de/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Ruhr University CDN security research crawler",
+    "tags": [
+      "scanner",
+      "academic"
+    ]
+  },
+  {
+    "pattern": "SottopopNone",
+    "url": "https://upcontent.com/robots",
+    "instances": [
+      "SottopopNone/1.0(+https://upcontent.com/robots)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "UpContent content curation crawler",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Spider[\\s\\S]*spider\\.com",
+    "url": "https://www.spider.com/solutions/web-crawler",
+    "instances": [
+      "Mozilla/5.0 (compatible; Spider; +https://www.spider.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "AI project web data crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Splunk",
+    "url": "https://knownagents.com/agents/splunk",
+    "instances": [
+      "Mozilla/5.0 (compatible; Splunk/1.0.0; https://splunk.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Splunk monitoring and analytics",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "StatusNestBacklinkSpider",
+    "url": "https://statusnest.com/bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; StatusNestBacklinkSpider; +https://statusnest.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "StatusNest backlink tracking crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "stepstoneCrawlBot",
+    "url": "https://thestepstonegroup.com/crawler/",
+    "instances": [
+      "Mozilla/5.0 (compatible; stepstoneCrawlBot; +https://www.thestepstonegroup.com/crawler/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Stepstone Group job search crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "TavilyBot",
+    "url": "https://knownagents.com/agents/tavilybot",
+    "instances": [
+      "Mozilla/5.0 (compatible; TavilyBot; +https://tavily.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Tavily's real-time AI agent data crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "ThousandEyes",
+    "url": "https://knownagents.com/agents/thousand-eyes-cloud-agent",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 (ThousandEyes Agent)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "ThousandEyes network monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Trae\\/",
+    "url": "https://trae.ai/",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.107.1 Chrome/142.0.7444.235 Electron/39.2.7 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "ByteDance's AI coding agent",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": "TwinAgent",
+    "url": "https://twin.so/",
+    "instances": [
+      "Mozilla/5.0 (compatible; TwinAgent; +https://www.twinagent.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Twin's automated worker for workflow execution",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": "uipbot",
+    "url": "https://knownagents.com/agents/uipbot",
+    "instances": [
+      "uipbot/1.0 (uipbot@semasio.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Semasio semantic targeting crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "um-FC",
+    "url": "https://ubermetrics-technologies.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; um-FC/1.0; https://www.ubermetrics-technologies.com/; Windows NT 6.1; WOW64; rv:125.0) Gecko/20100101 Firefox/125.1"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Ubermetrics media monitoring crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "um-IC",
+    "url": "https://ubermetrics-technologies.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; um-IC/1.0; https://www.ubermetrics-technologies.com/; Windows NT 6.1; WOW64; rv:125.0) Gecko/20100101 Firefox/125.1"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Ubermetrics communications intelligence crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "UptimeStatistics",
+    "url": "https://knownagents.com/agents/uptimestatistics",
+    "instances": [
+      "Mozilla/5.0 (compatible; UptimeStatistics; +https://www.uptimestatistics.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "UptimeStatistics monitoring service",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Verispider",
+    "url": "http://projecthoneypot.org/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Verispider; +https://www.projecthoneypot.org/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Verispider spam and security scanner",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "visionheight\\.com\\/scan",
+    "url": "https://knownagents.com/agents/visionheight-comscan",
+    "instances": [
+      "visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Vision Height security scanner",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "Watchbot monitoring robot",
+    "url": "https://watchbot.fflow.net/",
+    "instances": [
+      "Watchbot monitoring robot (https://watchbot.fflow.net)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Watchbot SSL and uptime monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Watchful",
+    "url": "https://knownagents.com/agents/watchful",
+    "instances": [
+      "Mozilla/5.0 (compatible; Watchful; +https://www.watchful.net/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Watchful website monitoring",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "weborama-fetcher",
+    "url": "http://weborama.com/",
+    "instances": [
+      "weborama-fetcher (+http://www.weborama.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Weborama advertising optimization crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "webspidermount",
+    "url": "https://webspidermount.com/features/",
+    "instances": [
+      "Mozilla/5.0 (compatible; webspidermount; +https://www.webspidermount.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Webspidermount job listing extraction service",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "WepchSearchEngine",
+    "url": "https://wepch.com/search-engine",
+    "instances": [
+      "Mozilla/5.0 (compatible; WepchSearchEngine; +https://www.wepch.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Wepch search engine development crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "wknd-bot",
+    "url": "https://developer.wunderkind.co/docs/server-side-tracking-implementation",
+    "instances": [
+      "wknd-bot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Wunderkind marketing automation tracker",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "WPMU DEV Hub",
+    "url": "https://wpmudev.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; WPMU DEV Hub/2.0; +https://wpmudev.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "WPMU DEV WordPress management bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "WTotem",
+    "url": "https://knownagents.com/agents/wtotem",
+    "instances": [
+      "Mozilla/5.0 (compatible; WTotem; +https://www.webtotem.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "WTotem malware detection scanner",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "XoviOnpageCrawler",
+    "url": "http://xovi.de/",
+    "instances": [
+      "Mozilla/5.0 (compatible; XoviOnpageCrawler; +http://www.xovi.de/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "XOVI SEO suite on-page crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "yelpspider",
+    "url": "https://yelp.com/",
+    "instances": [
+      "Mozilla/5.0 compatible; yelpspider/yelpspider-1.0 (Crawlerbot run by Yelp Inc; yelpbot at yelp dot com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Yelp business information crawler",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "ZanistaBot",
+    "url": "https://zanista.ai/crawler-info",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ZanistaBot/1.0; +https://zanista.ai/crawler-info) Chrome/W.X.Y.Z Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Zanista's AI search crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "ZoomInfo-",
+    "url": "https://knownagents.com/agents/zoominfo",
+    "instances": [
+      "Mozilla/5.0 (compatible; ZoomInfo-DataEnrichment/1.0; +https://www.zoominfo.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "ZoomInfo business intelligence search crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "7Siters",
+    "url": "https://7ooo.ru/siters/",
+    "instances": [
+      "7Siters/1.2 ( https://7ooo.ru/siters/ )"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Russian web crawler for site indexing and analysis",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Accessible Web Bot",
+    "url": "https://accessibleweb.com/bot/",
+    "instances": [
+      "Accessible Web Bot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Monitors websites for WCAG accessibility compliance violations",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "AtVowBot",
+    "url": "https://brandeem.com/",
+    "instances": [
+      "AtVowBot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Brand monitoring and reputation management web crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Bibliotheque Nacional de France Crawler",
+    "url": "https://www.bnf.fr/en/web-legal-deposit",
+    "instances": [
+      "Bibliotheque Nacional de France Crawler"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "French National Library web archiving and preservation bot",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "Bling ERP",
+    "url": "https://www.bling.com.br/",
+    "instances": [
+      "Bling ERP"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Brazilian ERP system data synchronization and integration crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "CDSCbot",
+    "url": "https://wiki.communitydata.science/CommunityData:Fediverse_research",
+    "instances": [
+      "CDSCbot/2024.08.08 https://wiki.communitydata.science/CommunityData:Fediverse_research"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Academic research crawler for Fediverse decentralized social networks",
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "pattern": "Critical CSS Bot",
+    "url": "https://criticalcss.com/",
+    "instances": [
+      "Critical CSS Bot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Extracts critical CSS for web performance optimization tools",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "CybaaBot",
+    "url": "https://cybaa.io/bot-policy",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 CybaaBot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Cybaa advertising and marketing analytics web crawler bot",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "CyberFindCrawler",
+    "url": "https://cyberfind.net/bot.html",
+    "instances": [
+      "CyberFindCrawler"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Web search engine crawler for content discovery indexing",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Dark Visitor",
+    "url": "https://darkvisitors.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Dark Visitor/1.0; +https://darkvisitors.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Bot analytics and AI agent tracking service crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Determ",
+    "url": "https://www.determ.com/",
+    "instances": [
+      "Determ"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Media monitoring and brand reputation tracking web crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "DNSScanner",
+    "url": "https://rapef.info/_contacts/",
+    "instances": [
+      "DNSScanner"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "DNS and network infrastructure security scanning crawler bot",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "Drupalbot",
+    "url": "https://www.drupal.org/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Drupalbot; +https://www.drupal.org)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Drupal CMS community website crawler and content indexer",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "eMoney Advisor",
+    "url": "https://emoneyadvisor.com/",
+    "instances": [
+      "eMoney Advisor"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Financial planning software data integration and sync crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "everyfeed-spider",
+    "url": "http://everyfeed.com/",
+    "instances": [
+      "everyfeed-spider/2.0 (http://www.everyfeed.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "RSS and Atom feed aggregation and discovery crawler",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "ExteContextCrawl",
+    "url": "http://crawl001.exte.ai/",
+    "instances": [
+      "Mozilla/5.0 (compatible; ExteContextCrawl/1.0; +http://crawl001.exte.ai)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "AI context extraction and content understanding web crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "FediDB",
+    "url": "https://fedidb.org/crawler.html",
+    "instances": [
+      "FediDB/0.5.0; +https://fedidb.org/crawler.html"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Fediverse instance database and statistics collection crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "FediIndex",
+    "url": "https://fedi.wrm.sr/about",
+    "instances": [
+      "FediIndex/1.0 (+https://fedi.wrm.sr/about)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Fediverse server indexing and discovery service web crawler",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "FediList Agent",
+    "url": "https://fedilist.com/",
+    "instances": [
+      "FediList Agent/3 (https://fedilist.com/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Fediverse instance directory and listing service crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Fedineko",
+    "url": "https://fedineko.org/about",
+    "instances": [
+      "Fedineko (crabo/0.3.1; +https://fedineko.org/about)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Fediverse network mapping and analysis research crawler tool",
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "pattern": "FedReporter Bot for FFIEC",
+    "url": "https://www.fedreporter.com/",
+    "instances": [
+      "FedReporter Bot for FFIEC"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Federal financial institution regulatory compliance data crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Feedsearch Bot",
+    "url": "https://feedearch.dev/",
+    "instances": [
+      "Mozilla/5.0 (Compatible; Feedsearch Bot; +https://feedearch.dev)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "RSS and feed discovery search engine crawler bot",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Feedsearch-Crawler",
+    "url": "https://pypi.org/project/feedsearch-crawler",
+    "instances": [
+      "Mozilla/5.0 (compatible; Feedsearch-Crawler; +https://pypi.org/project/feedsearch-crawler)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Python library for RSS feed detection and extraction",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "fiperbot",
+    "url": "https://fiper.net/",
+    "instances": [
+      "Mozilla/5.0 (compatible; fiperbot/0.1 +https://www.fiper.net/bot.html)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Web content indexing and search engine crawler bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "FleebsBot",
+    "url": "https://fleebs.com/bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; FleebsBot/1~w; +https://fleebs.com/bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Web content aggregation and discovery service crawler bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Fluid",
+    "url": "http://leak.info/bot.html",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-us) AppleWebKit/528.16 (KHTML, like Gecko) Fluid/0.9.6 Safari/528.16"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Site-specific browser application for web content access",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "pattern": "Flyriverbot",
+    "url": "https://flyriver.com/crawler",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Flyriverbot/1.1 (+https://www.flyriver.com/; AI Content Source Check)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "AI content source verification and attribution checking crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Freshbot",
+    "url": "http://webagent.wise-guys.nl/",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux i686; rv:6.0) Gecko/20100101 Firefox/6.0 (Freshbot/1.0/EU; http://webagent.wise-guys.nl/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "European web content monitoring and freshness checking crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Gaisbot",
+    "url": "http://gais.cs.ccu.edu.tw/robot.php",
+    "instances": [
+      "Gaisbot/3.0 (robot@gais.cs.ccu.edu.tw; http://gais.cs.ccu.edu.tw/robot.php)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Academic research web crawler from Taiwan university project",
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "pattern": "GenomeCrawlerd",
+    "url": "https://nokia.com/genomecrawler",
+    "instances": [
+      "Mozilla/5.0 (compatible; GenomeCrawlerd/1.0; +https://www.nokia.com/genomecrawler)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Nokia web content analysis and data collection crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "HaloBot",
+    "url": "https://haloscan.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; HaloBot/1.0)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Haloscan comment system integration and content fetching bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "IRLbot",
+    "url": "http://irl.cs.tamu.edu/crawler",
+    "instances": [
+      "IRLbot/3.0 (compatible; MSIE 6.0; http://irl.cs.tamu.edu/crawler)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Texas A&M University academic research web crawler bot",
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "pattern": "kaikki\\.org-digital-archive",
+    "url": "https://kaikki.org/",
+    "instances": [
+      "kaikki.org-digital-archive"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Digital archiving and preservation service web crawler bot",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "kb\\.dk_bot",
+    "url": "https://www.kb.dk/en/",
+    "instances": [
+      "kb.dk_bot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Royal Danish Library web archiving and preservation crawler",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "Library Of Congress Web Archiving",
+    "url": "https://www.loc.gov/programs/web-archiving/",
+    "instances": [
+      "Library Of Congress Web Archiving"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "US Library of Congress web preservation archiving crawler",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "MagnetmeBot",
+    "url": "https://magnet.me/",
+    "instances": [
+      "MagnetmeBot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Job board and recruitment platform web scraping crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "MatchorySearch",
+    "url": "https://matchory.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; MatchorySearch/1.3; +https://www.matchory.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Search engine and content discovery indexing crawler bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Minoru's Fediverse Crawler",
+    "url": "https://nodes.fediverse.party/",
+    "instances": [
+      "Minoru's Fediverse Crawler (+https://nodes.fediverse.party)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Fediverse network node discovery and mapping crawler tool",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "MirrorWebCrawler",
+    "url": "https://www.mirrorweb.com/",
+    "instances": [
+      "MirrorWebCrawler"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Enterprise web archiving and compliance preservation crawler bot",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "mithril-crawler",
+    "url": "https://498-search-engine.github.io/website/",
+    "instances": [
+      "mithril-crawler"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Academic search engine project web indexing crawler bot",
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "pattern": "ModatScanner",
+    "url": "https://modat.io/",
+    "instances": [
+      "Mozilla/5.0 (compatible; ModatScanner/1.2; +https://modat.io/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Website monitoring and change detection service crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "NapBot",
+    "url": "http://napbot.com/",
+    "instances": [
+      "NapBot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Web content indexing and search engine crawler bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "New York Times Newsgathering",
+    "url": "https://www.nytimes.com/",
+    "instances": [
+      "New York Times Newsgathering"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "News media content aggregation and research crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "NLUX_IAHarvester",
+    "url": "http://crawl.bnl.lu/",
+    "instances": [
+      "Mozilla/5.0 (compatible; NLUX_IAHarvester/3.4.0; +http://crawl.bnl.lu/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Luxembourg National Library web archiving and harvesting crawler",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "NoahBot",
+    "url": "https://noahwire.com/bot-info",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; NoahBot/1.0; +https://noahwire.com/bot-info)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "News aggregation and content discovery service crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "PlagAwareBot",
+    "url": "https://plagaware.com/bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; PlagAwareBot/3.2; +https://www.plagaware.com/bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Plagiarism detection and content originality checking crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Rakuten Image extraction bot",
+    "url": "https://www.rakuten.com/",
+    "instances": [
+      "Rakuten Image extraction bot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "E-commerce product image extraction and indexing crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "ResearchBot",
+    "url": "https://kaust.edu.sa/bot",
+    "instances": [
+      "StateOfPlay-ResearchBot/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Academic research data collection and analysis crawler bot",
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "pattern": "rss-is-dead\\.lol web bot",
+    "url": "https://rss-is-dead.lol/",
+    "instances": [
+      "Mozilla/5.0 (compatible; rss-is-dead.lol web bot; +https://rss-is-dead.lol)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "RSS feed monitoring and availability checking service crawler",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "seoLyt",
+    "url": "https://seolyt.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; seoLyt/1.0; +https://seolyt.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "SEO analysis and website optimization tool crawler bot",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "SirdataBot",
+    "url": "https://semantic-api.docs.sirdata.net/contextual-api/contextual-api/introduction",
+    "instances": [
+      "SirdataBot (+https://semantic-api.docs.sirdata.net/contextual-api/contextual-api/introduction)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Contextual advertising and semantic content analysis crawler bot",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "SitesOverPagesBot",
+    "url": "https://sitesoverpages.com/bot",
+    "instances": [
+      "SitesOverPagesBot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Website structure analysis and sitemap generation crawler bot",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "SleepBot",
+    "url": "http://sleepbot.com/",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; SleepBot/1.0; +http://sleepbot.com/) Chrome/131.0.0.0 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Web content monitoring and tracking service crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Sosospider",
+    "url": "http://help.soso.com/webspider.htm",
+    "instances": [
+      "Sosospider"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Chinese search engine web indexing and crawling bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Termly",
+    "url": "https://termly.io/",
+    "instances": [
+      "Termly"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Privacy policy and compliance scanning service crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "TLS tester",
+    "url": "https://testssl.sh/dev/",
+    "instances": [
+      "TLS tester from https://testssl.sh/"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "SSL/TLS security testing and vulnerability scanning crawler bot",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "trafilatura",
+    "url": "https://github.com/adbar/trafilatura",
+    "instances": [
+      "trafilatura/2.0.0 (+https://github.com/adbar/trafilatura)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Python library for web content extraction and scraping",
+    "tags": [
+      "http-library"
+    ]
+  },
+  {
+    "pattern": "UrlBeeBot",
+    "url": "https://urlbee.com/",
+    "instances": [
+      "UrlBeeBot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "URL analysis and threat detection security crawler bot",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "videootv Bot",
+    "url": "https://www.digitalgreen.org/",
+    "instances": [
+      "videootv Bot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Video content aggregation and educational media crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "vmcrawl",
+    "url": "https://docs.vmst.io/vmcrawl",
+    "instances": [
+      "vmcrawl/0.17.7 (https://vmcrawl.com)",
+      "vmcrawl/0.x (https://docs.vmst.io/vmcrawl)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Fediverse instance monitoring and discovery service crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "WadooBot",
+    "url": "https://wadoo.net/wadoobot/",
+    "instances": [
+      "WadooBot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Web content indexing and search engine crawler bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Website-info\\.net-Robot",
+    "url": "https://website-info.net/robot",
+    "instances": [
+      "Mozilla/5.0 (compatible; Website-info.net-Robot; https://website-info.net/robot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Website information and analytics data collection crawler bot",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "WebZIP",
+    "url": "http://spidersoft.com/",
+    "instances": [
+      "WebZIP/3.5 (http://www.spidersoft.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Website downloading and offline browsing tool crawler bot",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "WikiDo",
+    "url": "http://wikido.com/",
+    "instances": [
+      "WikiDo/1.1 (http://wikido.com; crawler@wikido.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Wiki content aggregation and search engine crawler bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "WOVN Crawler",
+    "url": "https://wovn.io/",
+    "instances": [
+      "WOVN Crawler"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Website translation and localization service crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "YoudaoBot",
+    "url": "http://youdao.com/help/webmaster/spider/",
+    "instances": [
+      "YoudaoBot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Chinese search engine and translation service crawler bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "ZyBorg",
+    "url": "http://wisenutbot.com/",
+    "instances": [
+      "Mozilla/4.0 compatible ZyBorg/1.0 (wn-14.zyborg@looksmart.net; http://www.WISEnutbot.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "WISEnut search engine web indexing and crawling bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "Aranet-SearchBot",
+    "url": "https://aranet.ai/bot",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Aranet-SearchBot/1.0; +https://aranet.ai/bot) Chrome/131.0.0.0 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "AI-powered search engine and content indexing crawler bot",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "instances": [
+      "crawl4ai-adapter/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Open-source LLM-friendly web scraping and extraction library",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "DeepSeekBot",
+    "url": "http://deepseek.com/bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; DeepSeekBot/1.0; +https://www.deepseek.com/bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "DeepSeek AI model training and data collection crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "iaskspider",
+    "url": "https://www.iask.com/",
+    "instances": [
+      "iaskspider/2.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Chinese AI search engine and question answering crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "KunatoCrawler",
+    "url": "http://kunato.ai/bot.html",
+    "instances": [
+      "Mozilla/5.0 (compatible; KunatoCrawler/1.0; +http://kunato.ai/bot.html)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "AI training data collection and web scraping crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "TerraCotta",
+    "url": "https://github.com/CeramicTeam/CeramicTerracotta",
+    "instances": [
+      "TerraCotta https://github.com/CeramicTeam/CeramicTerracotta"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Ceramic Network decentralized data indexing and crawling bot",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "ABEvalBot",
+    "url": "https://knownagents.com/agents/abevalbot",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ABEvalBot/0.1) Version/11.1.2 Safari/605.1.15"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "A/B testing evaluation and website analysis crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "blekkobot",
+    "url": "https://knownagents.com/agents/blekkobot",
+    "instances": [
+      "blekkobot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Blekko search engine web indexing and crawling bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "br-crawler",
+    "url": "https://knownagents.com/agents/br-crawler",
+    "instances": [
+      "br-crawler/0.5"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Brazilian web content indexing and discovery crawler bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "BuddyBot",
+    "url": "https://knownagents.com/agents/buddybot",
+    "instances": [
+      "BuddyBot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Social networking and content aggregation service crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "CapterraBot",
+    "url": "https://www.capterra.com",
+    "instances": [
+      "Mozilla/5.0 (compatible; CapterraBot/1.0; +https://www.capterra.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Capterra software review platform data collection crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "carbon-umbrella-bot",
+    "url": "https://knownagents.com/agents/carbon-umbrella-bot",
+    "instances": [
+      "carbon-umbrella-bot/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Carbon footprint tracking and environmental monitoring crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "caveman-hunter",
+    "url": "https://fedi.buzz/",
+    "instances": [
+      "caveman-hunter/0.0.0 (+https://fedi.buzz/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Fediverse content discovery and social network crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Centro Ads\\.txt Crawler",
+    "url": "https://knownagents.com/agents/centro-ads-txt-crawler",
+    "instances": [
+      "Centro Ads.txt Crawler/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Advertising transparency ads.txt file verification crawler bot",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "WISEbot",
+    "url": "http://www.cision.com",
+    "instances": [
+      "Mozilla/5.0 (compatible; WISEbot/1.0; +http://www.cision.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Cision media monitoring and PR analytics crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "CodaBot",
+    "url": "https://coda.io/",
+    "instances": [
+      "CodaBot/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Coda document collaboration platform link preview crawler bot",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "Corporama matcher",
+    "url": "https://corporama.fr/",
+    "instances": [
+      "Corporama matcher 1.2"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Corporate data matching and business intelligence crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "CyotekWebCopy",
+    "url": "https://www.cyotek.com/cyotek-webcopy",
+    "instances": [
+      "CyotekWebCopy/1.9 CyotekHTTP/6.4"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Website copying and offline browsing tool crawler bot",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "Datadog Agent",
+    "url": "https://www.datadoghq.com/",
+    "instances": [
+      "Datadog Agent/7.69.2"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Datadog infrastructure monitoring and synthetic testing agent bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Dazzle BlueSky Bot",
+    "url": "https://knownagents.com/agents/dazzle-bluesky-bot",
+    "instances": [
+      "Dazzle BlueSky Bot/1.1"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "BlueSky social network link preview and content crawler",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "DominicBot",
+    "url": "https://vanylla.org/bot",
+    "instances": [
+      "DominicBot/1.0 (+https://vanylla.org/bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Vanylla social network content indexing and discovery crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Dow Jones Searchbot",
+    "url": "https://www.dowjones.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; Dow Jones Searchbot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Dow Jones news and financial content aggregation crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Download Ninja",
+    "url": "https://knownagents.com/agents/download-ninja",
+    "instances": [
+      "Download Ninja/4.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "File download manager and web content fetching tool",
+    "tags": [
+      "http-library"
+    ]
+  },
+  {
+    "pattern": "EmailWolf",
+    "url": "https://knownagents.com/agents/emailwolf",
+    "instances": [
+      "EmailWolf 1.00"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Email address extraction and contact scraping crawler bot",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "fedistatsCrawler",
+    "url": "https://knownagents.com/agents/fedistatscrawler",
+    "instances": [
+      "fedistatsCrawler/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Fediverse statistics collection and network analysis crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "GoParserBot",
+    "url": "https://knownagents.com/agents/goparserbot",
+    "instances": [
+      "Mozilla/5.0 (compatible; GoParserBot/1.0)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Go-based web content parsing and extraction crawler bot",
+    "tags": [
+      "http-library"
+    ]
+  },
+  {
+    "pattern": "gsa-crawler",
+    "url": "https://knownagents.com/agents/gsa-crawler",
+    "instances": [
+      "gsa-crawler (Enterprise; T3-LNMUGC6JBKQNE; thomas@brainfuck.space)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Google Search Appliance enterprise search indexing crawler bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "HanaleiBot",
+    "url": "https://knownagents.com/agents/hanaleibot",
+    "instances": [
+      "HanaleiBot runid=beta-stage-integration-test"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Testing and integration verification web crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "NicheIndex",
+    "url": "https://nicheindex.co",
+    "instances": [
+      "NicheIndex/1.0 RSS Harvest (+https://nicheindex.co)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Niche market RSS feed harvesting and indexing crawler",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "HeadOnlyScraper",
+    "url": "https://knownagents.com/agents/headonlyscraper",
+    "instances": [
+      "Mozilla/5.0 (HeadOnlyScraper)",
+      "Mozilla/5.0 (HeadOnlyScraperV2)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "HTTP HEAD request metadata collection and validation crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "HenkBot",
+    "url": "https://valyu.ai/crawler",
+    "instances": [
+      "Mozilla/5.0 (compatible; HenkBot/1.0; +https://valyu.ai/crawler)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Valyu AI content analysis and data collection crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Impact\\.com Agent",
+    "url": "https://impact.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible;Impact.com Agent) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Impact.com affiliate marketing and partnership tracking crawler bot",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "Keydrop\\.io",
+    "url": "https://onlyscans.com/about",
+    "instances": [
+      "Mozilla/5.0; Keydrop.io/1.0(onlyscans.com/about);"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Keydrop gaming marketplace security scanning and monitoring crawler",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "larbin",
+    "url": "http://larbin.sourceforge.net/",
+    "instances": [
+      "larbin_2.6.2 (larbin@correa.org)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Open-source web crawler for large-scale indexing projects",
+    "tags": [
+      "http-library"
+    ]
+  },
+  {
+    "pattern": "SENTINEL-LinkCheck",
+    "url": "https://sentinel.oblivionzone.com/bot",
+    "instances": [
+      "SENTINEL-LinkCheck/1.0 (+https://sentinel.oblivionzone.com/bot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Sentinel link validation and broken link detection crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "linko",
+    "url": "https://linko.app/crawler",
+    "instances": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36 https://linko.app/crawler"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Linko link management and URL tracking service crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "LinkpadBot",
+    "url": "https://linkpad.org/robot/",
+    "instances": [
+      "Mozilla/5.0 (compatible; LinkpadBot/2.4; +https://linkpad.org/robot/)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Linkpad bookmark management and link discovery crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "lwp-trivial",
+    "url": "https://metacpan.org/pod/LWP",
+    "instances": [
+      "lwp-trivial/1.35"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Perl LWP library simple HTTP client and fetcher",
+    "tags": [
+      "http-library"
+    ]
+  },
+  {
+    "pattern": "Magus Bot",
+    "url": "https://knownagents.com/agents/magus-bot",
+    "instances": [
+      "Magus Bot 1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Web content analysis and data extraction crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "NaverBot",
+    "url": "https://www.naver.com/",
+    "instances": [
+      "Mozilla/5.0 (compatible; NaverBot/1.0; nhnbot@naver.com)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Naver Korean search engine web indexing crawler bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "loopimprovements\\.com",
+    "url": "http://loopimprovements.com/robot.html",
+    "instances": [
+      "NetResearchServer/4.0(loopimprovements.com/robot.html)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Network research and web data collection crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "OpenTheBoxBot",
+    "url": "https://knownagents.com/agents/opentheboxbot",
+    "instances": [
+      "OpenTheBoxBot/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Content discovery and web indexing service crawler bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "OWLer-W",
+    "url": "https://openwebsearch.eu/",
+    "instances": [
+      "OWLer-W (owler@ows.eu)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Business intelligence and company data collection crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "peer39_crawler",
+    "url": "https://www.peer39.com/",
+    "instances": [
+      "peer39_crawler/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Peer39 contextual advertising and brand safety crawler bot",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "Pixalate\\.com",
+    "url": "https://www.pixalate.com/",
+    "instances": [
+      "Pixalate.com/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Pixalate ad fraud detection and brand safety crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "Poduptime",
+    "url": "https://fediverse.observer",
+    "instances": [
+      "Mozilla/5.0 (compatible; Poduptime; +fediverse.observer)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Fediverse pod uptime monitoring and availability checker crawler",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Pomothy-Bot",
+    "url": "https://knownagents.com/agents/pomothy-bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; Pomothy-Bot/1.0)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Web content monitoring and change detection crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "PulsePoint-Crawler",
+    "url": "https://www.pulsepoint.com/",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko; compatible; PulsePoint-Crawler) Chrome/120.0.0.0 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "PulsePoint programmatic advertising and ad verification crawler bot",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "rawweb-bot",
+    "url": "https://knownagents.com/agents/rawweb-bot",
+    "instances": [
+      "rawweb-bot/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Raw web content extraction and data scraping crawler",
+    "tags": [
+      "http-library"
+    ]
+  },
+  {
+    "pattern": "semantic-visions",
+    "url": "https://semantic-visions.com/",
+    "instances": [
+      "Mozilla/5.0 (Linux; CentOS; compatible; semantic-visions-discovery; HTTPClient 4.5)",
+      "Mozilla/5.0 (X11; compatible; semantic-visions.com crawler; HTTPClient 4.5)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Semantic content analysis and AI training data crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Sindup",
+    "url": "https://www.sindup.com/",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sindup/1.0.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Sindup competitive intelligence and market monitoring crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "SiteSucker",
+    "url": "https://ricks-apps.com/osx/sitesucker/",
+    "instances": [
+      "SiteSucker for macOS/6.1.5"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "macOS website downloading and offline browsing tool crawler",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "SpringserveBot",
+    "url": "https://www.springserve.com/",
+    "instances": [
+      "SpringserveBot/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Springserve ad server and video advertising platform crawler",
+    "tags": [
+      "advertising"
+    ]
+  },
+  {
+    "pattern": "SQWatcher",
+    "url": "http://sqcompliance.com/sqwatcher.html",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 SQWatcher/202312 (sqcompliance.com/sqwatcher.html)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Software quality compliance monitoring and testing crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Supabase Paired Crawler",
+    "url": "https://supabase.com/",
+    "instances": [
+      "Mozilla/5.0 (Supabase Paired Crawler HTTP/2)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Supabase database platform link preview and metadata crawler",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "sv-watchagent",
+    "url": "https://semantic-visions.com/",
+    "instances": [
+      "Mozilla/5.0 (watchOS 6.2; Watch; compatible; sv-watchagent; HTTPClient 4.5)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Semantic Visions content monitoring and analysis crawler agent",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "Swiftbot",
+    "url": "http://swiftype.com/swiftbot",
+    "instances": [
+      "Mozilla/5.0 (compatible; Swiftbot/1.0; UID/649dce5512ab734096a50277; +http://swiftype.com/swiftbot)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Swiftype site search engine indexing and crawling bot",
+    "tags": [
+      "search-engine"
+    ]
+  },
+  {
+    "pattern": "SynthesiBot",
+    "url": "https://knownagents.com/agents/synthesibot",
+    "instances": [
+      "Mozilla/5.0 (compatible; SynthesiBot/1.0)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Content synthesis and data aggregation crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "TaraGroup Intelligent Bot",
+    "url": "https://knownagents.com/agents/taragroup-intelligent-bot",
+    "instances": [
+      "TaraGroup Intelligent Bot V1"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "TaraGroup AI-powered web intelligence and analysis crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "Thinkbot",
+    "url": "https://boston.conman.org/2025/08/21.1",
+    "instances": [
+      "Mozilla/5.0 (compatible; Thinkbot/0.5.8; +In_the_test_phase,_if_the_Thinkbot_brings_you_trouble,_please_block_its_IP_address._Thank_you.)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Experimental AI thinking and reasoning web crawler bot",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "TSMbot",
+    "url": "https://knownagents.com/agents/tsmbot",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7; TSMbot) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "TSM brand monitoring and content tracking crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "TSM-turingos",
+    "url": "https://knownagents.com/agents/turingos",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7; TSM-turingos-1253296984) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "TuringOS AI-powered content analysis and monitoring crawler",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "UGAResearchAgent",
+    "url": "https://nislabuga-scan.uga.edu/",
+    "instances": [
+      "Mozilla/5.0 (compatible; UGAResearchAgent/1.0; Please visit: NISLabUGA.github.io)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "University of Georgia academic network research crawler bot",
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "pattern": "UrlSuMa\\.de crawler",
+    "url": "https://urlsuma.de/",
+    "instances": [
+      "Mozilla/5.0 (compatible; UrlSuMa.de crawler)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "URL summarization and content preview generation crawler bot",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "WanscannerBot",
+    "url": "https://abuse.pend.re",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64; WanscannerBot/1.2; +https://abuse.pend.re) Gecko/20100101 Firefox/10.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Network security scanning and vulnerability detection crawler bot",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "WebCapture",
+    "url": "https://knownagents.com/agents/webcapture-2-0",
+    "instances": [
+      "Mozilla/3.0 (compatible; WebCapture 2.0; Auto; Windows)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Website screenshot and page capture archiving tool crawler",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "WebCopier",
+    "url": "http://www.maximumsoft.com/",
+    "instances": [
+      "WebCopier v4.6"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Website copying and offline browsing tool crawler bot",
+    "tags": [
+      "archiver"
+    ]
+  },
+  {
+    "pattern": "cognitiveseo\\.com",
+    "url": "http://cognitiveseo.com/bot.html",
+    "instances": [
+      "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.10) Gecko/20050716 Thunderbird/1.0.6 - WebCrawler http://cognitiveseo.com/bot.html"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "CognitiveSEO backlink analysis and SEO research crawler bot",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "Xing Bot",
+    "url": "https://www.xing.com/",
+    "instances": [
+      "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:15.0) Xing Bot"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Xing professional network link preview and content crawler",
+    "tags": [
+      "social-preview"
+    ]
+  },
+  {
+    "pattern": "XML Sitemaps Generator",
+    "url": "http://www.xml-sitemaps.com",
+    "instances": [
+      "Mozilla/5.0 (compatible; XML Sitemaps Generator; http://www.xml-sitemaps.com) Gecko XML-Sitemaps/1.0"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "XML sitemap generation and website structure mapping crawler",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "YandoriRSSBot",
+    "url": "https://knownagents.com/agents/yandorirssbot",
+    "instances": [
+      "YandoriRSSBot/3.0 (Go)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "RSS feed aggregation and content syndication crawler bot",
+    "tags": [
+      "feed-reader"
+    ]
+  },
+  {
+    "pattern": "Zealbot",
+    "url": "https://knownagents.com/agents/zealbot",
+    "instances": [
+      "Mozilla/4.0 (compatible; Zealbot 1.0)"
+    ],
+    "addition_date": "2026/04/26",
+    "description": "Web content indexing and search engine crawler bot",
+    "tags": [
+      "search-engine"
+    ]
   }
 ]
