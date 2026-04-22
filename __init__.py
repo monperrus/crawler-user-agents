@@ -4,6 +4,9 @@ from functools import cached_property
 from pathlib import Path
 
 
+CHUNK_SIZE = 25
+
+
 class CrawlerPatterns:
     def __init__(self):
         pass
@@ -18,6 +21,22 @@ class CrawlerPatterns:
     @cached_property
     def case_sensitive(self):
         return re.compile("|".join(i["pattern"] for i in CRAWLER_USER_AGENTS_DATA))
+
+    @cached_property
+    def _chunks_case_sensitive(self):
+        patterns = [i["pattern"] for i in CRAWLER_USER_AGENTS_DATA]
+        return [
+            re.compile("|".join(patterns[i:i + CHUNK_SIZE]))
+            for i in range(0, len(patterns), CHUNK_SIZE)
+        ]
+
+    @cached_property
+    def _chunks_case_insensitive(self):
+        patterns = [i["pattern"].lower() for i in CRAWLER_USER_AGENTS_DATA]
+        return [
+            re.compile("|".join(patterns[i:i + CHUNK_SIZE]))
+            for i in range(0, len(patterns), CHUNK_SIZE)
+        ]
 
 
 def load_json():
@@ -34,8 +53,9 @@ CRAWLER_PATTERNS = CrawlerPatterns()
 def is_crawler(user_agent: str, case_sensitive: bool = True) -> bool:
     """Return True if the given User-Agent matches a known crawler."""
     if case_sensitive:
-        return bool(re.search(CRAWLER_PATTERNS.case_sensitive, user_agent))
-    return bool(re.search(CRAWLER_PATTERNS.case_insensitive, user_agent))
+        return any(p.search(user_agent) for p in CRAWLER_PATTERNS._chunks_case_sensitive)
+    ua = user_agent.lower()
+    return any(p.search(ua) for p in CRAWLER_PATTERNS._chunks_case_insensitive)
 
 
 def matching_crawlers(user_agent: str, case_sensitive: bool = True) -> list[int]:
