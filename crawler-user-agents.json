@@ -8123,5 +8123,17 @@
       "ai-crawler",
       "feed-reader"
     ]
+  },
+  {
+    "pattern": "watchTowr",
+    "addition_date": "2026/04/23",
+    "url": "https://watchtowr.com",
+    "instances": [
+      "Mozilla/5.0 (watchTowr; Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0"
+    ],
+    "description": "watchTowr is an external attack surface management tool that scans assets and generates findings against those assets",
+    "tags": [
+      "scanner"
+    ]
   }
 ]
