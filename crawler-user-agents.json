@@ -18352,4 +18352,16 @@
       "scanner"
     ]
   }
+  {
+    "pattern": "PRTG Network Monitor",
+    "addition_date": "2026/05/18",
+    "url": "https://www.paessler.com/manuals/prtg/http_transaction_sensor",
+    "instances": [
+      "Mozilla/5.0 (compatible; PRTG Network Monitor (www.paessler.com ); Windows)"
+    ],
+    "description": "PRTG HTTP Transaction Sensor",
+    "tags": [
+      "monitoring"
+    ]
+  },
 ]
