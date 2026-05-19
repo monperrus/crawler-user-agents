@@ -18351,7 +18351,7 @@
     "tags": [
       "scanner"
     ]
-  }
+  },
   {
     "pattern": "PRTG Network Monitor",
     "addition_date": "2026/05/18",
@@ -18363,5 +18363,5 @@
     "tags": [
       "monitoring"
     ]
-  },
+  }
 ]
