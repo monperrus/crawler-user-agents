@@ -1,0 +1,25 @@
+# Build a statically linked clf-filter binary and attach it to the GitHub release for each tag.
+
+name: Release binary
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release-binary:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+      - name: Build static binary
+        run: CGO_ENABLED=0 go build -ldflags="-w -s" -o clf-filter ./cmd/clf-filter/
+      - name: Upload binary to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: clf-filter
