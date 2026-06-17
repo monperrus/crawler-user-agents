@@ -18363,5 +18363,17 @@
     "tags": [
       "monitoring"
     ]
+  },
+  {
+    "pattern": "GeedoShopProductFinder",
+    "addition_date": "2026/06/17",
+    "url": "https://geedo.com/product-finder/",
+    "instances": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; GeedoShopProductFinder) Chrome/142.0.0.0 Safari/537.36"
+    ],
+    "description": "GeedoShopProductFinder is the automated crawler used by Geedo, a global product-search engine specialized in online retail.",
+    "tags": [
+      "search-engine"
+    ]
   }
 ]
