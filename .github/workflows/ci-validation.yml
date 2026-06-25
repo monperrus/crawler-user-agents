@@ -25,5 +25,6 @@ jobs:
       - run: python3 -mpip install -e .[dev]
       - run: py.test -vv
       - run: python3 validate.py
+      - run: python3 validate_false_positives.py
       - run: php validate.php
       - run: go test
