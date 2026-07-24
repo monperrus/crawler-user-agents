@@ -18363,5 +18363,17 @@
     "tags": [
       "search-engine"
     ]
+  },
+  {
+    "pattern": "WatchForBot",
+    "addition_date": "2026/07/24",
+    "url": "https://watchfor.io/bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; WatchForBot/1.0; +https://watchfor.io/bot)"
+    ],
+    "description": "WatchFor uptime monitoring agent — scheduled availability, SSL, DNS and performance checks of customer-configured endpoints",
+    "tags": [
+      "monitoring"
+    ]
   }
 ]
