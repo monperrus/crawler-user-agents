@@ -18363,5 +18363,17 @@
     "tags": [
       "search-engine"
     ]
+  },
+  {
+    "pattern": "ListGemBot",
+    "addition_date": "2026/08/06",
+    "url": "https://listgem.com/bot",
+    "instances": [
+      "ListGemBot/1.0 (+https://listgem.com/bot)"
+    ],
+    "description": "ListGemBot is the link unfurler for ListGem, a structured curation platform. When a user adds a URL to one of their lists, it fetches that single page to read its public metadata for the preview.",
+    "tags": [
+      "social-preview"
+    ]
   }
 ]
