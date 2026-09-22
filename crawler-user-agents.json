@@ -18387,5 +18387,17 @@
     "tags": [
       "social-preview"
     ]
+  },
+    {
+    "pattern": "InfoSifter",
+    "addition_date": "2026/09/22",
+    "url": "https://logicus.se/about_InfoSifter.html",
+    "instances": [
+      "InfoSifter/1.0 (+https://logicus.se/about_InfoSifter.html)"
+    ],
+    "description": "InfoSifter verifies the public web presence of Swedish companies (official website, published contact details) for a company database operated on behalf of its client. It fetches only the homepage and contact pages as HTML, respects robots.txt per RFC 9309, and always identifies itself with a contact URL.",
+    "tags": [
+      "monitoring"
+    ]
   }
 ]
