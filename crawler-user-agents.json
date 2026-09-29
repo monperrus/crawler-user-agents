@@ -18387,5 +18387,18 @@
     "tags": [
       "social-preview"
     ]
+  },
+  {
+    "pattern": "IsonSearchBot",
+    "addition_date": "2026/09/29",
+    "url": "https://search.isonai.com/bot",
+    "instances": [
+      "IsonSearchBot/1.0 (+https://search.isonai.com/bot)",
+      "IsonSearchBot/2.0 (+https://search.isonai.com/bot)"
+    ],
+    "description": "IsonSearchBot is the web crawler of Ison Search, a search engine run from Indonesia. It indexes public pages for search results and cited answers that link back to the source; content is not used to train AI models.",
+    "tags": [
+      "search-engine"
+    ]
   }
 ]
