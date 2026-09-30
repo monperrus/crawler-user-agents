@@ -18400,5 +18400,17 @@
     "tags": [
       "search-engine"
     ]
+  },
+  {
+    "pattern": "PageSourceSearchBot",
+    "addition_date": "2026/09/30",
+    "url": "https://pagesourcesearch.com/bot",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PageSourceSearchBot/1.0; +https://pagesourcesearch.com/bot) Chrome/128.0.0.0 Safari/537.36"
+    ],
+    "description": "PageSourceSearchBot is the crawler of PageSourceSearch, a search engine over the HTML and first-party JavaScript of websites. It reads robots.txt first, then fetches the root page, up to 4 more pages and the first-party scripts they load, one request at a time per host.",
+    "tags": [
+      "search-engine"
+    ]
   }
 ]
