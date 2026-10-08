@@ -17872,18 +17872,6 @@
     ]
   },
   {
-    "pattern": "Citoid",
-    "url": "https://www.mediawiki.org/wiki/Citoid",
-    "instances": [
-      "Citoid (Wikimedia tool; learn more at https://www.mediawiki.org/wiki/Citoid)"
-    ],
-    "description": "Wikipedia citation generator extracting metadata for automatic reference creation",
-    "addition_date": "2026/04/17",
-    "tags": [
-      "academic"
-    ]
-  },
-  {
     "pattern": "WireReaderBot\\/",
     "url": "https://datadome.co/bots/wirereaderbot/",
     "instances": [
@@ -17893,18 +17881,6 @@
     "addition_date": "2026/04/17",
     "tags": [
       "seo"
-    ]
-  },
-  {
-    "pattern": "ZoteroTranslationServer\\/WMF",
-    "url": "https://wikitech.wikimedia.org/wiki/Zotero",
-    "instances": [
-      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 ZoteroTranslationServer/WMF (mailto:noc@wikimedia.org)"
-    ],
-    "description": "Citation server extracting metadata from URLs for Wikipedia reference generation",
-    "addition_date": "2026/04/17",
-    "tags": [
-      "academic"
     ]
   },
   {
