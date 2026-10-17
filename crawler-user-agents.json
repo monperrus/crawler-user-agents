@@ -18400,5 +18400,17 @@
     "tags": [
       "search-engine"
     ]
+  },
+  {
+    "pattern": "OAI-AdsBot",
+    "addition_date": "2026/10/17",
+    "url": "https://developers.openai.com/api/docs/bots",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OAI-AdsBot/1.0; +https://openai.com/adsbot"
+    ],
+    "description": "OpenAI advertising landing-page validation crawler",
+    "tags": [
+      "advertising"
+    ]
   }
 ]
