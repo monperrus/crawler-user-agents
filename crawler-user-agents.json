@@ -18400,5 +18400,17 @@
     "tags": [
       "search-engine"
     ]
+  },
+  {
+    "pattern": "9bot\\/",
+    "addition_date": "2026/10/19",
+    "url": "https://9bot.com.br/en/9bot-docs/",
+    "instances": [
+      "9bot/1.0 (+https://9bot.com.br/en/9bot-docs)"
+    ],
+    "description": "9bot is the link-preview fetcher of 9bot.com.br, a WhatsApp group management service. It fetches a single public page only when its URL is shared in a 9bot-managed WhatsApp group, to build the link preview.",
+    "tags": [
+      "social-preview"
+    ]
   }
 ]
