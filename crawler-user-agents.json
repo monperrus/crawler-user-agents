@@ -18400,5 +18400,17 @@
     "tags": [
       "search-engine"
     ]
+  },
+  {
+    "pattern": "IsonAI-User",
+    "addition_date": "2026/10/22",
+    "url": "https://docs.isonai.com/en/bots/",
+    "instances": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; IsonAI-User/1.0; +https://www.isonai.com/bot"
+    ],
+    "description": "IsonAI-User fetches a web page when a person using the IsonAI assistant asks about it. It does not crawl automatically and is not used to build a search index.",
+    "tags": [
+      "ai-crawler"
+    ]
   }
 ]
