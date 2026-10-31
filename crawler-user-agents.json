@@ -18436,5 +18436,17 @@
     "tags": [
       "monitoring"
     ]
+  },
+  {
+    "pattern": "AIWebIndex",
+    "url": "https://www.lyrenth.com/bot",
+    "instances": [
+      "AIWebIndex/2.0 (+https://lyrenth.com/bot; AI-readable web index)"
+    ],
+    "addition_date": "2026/10/30",
+    "description": " Lyrenth AIWebIndex crawler",
+    "tags": [
+      "ai-crawler"
+    ]
   }
 ]
