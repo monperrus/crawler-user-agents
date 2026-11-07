@@ -18448,5 +18448,17 @@
     "tags": [
       "ai-crawler"
     ]
+  },
+  {
+    "pattern": "EnfiladeBot",
+    "addition_date": "2026/11/07",
+    "url": "https://enfilade.guide/en/about-our-crawler",
+    "instances": [
+      "EnfiladeBot/1.0 (+https://enfilade.guide/en/about-our-crawler)"
+    ],
+    "description": "EnfiladeBot is the crawler of the Enfilade museum catalogue. It reads the pages of museum websites listed in the catalogue for opening hours, prices, tickets and exhibitions, at most one request per host every 2 seconds. It obeys robots.txt (RFC 9309) and signs its requests with HTTP Message Signatures (Web Bot Auth).",
+    "tags": [
+      "monitoring"
+    ]
   }
 ]
