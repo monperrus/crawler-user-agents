@@ -18448,5 +18448,17 @@
     "tags": [
       "ai-crawler"
     ]
+  },
+  {
+    "pattern": "^RiverBot",
+    "url": "https://river.ai/bot",
+    "instances": [
+      "RiverBot/1.0 (+https://river.ai/bot)"
+    ],
+    "addition_date": "2026/11/05",
+    "description": "River's web crawler, which collects publicly available pages to train and evaluate AI models",
+    "tags": [
+      "ai-crawler"
+    ]
   }
 ]
