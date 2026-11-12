@@ -18448,5 +18448,17 @@
     "tags": [
       "ai-crawler"
     ]
+  },
+  {
+    "pattern": "ScooterZA",
+    "url": "https://techwarrior.co.za/scooterza/",
+    "instances": [
+      "Mozilla/5.0 (compatible; ScooterZA/1.0; +https://techwarrior.co.za/scooterza/)"
+    ],
+    "addition_date": "2026/11/12",
+    "description": "ScooterZA reads South African small-business home pages politely to measure the state of the local web. It obeys robots.txt fully, sends at most 1 request a second, honours Crawl-delay, and backs off on 429.",
+    "tags": [
+      "monitoring"
+    ]
   }
 ]
