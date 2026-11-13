@@ -18460,5 +18460,17 @@
     "tags": [
       "monitoring"
     ]
+  },
+  {
+    "pattern": "RecrawlBot",
+    "url": "https://recrawl.co/bot",
+    "instances": [
+      "Mozilla/5.0 (compatible; RecrawlBot/1.0; +https://recrawl.co/bot)"
+    ],
+    "addition_date": "2026/11/14",
+    "description": "RecrawlBot is the crawler of recrawl (recrawl.co), an SEO platform run by Crawl Compass. It runs site audits for recrawl customers on sites they own or manage, and revisits pages that link to customers' websites to confirm the links are still there. It obeys robots.txt and Crawl-delay, slows down on 429 and 503, stops when a site blocks it, and crawls only from its published IP addresses, which resolve to names under bot.recrawl.co.",
+    "tags": [
+      "seo"
+    ]
   }
 ]
