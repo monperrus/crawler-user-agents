@@ -18460,5 +18460,17 @@
     "tags": [
       "monitoring"
     ]
+  },
+  {
+    "pattern": "HatchFeed",
+    "url": "https://agent.meta.ai",
+    "instances": [
+      "HatchFeed/1.0 (+https://agent.meta.ai; link preview)"
+    ],
+    "addition_date": "2026/11/16",
+    "description": "Link-preview fetcher of Meta's Muse AI agent (agent.meta.ai redirects to muse.ai). It fetches pages and their Open Graph images shortly after a signed meta-webindexer request from the same Cloudflare IPv6 range, and does not request robots.txt.",
+    "tags": [
+      "social-preview"
+    ]
   }
 ]
