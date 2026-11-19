@@ -18460,5 +18460,17 @@
     "tags": [
       "monitoring"
     ]
+  },
+  {
+    "pattern": "NVIDIABOT",
+    "url": "https://www.nvidia.com/en-us/security/",
+    "instances": [
+      "[NVIDIA]-[PSIRT@nvidia.com]-[NSPECT-I05S-FIEU]-[NVIDIABOT]"
+    ],
+    "addition_date": "2026/11/19",
+    "description": "Self-identifying scanner of the NVIDIA Product Security team; the User-Agent carries its contact address psirt@nvidia.com and the scan identifier NSPECT-I05S-FIEU.",
+    "tags": [
+      "scanner"
+    ]
   }
 ]
