@@ -18473,5 +18473,17 @@
     "tags": [
       "seo"
     ]
+  },
+  {
+    "pattern": "SeltzSitemapFetcher",
+    "url": "https://seltz.ai/",
+    "instances": [
+      "SeltzSitemapFetcher/1.0"
+    ],
+    "addition_date": "2026/11/19",
+    "description": "SeltzSitemapFetcher reads sitemaps for the Seltz web search index, which is built for AI agents and apps.",
+    "tags": [
+      "ai-crawler"
+    ]
   }
 ]
