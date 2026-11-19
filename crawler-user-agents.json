@@ -17257,10 +17257,11 @@
     ]
   },
   {
-    "pattern": "Datadog Synthetic",
+    "pattern": "Datadog( |\\/)Synthetic",
     "url": "https://docs.datadoghq.com/synthetics/",
     "instances": [
-      "Datadog Synthetic"
+      "Datadog Synthetic",
+      "Datadog/Synthetics"
     ],
     "description": "Synthetic monitoring bot testing website APIs and collecting uptime performance data",
     "addition_date": "2026/04/17",
