@@ -18583,5 +18583,17 @@
     "tags": [
       "monitoring"
     ]
+  },
+  {
+    "pattern": "Anubis-OGTag-Fetcher",
+    "url": "https://github.com/TecharoHQ/anubis",
+    "instances": [
+      "Anubis-OGTag-Fetcher/1.0"
+    ],
+    "addition_date": "2026/11/19",
+    "description": "Anubis-OGTag-Fetcher belongs to Anubis, a proof-of-work anti-scraper proxy; it fetches a page to build the link preview shown on Anubis' own challenge page, so the request comes from the site's own infrastructure.",
+    "tags": [
+      "http-library"
+    ]
   }
 ]
