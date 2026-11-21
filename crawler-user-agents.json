@@ -18460,5 +18460,17 @@
     "tags": [
       "monitoring"
     ]
+  },
+  {
+    "pattern": "AIReadableBot",
+    "url": "https://aireadable.app/how-we-scan",
+    "instances": [
+      "AIReadableBot/1.0 (+https://aireadable.app/how-we-scan)"
+    ],
+    "addition_date": "2026/11/21",
+    "description": "AIReadable scores how ready a web page is for AI agents (robots.txt, rendering without JavaScript, structured data, llms.txt). Requests are signed with Web Bot Auth; key directory at https://aireadable.app/.well-known/http-message-signatures-directory.",
+    "tags": [
+      "seo"
+    ]
   }
 ]
