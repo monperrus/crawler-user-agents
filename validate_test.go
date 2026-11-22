@@ -475,18 +475,18 @@ func contains(list []int, value int) bool {
 }
 
 var acceptedTags = map[string]bool{
-	"search-engine":    true,
-	"ai-crawler":       true,
-	"social-preview":   true,
-	"seo":              true,
-	"monitoring":       true,
-	"feed-reader":      true,
-	"archiver":         true,
-	"advertising":      true,
-	"scanner":          true,
-	"http-library":     true,
+	"search-engine":      true,
+	"ai-crawler":         true,
+	"social-preview":     true,
+	"seo":                true,
+	"monitoring":         true,
+	"feed-reader":        true,
+	"archiver":           true,
+	"advertising":        true,
+	"scanner":            true,
+	"http-library":       true,
 	"browser-automation": true,
-	"academic":         true,
+	"academic":           true,
 }
 
 func TestTags(t *testing.T) {
@@ -600,5 +600,28 @@ func BenchmarkMatchingCrawlersNegative(b *testing.B) {
 		if len(MatchingCrawlers(browserUA)) != 0 {
 			b.Fail()
 		}
+	}
+}
+
+func TestWebBotAuthMetadataRoundTrip(t *testing.T) {
+	input := []byte(`{"pattern":"ExampleBot","instances":[],"verification":[{"type":"web-bot-auth","directory":"https://bot.example.com/.well-known/http-message-signatures-directory"}]}`)
+	var crawler Crawler
+	if err := json.Unmarshal(input, &crawler); err != nil {
+		t.Fatal(err)
+	}
+	want := "https://bot.example.com/.well-known/http-message-signatures-directory"
+	if len(crawler.Verification) != 1 || crawler.Verification[0].Type != "web-bot-auth" || crawler.Verification[0].Directory != want {
+		t.Fatalf("unexpected verification metadata: %#v", crawler.Verification)
+	}
+	output, err := json.Marshal(crawler)
+	if err != nil {
+		t.Fatal(err)
+	}
+	var decoded map[string]any
+	if err := json.Unmarshal(output, &decoded); err != nil {
+		t.Fatal(err)
+	}
+	if _, present := decoded["verification"]; !present {
+		t.Fatalf("verification metadata lost during round trip: %s", output)
 	}
 }

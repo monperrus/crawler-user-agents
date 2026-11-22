@@ -31,17 +31,28 @@ type Crawler struct {
 	// Examples of full User Agent strings.
 	Instances []string `json:"instances"`
 
+	// Verification describes optional methods for authenticating requests.
+	Verification []Verification `json:"verification,omitempty"`
+
 	// Classification tags (e.g. "search-engine", "ai-crawler", "seo").
 	Tags []string `json:"tags,omitempty"`
 }
 
+// Verification locates public key material for one request-verification method.
+// A directory does not itself verify a request or imply that every request is signed.
+type Verification struct {
+	Type      string `json:"type"`
+	Directory string `json:"directory"`
+}
+
 // Private type needed to convert addition_date from/to the format used in JSON.
 type jsonCrawler struct {
-	Pattern      string   `json:"pattern"`
-	AdditionDate string   `json:"addition_date"`
-	URL          string   `json:"url"`
-	Instances    []string `json:"instances"`
-	Tags         []string `json:"tags,omitempty"`
+	Pattern      string         `json:"pattern"`
+	AdditionDate string         `json:"addition_date"`
+	URL          string         `json:"url"`
+	Instances    []string       `json:"instances"`
+	Verification []Verification `json:"verification,omitempty"`
+	Tags         []string       `json:"tags,omitempty"`
 }
 
 const timeLayout = "2006/01/02"
@@ -52,6 +63,7 @@ func (c Crawler) MarshalJSON() ([]byte, error) {
 		AdditionDate: c.AdditionDate.Format(timeLayout),
 		URL:          c.URL,
 		Instances:    c.Instances,
+		Verification: c.Verification,
 		Tags:         c.Tags,
 	}
 	return json.Marshal(jc)
@@ -66,6 +78,7 @@ func (c *Crawler) UnmarshalJSON(b []byte) error {
 	c.Pattern = jc.Pattern
 	c.URL = jc.URL
 	c.Instances = jc.Instances
+	c.Verification = jc.Verification
 	c.Tags = jc.Tags
 
 	if c.Pattern == "" {
