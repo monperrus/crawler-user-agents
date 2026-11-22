@@ -18246,18 +18246,6 @@
     ]
   },
   {
-    "pattern": "Zapier",
-    "url": "https://zapier.com/",
-    "instances": [
-      "Zapier"
-    ],
-    "description": "Automation client fetching web pages metadata and content for workflow integration",
-    "addition_date": "2026/04/17",
-    "tags": [
-      "seo"
-    ]
-  },
-  {
     "pattern": "Zendesk Webhook",
     "url": "https://support.zendesk.com/",
     "instances": [
