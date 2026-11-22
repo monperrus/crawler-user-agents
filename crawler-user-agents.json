@@ -1506,6 +1506,12 @@
     "description": "Naver Yeti search engine web crawler bot",
     "tags": [
       "search-engine"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://bot.naver.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -1624,6 +1630,12 @@
     "description": "DuckDuckGo search engine web crawler bot",
     "tags": [
       "search-engine"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://bot.duckduckgo.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -6716,6 +6728,12 @@
     "description": "You.com search engine web crawler bot",
     "tags": [
       "search-engine"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://you.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -8073,6 +8091,12 @@
     "description": "Meta web indexer bot for Facebook and Instagram content crawling",
     "tags": [
       "social-preview"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://www.meta.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -8086,6 +8110,12 @@
     "tags": [
       "search-engine",
       "ai-crawler"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://assistbot.duckduckgo.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -9198,6 +9228,12 @@
     "description": "Google's user-triggered agent for web navigation",
     "tags": [
       "browser-automation"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://agent.bot.goog/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -10006,6 +10042,12 @@
     "description": "Parallel's AI agent web context provider",
     "tags": [
       "ai-crawler"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://shapbot.parallel.ai/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -14829,6 +14871,12 @@
     "addition_date": "2026/04/17",
     "tags": [
       "ai-crawler"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://liner-bot.liner.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -18363,6 +18411,12 @@
     "description": "GeedoShopProductFinder is the automated crawler used by Geedo, a global product-search engine specialized in online retail.",
     "tags": [
       "search-engine"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://geedo.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -18400,6 +18454,12 @@
     "description": "IsonSearchBot is the web crawler of Ison Search, a search engine run from Indonesia. It indexes public pages for search results and cited answers that link back to the source; content is not used to train AI models.",
     "tags": [
       "search-engine"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://search.isonai.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -18424,6 +18484,12 @@
     "description": "IsonAI-User fetches a web page when a person using the IsonAI assistant asks about it. It does not crawl automatically and is not used to build a search index.",
     "tags": [
       "ai-crawler"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://www.isonai.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {

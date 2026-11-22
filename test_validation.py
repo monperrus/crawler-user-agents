@@ -186,3 +186,40 @@ def test_duplicate_case_insensitive_detection(restore_original_json):
                        {'pattern': 'fOo'}]
     update_json_file(user_agent_list)
     assert_validate_failed()
+
+
+def test_web_bot_auth_metadata_passes(restore_original_json):
+    user_agent_list = [{'pattern': 'foo', 'instances': [], 'verification': [{
+        'type': 'web-bot-auth',
+        'directory': 'https://bot.example.com/.well-known/http-message-signatures-directory',
+    }]}]
+    update_json_file(user_agent_list)
+    assert_validate_passed()
+
+
+@pytest.mark.parametrize('directory', [
+    'http://bot.example.com/.well-known/http-message-signatures-directory',
+    'https://BOT.example.com/.well-known/http-message-signatures-directory',
+    'https://bot.example.com/other-path',
+    'https://bot.example.com/.well-known/http-message-signatures-directory/',
+    'https://bot.example.com/.well-known/http-message-signatures-directory?x=1',
+    'https://bot.example.com/.well-known/http-message-signatures-directory#x',
+    'https://user@bot.example.com/.well-known/http-message-signatures-directory',
+    'https://bot.example.com:443/.well-known/http-message-signatures-directory',
+])
+def test_web_bot_auth_requires_canonical_directory(restore_original_json, directory):
+    user_agent_list = [{'pattern': 'foo', 'instances': [], 'verification': [{
+        'type': 'web-bot-auth', 'directory': directory,
+    }]}]
+    update_json_file(user_agent_list)
+    assert_validate_failed()
+
+
+@pytest.mark.parametrize('verification', [
+    [{'type': 'web-bot-auth', 'keys': []}],
+    [{'type': 'other', 'directory': 'https://bot.example.com/.well-known/http-message-signatures-directory'}],
+    [{'type': 'web-bot-auth', 'directory': 'https://bot.example.com/.well-known/http-message-signatures-directory', 'public_key': 'stale'}],
+])
+def test_web_bot_auth_rejects_invalid_entries(restore_original_json, verification):
+    update_json_file([{'pattern': 'foo', 'instances': [], 'verification': verification}])
+    assert_validate_failed()
