@@ -12,6 +12,10 @@ declare const crawlerUserAgents: {
 	addition_date?: string
 	url?: string
 	instances: string[]
+	verification?: {
+		type: "web-bot-auth"
+		directory: string
+	}[]
 	tags?: string[]
 }[]
 
