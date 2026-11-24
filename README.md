@@ -150,6 +150,7 @@ There are a few wrapper libraries that use this data to detect bots:
  * [isbot](https://github.com/Hentioe/isbot) (Ruby)
  * [crawlers](https://github.com/Olical/crawlers) (Clojure)
  * [isBot](https://github.com/omrilotan/isbot) (Node.JS)
+ * [crawler-user-agents](https://github.com/ap-1/crawler-user-agents) (Rust)
 
 Other systems for spotting robots, crawlers, and spiders that you may want to consider are:
 
