@@ -1506,6 +1506,12 @@
     "description": "Naver Yeti search engine web crawler bot",
     "tags": [
       "search-engine"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://bot.naver.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -1624,6 +1630,12 @@
     "description": "DuckDuckGo search engine web crawler bot",
     "tags": [
       "search-engine"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://bot.duckduckgo.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -4239,7 +4251,7 @@
       "BTWebClient/180B(9704)"
     ],
     "url": "http://www.utorrent.com/",
-    "description": "µTorrent BitTorrent Client",
+    "description": "\u00b5Torrent BitTorrent Client",
     "tags": [
       "http-library"
     ]
@@ -6716,6 +6728,12 @@
     "description": "You.com search engine web crawler bot",
     "tags": [
       "search-engine"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://you.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -8073,6 +8091,12 @@
     "description": "Meta web indexer bot for Facebook and Instagram content crawling",
     "tags": [
       "social-preview"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://www.meta.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -8086,6 +8110,12 @@
     "tags": [
       "search-engine",
       "ai-crawler"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://assistbot.duckduckgo.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -8316,18 +8346,6 @@
     "description": "Direqt's AI search indexer",
     "tags": [
       "ai-crawler"
-    ]
-  },
-  {
-    "pattern": "AP3A\\.240617\\.008",
-    "url": "https://knownagents.com/agents/008",
-    "instances": [
-      "Mozilla/5.0 (Linux; Android 15; CPH2557 Build/AP3A.240617.008; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/142.0.7444.142 Mobile Safari/537.36 Instagram 406.0.0.58.159 Android (35/15; 480dpi; 1080x2400; OPPO; CPH2557; OP573DL1; mt6833; en_MY; 822918295; IABMV/1) NV/1"
-    ],
-    "addition_date": "2026/04/26",
-    "description": "80legs web scraping service",
-    "tags": [
-      "scanner"
     ]
   },
   {
@@ -9198,6 +9216,12 @@
     "description": "Google's user-triggered agent for web navigation",
     "tags": [
       "browser-automation"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://agent.bot.goog/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -10006,6 +10030,12 @@
     "description": "Parallel's AI agent web context provider",
     "tags": [
       "ai-crawler"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://shapbot.parallel.ai/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -14829,6 +14859,12 @@
     "addition_date": "2026/04/17",
     "tags": [
       "ai-crawler"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://liner-bot.liner.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -17257,10 +17293,11 @@
     ]
   },
   {
-    "pattern": "Datadog Synthetic",
+    "pattern": "Datadog( |\\/)Synthetic",
     "url": "https://docs.datadoghq.com/synthetics/",
     "instances": [
-      "Datadog Synthetic"
+      "Datadog Synthetic",
+      "Datadog/Synthetics"
     ],
     "description": "Synthetic monitoring bot testing website APIs and collecting uptime performance data",
     "addition_date": "2026/04/17",
@@ -18197,18 +18234,6 @@
     ]
   },
   {
-    "pattern": "Zapier",
-    "url": "https://zapier.com/",
-    "instances": [
-      "Zapier"
-    ],
-    "description": "Automation client fetching web pages metadata and content for workflow integration",
-    "addition_date": "2026/04/17",
-    "tags": [
-      "seo"
-    ]
-  },
-  {
     "pattern": "Zendesk Webhook",
     "url": "https://support.zendesk.com/",
     "instances": [
@@ -18362,6 +18387,12 @@
     "description": "GeedoShopProductFinder is the automated crawler used by Geedo, a global product-search engine specialized in online retail.",
     "tags": [
       "search-engine"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://geedo.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -18371,7 +18402,7 @@
     "instances": [
       "Mozilla/5.0 (compatible; WatchForBot/1.0; +https://watchfor.io/bot)"
     ],
-    "description": "WatchFor uptime monitoring agent — scheduled availability, SSL, DNS and performance checks of customer-configured endpoints",
+    "description": "WatchFor uptime monitoring agent \u2014 scheduled availability, SSL, DNS and performance checks of customer-configured endpoints",
     "tags": [
       "monitoring"
     ]
@@ -18399,6 +18430,12 @@
     "description": "IsonSearchBot is the web crawler of Ison Search, a search engine run from Indonesia. It indexes public pages for search results and cited answers that link back to the source; content is not used to train AI models.",
     "tags": [
       "search-engine"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://search.isonai.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -18423,6 +18460,12 @@
     "description": "IsonAI-User fetches a web page when a person using the IsonAI assistant asks about it. It does not crawl automatically and is not used to build a search index.",
     "tags": [
       "ai-crawler"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://www.isonai.com/.well-known/http-message-signatures-directory"
+      }
     ]
   },
   {
@@ -18459,6 +18502,66 @@
     "description": "ScooterZA reads South African small-business home pages politely to measure the state of the local web. It obeys robots.txt fully, sends at most 1 request a second, honours Crawl-delay, and backs off on 429.",
     "tags": [
       "monitoring"
+    ]
+  },
+  {
+    "pattern": "AIReadableBot",
+    "url": "https://aireadable.app/how-we-scan",
+    "instances": [
+      "AIReadableBot/1.0 (+https://aireadable.app/how-we-scan)"
+    ],
+    "addition_date": "2026/11/21",
+    "description": "AIReadable scores how ready a web page is for AI agents (robots.txt, rendering without JavaScript, structured data, llms.txt). Requests are signed with Web Bot Auth; key directory at https://aireadable.app/.well-known/http-message-signatures-directory.",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "pattern": "SeltzSitemapFetcher",
+    "url": "https://seltz.ai/",
+    "instances": [
+      "SeltzSitemapFetcher/1.0"
+    ],
+    "addition_date": "2026/11/19",
+    "description": "SeltzSitemapFetcher reads sitemaps for the Seltz web search index, which is built for AI agents and apps.",
+    "tags": [
+      "ai-crawler"
+    ]
+  },
+  {
+    "pattern": "NVIDIABOT",
+    "url": "https://www.nvidia.com/en-us/security/",
+    "instances": [
+      "[NVIDIA]-[PSIRT@nvidia.com]-[NSPECT-I05S-FIEU]-[NVIDIABOT]"
+    ],
+    "addition_date": "2026/11/19",
+    "description": "Self-identifying scanner of the NVIDIA Product Security team; the User-Agent carries its contact address psirt@nvidia.com and the scan identifier NSPECT-I05S-FIEU.",
+    "tags": [
+      "scanner"
+    ]
+  },
+  {
+    "pattern": "EnfiladeBot",
+    "addition_date": "2026/11/07",
+    "url": "https://enfilade.guide/en/about-our-crawler",
+    "instances": [
+      "EnfiladeBot/1.0 (+https://enfilade.guide/en/about-our-crawler)"
+    ],
+    "description": "EnfiladeBot is the crawler of the Enfilade museum catalogue. It reads the pages of museum websites listed in the catalogue for opening hours, prices, tickets and exhibitions, at most one request per host every 2 seconds. It obeys robots.txt (RFC 9309) and signs its requests with HTTP Message Signatures (Web Bot Auth).",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
+    "pattern": "HatchFeed",
+    "url": "https://agent.meta.ai",
+    "instances": [
+      "HatchFeed/1.0 (+https://agent.meta.ai; link preview)"
+    ],
+    "addition_date": "2026/11/16",
+    "description": "Link-preview fetcher of Meta's Muse AI agent (agent.meta.ai redirects to muse.ai). It fetches pages and their Open Graph images shortly after a signed meta-webindexer request from the same Cloudflare IPv6 range, and does not request robots.txt.",
+    "tags": [
+      "social-preview"
     ]
   },
   {

@@ -7,6 +7,7 @@ import json
 import re
 from collections import Counter
 import datetime
+from urllib.parse import urlsplit
 
 from jsonschema import validate
 
@@ -37,6 +38,18 @@ JSON_SCHEMA = {
             "description": {"type": "string"}, # optional
             "addition_date": {"type": "string"}, # optional
             "depends_on": {"type": "array"}, # allows an instance to match twice
+            "verification": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "type": {"const": "web-bot-auth"},
+                        "directory": {"type": "string"},
+                    },
+                    "required": ["type", "directory"],
+                    "additionalProperties": False,
+                },
+            },
             "tags": { # optional, array of classification tags
                 "type": "array",
                 "items": {"type": "string", "enum": sorted(ACCEPTED_TAGS)},
@@ -93,6 +106,24 @@ def main():
                         pattern, tag, ', '.join(sorted(ACCEPTED_TAGS))
                     )
                 )
+
+        # Directory metadata locates keys; it neither copies keys nor asserts verification.
+        for verification in entry.get('verification', []):
+            directory = verification['directory']
+            parsed = urlsplit(directory)
+            canonical = (
+                parsed.scheme == 'https'
+                and parsed.hostname is not None
+                and parsed.hostname == parsed.hostname.lower()
+                and parsed.netloc == parsed.hostname
+                and parsed.username is None
+                and parsed.password is None
+                and parsed.path == '/.well-known/http-message-signatures-directory'
+                and not parsed.query
+                and not parsed.fragment
+            )
+            if not canonical:
+                raise ValueError('Web Bot Auth directory {!r} is not a canonical HTTPS well-known URL'.format(directory))
 
         # assert that field "addition_date" has format "2019/12/23",
         if 'addition_date' in entry:
