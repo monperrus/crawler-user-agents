@@ -18563,5 +18563,18 @@
     "tags": [
       "social-preview"
     ]
+  },
+  {
+    "pattern": "AIManagedAgents-Agent",
+    "url": "https://agents.needmomentum.com/",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 AIManagedAgents-Agent/1.0 (+https://agents.needmomentum.com/)",
+      "AIManagedAgents-Agent/1.0 (+https://agents.needmomentum.com/)"
+    ],
+    "addition_date": "2026/11/15",
+    "description": "Website monitoring and operations agent operated by AI Managed Agents. It reads robots.txt first, makes read-only requests to public pages and signs its requests with Web Bot Auth.",
+    "tags": [
+      "monitoring"
+    ]
   }
 ]
