@@ -102,6 +102,21 @@ crawlers' indices: [237]
 crawler' URL: https://discordapp.com
 ```
 
+## Web Bot Auth
+
+Some records include optional `verification` metadata for [Web Bot Auth](https://datatracker.ietf.org/doc/draft-ietf-webbotauth-httpsig-protocol/), which uses HTTP Message Signatures ([RFC 9421](https://www.rfc-editor.org/rfc/rfc9421.html)):
+
+```json
+"verification": [{
+  "type": "web-bot-auth",
+  "directory": "https://agent.bot.goog/.well-known/http-message-signatures-directory"
+}]
+```
+
+`directory` is the canonical HTTPS URL of the operator's JSON Web Key Set. Consumers can match the URL from a request's `Signature-Agent` header, resolve keys, and verify its `Signature`/`Signature-Input` using an RFC 9421 implementation such as [Cloudflare's Web Bot Auth libraries](https://github.com/cloudflare/web-bot-auth). Key rotation is handled by fetching the directory, not by copying keys into this package.
+
+**A User-Agent match or a directory URL is not authentication.** Only a successfully verified request signature authenticates the signing identity; signatures do not imply authorization or that the User-Agent itself was signed. Some requests may remain unsigned, and hosted browser identities may be shared by many customers.
+
 ## Contributing
 
 I do welcome additions contributed as pull requests.
