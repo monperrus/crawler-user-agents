@@ -18583,5 +18583,13 @@
     "tags": [
       "monitoring"
     ]
+  },
+  {
+    "pattern": "Ottabot",
+    "url": "",
+    "addition_date": "2023/09/06",
+    "instances": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 (Ottabot/0.1.0)"
+    ]
   }
 ]
