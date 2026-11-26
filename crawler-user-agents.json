@@ -4251,7 +4251,7 @@
       "BTWebClient/180B(9704)"
     ],
     "url": "http://www.utorrent.com/",
-    "description": "µTorrent BitTorrent Client",
+    "description": "\u00b5Torrent BitTorrent Client",
     "tags": [
       "http-library"
     ]
@@ -18403,7 +18403,7 @@
     "instances": [
       "Mozilla/5.0 (compatible; WatchForBot/1.0; +https://watchfor.io/bot)"
     ],
-    "description": "WatchFor uptime monitoring agent — scheduled availability, SSL, DNS and performance checks of customer-configured endpoints",
+    "description": "WatchFor uptime monitoring agent \u2014 scheduled availability, SSL, DNS and performance checks of customer-configured endpoints",
     "tags": [
       "monitoring"
     ]
@@ -18590,6 +18590,37 @@
     "addition_date": "2023/09/06",
     "instances": [
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 (Ottabot/0.1.0)"
+    ]
+  },
+  {
+    "pattern": "^RiverBot",
+    "url": "https://river.ai/bot",
+    "instances": [
+      "RiverBot/1.0 (+https://river.ai/bot)"
+    ],
+    "addition_date": "2026/11/26",
+    "description": "River's web crawler. It fetches publicly available web pages that River uses to train and evaluate its AI models, follows robots.txt, and sends its requests from the addresses listed in https://river.ai/riverbot.json.",
+    "tags": [
+      "ai-crawler"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://river.ai/.well-known/http-message-signatures-directory"
+      }
+    ]
+  },
+  {
+    "pattern": "InstaWP",
+    "url": "https://instawp.com/",
+    "instances": [
+      "InstaWP Uptime Monitoring/1.0",
+      "InstaWP/1.0 (https://instawp.com; support@instawp.com) Connect/UptimeMonitoring"
+    ],
+    "addition_date": "2026/11/19",
+    "description": "InstaWP's uptime monitor checks its customers' WordPress sites and alerts the owner when one goes down.",
+    "tags": [
+      "monitoring"
     ]
   }
 ]
