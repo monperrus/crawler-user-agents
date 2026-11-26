@@ -6,12 +6,18 @@ $ pytest test_harness.py
 
 """
 
-from crawleruseragents import is_crawler, matching_crawlers
+from crawleruseragents import CRAWLER_USER_AGENTS_DATA, is_crawler, matching_crawlers
 
 
 
 def test_nomatch():
     assert is_crawler("!!!!!!!!!!!!") is False
+
+
+def test_ottabot_is_crawler():
+    user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 (Ottabot/0.1.0)"
+    assert is_crawler(user_agent) is True
+    assert any(CRAWLER_USER_AGENTS_DATA[i]["pattern"] == "Ottabot" for i in matching_crawlers(user_agent))
 
 
 def test_android_instagram_build_fingerprint_is_not_crawler():
