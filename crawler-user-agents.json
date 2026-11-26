@@ -18585,6 +18585,18 @@
     ]
   },
   {
+    "pattern": "ContentSquare Static Resource Scraper",
+    "url": "https://www.contentsquare.com/",
+    "instances": [
+      "ContentSquare Static Resource Scraper"
+    ],
+    "addition_date": "2026/11/19",
+    "description": "Contentsquare fetches the static resources of pages that its experience analytics script runs on, such as scripts and stylesheets.",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
     "pattern": "DigitalOcean Uptime Probe",
     "url": "https://docs.digitalocean.com/products/uptime/",
     "instances": [
