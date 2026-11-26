@@ -18585,6 +18585,18 @@
     ]
   },
   {
+    "pattern": "GoDaddy-UptimeMonitoring",
+    "url": "https://www.godaddy.com/pro/site-maintenance",
+    "instances": [
+      "GoDaddy-UptimeMonitoring"
+    ],
+    "addition_date": "2026/11/19",
+    "description": "GoDaddy uptime monitoring checks customer sites on a schedule and alerts the owner when a site stops responding.",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
     "pattern": "Ottabot",
     "url": "",
     "addition_date": "2023/09/06",
