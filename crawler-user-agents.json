@@ -18585,6 +18585,18 @@
     ]
   },
   {
+    "pattern": "DigitalOcean Uptime Probe",
+    "url": "https://docs.digitalocean.com/products/uptime/",
+    "instances": [
+      "DigitalOcean Uptime Probe 0.28.0 (https://digitalocean.com)"
+    ],
+    "addition_date": "2026/11/19",
+    "description": "DigitalOcean Uptime checks a site from several regions on a schedule and alerts the owner when it fails to answer.",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
     "pattern": "GoDaddy-UptimeMonitoring",
     "url": "https://www.godaddy.com/pro/site-maintenance",
     "instances": [
