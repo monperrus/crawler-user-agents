@@ -18601,5 +18601,18 @@
         "directory": "https://river.ai/.well-known/http-message-signatures-directory"
       }
     ]
+  },
+  {
+    "pattern": "InstaWP",
+    "url": "https://instawp.com/",
+    "instances": [
+      "InstaWP Uptime Monitoring/1.0",
+      "InstaWP/1.0 (https://instawp.com; support@instawp.com) Connect/UptimeMonitoring"
+    ],
+    "addition_date": "2026/11/19",
+    "description": "InstaWP's uptime monitor checks its customers' WordPress sites and alerts the owner when one goes down.",
+    "tags": [
+      "monitoring"
+    ]
   }
 ]
