@@ -4251,7 +4251,7 @@
       "BTWebClient/180B(9704)"
     ],
     "url": "http://www.utorrent.com/",
-    "description": "\u00b5Torrent BitTorrent Client",
+    "description": "µTorrent BitTorrent Client",
     "tags": [
       "http-library"
     ]
@@ -18403,7 +18403,7 @@
     "instances": [
       "Mozilla/5.0 (compatible; WatchForBot/1.0; +https://watchfor.io/bot)"
     ],
-    "description": "WatchFor uptime monitoring agent \u2014 scheduled availability, SSL, DNS and performance checks of customer-configured endpoints",
+    "description": "WatchFor uptime monitoring agent — scheduled availability, SSL, DNS and performance checks of customer-configured endpoints",
     "tags": [
       "monitoring"
     ]
