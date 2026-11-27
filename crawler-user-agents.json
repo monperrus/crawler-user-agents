@@ -18670,5 +18670,17 @@
     "tags": [
       "monitoring"
     ]
+  },
+  {
+    "pattern": "EchelonGraphBot",
+    "url": "https://echelongraph.io/bot",
+    "instances": [
+      "EchelonGraphBot/1.0 (+https://echelongraph.io/bot)"
+    ],
+    "addition_date": "2026/11/27",
+    "description": "EchelonGraph's Radar prober checks the public reachability, HTTP status, TLS configuration and response time of popular websites. It honours robots.txt, sends no credentials and tests nothing for weaknesses. Opt-out and documentation: https://echelongraph.io/bot. Contact: support@echelongraph.io.",
+    "tags": [
+      "monitoring"
+    ]
   }
 ]
