@@ -18585,6 +18585,18 @@
     ]
   },
   {
+    "pattern": "Azure Traffic Manager",
+    "url": "https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-monitoring",
+    "instances": [
+      "Azure Traffic Manager Endpoint Monitor"
+    ],
+    "addition_date": "2026/11/19",
+    "description": "Azure Traffic Manager probes a monitored endpoint from multiple regions to decide whether traffic should be routed to it.",
+    "tags": [
+      "monitoring"
+    ]
+  },
+  {
     "pattern": "Anubis-OGTag-Fetcher",
     "url": "https://github.com/TecharoHQ/anubis",
     "instances": [
