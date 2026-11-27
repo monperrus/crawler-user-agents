@@ -18700,5 +18700,23 @@
         "directory": "https://echelongraph.io/.well-known/http-message-signatures-directory"
       }
     ]
+  },
+  {
+    "pattern": "CookieRocksBot",
+    "url": "https://cookierocks.com/bot/",
+    "instances": [
+      "CookieRocksBot/1.0 (+https://cookierocks.com/bot/)"
+    ],
+    "addition_date": "2026/11/27",
+    "description": "Cookie Rocks visits the home page of public WordPress sites, at most once a month, to see which consent tool and which third-party tools they load. It reads the HTML only, honours robots.txt and signs its requests. Opt-out and documentation: https://cookierocks.com/bot/. Contact: support@cookierocks.com.",
+    "tags": [
+      "monitoring"
+    ],
+    "verification": [
+      {
+        "type": "web-bot-auth",
+        "directory": "https://cookierocks.com/.well-known/http-message-signatures-directory"
+      }
+    ]
   }
 ]
